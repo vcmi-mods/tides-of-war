@@ -1,0 +1,80 @@
+{
+	"mdtLilim" : {
+		"abilities" : {
+		
+			"shooter" : 
+			{
+				"type" : "SHOOTER"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"rangedRetaliation" :
+			{
+				"type" : "RANGED_RETALIATION"
+			},
+			"blockedRangedRetaliation" :
+			{
+				"type" : "BLOCKS_RANGED_RETALIATION"
+			},
+			"spellAfterAttack" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.mdtHateSpike",
+				"val" : 1
+			}
+		},	
+		"advMapAmount" : {"max" : 16, "min" : 10},
+		"aiValue" : 623,
+		"attack" : 12,
+		"cost" : { "gold" : 400 },
+		"damage" : {"max" : 10, "min" : 5},
+		"shots" : 8,
+		"defense" : 9,
+		"faction" : "inferno",
+		"fightValue" : 600,
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/Clilim.def",
+			"animationTime" : { "attack" : 1, "flight" : 0.8, "idle" : 10, "walk" : 0.8 },
+			"iconLarge" : "creatures/inferno/iconsBig/lilimBig.png",
+			"iconSmall" : "creatures/inferno/iconsSmall/lilimSmall.png",
+			"map" : "creatures/inferno/map/lilimMap.def",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "creatures/inferno/battle/projectile/null.def",
+				"attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+        "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Lilims", "singular" : "Lilim" },
+		"sound" : {
+			"attack" : "creatures/inferno/sukkub/SUCCATTACK.wav",
+			"defend" : "creatures/inferno/sukkub/SUCCDFND.wav",
+			"killed" : "creatures/inferno/sukkub/SUCCDEAD.wav",
+			"move" : "creatures/inferno/sukkub/SUCCMOVE.wav",
+			"wince" : "creatures/inferno/sukkub/SUCCHIT.wav",
+			"shoot" : "creatures/inferno/sukkub/SUCCSHOT.wav"
+		},
+		"speed" : 11
+	}
+}

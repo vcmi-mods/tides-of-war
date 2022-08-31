@@ -1,0 +1,64 @@
+{
+  "yaverrDeathknight" :
+  {
+    "class" : "deathknight",
+    "female" : false,
+    "special" : false,
+	"spellbook" : ["haste"],
+
+    "texts" :
+    {
+      "name" : "Yaverr",
+      "biography" : "When Kastore came to the throne of Deyja, many Undeads, as yet hiding in shadows, blatantly opposed the new authority. Yaverr, once hunting Harmondale's peasants alone, happened to be a very talented commander among the rebels.",
+      "specialty" :
+      {
+        "description" : "{Werewolves and Dire Werewolves}\r\n\r\nIncreases the Attack and Defense skills of any Werewolves and Dire Werewolves for each level attained after 4th level. Additionally, Werewolves and Dire Werewolves get a permanent +1 Speed bonus",
+        "tooltip" : "{Werewolves and Dire Werewolves}\r\n\r\nIncreases the Attack and Defense skills of any Werewolves and Dire Werewolves for each level attained after 4th level. Additionally, Werewolves and Dire Werewolves get a permanent +1 Speed bonus",
+        "name" : "Werewolves"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/necropolis/yaverr_spec-small.bmp",
+      "specialtyLarge" : "heroes/necropolis/yaverr_spec-large.bmp",
+      "large" : "heroes/necropolis/yaverr_portrait-large.bmp",
+      "small" : "heroes/necropolis/yaverr_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "skeleton",
+        "max" : 30,
+        "min" : 20
+      },
+      {
+        "creature" : "wight",
+        "max" : 3,
+        "min" : 1
+      },
+      {
+        "creature" : "mdtWerewolf",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "logistics"
+      },
+      {
+        "level" : "basic",
+        "skill" : "necromancy"
+      }
+    ],
+    
+	"specialty" : {
+		"creature" : "mdtWerewolf"
+	}
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtWolfCave" : {
+				"name" : "Wolf Cave",
+				"creatures" : [[ "mdtWerewolf" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/necropolis/mapWolfCave.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/necropolis/LOOPWERE"]
+				}				
+			}
+		}
+	}	
+}

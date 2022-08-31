@@ -1,0 +1,44 @@
+{
+"mdtFortressHomes" : {
+	"name" : "Homes",
+	"handler":"static",
+		"types" : {
+			"FortH1": {
+				"templates" : {				
+					"FortH1" : { "animation" : "decorations/FortH1", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "swamp" ] }
+				}
+			},
+			"FortH2": {
+				"templates" : {				
+					"FortH2" : { "animation" : "decorations/FortH2", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "swamp" ] }
+				}
+			},
+			"FortH3": {
+				"templates" : {				
+					"FortH3" : { "animation" : "decorations/FortH3", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "swamp" ] }
+				}
+			},
+			"FortH4": {
+				"templates" : {						
+					"FortH4" : { "animation" : "decorations/FortH4", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "swamp" ] }
+				}
+			},
+			"FortH5": {
+				"templates" : {	
+					"FortH5" : { "animation" : "decorations/FortH5", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "swamp" ]	}
+				}
+			},	
+			"FortH6": {
+				"templates" : {	
+					"FortH6" : { "animation" : "decorations/FortH6", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "swamp" ]  }		
+				}
+			}	
+		}
+	}
+}
+	
+	
+	
+
+
+	

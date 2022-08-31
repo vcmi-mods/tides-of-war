@@ -1,0 +1,74 @@
+{
+  "mdtVerstan" :
+  {
+    "class" : "alchemist",
+    "female" : false,
+    "special" : false,
+	"spellbook" : ["haste"],
+    "texts" :
+    {
+      "name" : "Verstan",
+      "biography" : "Verstan has been fascinated by constructing Golems since childhood. His inquisitiveness and challenging questions often perplexed even the best constructors. Not much time has past before Gavin Magnus himself noticed Verstan's potential and ordered him constructing new kinds of Golems, based on the accomplishments of the Red Dwarves.",
+      "specialty" :
+      {
+        "description" : "{Drake Golems and Dragon Golems}\r\n\r\nAll Drake Golems and Dragon Golems gain additional 10% magic resistance.",
+        "tooltip" : "Bonus: Drake Golems",
+        "name" : "Drake Golems"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/tower/verstan_spec-small.bmp",
+      "specialtyLarge" : "heroes/tower/verstan_spec-big.bmp",
+      "large" : "heroes/tower/verstan_portrait-big.bmp",
+      "small" : "heroes/tower/verstan_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gremlin",
+        "max" : 40,
+        "min" : 30
+      },
+      {
+        "creature" : "stoneGargoyle",
+        "max" : 5,
+        "min" : 3
+      },
+      {
+        "creature" : "ironGolem",
+        "max" : 3,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "mysticism"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "ballistics"
+      }
+    ],
+    
+    "specialty": {
+        "bonuses": {
+			"resistance": {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters": [
+				{
+					"type": "CREATURE_TYPE_LIMITER",
+					"parameters" : ["mdtDrakeGolem", true]
+				}]
+			}
+        }
+     }
+  }
+}

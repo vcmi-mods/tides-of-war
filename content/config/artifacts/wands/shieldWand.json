@@ -1,0 +1,29 @@
+{
+	"mdtShieldWand":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"MISC",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Shield Wand",
+			"description": "{Shield Wand}\r\n\r\nAdds Shield Wand spell to spellbook. Use it to cast Shield spell for free.",
+			"event": "On your way you stumble upon a small patch of terrain reminiscent of some hardened crust. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the hardened soil and keep it for yourself."
+		},
+		"graphics":
+		{
+			"image": "artifacts/iconsSmall/shieldWand",
+			"large": "artifacts/iconsBig/shieldWand",
+			"map": "artifacts/map/shieldWand"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.mdtShieldWand"
+//				"val": 3
+			}
+		]
+	}
+}

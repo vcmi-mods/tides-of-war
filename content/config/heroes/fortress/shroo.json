@@ -1,0 +1,63 @@
+{
+  "mdtShroo" :
+  {
+    "class" : "witch",
+    "female" : true,
+    "special" : false,
+	"spellbook": [ "iceBolt" ],
+
+    "texts" :
+    {
+      "name" : "Shroo",
+      "biography" : "No one really knows how long Trolls live. Rumor has it that Shroo remember the days of the Revolt of the Beastmasters. No one though has been brave enough to ask her about it.",
+      "specialty" :
+      {
+        "description" : "{Troll Hags and Troll Witches}\r\n\r\nIncreases the Attack and Defense skills of any Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
+        "tooltip" : "{Troll Hags and Troll Witches}\r\n\r\nIncreases the Attack and Defense skills of any Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
+        "name" : "Troll Hags"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/fortress/shroo_spec-small.bmp",
+      "specialtyLarge" : "heroes/fortress/shroo_spec-large.bmp",
+      "large" : "heroes/fortress/shroo_portrait-large.bmp",
+      "small" : "heroes/fortress/shroo_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gnoll",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "lizardman",
+        "max" : 7,
+        "min" : 4
+      },
+      {
+        "creature" : "serpentFly",
+        "max" : 4,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+      {
+        "level" : "basic",
+        "skill" : "hexes"
+      }
+    ],
+ 	"specialty" : {
+		"creature" : "mdtTrollHag"
+	}
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"fredSandMountains" : {
+			"name" : "Mountain",
+			"base": 
+				{
+					"allowedTerrains": [ "sand" ]
+				},
+//			"rmg":{					
+//					"zoneLimit"	:3,
+//					"value"		: 100,
+//					"rarity"	: 150},
+
+			"templates" : {
+			
+				"FROD0035" : { "animation" : "decorations/FROD0035", "mask" : [ "VVV", "VVV", "VVB" ] },							
+				"FROD0036" : { "animation" : "decorations/FROD0036", "mask" : [ "VVV", "VVV", "VVB" ] },
+				"FROD0037" : { "animation" : "decorations/FROD0037", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FROD0038" : { "animation" : "decorations/FROD0038", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FROD0039" : { "animation" : "decorations/FROD0039", "mask" : [ "VVV", "VVV", "VBB" ] },					
+				"FROD0040" : { "animation" : "decorations/FROD0040", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FROD0041" : { "animation" : "decorations/FROD0041", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FROD0042" : { "animation" : "decorations/FROD0042", "mask" : [ "VVV", "VVV", "VBB" ] }				
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

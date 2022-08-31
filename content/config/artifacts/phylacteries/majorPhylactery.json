@@ -1,0 +1,29 @@
+{
+	"mdtMajorPhylactery":
+	{
+		"type": ["HERO"],
+		"slot":	"MISC",
+		"class" : "SPECIAL",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Major Phylactery",
+			"description": "{Major Phylactery}\r\n\r\nSummons scary Demiliches to help you in the battlefield.",
+			"event": "A Necromancer comes across your way and wants to ask you some riddles. Though you say you have no time for such nonsense, he insists, causing you to annihilate him abruptly. As his dead corpse slumps to the ground, you discover a phylactery under his coat."
+		},
+		"graphics":
+		{
+			"image": "artifacts/iconsSmall/majorPhylactery",
+			"large": "artifacts/iconsBig/majorPh",
+			"map": "artifacts/map/majorPh"
+		},
+		"bonuses":
+		[
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.mdtSummonDemilich2"
+//				"val": 3
+			}
+		]
+	}
+}

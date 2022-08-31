@@ -1,0 +1,76 @@
+{
+	"mdtGhost":
+	{
+		"name" :
+		{
+			"plural" : "Ghosts",
+			"singular" : "Ghost"
+		},
+		"faction" : "neutral",
+		"special" : false,		
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 16
+		},
+		"level" : 5,
+		"attack" : 12,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"growth" : 3,
+		"hitPoints" : 20,
+		"speed" : 7,
+		"fightValue" : 657,
+		"aiValue" : 1248,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"hasDoubleWeek": true,
+		"doubleWide" : false,
+		"graphics" :
+		{
+			"animation" : "creatures/neutral/battle/CGhost.def",
+			"map" : "creatures/neutral/map/ghostmap.def",
+			"iconSmall" : "creatures/neutral/iconsSmall/ghostS.png",
+			"iconLarge" : "creatures/neutral/iconsBig/ghostB.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/neutral/ghost/GHSTATTK.wav",
+			"defend": "creatures/neutral/ghost/GHSTDFND.wav",
+			"killed": "creatures/neutral/ghost/GHSTDEAD.wav",
+			"move": "creatures/neutral/ghost/GHSTMOVE.wav",
+			"wince": "creatures/neutral/ghost/GHSTWNCE.wav"
+        },
+		"abilities" :
+		{
+			"undead" : 
+			{ 
+				"type" : "UNDEAD"
+			},
+			"canFly" : 
+			{ 
+				"type" : "FLYING"
+			},
+			"soulEater" : 
+			{ 
+				"type" : "SOUL_STEAL",
+				"subtype" : 0,
+				"val" : 1
+			}
+		}
+	}
+}

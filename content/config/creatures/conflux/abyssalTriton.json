@@ -1,0 +1,83 @@
+{
+	"mdtAbyssalTriton":
+	{
+		"name" :
+		{
+			"plural" : "Abyssal Tritons",
+			"singular" : "Abyssal Triton"
+		},
+		"faction" : "conflux",		
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 20
+		},
+		"level" : 3, 
+		"attack" : 10,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 5
+		},
+		"growth" : 6, 
+		"hitPoints" : 25,
+		"speed" : 8, 
+		"fightValue" : 347,
+		"aiValue" : 354,
+		"cost" :
+		{
+			"gold" : 230 
+		},
+		"hasDoubleWeek": true,
+		"doubleWide" : false,
+		"graphics" :
+		{
+			"animation" : "creatures/conflux/battle/abyssalTriton.def",
+			"map" : "creatures/conflux/map/mapAbyssalTriton.def",
+			"iconSmall" : "creatures/conflux/iconssmall/abyssalTritonSmall.png",
+			"iconLarge" : "creatures/conflux/iconsbig/abyssalTritonBig.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.9,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/conflux/triton/TRITATTACK.wav",
+			"defend": "creatures/conflux/triton/TRITDFND.wav", 
+			"killed": "creatures/conflux/triton/TRITDEAD.wav", 
+			"move": "creatures/conflux/triton/TRITMOVE.wav", 
+			"wince": "creatures/conflux/triton/TRITHIT.wav" 
+        },
+		"abilities" :
+		{
+			"castsBloodlust" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.mdtTrawl",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"immuneToWater" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2 //immune to damage spells only
+			}
+//jakies minusy na pustyni
+		}
+	}
+}

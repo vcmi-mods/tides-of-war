@@ -1,0 +1,66 @@
+{
+	"mdtPaladin" : {
+		"advMapAmount" : {"max" : 8, "min" : 3},
+		"aiValue" : 6925,
+		"attack" : 20,
+		"cost" : { "gold" : 3000, "ore" : 2 },
+		"damage" : {"max" : 45, "min" : 25},
+		"defense" : 25,
+		"faction" : "castle",
+		"fightValue" : 5454,
+		"graphics" : {
+			"animation" : "creatures/castle/battle/Cpaladin.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 0.8 },
+			"iconLarge" : "creatures/castle/iconsBig/paladinBig.png",
+			"iconSmall" : "creatures/castle/iconsSmall/paladinSmall.png",
+			"map" : "creatures/castle/map/CPldnmap.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 225,
+		"speed" : 7,
+        "doubleWide" : false,
+		"level" : 7,
+		"name" : { "plural" : "Paladins", "singular" : "Paladin" },
+		"sound" :
+		{
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		} ,
+		"abilities":
+		{
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"castsPrayer" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.prayer",
+				"val" : 4,
+				"propagator" : "HERO"
+			},
+			"noCastByDefault" :
+			{
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"castsDestroyUndead" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3
+			},
+//sprobować rozszerzyć na demony
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 50
+			}		
+		}
+	}
+}

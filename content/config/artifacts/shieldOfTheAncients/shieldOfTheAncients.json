@@ -1,0 +1,40 @@
+{
+	"mdtShieldOfTheAncients":
+	{
+		"type": ["HERO"],
+		"slot":	"LEFT_HAND",
+		"class" : "SPECIAL",
+		"value": 30000,	
+		"text":
+		{
+			"name": "Shield of the Ancients",
+			"description": "{Shield of the Ancients}\r\n\r\nIncreases hero's spellpower skill by +12 and casts Aura of Power at the beginning of every turn.",
+			"event": "An abandoned fortress seems to be nothing much to the eye of an experienced adventurer. Nevertheless, you enter the outpost, as if some mysterious force dragged you in. You ignore valuable goods from the times of the Ancients lying in every corner, and move slowly towards a golden shield levitating above the ground."
+		},
+		"graphics":
+		{
+			"image": "artifacts/iconsSmall/sota",
+			"large": "artifacts/iconsBig/sota",
+			"map": "artifacts/map/sotamap"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : "primSkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 12,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "CASTS",
+				"val" : 50
+			},
+			{
+				"addInfo" : 1,
+				"subtype" : "spell.mdtAuraOfPower",
+				"type" : "ENCHANTER",
+				"val" : 1
+			}		
+		]
+	}
+}

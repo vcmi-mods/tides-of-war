@@ -1,0 +1,83 @@
+{
+	"mdtDreadSkipper":
+	{
+		"name" :
+		{
+			"plural" : "Dread Skippers",
+			"singular" : "Dread Skipper"
+		},
+		"faction" : "neutral",
+		"special" : false,		
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 25
+		},
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 5
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 6,
+		"fightValue" : 311,
+		"aiValue" : 311,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"hasDoubleWeek": true,
+		"doubleWide" : false,
+		"graphics" :
+		{
+			"animation" : "creatures/neutral/battle/CSkipper.def",
+			"map" : "creatures/neutral/map/dskippermap.def",
+			"iconSmall" : "creatures/neutral/iconsSmall/dskipperS.png",
+			"iconLarge" : "creatures/neutral/iconsBig/dskipperB.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/neutral/dreadSkipper/DRSKATTK.wav",
+			"defend": "creatures/neutral/dreadSkipper/DRSKDFND.wav",
+			"killed": "creatures/neutral/dreadSkipper/DRSKDEAD.wav",
+			"move": "creatures/neutral/dreadSkipper/DRSKMOVE.wav",
+			"wince": "creatures/neutral/dreadSkipper/DRSKWNCE.wav"
+        },
+		"abilities" :
+		{
+			"undead" : 
+			{ 
+				"type" : "UNDEAD"
+			},
+			"canSorrow" : 
+			{ 
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.sorrow",
+				"val" : 20,
+				"addInfo" : [0,2]
+			},
+			"sorrowPower" : 
+			{ 
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 300 //spell power = 3
+			},
+			"sorrowLenght" : 
+			{ 
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 5 //spell duration =5
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+  "mdtGwenneth" :
+  {
+    "class" : "cleric",
+    "female" : true,
+    "special" : false,
+	"spellbook": [ "airShield" ],
+
+    "texts" :
+    {
+      "name" : "Gwenneth",
+      "biography" : "Gwenneth served Roland Ironfist during the Succession Wars as a Knight. When she arrived at Erathia in search for adventures, she discovered her new vocation. Now everyone knows Gwenneth as a great Cleric.",
+      "specialty" :
+      {
+        "description" : "All ranged units have permament Air Shield.",
+        "tooltip" : "Bonus: Air Shield",
+        "name" : "Air Shield"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/castle/gwenneth_spec-small.bmp",
+      "specialtyLarge" : "heroes/castle/gwenneth_spec-big.bmp",
+      "large" : "heroes/castle/gwenneth_portrait-big.bmp",
+      "small" : "heroes/castle/gwenneth_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "pikeman",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "archer",
+        "max" : 7,
+        "min" : 4
+      },
+      {
+        "creature" : "griffin",
+        "max" : 3,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "leadership"
+      }
+    ],
+    
+    "specialty": {
+        "bonuses": {
+			"airShield": {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 1,
+				"limiters" : [ "SHOOTER_ONLY" ]
+			}
+		}
+    }
+  }
+}

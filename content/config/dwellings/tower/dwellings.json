@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtDragonFactory" : {
+				"name" : "Dragon Factory",
+				"creatures" : [[ "mdtDrakeGolem" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/tower/mapDragonFactory.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/tower/DrGoLOOP"]
+				}				
+			}
+		}
+	}	
+}

@@ -1,0 +1,80 @@
+{
+	"core:necropolis" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+			"dwellingLvl4B": { "animation" : "town-screen/necropolis/wolfcave.def", "x" : 652, "y" : 206, "z" : 1, "border" : "town-screen/necropolis/buildings-border/TONalt1.bmp", "area" : "town-screen/necropolis/buildings-area/TZNalt1.bmp" }, 
+			"dwellingUpLvl4B": { "animation" : "town-screen/necropolis/wolfcavup", "x" : 652, "y" : 195, "z" : 1, "border" : "town-screen/necropolis/buildings-border/TONaup1.bmp", "area" : "town-screen/necropolis/buildings-area/TZNaup1.bmp" } 
+			},
+			"buildingsIcons": "town-screen/necropolis/ALTHALLNECR.DEF",
+			"hallBackground": "town-screen/necropolis/necropolisHallBg.BMP",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "special3" ], [ "horde1", "horde1Upgr" ], [ "dwellingLvl4B", "dwellingUpLvl4B" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["skeleton", "skeletonWarrior"],
+				["walkingDead", "zombieLord"],
+				["wight", "wraith"],
+				["vampire", "vampireLord", "mdtWerewolf", "mdtDireWerewolf"],
+				["lich", "powerLich"],
+				["blackKnight", "dreadKnight"],
+				["boneDragon", "ghostDragon"]
+			],
+			
+			"buildings" :
+			{
+			"dwellingLvl4":   
+				{ 
+				"requires" : [ "allOf", [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl4B" ] ] ]
+				},
+			
+			"dwellingLvl4B" :
+				{
+					"description" : "The Wolf Cave allows you to recruit Werewolves.",
+					"name" : "Wolf Cave",
+					"cost" : 
+					{
+						"gold" : 2000,
+						"mercury" : 5
+					},
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
+					"id" : 47
+				},
+			"dwellingUpLvl4B" :
+				{
+					"description" : "The Wolf Cave allows you to recruit Dire Werewolves.",
+					"name" : "Upg. Wolf Cave",
+					"id" : 54,
+					"cost" : 
+					{
+						"mercury" : 10,
+						"gold" : 2000
+					},
+					"requires" : [ "dwellingLvl2" ],
+					"upgrades" : "dwellingLvl4B"
+				},
+			"dwellingLvl6":   
+				{ 
+					"requires" : 
+					[ 
+						"allOf", 
+						[ "dwellingLvl5" ],
+						[
+							"anyOf", 
+								[ "dwellingLvl4" ],
+								[ "dwellingLvl4B" ] 
+						]
+					]
+				}		
+			}
+		}
+	}	
+}

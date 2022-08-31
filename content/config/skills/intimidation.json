@@ -1,0 +1,61 @@
+{
+	"intimidation" : {
+		"name" : "Intimidation",
+//		"defaultGainChance" : 4,
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 4 
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "MORALE",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator":"BATTLE_WIDE",
+					"val":-1
+				},
+				"mainExtra" : {
+					"type" : "MORALE",
+					"valueType" : "ADDITIVE_VALUE",
+					"val":1
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/intimidation/intimidationSmallBasic",
+				"medium" : "skills/intimidation/intimidationMediumBasic",
+				"large" : "skills/intimidation/intimidationLargeBasic"
+			},
+			"description" : "{Basic Intimidation}\n\nReduces opponent's Morale by 1.",
+			"effects" : {
+				"main" : { "val" : -1 },
+				"mainExtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/intimidation/intimidationSmallAdvanced",
+				"medium" : "skills/intimidation/intimidationMediumAdvanced",
+				"large" : "skills/intimidation/intimidationLargeAdvanced"
+			},
+			"description" : "{Advanced intimidation}\n\nReduces opponent's Morale by 2.",
+			"effects" : {
+				"main" : { "val" : -2 },
+				"mainExtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/intimidation/intimidationSmallExpert",
+				"medium" : "skills/intimidation/intimidationMediumExpert",
+				"large" : "skills/intimidation/intimidationLargeExpert"
+			},
+			"description" : "{Expert Intimidation}\n\nReduces opponent's Morale by 3.",
+			"effects" : {
+				"main" : { "val" : -3 },
+				"mainExtra" : { "val" : 3 }
+			}
+		}
+	}
+}

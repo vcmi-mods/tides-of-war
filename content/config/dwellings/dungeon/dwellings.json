@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtPrimevalMaw" : {
+				"name" : "Primeval Maw",
+				"creatures" : [[ "mdtIllithid" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/dungeon/mapPrimevalMaw.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/dungeon/LOOPILLI"]
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,79 @@
+{
+	"mdtRage":
+
+	{
+		"type": "ability",
+		"targetType":"CREATURE",		
+		"name": "Rage",
+		"school":
+		{"air": false, "earth": false, "fire": false, "water": false},
+		"level": 1,
+		"power": 10,
+		"defaultGainChance": 0,  
+		"gainChance":
+		{
+			"necropolis": 0
+		},
+		
+		"animation":{
+			"affect":[ "spells/rage/037.def" ]
+		},
+		"flags" : {"positive": true},
+		"graphics":
+		{
+			"iconBook": "spells/rage/rage_iconBook.bmp",
+			"iconScroll": "spells/rage/rage_iconScroll.bmp",
+			"iconScenarioBonus": "spells/rage/rage_iconScenarioBonus.bmp",
+			"iconEffect": "spells/rage/rage_iconEffect.bmp"
+		},
+		"sounds":
+		{
+			"cast":"spells/rage/sound.spell.rage.wav"
+		},
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"aiValue": 20,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"description": "{Rage}\r\n\r\nIncreases attack and defese by 2 with every turn.",
+				"cost": 0,
+				"battleEffects" : {
+					"rageEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": true,
+						"bonus":
+						{
+							"plusAttack":
+							{
+								"type": "PRIMARY_SKILL",
+								"duration": "PERMANENT",
+								"val" : 2,
+								"subtype" : "primSkill.attack",
+								"valueType" : "ADDITIVE_VALUE"
+							},
+							"plusDefence":
+							{
+								"type": "PRIMARY_SKILL",
+								"duration": "PERMANENT",
+								"val" : 2,
+								"subtype" : "primSkill.defence",
+								"valueType" : "ADDITIVE_VALUE"
+							}
+						}
+					}
+				}
+			},
+                "none":{},
+                "basic":{},
+                "advanced":{},
+				"expert":{}
+		}
+	}
+}

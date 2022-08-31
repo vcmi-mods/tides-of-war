@@ -1,0 +1,29 @@
+{
+	"mdtFireballWand":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"MISC",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Fireball Wand",
+			"description": "{Fireball Wand}\r\n\r\nAdds Fireball Wand spell to spellbook. Use it to cast Fireball spell for free.",
+			"event": "On your way you stumble upon a small patch of terrain covered in flames. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the fire and keep it for yourself."
+		},
+		"graphics":
+		{
+			"image": "artifacts/iconsSmall/fireballWand",
+			"large": "artifacts/iconsBig/fireWand",
+			"map": "artifacts/map/fireballWand"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.mdtFireballWand"
+//				"val": 3
+			}
+		]
+	}
+}

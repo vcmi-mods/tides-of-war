@@ -1,0 +1,223 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"mdtBonePillar" : 
+			{
+				"name" : "Bone Pillar",
+				"templates" : {
+					"base" : { 
+					"animation" : "banks/bonePillar", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVV", "VVV", "VBA" ],
+					"allowedTerrains": [ "sand", "subterra", "rough", "lava" ] 
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/banks/BONEPILLARLOOP"]
+				},
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 60,
+					"mapLimit" : 4,
+				},
+				"levels": [
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 2, "type" : "mdtGhost" },
+							{ "amount": 2, "type" : "mdtGhost" },
+							{ "amount": 2, "type" : "mdtGhost" },
+							{ "amount": 2, "type" : "mdtGhost" },
+							{ "amount": 2, "type" : "mdtGhost" },
+							{ "amount": 2, "type" : "mdtGhost" },
+							{ "amount": 2, "type" : "mdtGhost" }
+						],
+						"combat_value": 500,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 2500
+							},
+							"creatures" : 
+							[
+								{ "amount": 4, "type": "mdtGhost" }
+							]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 4, "type" : "mdtGhost" },
+							{ "amount": 4, "type" : "mdtGhost" },
+							{ "amount": 4, "type" : "mdtGhost" },
+							{ "amount": 4, "type" : "mdtGhost" },
+							{ "amount": 4, "type" : "mdtGhost" },
+							{ "amount": 4, "type" : "mdtGhost" },
+							{ "amount": 4, "type" : "mdtGhost" }
+						],
+						"combat_value": 800,
+							"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 3500
+							},
+							"creatures" : 
+							[
+								{ "amount": 6, "type": "mdtGhost" }
+							]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 6, "type" : "mdtGhost" },
+							{ "amount": 6, "type" : "mdtGhost" },
+							{ "amount": 6, "type" : "mdtGhost" },
+							{ "amount": 6, "type" : "mdtGhost" },
+							{ "amount": 6, "type" : "mdtGhost" },
+							{ "amount": 6, "type" : "mdtGhost" },
+							{ "amount": 6, "type" : "mdtGhost" }
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 4500
+							},
+							"creatures" : 
+							[
+								{ "amount": 8, "type": "mdtGhost" }
+							]
+						}
+					},
+					
+					{
+						"chance": 15,
+						"guards": [
+							{ "amount": 8, "type" : "mdtGhost" },
+							{ "amount": 8, "type" : "mdtGhost" },
+							{ "amount": 8, "type" : "mdtGhost" },
+							{ "amount": 8, "type" : "mdtGhost" },
+							{ "amount": 8, "type" : "mdtGhost" },
+							{ "amount": 8, "type" : "mdtGhost" },
+							{ "amount": 8, "type" : "mdtGhost" }
+						],
+						"combat_value": 10000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 5500
+							},
+							"creatures" : 
+							[
+								{ "amount": 10, "type": "mdtGhost" }
+							]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 10, "type" : "mdtGhost" },
+							{ "amount": 10, "type" : "mdtGhost" },
+							{ "amount": 10, "type" : "mdtGhost" },
+							{ "amount": 10, "type" : "mdtGhost" },
+							{ "amount": 10, "type" : "mdtGhost" },
+							{ "amount": 10, "type" : "mdtGhost" },
+							{ "amount": 10, "type" : "mdtGhost" }
+						],
+						"combat_value": 10000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 6500
+							},
+							"creatures" : 
+							[
+								{ "amount": 12, "type": "mdtGhost" }
+							]
+						}
+					},
+					{
+						"chance": 5,
+						"guards": [
+							{ "amount": 12, "type" : "mdtGhost" },
+							{ "amount": 12, "type" : "mdtGhost" },
+							{ "amount": 12, "type" : "mdtGhost" },
+							{ "amount": 12, "type" : "mdtGhost" },
+							{ "amount": 12, "type" : "mdtGhost" },
+							{ "amount": 12, "type" : "mdtGhost" },
+							{ "amount": 12, "type" : "mdtGhost" }
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 7500
+							},
+							"creatures" : 
+							[
+								{ "amount": 14, "type": "mdtGhost" }
+							]
+						}
+					},
+					{
+						"chance": 5,
+						"guards": [
+							{ "amount": 14, "type" : "mdtGhost" },
+							{ "amount": 14, "type" : "mdtGhost" },
+							{ "amount": 14, "type" : "mdtGhost" },
+							{ "amount": 14, "type" : "mdtGhost" },
+							{ "amount": 14, "type" : "mdtGhost" },
+							{ "amount": 14, "type" : "mdtGhost" },
+							{ "amount": 14, "type" : "mdtGhost" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 8500
+							},
+							"creatures" : 
+							[
+								{ "amount": 16, "type": "mdtGhost" }
+							]
+						}
+					},
+					{
+						"chance": 5,
+						"guards": [
+							{ "amount": 18, "type" : "mdtGhost" },
+							{ "amount": 18, "type" : "mdtGhost" },
+							{ "amount": 18, "type" : "mdtGhost" },
+							{ "amount": 18, "type" : "mdtGhost" },
+							{ "amount": 18, "type" : "mdtGhost" },
+							{ "amount": 18, "type" : "mdtGhost" },
+							{ "amount": 18, "type" : "mdtGhost" }
+						],
+						"combat_value": 20000,
+							"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 9500
+							},
+							"creatures" : 
+							[
+								{ "amount": 20, "type": "mdtGhost" }
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

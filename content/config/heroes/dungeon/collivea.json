@@ -1,0 +1,63 @@
+{
+  "mdtCollivea" :
+  {
+    "class" : "overlord",
+    "female" : true,
+    "special" : false,
+	"spellbook": [],
+    "texts" :
+    {
+      "name" : "Collivea",
+      "biography" : "When young Collivea joined the forces of Nighon, Warlocks were amazed to find out that she's resistant to the look of a Medusa. That settled her career as an Overlord.",
+      "specialty" :
+      {
+        "description" : "{Medusas and Medusa Queens}\r\n\r\nIncreases the Attack and Defense skills of any Medusas and Medusa Queens for each level attained after 4th level. Additionally, Medusas and Medusa Queens get a permanent +1 Speed bonus.",
+        "tooltip" : "Creature bonus: Medusa",
+        "name" : "Medusas"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/dungeon/collivea_spec-small.bmp",
+      "specialtyLarge" : "heroes/dungeon/collivea_spec-large.bmp",
+      "large" : "heroes/dungeon/collivea_portrait-large.bmp",
+      "small" : "heroes/dungeon/collivea_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "troglodyte",
+        "max" : 40,
+        "min" : 30
+      },
+      {
+        "creature" : "harpy",
+        "max" : 6,
+        "min" : 4
+      },
+      {
+        "creature" : "beholder",
+        "max" : 4,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "archery"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "leadership"
+      }
+    ],
+    
+	"specialty" : {
+		"creature" : "medusa"
+	}
+  }
+}

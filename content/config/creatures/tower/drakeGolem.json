@@ -1,0 +1,45 @@
+{
+	"mdtDrakeGolem" : {
+		"abilities" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 40
+			}
+		},
+		"advMapAmount" : { "max" : 10, "min" : 4 },
+		"aiValue" : 3950,
+		"attack" : 16,
+		"cost" : { "gold" : 2000 },
+		"damage" : { "max" : 50, "min" : 40 },
+		"defense" : 19,
+		"faction" : "tower",
+		"fightValue" : 3050,
+		"graphics" : {
+			"animation" : "creatures/tower/battle/CLizGolem.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"iconLarge" : "creatures/tower/iconsBig/drakeGolemBig.png",
+			"iconSmall" : "creatures/tower/iconsSmall/drakeGolemSmall.png",
+			"map" : "creatures/tower/map/mapDrakeGolem.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"upgrades" : [ "mdtDragonGolem" ],
+		"hitPoints" : 200,
+        "doubleWide" : true,
+		"level" : 7,
+		"name" : { "plural" : "Drake Golems", "singular" : "Drake Golem" },
+		"sound" : {
+			"attack" : "creatures/tower/drakeGolem/DrGoATTK.wav",
+			"defend" : "creatures/tower/drakeGolem/DrGoDFND.wav",
+			"killed" : "creatures/tower/drakeGolem/DrGoDEAD.wav",
+			"move" : "creatures/tower/drakeGolem/DrGoMOVE.wav",
+			"wince" : "creatures/tower/drakeGolem/DrGoWNCE.wav"
+		},
+		"speed" : 9
+	}
+}

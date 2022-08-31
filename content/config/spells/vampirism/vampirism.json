@@ -1,0 +1,149 @@
+{
+	"mdtVampirism":
+	{
+		"type": "combat", 
+		"name": "Vampirism",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 2, 
+		"gainChance" :
+		{
+			"necropolis" : 12,
+			"conflux" : 0		
+		},
+ 
+		"animation":{
+			"affect": ["spells/vampirism/SP_VAMPIRISM.def"]
+		},
+ 
+		"flags" : {"positive": true},
+ 
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal"
+			}
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "spells/vampirism/vampirism_iconBook.bmp",
+			"iconScroll": "spells/vampirism/vampirism_iconScroll.bmp",
+			"iconScenarioBonus": "spells/vampirism/vampirism_iconScenarioBonus.bmp",
+			"iconEffect": "spells/vampirism/vampirism_iconEffect.bmp"
+		},
+
+		"sounds":
+		{
+			"cast":"spells/vampirism/spell-vampirism.wav"
+		},
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"description": "{Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",	 
+				"cost": 15,				
+				"battleEffects" : {
+					"vampirismEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus":
+						{
+							"undead":
+							{
+								"type": "UNDEAD",
+								"duration": "N_TURNS"
+							},
+							"lifeDrain":
+							{
+								"type": "LIFE_DRAIN",
+								"val" : 20,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				}
+			},
+			"none":
+			{
+				"cost" : 20
+			},
+			"basic":
+			{
+				"description": "{Basic Vampirism}\r\n\r\nFriendly unit becomes undead and drains 30% of damage dealt to the enemy.",
+	 
+				"cost": 18,			
+				"battleEffects" : {
+					"vampirismEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus":
+						{
+							"lifeDrain":
+							{
+								"val" : 30
+							}
+						}
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Vampirism}\r\n\r\nFriendly unit becomes undead and drains 40% of damage dealt to the enemy.",
+	 
+				"cost": 18,		
+				"battleEffects" : {
+					"vampirismEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus":
+						{
+							"lifeDrain":
+							{
+								"val" : 40
+							}
+						}
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Vampirism}\r\n\r\nFriendly unit becomes undead and drains 50% of damage dealt to the enemy.",
+	 
+				"cost": 18,		
+				"battleEffects" : {
+					"vampirismEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus":
+						{
+							"lifeDrain":
+							{
+								"val" : 50
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

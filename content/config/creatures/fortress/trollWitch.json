@@ -1,0 +1,77 @@
+{
+	"mdtTrollWitch" : {
+		"abilities" : {
+			"canShoot" : 
+			{ 
+				"type" : "SHOOTER" 
+			},
+			"regeneration" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 15,
+				"subtype" : 1
+			},
+			"noMeleePenalty" :
+			{
+			"type" : "NO_MELEE_PENALTY"		
+			},
+			"spellAfterAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"val" : 100, //szansa na rzucenie - 100%
+				"addInfo" : [0,1] //tylko przy strzale.
+			},
+			"slowStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.slow",
+				"val" : 3
+			}
+		},	
+		"advMapAmount" : {"max" : 12, "min" : 8},
+		"aiValue" : 1009,
+		"shots" : 8,
+		"attack" : 14,
+		"cost" : { "gold" : 600 },
+		"damage" : {"max" : 14, "min" : 12},
+		"defense" : 14,
+		"faction" : "fortress",
+		"fightValue" : 932,
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/trollWitch.def",
+			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 10, "walk" : 1.5 },
+			"iconLarge" : "creatures/fortress/iconsBig/trollWitchBig.png",
+			"iconSmall" : "creatures/fortress/iconsSmall/trollWitchSmall.png",
+			"map" : "creatures/fortress/map/mapTrollWitch.def",
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 12,
+					"lowerY" : -24,
+					"middleX" : 55,
+					"middleY" : -50,
+					"upperX" : 60,
+					"upperY" : -70
+				},
+				"projectile" : "creatures/fortress/battle/projectile/tw_shot.def"
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 45,
+        "doubleWide" : false,
+		"level" : 5,
+		"name" : { "plural" : "Troll Witches", "singular" : "Troll Witch" },
+		"sound" : {
+			"attack" : "creatures/fortress/trollWitch/WTCHATTK.wav",
+			"defend" : "creatures/fortress/trollWitch/WTCHDFND.wav",
+			"killed" : "creatures/fortress/trollWitch/WTCHKILL.wav",
+			"shoot" : "creatures/fortress/trollWitch/WTCHSHOT.wav",
+			"move" : "creatures/fortress/trollWitch/WTCHMOVE.wav",
+			"wince" : "creatures/fortress/trollWitch/WTCHWNCE.wav"
+		},
+		"speed" : 7
+	}
+}

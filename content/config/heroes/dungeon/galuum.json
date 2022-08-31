@@ -1,0 +1,63 @@
+{
+  "mdtGaluum" :
+  {
+    "class" : "warlock",
+    "female" : false,
+    "special" : false,
+	"spellbook" : ["mdtAuraOfPower"],
+
+    "texts" :
+    {
+      "name" : "Galuum",
+      "biography" : "Many say that Galuum was once a slave trader, who, due to an ancient ritual, became a monster, but also a very powerful Warlock. No one, however, can prove these rumors. No matter if this legend is true, Galuum is a very talented leader, who frightens his enemies with not only his appearance, but also his skills.",
+      "specialty" :
+      {
+        "description" : "{Illithids and Alhoons}\r\n\r\nIncreases the Attack and Defense skills of any Illithids and Alhoons for each level attained after 5th level. Additionally, Illithids and Alhoons get a permanent +1 Speed bonus.",
+        "tooltip" : "Creature bonus: Illithid",
+        "name" : "Illithids"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/dungeon/galuum_spec-small.bmp",
+      "specialtyLarge" : "heroes/dungeon/galuum_spec-large.bmp",
+      "large" : "heroes/dungeon/galuum_portrait-large.bmp",
+      "small" : "heroes/dungeon/galuum_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "troglodyte",
+        "max" : 40,
+        "min" : 30
+      },
+      {
+        "creature" : "harpy",
+        "max" : 6,
+        "min" : 4
+      },
+      {
+        "creature" : "beholder",
+        "max" : 4,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "resistance"
+      }
+    ],
+	"specialty" : {
+		"creature" : "mdtIllithid"
+	}
+  }
+}

@@ -1,0 +1,52 @@
+{
+	"mdtDireWerewolf" : {
+		"abilities" : {
+			"undead" : 
+			{ 
+				"type" : "UNDEAD"
+			},
+			"generalDamageReduction" : 
+			{
+			"type" : "GENERAL_DAMAGE_REDUCTION", //UNTIL_BEING_ATTACKED wprowadzić
+			"subtype" : 0,
+			"val" : 20
+			},
+			"attackBooster":
+			{
+			"type" : "ENCHANTED",
+			"subtype" : "spell.mdtRage",
+			"val" : 3,
+			"addInfo" : 100
+			}
+		},	
+		"advMapAmount" : {"max" : 16, "min" : 10},
+		"aiValue" : 576,
+		"attack" : 11,
+		"cost" : { "gold" : 350 },
+		"damage" : {"max" : 11, "min" : 6},
+		"defense" : 10,
+		"faction" : "necropolis",
+		"fightValue" : 554,
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/direWerewolf.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"iconLarge" : "creatures/necropolis/iconsbig/direWerewolf_big.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/direWerewolf_small.png",
+			"map" : "creatures/necropolis/map/mapDireWerewolf.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+        "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Dire Werewolves", "singular" : "Dire Werewolf" },
+		"sound" : {
+			"attack" : "creatures/necropolis/werewolf/WEREATTACK.wav",
+			"defend" : "creatures/necropolis/werewolf/WEREDFND.wav",
+			"killed" : "creatures/necropolis/werewolf/WEREDEAD.wav",
+			"move" : "creatures/necropolis/werewolf/WEREMOVE.wav",
+			"wince" : "creatures/necropolis/werewolf/WEREHIT.wav"
+		},
+		"speed" : 7
+	}
+}

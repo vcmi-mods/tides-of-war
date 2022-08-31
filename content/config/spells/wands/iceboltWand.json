@@ -1,0 +1,81 @@
+{
+	"mdtIceboltWand":
+	{
+		"type": "combat",
+		"targetType": "LOCATION",
+		"name": "Ice Bolt Wand",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 2,
+		"power": 20,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"projectile": [
+				{"minimumAngle": 0 ,"defName":"C08SPW4"},
+				{"minimumAngle": 0.60 ,"defName":"C08SPW3"},
+				{"minimumAngle": 0.90 ,"defName":"C08SPW2"},
+				{"minimumAngle": 1.20 ,"defName":"C08SPW1"},
+				{"minimumAngle": 1.50 ,"defName":"C08SPW0"}
+			],
+			"hit":["C08SPW5"]
+		},		
+		"sounds": {
+			"cast": "ICERAY"
+		},
+		"flags" : {
+			"damage": true,
+			"negative": true,
+			"special": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"graphics":
+		{
+		"iconBook": "spells/wands/iceboltWand_iconBook.png",
+		"iconScroll": "spells/wands/iceboltWand_iconScroll.png",
+		"iconScenarioBonus": "spells/wands/iceboltWand_iconScenarioBonus.png",
+		"iconEffect": "spells/wands/iceboltWand_iconEffect.png"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{	 
+				"description": "{Ice Bolt}\r\n\r\nDrains the body heat from the selected enemy unit.",	 
+				"cost": 0,
+				"aiValue": 15,
+				"range": "0",
+				"targetModifier":{"smart":true},
+				"power": 10,
+				"battleEffects" : {
+					"icebolt" : {
+						"type" : "core:damage"
+					}
+				}				
+			},	
+			"none":
+			{},
+			"basic":
+			{},
+			"advanced":
+			{
+				"power": 20	 
+			},
+			"expert":
+			{
+				"power": 50
+			}
+		}
+	}
+}

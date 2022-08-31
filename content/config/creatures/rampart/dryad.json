@@ -1,0 +1,64 @@
+{
+	"mdtDryad" : {
+		"abilities" : {
+		
+			"canFly" : 
+			{ 
+				"type" : "FLYING"
+			},
+			"blockAttack" :
+			{
+				"type" : "GENERAL_ATTACK_REDUCTION",
+				"subtype" : -1,
+				"val" : 20
+			},
+			"helpEnt2" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.symbiosis",
+				"val" : 3,	
+			},
+			"spellPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.symbiosis",
+				"val" : 100
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},	
+		"advMapAmount" : {"max" : 20, "min" : 10},
+		"aiValue" : 648,
+		"attack" : 8,
+		"cost" : { "gold" : 300 },
+		"damage" : {"max" : 9, "min" : 7},
+		"defense" : 12,
+		"faction" : "rampart",
+		"fightValue" : 615,
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/dryad.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.2 },
+			"iconLarge" : "creatures/rampart/iconsBig/dryadBig.png",
+			"iconSmall" : "creatures/rampart/iconsSmall/dryadSmall.png",
+			"map" : "creatures/rampart/map/mapDryad.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+        "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Dryads", "singular" : "Dryad" },
+		"upgrades": ["mdtOakDryad"],
+		"sound" : {
+			"attack" : "creatures/rampart/dryad/DRYDATTK.wav",
+			"defend" : "creatures/rampart/dryad/DRYDDFND.wav",
+			"killed" : "creatures/rampart/dryad/DRYDKILL.wav",
+			"move" : "creatures/rampart/dryad/DRYDMOVE.wav",
+			"wince" : "creatures/rampart/dryad/DRYDWNCE.wav"
+		},
+		"speed" : 6
+	}
+}

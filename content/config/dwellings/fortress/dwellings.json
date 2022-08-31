@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtSwampHut" : {
+				"name" : "Swamp Hut",
+				"creatures" : [[ "mdtTrollHag" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/fortress/mapSwampHut.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/fortress/LOOPWTCH"]
+				}
+			}
+		}
+	}	
+}

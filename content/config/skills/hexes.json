@@ -1,0 +1,61 @@
+{
+	"hexes" : {
+		"name" : "Hexes",
+//		"defaultGainChance" : 4,
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 6
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "LUCK",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator":"BATTLE_WIDE",
+					"val":-1
+				},
+				"mainExtra" : {
+					"type" : "LUCK",
+					"valueType" : "ADDITIVE_VALUE",
+					"val":1
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/hexes/hexesSmallBasic",
+				"medium" : "skills/hexes/hexesMediumBasic",
+				"large" : "skills/hexes/hexesLargeBasic"
+			},
+			"description" : "{Basic Hexes}\n\nReduces opponent's Luck by 1.",
+			"effects" : {
+				"main" : { "val" : -1 },
+				"mainExtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/hexes/HexesSmallAdvanced",
+				"medium" : "skills/hexes/HexesMediumAdvanced",
+				"large" : "skills/hexes/HexesLargeAdvanced"
+			},
+			"description" : "{Advanced Hexes}\n\nReduces opponent's Luck by 2.",
+			"effects" : {
+				"main" : { "val" : -2 },
+				"mainExtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/hexes/HexesSmallExpert",
+				"medium" : "skills/hexes/HexesMediumExpert",
+				"large" : "skills/hexes/HexesLargeExpert"
+			},
+			"description" : "{Expert Hexes}\n\nReduces opponent's Luck by 3.",
+			"effects" : {
+				"main" : { "val" : -3 },
+				"mainExtra" : { "val" : 3 }
+			}
+		}
+	}
+}

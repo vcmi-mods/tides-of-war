@@ -1,0 +1,53 @@
+{
+	"mdtThirdEye" : {
+		"bonuses" : 
+		[
+			{
+				"type" : "CASTS",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -1,
+				"valueType" : "ADDITIVE_VALUE",
+				"propagator":"BATTLE_WIDE",
+			},
+			{
+				"type" : "CASTS",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"		
+			},
+			{
+				"subtype" : "skill.eagleEye",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"valueType" : "ADDITIVE_VALUE",
+				"val" : 90
+			},
+			{
+					"subtype" : "skill.eagleEye",
+					"type" : "SECONDARY_SKILL_VAL2",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5
+			}
+		],
+		
+		"class" : "MAJOR",
+		"graphics" : 
+		{ 
+			"image" : "artifacts/iconsSmall/thirdEyeS", 
+			"large" : "artifacts/iconsBig/thirdEyeL", 
+			"map" : "artifacts/map/thirdEye" 
+		},
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Third Eye}\r\n\r\nGives heroes a chance to learn 5th level spells cast by enemy spellcasters in battles and decreases amount of enemy's creatures available spells by 1.",
+			"event" : "An old woman, seemingly some hag living in hermitage, is screaming at you right after you meet her, possibly due to her lack of sight. After a while of her effing and blinding, she suddenly hands you some sort of a golden bust and disappears in thin air.",
+			"name" : "Third Eye"
+		},
+		"components":
+		[
+			"birdOfPerception",
+			"stoicWatchman",
+			"emblemOfCognizance"
+		],
+		"type" : [ "HERO" ],
+		"value" : 6500
+	}
+}

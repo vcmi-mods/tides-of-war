@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtCathedral" : {
+				"name" : "Cathedral",
+				"creatures" : [[ "mdtTemplar" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["dwellings/castle/TEMPLARLOOP"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/castle/mapCathedral.def",
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VVBA" ]
+					}
+				}
+			}
+		}
+	}	
+}

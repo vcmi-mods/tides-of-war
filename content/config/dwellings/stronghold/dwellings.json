@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtZiggurat" : {
+				"name" : "Ziggurat",
+				"creatures" : [[ "mdtCouatl" ]],
+				"sounds": {
+					"ambient": ["dwellings/conflux/CouaLOOP"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/stronghold/mapZiggurat.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			}
+		}
+	}	
+}

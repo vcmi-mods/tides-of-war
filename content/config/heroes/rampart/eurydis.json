@@ -1,0 +1,63 @@
+{
+  "mdtEurydis" :
+  {
+    "class" : "ranger",
+    "female" : true,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Eurydis",
+      "biography" : "By cutting down trees in the north of Steadwick, monsters of Deyja awakened the Forest's spirits. Eurydis miraculously avoided death and, with other Dryads, fled to AvLee. Here she gathered an army to avenge her murdered sisters.",
+      "specialty" :
+      {
+        "description" : "{Dryads and Oak Dryads}\r\n\r\nIncreases the Attack and Defense skills of any Dryads and Oak Dryads for each level attained after 4th level. Additionally, Dryads and Oak Dryads get a permanent +1 Speed bonus",
+        "tooltip" : "{Dryads and Oak Dryads}\r\n\r\nIncreases the Attack and Defense skills of any Dryads and Oak Dryads for each level attained after 4th level. Additionally, Dryads and Oak Dryads get a permanent +1 Speed bonus",
+        "name" : "Dryads"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/rampart/eurydis_spec-small.png",
+      "specialtyLarge" : "heroes/rampart/eurydis_spec-large.png",
+      "large" : "heroes/rampart/eurydis_portrait-large.png",
+      "small" : "heroes/rampart/eurydis_portrait-small.png"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "centaur",
+        "max" : 24,
+        "min" : 12
+      },
+      {
+        "creature" : "woodElf",
+        "max" : 4,
+        "min" : 1
+      },
+      {
+        "creature" : "mdtDryad",
+        "max" : 5,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "scouting"
+      },
+      {
+        "level" : "basic",
+        "skill" : "pathfinding"
+      }
+    ],
+    
+	"specialty" : {
+		"creature" : "mdtDryad"
+	}
+  }
+}

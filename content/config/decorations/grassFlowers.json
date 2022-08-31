@@ -1,0 +1,39 @@
+{
+	"core:flowers" : {
+		"name" : "Flowers",
+		"types" : {
+			"mdtGrassFlowers" : {
+//				"rmg": {
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150
+//				},
+				"base": {
+					"mask" : [ "VB" ],
+					"allowedTerrains": [ "grass" ]
+				},
+				"templates" : {			
+					"FGRQ0001" : { "animation" : "decorations/FGRQ0001"},
+					"FGRQ0002" : { "animation" : "decorations/FGRQ0002"},
+					"FGRQ0003" : { "animation" : "decorations/FGRQ0003"},
+					"FGRQ0004" : { "animation" : "decorations/FGRQ0004"},
+					"FGRQ0005" : { "animation" : "decorations/FGRQ0005"},
+					"FGRQ0006" : { "animation" : "decorations/FGRQ0006"},
+					"FGRQ0007" : { "animation" : "decorations/FGRQ0007"},
+					"FGRQ0008" : { "animation" : "decorations/FGRQ0008"},
+					"FGRQ0009" : { "animation" : "decorations/FGRQ0009"},
+					"FGRQ0010" : { "animation" : "decorations/FGRQ0010"},
+					"FGRQ0011" : { "animation" : "decorations/FGRQ0011", "mask" : [ "VV", "VB" ] },
+					"FGRQ0012" : { "animation" : "decorations/FGRQ0012"},
+					"FGRQ0013" : { "animation" : "decorations/FGRQ0013"},
+					"FGRQ0014" : { "animation" : "decorations/FGRQ0014"}
+				}	
+			}	
+		}
+	}
+}	
+	
+	
+
+
+	

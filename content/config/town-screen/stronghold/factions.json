@@ -1,0 +1,62 @@
+{
+	"core:stronghold" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"dwellingLvl6B":   { "animation" : "town-screen/stronghold/TbStDA_5", "x" : 585, "y" : 176, "z" : -1,  "border" : "town-screen/stronghold/buildings-border/TOSSnk1.BMP", "area" : "town-screen/stronghold/buildings-area/TZSSNK1.BMP" },
+				"dwellingUpLvl6B": { "animation" : "town-screen/stronghold/TbStUA_5", "x" : 585, "y" : 143, "z" : -1,  "border" : "town-screen/stronghold/buildings-border/TOSSnk2.BMP", "area" : "town-screen/stronghold/buildings-area/TZSSNK2.BMP" }
+			},
+			"buildingsIcons": "town-screen/stronghold/HALLSTRNALT.DEF",
+			"hallBackground": "town-screen/stronghold/strongholdHallBg.png",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3" ], [ "special4" ], [ "special1" ] ],
+				[ [ "special2" ], [ "special3" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl6B", "dwellingUpLvl6B" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["goblin", "hobgoblin"],
+				["goblinWolfRider", "hobgoblinWolfRider"],
+				["orc", "orcChieftain"],
+				["ogre", "ogreMage"],
+				["roc", "thunderbird"],
+				["cyclop", "cyclopKing", "mdtCouatl", "mdtQuetzalcouatl"],
+				["behemoth", "ancientBehemoth"]
+			],
+			"buildings" :
+			{
+
+				"dwellingLvl6":   { "requires" : [ "allOf", [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl6B" ] ] ] },
+				"dwellingLvl6B" :
+				{
+					"name" : "Ziggurat",
+					"description" : "The Ziggurat allows you to recruit Couatls.",
+					"cost" : 
+					{
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"id" : 49, 
+					"requires" : [ "allOf", [ "dwellingUpLvl4" ], [ "noneOf", [ "dwellingLvl6" ] ] ]
+				},
+				"dwellingUpLvl6B" :
+				{
+					"name" : "Upg. Ziggurat",
+					"description" : "The Ziggurat allows you to recruit Quetzalcouatls.",
+					"cost" : 
+					{
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"id" : 56, 
+					"upgrades" : "dwellingLvl6B"
+				}
+			}
+		}
+	}
+}

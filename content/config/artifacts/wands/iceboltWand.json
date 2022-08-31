@@ -1,0 +1,29 @@
+{
+	"mdtIceboltWand":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"MISC",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Ice Bolt Wand",
+			"description": "{Ice Bolt}\r\n\r\nAdds Ice Bolt Wand spell to spellbook. Use it to cast Ice Bolt spell for free.",
+			"event": "On your way you stumble upon a small patch of icebound terrain. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the ice and keep it for yourself."
+		},
+		"graphics":
+		{
+			"image": "artifacts/iconsSmall/iceboltWand",
+			"large": "artifacts/iconsBig/iceWand",
+			"map": "artifacts/map/iceboltWand"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.mdtIceboltWand"
+//				"val": 3
+			}
+		]
+	}
+}

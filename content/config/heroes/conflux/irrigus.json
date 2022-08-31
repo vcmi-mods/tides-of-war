@@ -1,0 +1,63 @@
+{
+  "mdtIrrigus" :
+  {
+    "class" : "planeswalker",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Irrigus",
+      "biography" : "Irrigus have never felt loyal to the Triton Empire, which occupies the whole Endless Ocean. Because of that, he gladly serves the Masters of the Elements after he felt called to the Conflux.",
+      "specialty" :
+      {
+        "description" : "{Tritons and Abyssal Tritons}\r\n\r\nIncreases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, Tritons and Abyssal Tritons get a permanent +1 Speed bonus.",
+        "tooltip" : "{Tritons and Abyssal Tritons}\r\n\r\nIncreases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, Tritons and Abyssal Tritons get a permanent +1 Speed bonus.",
+        "name" : "Tritons"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/conflux/irrigus_spec-small.bmp",
+      "specialtyLarge" : "heroes/conflux/irrigus_spec-large.bmp",
+      "large" : "heroes/conflux/irrigus_portrait-large.bmp",
+      "small" : "heroes/conflux/irrigus_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "pixie",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "mdtTriton",
+        "max" : 5,
+        "min" : 3
+      },
+      {
+        "creature" : "mdtTriton",
+        "max" : 3,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "tactics"
+      },
+      {
+        "level" : "basic",
+        "skill" : "armorer"
+      }
+    ],
+    
+	"specialty" : {
+		"creature" : "mdtTriton"
+	}
+  }
+}

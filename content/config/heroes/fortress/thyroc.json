@@ -1,0 +1,63 @@
+{
+  "mdtThyroc" :
+  {
+    "class" : "beastmaster",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Thyroc",
+      "biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
+      "specialty" :
+      {
+        "description" : "{Hydras and Chaos Hydras}\r\n\r\nAll Hydras and Chaos Hydras have 30% chance to cast Disease after attack.",
+        "tooltip" : "Creature bonus: Hydras",
+        "name" : "Hydras"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/fortress/thyroc_spec-small.png",
+      "specialtyLarge" : "heroes/fortress/thyroc_spec-large.png",
+      "large" : "heroes/fortress/thyroc_portrait-large.png",
+      "small" : "heroes/fortress/thyroc_portrait-small.png"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gnoll",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "lizardman",
+        "max" : 7,
+        "min" : 4
+      },
+      {
+        "creature" : "serpentFly",
+        "max" : 4,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "tactics"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "armorer"
+      }
+    ],
+    
+	"specialty" : {
+		"creature" : "hydra"
+	}
+  }
+}

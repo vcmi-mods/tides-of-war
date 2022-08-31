@@ -1,0 +1,101 @@
+{
+	"mdtShieldWand":
+	{
+		"type": "combat",
+		"targetType": "LOCATION",
+		"name": "Shield Wand",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 1,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":["C13SPE0"]
+		},
+		"sounds": {
+			"cast": "SHIELD"
+		},
+		"flags" : {
+			"positive": true,
+			"special": true
+		},
+		"graphics":
+		{
+		"iconBook": "spells/wands/shieldWand_iconBook.png",
+		"iconScroll": "spells/wands/shieldWand_iconScroll.png",
+		"iconScenarioBonus": "spells/wands/shieldWand_iconScenarioBonus.png",
+		"iconEffect": "spells/wands/shieldWand_iconEffect.png"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{	 
+				"description": "{Shield}\r\n\r\nShields the selected unit, reducing the amount of damage received from hand-to-hand attacks.",	 
+				"cost": 0,
+				"power": 10,
+				"aiValue": 15,
+				"range": "0",
+				"targetModifier":{"smart":true},			
+				"battleEffects" : {
+					"shieldEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus":
+						{
+					"generalDamageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 15,
+						"valueType" : "PERCENT_TO_BASE",
+						"subtype" : 0,
+						"duration" : "N_TURNS"
+					}
+				}
+				}
+				}
+			},	
+			"none":
+			{},
+			"basic":
+			{},
+			"advanced":
+			{
+				"battleEffects" : {
+					"shieldEffect" :
+					{
+						"bonus":
+						{
+					"generalDamageReduction" : {
+						"val" : 30
+					}
+				}
+				}
+				}
+			},
+			"expert":
+			{
+				"range" : "X",
+				"battleEffects" : {
+					"shieldEffect" :
+					{
+						"bonus":
+						{
+					"generalDamageReduction" : {
+						"val" : 30
+					}
+				}
+				}
+				}
+			}
+		}
+	}
+}

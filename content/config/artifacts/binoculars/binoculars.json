@@ -1,0 +1,55 @@
+{
+	"mdtBinoculars" : {
+		"bonuses" : 
+		[
+			{
+				"type" : "VISIONS",
+				"subtype" : 0,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			},
+			{
+				"type" : "VISIONS",
+				"subtype" : 1,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"				
+			},
+			{
+				"type" : "VISIONS",
+				"subtype" : 2,
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"				
+			},
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 4,
+				"valueType" : "ADDITIVE_VALUE"
+//				"propagator" : "HERO"				
+			}			
+		],
+		"class" : "MAJOR",
+		"graphics" : 
+		{ 
+			"image" : "artifacts/iconsSmall/binocularsS", 
+			"large" : "artifacts/iconsBig/binocularsL", 
+			"map" : "artifacts/map/binoculars" 
+		},
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Binoculars}\r\n\r\nHero is under Vision spell and gains +4 sight radius.",
+			"event" : "An old scientist, right before breathing his last, gives you his newest invention, which makes very distant objects appear much closer. Though the scientist did not manage to present it to you on time and most of your army is quite scared of this thing, you take it anyway and name it... Binoculars.",
+			"name" : "Binoculars"
+		},
+		"components":
+		[
+			"spyglass",
+			"speculum",
+			"pendantOfSecondSight"
+		],
+		"type" : [ "HERO" ],
+		"value" : 6500
+	}
+}

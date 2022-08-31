@@ -1,0 +1,113 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"mdtOutpostOfSouls" : 
+			{
+				"name" : "Outpost of Souls",
+				"templates" : {
+					"base" : { 
+					"animation" : "banks/outpostOfSouls", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVVV", "VVBV", "VBAB"],
+					"allowedTerrains": [ "rough", "dirt", "swamp" ] 
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/banks/DEMILICHLOOP"]
+				},
+				"rmg" : {
+					"value"		: 6000,
+					"rarity"	: 20
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "powerLich" },
+							{ "amount": 10, "type" : "powerLich" },
+							{ "amount": 10, "type" : "powerLich" },
+							{ "amount": 10, "type" : "powerLich" },
+							{ "amount": 10, "type" : "powerLich" },
+							{ "amount": 10, "type" : "powerLich" },
+							{ "amount": 10, "type" : "powerLich" }
+						],
+						"combat_value": 10000,
+						"reward" : {
+							"value": 10000,
+							"creatures" : 
+							[
+								{ "amount": 2, "type": "mdtDemilich" }
+							],
+							"artifacts": [ "mdtMinorPhylactery" ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "powerLich" },
+							{ "amount": 12, "type" : "powerLich" },
+							{ "amount": 12, "type" : "powerLich" },
+							{ "amount": 12, "type" : "powerLich" },
+							{ "amount": 12, "type" : "powerLich" },
+							{ "amount": 12, "type" : "powerLich" },
+							{ "amount": 12, "type" : "powerLich" }
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 10000,
+							"creatures" : 
+							[
+								{ "amount": 4, "type": "mdtDemilich" }
+							],
+							"artifacts": [ "mdtMajorPhylactery" ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 14, "type" : "powerLich" },
+							{ "amount": 14, "type" : "powerLich" },
+							{ "amount": 14, "type" : "powerLich" },
+							{ "amount": 14, "type" : "powerLich" },
+							{ "amount": 14, "type" : "powerLich" },
+							{ "amount": 14, "type" : "powerLich" },
+							{ "amount": 14, "type" : "powerLich" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"creatures" : 
+							[
+								{ "amount": 6, "type": "mdtDemilich" }
+							],
+							"artifacts": [ "mdtSupremePhylactery" ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 18, "type" : "powerLich" },
+							{ "amount": 18, "type" : "powerLich" },
+							{ "amount": 18, "type" : "powerLich" },
+							{ "amount": 18, "type" : "powerLich" },
+							{ "amount": 18, "type" : "powerLich" },
+							{ "amount": 18, "type" : "powerLich" },
+							{ "amount": 18, "type" : "powerLich" }
+						],
+						"combat_value": 20000,
+						"reward" : {
+							"value": 10000,
+							"creatures" : 
+							[
+								{ "amount": 8, "type": "mdtDemilich" }
+							],
+							"artifacts": [ "mdtRelicPhylactery" ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

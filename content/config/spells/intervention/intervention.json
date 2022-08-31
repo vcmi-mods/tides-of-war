@@ -1,0 +1,93 @@
+{
+	"mdtIntervention" : {
+		"type": "combat",
+		"name": "Intervention",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"targetType": "CREATURE",
+		"level": 5,
+		"power": 25, //duration spellpower=turns
+		"defaultGainChance": 10, 
+		"gainChance" :
+		{
+			"inferno" : 5,
+			"dungeon" : 5,
+			"conflux" : 5,
+			"necropolis" :  0 		
+		},
+		"animation":{
+			"affect":["spells/intervention/SP_INTERVENTION"]
+		},
+		"flags" : 
+		{
+			"indifferent": true, 
+			"rising" : true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DRAGON_NATURE" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+		"sounds": {
+			"cast": "spells/intervention/INTERVENTION.wav"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/intervention/intervention_iconBook.bmp",
+			"iconScroll": "spells/intervention/intervention_iconScroll.bmp",
+			"iconScenarioBonus": "spells/intervention/intervention_iconScenarioBonus.bmp",
+			"iconEffect": "spells/intervention/intervention_iconEffect.png"
+		},
+		"levels" : {
+			"base":{
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"aiValue": 20, //don't know what it means
+				"cost": 25, 
+				"description": "{Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
+				"power": 25,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1
+					},
+					"cure":{
+						"type":"core:dispel",
+						"indirect": true,
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+			},
+			"none":
+			{
+				"cost" : 30
+			},
+			"basic":
+			{	 
+				"description": "{Basic Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25."
+			},
+			"advanced":
+			{	 
+				"description": "{Advaced Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +75.",
+				"power": 75
+			},
+			"expert":
+			{	 
+				"description": "{Expert Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +125.",
+				"power": 125
+			}
+		}
+	}
+}

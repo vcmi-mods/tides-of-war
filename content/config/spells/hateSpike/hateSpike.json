@@ -1,0 +1,67 @@
+{
+	"mdtHateSpike" : {
+		"type": "combat",
+		"name": "Hell Spikes",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":[{"defName":"spells/hateSpike/SP_HATESPIKE", "verticalPosition":"bottom"}]
+		},
+		"flags" : {
+			"positive": true,
+			"special": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "spells/hateSpike/hateSpike"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/hateSpike/null",
+			"iconScroll": "spells/hateSpike/null",
+			"iconScenarioBonus": "spells/hateSpike/null",
+			"iconEffect": "spells/hateSpike/null"
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 0,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : 
+				{
+				},
+				"description": "{Hell Spikes}\r\n\r\nCreates infernal roots that harm targeted unit."
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

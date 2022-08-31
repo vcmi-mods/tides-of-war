@@ -1,0 +1,34 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"fredSwampMountains" : {
+			"name" : "Mountain",
+			"base": 
+				{
+					"allowedTerrains": [ "swamp" ]
+				},
+//			"rmg":{					
+//					"zoneLimit"	:3,
+//					"value"		: 100,
+//					"rarity"	: 150},
+
+			"templates" : {
+			
+				"FSAD0045" : { "animation" : "decorations/FSAD0045", "mask" : [ "VVV", "VVV", "VVB" ] },							
+				"FSAD0046" : { "animation" : "decorations/FSAD0046", "mask" : [ "VVV", "VVV", "VVB" ] },
+				"FSAD0047" : { "animation" : "decorations/FSAD0047", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FSAD0048" : { "animation" : "decorations/FSAD0048", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FSAD0049" : { "animation" : "decorations/FSAD0049", "mask" : [ "VVV", "VVV", "VBB" ] },					
+				"FSAD0050" : { "animation" : "decorations/FSAD0050", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FSAD0051" : { "animation" : "decorations/FSAD0051", "mask" : [ "VVV", "VVV", "VBB" ] },
+				"FSAD0052" : { "animation" : "decorations/FSAD0052", "mask" : [ "VVV", "VVV", "VBB" ] }				
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

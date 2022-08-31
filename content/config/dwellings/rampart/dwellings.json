@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtTreehouse" : {
+				"name" : "Treehouse",
+				"creatures" : [[ "mdtDryad" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/rampart/mapTreehouse.def",
+						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/rampart/LOOPDRYA"]
+				}
+			}
+		}
+	}	
+}

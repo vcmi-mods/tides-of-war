@@ -1,0 +1,68 @@
+{
+	"core:tower" :
+	{
+		"town" :
+		{
+			"hallBackground": "town-screen/tower/TowerHallBg.png",
+			"buildingsIcons": "town-screen/tower/ALTHALLTOWR.DEF",
+			"hallSlots":
+			[
+			
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special3" ], [ "special4" ] ],
+				[ [ "special1" ], [ "special2" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ], [ "dwellingLvl7B", "dwellingUpLvl7B" ] ]
+			],
+			"creatures" :
+			[
+				["gremlin", "masterGremlin"],
+				["stoneGargoyle", "obsidianGargoyle"],
+				["ironGolem", "stoneGolem"],
+				["mage", "archMage"],
+				["genie", "masterGenie"],
+				["naga", "nagaQueen"],
+				["giant", "titan", "mdtDrakeGolem", "mdtDragonGolem"]
+			],
+
+			"structures" :
+			{
+				"dwellingLvl7B":   { "animation" : "town-screen/tower/TBDRGM1", "x" : 75, "y" : 114, "z" : -1,  "border" : "town-screen/tower/buildings-border/TBTwA7un.bmp", "area" : "town-screen/tower/buildings-area/TATwA7un.bmp" },
+				"dwellingUpLvl7B": { "animation" : "town-screen/tower/TBDRGM2", "x" : 75, "y" : 114, "z" : -1,  "border" : "town-screen/tower/buildings-border/TBTwA7up.bmp", "area" : "town-screen/tower/buildings-area/TATwA7up.bmp" }
+			},
+
+			"buildings" :
+			{
+				"dwellingLvl7":   
+				{ 
+					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ], [ "noneOf", [ "dwellingLvl7B" ] ] ]
+				},
+				"dwellingLvl7B" :
+				{
+					"name" : "Dragon Factory",
+					"description" : "The Dragon Factory allows you to recruit Drake Golems.",
+					"cost" : {
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 10000
+					},
+					"id" : 50, 
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "blacksmith" ], [ "noneOf", [ "dwellingLvl7" ] ] ]
+				},
+				"dwellingUpLvl7B" :
+				{
+					"name" : "Upg. Dragon Factory",
+					"description" : "The Dragon Factory allows you to recruit Dragon Golems.",
+					"cost" : {
+						"wood" : 20,
+						"mercury" : 20,
+						"ore" : 20,
+						"gold" : 20000
+					},
+					"id" : 57, 
+					"upgrades" : "dwellingLvl7B"
+				}
+			}
+		}
+	}
+}

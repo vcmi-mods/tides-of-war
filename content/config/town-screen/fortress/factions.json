@@ -1,0 +1,69 @@
+{
+	"core:fortress" :
+	{
+
+		"town" :
+		{
+			"structures" :
+			{
+			"dwellingLvl5B": { "animation" : "town-screen/fortress/TBTWDW_6alt.def", "x" : 55, "y" : 90, "z" : -1, "border" : "town-screen/fortress/buildings-border/TOTTIT1_6alt.bmp", "area" : "town-screen/fortress/buildings-area/TZTTIT1_6alt.bmp" }, 
+			"dwellingUpLvl5B": { "animation" : "town-screen/fortress/TBTWUP_6alt.def", "x" : 55, "y" : 90, "z" : -1, "border" : "town-screen/fortress/buildings-border/TOTTIT2_6alt.bmp", "area" : "town-screen/fortress/buildings-area/TZTTIT2_6alt.bmp" } 
+			},
+			"buildingsIcons": "town-screen/fortress/HALLFORTALT.DEF",
+			"hallBackground": "town-screen/fortress/fortressHallBg.BMP",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "special2", "special3" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl5B", "dwellingUpLvl5B" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["gnoll", "gnollMarauder"],
+				["lizardman", "lizardWarrior"],
+				["serpentFly", "fireDragonFly"],
+				["basilisk", "greaterBasilisk"],
+				["gorgon", "mightyGorgon", "mdtTrollHag", "mdtTrollWitch"],
+				["wyvern", "wyvernMonarch"],
+				["hydra", "chaosHydra"]
+			],
+			
+			"buildings" :
+			{
+			"dwellingLvl5":   
+			{ 
+				"requires" : [ "allOf", [ "dwellingLvl2" ], [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl5B" ] ] ]
+			},
+			
+			"dwellingLvl5B" :
+				{
+					"description" : "The Swamp Hut allows you to recruit Troll Hags.",
+					"name" : "Swamp Hut",
+					"cost" : 
+					{
+						"gold" : 2500,
+						"wood" : 5,
+						"sulfur" : 5
+					},
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl2" ], [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl5" ] ] ],
+					"id" : 48
+				},
+			"dwellingUpLvl5B" :
+				{
+					"description" : "The Swamp Hut allows you to recruit Troll Witches.",
+					"name" : "Upg. Swamp Hut",
+					"cost" : 
+					{
+						"wood" : 10,
+						"gold" : 2000,
+						"sulfur" : 5
+					},
+					"id" : 55,
+					"upgrades" : "dwellingLvl5B"
+				}
+			}
+		}
+	}	
+}

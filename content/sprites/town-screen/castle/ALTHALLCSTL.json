@@ -1,0 +1,8 @@
+{
+    "basepath" : "town-screen/castle/frames/",
+	"images" :
+	[
+		{ "frame" : 50, "file" : "TBCAlt.png"},
+		{ "frame" : 57, "file" : "TBCAlt7UP.png"}
+	]
+}

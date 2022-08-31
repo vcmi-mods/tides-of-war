@@ -1,0 +1,69 @@
+{
+  "mdtOdetta" :
+  {
+    "class" : "wizard",
+    "female" : true,
+    "special" : false,
+	"spellbook": [ "mdtDivineArrows" ],
+    "texts" :
+    {
+      "name" : "Odetta",
+      "biography" : "Even though Odetta's sight is good as new, she managed to improve it with a mixture of magic and technology. Now she is able to see even at the longest distances, which made her one of the best choices as a commander.",
+      "specialty" :
+      {
+        "description" : "{Precision}\r\n\r\nCasts Precision with increased effect, based on hero level compared to the level of the target unit.",
+        "tooltip" : "Spell bonus: Precision",
+        "name" : "Precision"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/tower/odetta_spec-small.bmp",
+      "specialtyLarge" : "heroes/tower/odetta_spec-big.bmp",
+      "large" : "heroes/tower/odetta_portrait-big.bmp",
+      "small" : "heroes/tower/odetta_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gremlin",
+        "max" : 40,
+        "min" : 30
+      },
+      {
+        "creature" : "stoneGargoyle",
+        "max" : 5,
+        "min" : 3
+      },
+      {
+        "creature" : "ironGolem",
+        "max" : 3,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "scouting"
+      }
+    ],
+    
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.precision",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

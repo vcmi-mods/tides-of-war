@@ -1,0 +1,147 @@
+{
+	"mdtAuraOfPower" : {
+		"type": "combat",
+		"name": "Aura of Power",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"targetType": "NO_TARGET",
+		"level": 3,
+		"power": 10, //i think power is irrevelant in this case
+		"defaultGainChance": 5, 
+		"gainChance" :
+		{
+			"inferno" : 12,
+			"dungeon" : 8,
+			"tower" : 8,
+			"rampart" :  8,
+			"castle" : 2,
+			"stronghold" : 2 		
+		},
+		"animation":{
+			"hit":[ "spells/auraOfPower/SP_AURA.def" ]
+		},
+		"flags" :
+		{
+			"positive": true
+		},
+		"sounds": {
+			"cast": "spells/auraOfPower/spell-auraofpower.wav"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/auraOfPower/aop_iconBook.bmp",
+			"iconScroll": "spells/auraOfPower/aop_iconScroll.bmp",
+			"iconScenarioBonus": "spells/auraOfPower/aop_iconScenarioBonus.bmp",
+			"iconEffect": "spells/auraOfPower/aop_iconEffect.png"
+		},
+		"levels" : {
+			"base":{
+				"power": 10, //irrevelant?
+				"aiValue": 20,
+				"range" : "X", //like armageddon, death ripple, destroy undead
+				"targetModifier":{"smart":false},
+				"cost": 12, 
+				"description": "{Aura of Power}\r\n\r\nIncreases power of all damage spells by 5% to the end of the battle.",
+				"battleEffects" : {
+					"spellsDamage" :
+					{
+						"type": "core:timed",
+						"cumulative": true,
+						"bonus":
+						{
+							"airDamage" : {
+								"type" : "AIR_SPELL_DMG_PREMY",
+								"val" : 5,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE" //duration of spell to the end of the battle
+							},
+							"earthDamage" : {
+								"type" : "EARTH_SPELL_DMG_PREMY",
+								"val" : 5,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE" //duration of spell to the end of the battle
+							},
+							"fireDamage" : {
+								"type" : "FIRE_SPELL_DMG_PREMY",
+								"val" : 5,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE" //duration of spell to the end of the battle
+							},
+							"waterDamage" : {
+								"type" : "WATER_SPELL_DMG_PREMY",
+								"val" : 5,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE" //duration of spell to the end of the battle
+							}
+						}	
+					}	
+				}				
+			},
+			"none":
+			{				
+				"cost": 12
+			},
+			"basic":
+			{ 
+				"description": "{Basic Aura of Power}\r\n\r\nIncreases power of all damage spells by 5% to the end of the battle."
+			},
+			"advanced":
+			{	 
+				"description": "{Advanced Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle.",
+				"battleEffects" : {
+					"spellsDamage" :
+					{
+						"bonus":
+						{
+							"airDamage" : {
+								"val" : 10
+							},
+							"earthDamage" : {
+								"val" : 10
+							},
+							"fireDamage" : {
+								"val" : 10
+							},
+							"waterDamage" : {
+								"val" : 10
+							}
+						}
+					}
+				}
+			},
+			"expert":
+			{	 
+				"description": "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 20% to the end of the battle.",
+				"battleEffects" : {
+					"spellsDamage" :
+					{
+						"bonus":
+						{
+							"airDamage" : {
+								"val" : 20
+							},
+							"earthDamage" : {
+								"val" : 20
+							},
+							"fireDamage" : {
+								"val" : 20
+							},
+							"waterDamage" : {
+								"val" : 20
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}	

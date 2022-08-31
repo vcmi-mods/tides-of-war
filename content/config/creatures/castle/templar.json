@@ -1,0 +1,58 @@
+{
+	"mdtTemplar" : {
+		"advMapAmount" : {"max" : 10, "min" : 4},
+		"aiValue" : 3698,
+		"attack" : 15,
+		"cost" : { "gold" :  1400, "ore" : 1},
+		"damage" : {"max" : 45, "min" : 25},
+		"defense" : 15,
+		"faction" : "castle",
+		"fightValue" : 2946,
+		"graphics" : {
+			"animation" : "creatures/castle/battle/CTemplar.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 0.8 },
+			"iconLarge" : "creatures/castle/iconsBig/templarBig.bmp",
+			"iconSmall" : "creatures/castle/iconsSmall/templarSmall.bmp",
+			"map" : "creatures/castle/map/CTmplrmap.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 175,
+		"speed" : 5,
+        "doubleWide" : false,
+		"level" : 7,
+		"upgrades": ["mdtPaladin"],
+		"name" : { "plural" : "Templars", "singular" : "Templar" },
+		"sound" : {
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		},
+		"abilities":
+		{
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"noCastByDefault" :
+			{
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"castsDestroyUndead" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3
+			},
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 30
+			}			
+		}	
+	}
+}

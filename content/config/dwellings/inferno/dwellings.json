@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtLustChambers" : {
+				"name" : "Lust Chambers",
+				"creatures" : [[ "mdtSukkub" ]],
+				"sounds": {
+					"ambient": ["dwellings/conflux/SuccLOOP"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/inferno/mapLustChambers.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}
+	}	
+}

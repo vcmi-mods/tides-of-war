@@ -1,0 +1,77 @@
+{
+	"mdtFireballWand":
+	{
+		"type": "combat",
+		"targetType": "LOCATION",
+		"name": "Fireball Wand",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+ 
+		"animation":{
+			"hit":["C13SPF"]
+		},
+ 
+		"flags" : {
+			"damage": true,
+			"negative": true,
+			"special": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"graphics":
+		{
+		"iconBook": "spells/wands/fireballWand_iconBook.png",
+		"iconScroll": "spells/wands/fireballWand_iconScroll.png",
+		"iconScenarioBonus": "spells/wands/fireballWand_iconScenarioBonus.png",
+		"iconEffect": "spells/wands/fireballWand_iconEffect.png"
+		},
+
+		"sounds": {
+			"cast": "FIREBALL"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{	 
+				"description": "{Fireball}\r\n\r\nCauses the selected target to burst info flames, inflicting fire damage to the target and any adjacent units.",	 
+				"cost": 0,
+				"aiValue": 15,
+				"range": "0,1",
+				"targetModifier":{"smart":false},
+				"power": 15,
+				"battleEffects" : {
+					"fireball" : {
+						"type" : "core:damage"
+					}
+				}
+			},			
+			"none":
+			{},
+			"basic":
+			{},
+			"advanced":
+			{
+				"power": 30	 
+			},
+			"expert":
+			{
+				"power": 60
+			}
+		}
+	}
+}

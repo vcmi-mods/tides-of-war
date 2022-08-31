@@ -1,0 +1,38 @@
+{
+	"core:oakTrees" : {
+		"name" : "Orchard Trees",
+		"types" : {
+			"mdtOrchardTress" : {
+//				"rmg": {
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150
+//				},
+				"base": {
+					"mask" : [ "VB" ],
+					"allowedTerrains": [ "grass", "swamp", "dirt" ]
+				},
+				"templates" : {			
+					"FGRG0021" : { "animation" : "decorations/FGRG0021", "mask" : [ "VVV", "VBV" ] },
+					"FGRG0022" : { "animation" : "decorations/FGRG0022", "mask" : [ "VVV", "VBV" ] },
+					"FGRG0023" : { "animation" : "decorations/FGRG0023", "mask" : [ "VV", "VB" ] },
+					"FGRG0024" : { "animation" : "decorations/FGRG0024", "mask" : [ "VVV", "VBV" ] },
+					"FGRG0025" : { "animation" : "decorations/FGRG0025", "mask" : [ "VVV", "VBV" ] },
+					"FGRG0026" : { "animation" : "decorations/FGRG0026", "mask" : [ "VVV", "VBV" ] },
+					"FGRG0027" : { "animation" : "decorations/FGRG0027", "mask" : [ "VVV", "VBV" ] },
+					"FGRG0028" : { "animation" : "decorations/FGRG0028", "mask" : [ "VVVV", "VVBB", "VBBV" ] },
+					"FGRG0029" : { "animation" : "decorations/FGRG0029", "mask" : [ "VVVV", "VVBB", "VBBV" ] },
+					"FGRG0030" : { "animation" : "decorations/FGRG0030", "mask" : [ "VVVV", "VBBV", "VVBB" ] },
+					"FGRG0031" : { "animation" : "decorations/FGRG0031", "mask" : [ "VVVV", "VBBV", "VVBB" ] },
+					"FGRG0032" : { "animation" : "decorations/FGRG0032", "mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ] },
+					"FGRG0033" : { "animation" : "decorations/FGRG0033", "mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ] }
+				}	
+			}	
+		}
+	}
+}	
+	
+	
+
+
+	

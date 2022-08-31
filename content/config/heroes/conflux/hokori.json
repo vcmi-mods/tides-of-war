@@ -1,0 +1,70 @@
+{
+  "mdtHokori" :
+  {
+    "class" : "elementalist",
+    "female" : true,
+    "special" : false,
+	"spellbook": [ "mdtAuraOfPower" ],
+    "texts" :
+    {
+      "name" : "Hokori",
+      "biography" : "As a Priestess of the Temple of Baa, Hokori left Enroth and settled down in Erathia in order to spread her faith. Here she had an epiphany caused by the Conflux and thus she abandoned her religion so that she could stay among the Elementals.",
+      "specialty" :
+      {
+        "description" : "{Aura of Power}\r\n\r\nCasts Aura of Power with increased effect, based on hero level compared to the level of the target unit.",
+        "tooltip" : "Bonus: Aura of Power",
+        "name" : "Aura of Power"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/conflux/hokori_spec-small.bmp",
+      "specialtyLarge" : "heroes/conflux/hokori_spec-large.bmp",
+      "large" : "heroes/conflux/hokori_portrait-large.bmp",
+      "small" : "heroes/conflux/hokori_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "pixie",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "airElemental",
+        "max" : 5,
+        "min" : 3
+      },
+      {
+        "creature" : "waterElemental",
+        "max" : 3,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+      {
+        "level" : "basic",
+        "skill" : "earthMagic"
+      }
+    ],
+    
+    "specialty": {
+		"bonuses" : {
+			"auraOfPower" : {
+				"subtype" : "spell.mdtAuraOfPower",
+				"type" : "SPECIAL_SPELL_LEV",
+				"updater" : "TIMES_HERO_LEVEL",
+				"val" : 5
+			}
+		}
+	  }
+	}
+ }

@@ -1,0 +1,62 @@
+{
+  "mdtErgon" :
+  {
+    "class" : "barbarian",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Ergon",
+      "biography" : "After taking the throne of Krewlod, Kilgor brought Ergon to quell the rebellion of the Ogres who were still loyal to Winston Boragus, even after his death. Needless to say, the veteran of Succession Wars did his job very effectively by raiding the unruly tribes with his exotic beasts.",
+      "specialty" :
+      {
+        "description" : "{Couatls and Quetzalcouatls}\r\n\r\nIncreases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, Couatls and Quetzalcouatls get a permanent +1 Speed bonus.",
+        "tooltip" : "Creature bonus: Couatl",
+        "name" : "Couatls"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/stronghold/ergon_spec-small.bmp",
+      "specialtyLarge" : "heroes/stronghold/ergon_spec-large.bmp",
+      "large" : "heroes/stronghold/ergon_portrait-large.bmp",
+      "small" : "heroes/stronghold/ergon_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "goblin",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "goblinWolfRider",
+        "max" : 7,
+        "min" : 5
+      },
+      {
+        "creature" : "orc",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "offence"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "intimidation"
+      }
+    ],
+    "specialty" : {
+			"creature" : "mdtCouatl"
+	}
+  }
+}

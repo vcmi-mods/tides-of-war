@@ -1,0 +1,55 @@
+{
+	"mdtAlhoon" : {
+
+		"advMapAmount" : {"max" : 12, "min" : 8},
+		"aiValue" : 818,
+		"attack" : 14,
+		"cost" : { "gold" : 550 },
+		"damage" : {"max" : 16, "min" : 13},
+		"defense" : 9,
+		"faction" : "dungeon",
+		"fightValue" : 775,
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/CAlhoon.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "creatures/dungeon/iconsBig/alhoonBig.png",
+			"iconSmall" : "creatures/dungeon/iconsSmall/alhoonSmall.png",
+			"map" : "creatures/dungeon/map/mapAlhoon.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"level" : 5,
+		"name" : { "plural" : "Alhoons", "singular" : "Alhoon" },
+		"sound" : {
+			"attack" : "creatures/dungeon/illithid/ILLIATTACK.wav",
+			"defend" : "creatures/dungeon/illithid/ILLIDFND.wav",
+			"killed" : "creatures/dungeon/illithid/ILLIDEAD.wav",
+			"move" : "creatures/dungeon/illithid/ILLIMOVE.wav",
+			"wince" : "creatures/dungeon/illithid/ILLIHIT.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"castsHypnotize" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.hypnotize",
+				"val" : 1,
+				"addInfo" : 100,
+				"turns" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"spellpower" : 
+			{ 
+				"type" : "CREATURE_SPELL_POWER", 
+				"val" : 160 
+			}
+		}
+	}	
+}
+

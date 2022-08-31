@@ -1,0 +1,8 @@
+{
+    "basepath" : "town-screen/necropolis/frames/",
+	"images" :
+	[
+		{ "frame" : 47, "file" : "TPNvamp3.bmp"},
+		{ "frame" : 54, "file" : "TPNvamp4.bmp"}
+	]
+}

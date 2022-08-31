@@ -1,0 +1,88 @@
+{
+	"symbiosis2":
+	{
+		"type": "ability", 
+		"name": "Symbiosis with Trees",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 4,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		}, 
+		"animation":{
+			"affect":["spells/symbiosis/SP_SYMBIOSIS.def"]
+		},
+ 
+		"flags" : {
+			"rising": true,
+			"positive": true
+		},
+		"targetCondition" : {
+			"anyOf" : {
+				"creature.dendroidSoldier" : "absolute",
+				"creature.dendroidGuard" : "absolute"
+			}
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "spells/symbiosis/null.png",
+			"iconScroll": "spells/symbiosis/null.png",
+			"iconScenarioBonus": "spells/symbiosis/null.png",
+			"iconEffect": "spells/symbiosis/cureEnt_iconEffect.png"
+		},
+		"sounds":
+		{
+			"cast":"spells/symbiosis/spell-symbiosis.wav"
+		},
+		
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":{
+				"range" : "0",
+				"cost" : 0,
+				"aiValue": 20,
+				"power": 10,
+				"description": "{Symbiosis}\r\n\r\nAllows Dryads to ressurect Dendroids (permanent).",
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"permanent",
+						"minFullUnits" : 1
+					},
+					"cure":{
+						"type":"core:dispel",
+						"indirect": true,
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				},
+				"targetModifier":{"smart":true}
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{	 
+			}
+		}
+	}
+}

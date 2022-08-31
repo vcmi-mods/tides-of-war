@@ -1,0 +1,77 @@
+{
+	"mdtDemilich":
+	{
+		"name" :
+		{
+			"plural" : "Demiliches",
+			"singular" : "Demilich"
+		},
+		"faction" : "neutral",
+		"special" : true,		
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 12
+		},
+		"level" : 6,
+		"attack" : 15,
+		"defense" : 11,
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 20
+		},
+		"growth" : 2,
+		"hitPoints" : 75,
+		"speed" : 11,
+		"fightValue" : 1882,
+		"aiValue" : 1396,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"graphics" :
+		{
+			"animation" : "creatures/neutral/battle/CDemil.def",
+			"map" : "creatures/neutral/map/demilichmap.def",
+			"iconSmall" : "creatures/neutral/iconsSmall/demilichS.png",
+			"iconLarge" : "creatures/neutral/iconsBig/demilichB.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.9,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "creatures/neutral/demilich/DMLCATTK.wav",
+			"defend": "creatures/neutral/demilich/DMLCDFND.wav",
+			"killed": "creatures/neutral/demilich/DMLCDEAD.wav",
+			"move": "creatures/neutral/demilich/DMLCMOVE.wav",
+			"wince": "creatures/neutral/demilich/DMLCWNCE.wav"
+        },
+		"abilities" :
+		{
+			"undead" : 
+			{ 
+				"type" : "UNDEAD"
+			},
+			"canFly" : 
+			{ 
+				"type" : "FLYING"
+			},
+			"destruction" : 
+			{ 
+				"type" : "DESTRUCTION",
+				"subtype" : 0,
+				"val" : 10,
+				"addInfo" : 50
+			}
+		}
+	}
+}

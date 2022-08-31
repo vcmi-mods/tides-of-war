@@ -1,0 +1,8 @@
+{
+    "basepath" : "town-screen/rampart/frames/",
+	"images" :
+	[
+		{ "frame" : 47, "file" : "DWRMP4A.PNG"},
+		{ "frame" : 54, "file" : "DWRMP4UA.PNG"}
+	]
+}

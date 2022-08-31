@@ -1,0 +1,84 @@
+{
+	"core:inferno" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+			"dwellingLvl4B": { "animation" : "town-screen/inferno/TBSKB1.def", "x" : 490, "y" : 27, "z" : -2,  "border" : "town-screen/inferno/buildings-border/TOISKB1.bmp",  "area" : "town-screen/inferno/buildings-area/TZISKB1.bmp" }, 
+			"dwellingUpLvl4B": { "animation" : "town-screen/inferno/TBSKB2.def", "x" : 490, "y" : 27, "z" : -2,  "border" : "town-screen/inferno/buildings-border/TOISKB2.bmp",  "area" : "town-screen/inferno/buildings-area/TZISKB2.bmp" }
+			},
+			"buildingsIcons": "town-screen/inferno/ALTHALLINFR.DEF",
+			"hallBackground": "town-screen/inferno/infernoHallBg.BMP",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special4" ], [ "special2" ] ],
+				[ [ "special3" ], [ "horde1", "horde1Upgr" ], [ "horde2", "horde2Upgr" ], [ "dwellingLvl4B", "dwellingUpLvl4B" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["imp", "familiar"],
+				["gog", "magog"],
+				["hellHound", "cerberus"],
+				["demon", "hornedDemon", "mdtSukkub", "mdtLilim"],
+				["pitFiend", "pitLord"],
+				["efreet", "efreetSultan"],
+				["devil", "archDevil"]
+			],
+			
+			"buildings" :
+			{
+			"dwellingLvl4":   
+				{ 
+				"requires" : [ "allOf", [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl4B" ] ] ]
+				},
+			
+			"dwellingLvl4B" :
+				{
+					"description" : "The Lust Chambers allow you to recruit Succubi.",
+					"name" : "Lust Chambers",
+					"cost" : 
+					{
+						"gold" : 2000,
+						"sulfur" : 5
+					},
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "special2" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
+					"id" : 47
+				},
+			"dwellingUpLvl4B" :
+				{
+					"description" : "The Lust Chambers allow you to recruit Lilims.",
+					"name" : "Upg. Lust Chambers",
+					"id" : 54,
+					"cost" : 
+					{
+						"sulfur" : 5,
+						"gold" : 1500
+					},
+					"requires" : ["allOf", [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
+					"upgrades" : "dwellingLvl4B"
+				},
+			"dwellingLvl5" :   
+				{ 
+					"requires" : ["anyOf", [ "dwellingLvl4" ], [ "dwellingLvl4B" ]] 
+				},
+			"dwellingLvl6" :   
+				{ 	
+					"requires" : 
+					[ 
+						"allOf", 
+						[ "mageGuild1" ],
+						[
+							"anyOf", 
+								[ "dwellingLvl4" ], 
+								[ "dwellingLvl4B" ]
+						]	
+					] 
+				}
+			}
+		}
+	}	
+}

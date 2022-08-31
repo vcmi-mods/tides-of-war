@@ -1,0 +1,95 @@
+{
+	"mdtBind" : {
+		"type": "combat",
+		"name": "Bind",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":["SP02_"]
+		},
+		"flags" : {
+			"negative": true,
+			"special": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.FLYING" : "normal"
+			}
+		},
+		"sounds": {
+			"cast": "BIND"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/bind/iconbook-bind.bmp",
+			"iconScroll": "spells/bind/iconscroll-bind.bmp",
+			"iconScenarioBonus": "spells/bind/iconbonus-bind.bmp",
+			"iconEffect": "spells/bind/iconeffect-bind.png"
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : {
+					"bindEffects" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus":
+						{
+							"bindEffect" : {
+								"val" : 0,
+								"type" : "BIND_EFFECT",
+								"duration" : ["N_TURNS"],
+								"turns" : 2,
+								"addInfo" : -1
+							},
+							"reduceSpeed":
+							{
+								"type": "STACKS_SPEED",
+								"val" : -100, //-10% speed?
+								"valueType": "PERCENT_TO_BASE",
+								"duration": "N_TURNS",
+								"turns" : 2
+							}
+						}
+					}
+				},
+			"description": "{Bind}\r\n\r\nTargeted creature (excluding flying units) will be binded by Dendroids' roots."
+			},
+			"none":
+			{	 
+				"cost": 20
+			},
+			"basic":
+			{	 
+				"cost": 18
+			},
+			"advanced":
+			{	 
+				"cost": 15
+			},
+			"expert":
+			{
+				"cost": 12
+			}
+		}
+	}
+}
