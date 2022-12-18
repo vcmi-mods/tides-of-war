@@ -21,7 +21,12 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Tides of War",
-	"version" : "1.0.0",	
+	"version" : "1.0.1",	
+	"changelog" :
+	{
+		"1.0.1"   : [ "Fixes" ]
+		"1.0.0"   : [ "Initial release" ]
+	},	
 	"conflicts" :
 	[
 		"hota.hota balance"

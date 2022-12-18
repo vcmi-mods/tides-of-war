@@ -52,7 +52,7 @@
 			"battleEffects":{
 				"summon":{
 					"exclusive":true,
-					"id":"tidesofwar:mdtGhost",
+					"id":"tides-of-war:mdtGhost",
 					"permanent":false,
 					"type":"core:summon"
 				}

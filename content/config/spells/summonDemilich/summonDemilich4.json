@@ -50,7 +50,7 @@
 			"battleEffects":{
 				"summon":{
 					"exclusive":false,
-					"id":"tidesofwar:mdtDemilich",
+					"id":"tides-of-war:mdtDemilich",
 					"permanent":false,
 					"type":"core:summon"
 				}
