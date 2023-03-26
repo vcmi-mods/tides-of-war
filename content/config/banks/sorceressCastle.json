@@ -20,7 +20,8 @@
 				"rmg" : {
 					"value"		: 8000,
 					"rarity"	: 40,
-					"mapLimit" : 4,
+					"zoneLimit" : 1,
+					"mapLimit" : 4
 				},
 				"levels": [
 					{

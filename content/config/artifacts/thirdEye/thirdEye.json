@@ -4,27 +4,21 @@
 		[
 			{
 				"type" : "CASTS",
-				"effectRange" : "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
 				"val" : -1,
-				"valueType" : "ADDITIVE_VALUE",
-				"propagator":"BATTLE_WIDE",
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"type" : "CASTS",
-				"val" : 1,
-				"valueType" : "ADDITIVE_VALUE"		
+				"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				"val" : 90,
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : "skill.eagleEye",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"valueType" : "ADDITIVE_VALUE",
-				"val" : 90
-			},
-			{
-					"subtype" : "skill.eagleEye",
-					"type" : "SECONDARY_SKILL_VAL2",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 5
+				"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		],
 		

@@ -40,7 +40,7 @@
 		"fightValue" : 615,
 		"graphics" : {
 			"animation" : "creatures/rampart/battle/dryad.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.2 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 2.2 },
 			"iconLarge" : "creatures/rampart/iconsBig/dryadBig.png",
 			"iconSmall" : "creatures/rampart/iconsSmall/dryadSmall.png",
 			"map" : "creatures/rampart/map/mapDryad.def",

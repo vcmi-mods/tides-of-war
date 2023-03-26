@@ -40,7 +40,7 @@
 		"fightValue" : 600,
 		"graphics" : {
 			"animation" : "creatures/inferno/battle/Clilim.def",
-			"animationTime" : { "attack" : 1, "flight" : 0.8, "idle" : 10, "walk" : 0.8 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
 			"iconLarge" : "creatures/inferno/iconsBig/lilimBig.png",
 			"iconSmall" : "creatures/inferno/iconsSmall/lilimSmall.png",
 			"map" : "creatures/inferno/map/lilimMap.def",

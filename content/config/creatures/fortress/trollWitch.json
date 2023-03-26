@@ -40,7 +40,7 @@
 		"fightValue" : 932,
 		"graphics" : {
 			"animation" : "creatures/fortress/battle/trollWitch.def",
-			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 10, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 1.5 },
 			"iconLarge" : "creatures/fortress/iconsBig/trollWitchBig.png",
 			"iconSmall" : "creatures/fortress/iconsSmall/trollWitchSmall.png",
 			"map" : "creatures/fortress/map/mapTrollWitch.def",

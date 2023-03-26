@@ -29,7 +29,7 @@
 		"fightValue" : 554,
 		"graphics" : {
 			"animation" : "creatures/necropolis/battle/direWerewolf.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.0 },
 			"iconLarge" : "creatures/necropolis/iconsbig/direWerewolf_big.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/direWerewolf_small.png",
 			"map" : "creatures/necropolis/map/mapDireWerewolf.def",

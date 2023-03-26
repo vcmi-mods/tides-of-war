@@ -11,7 +11,7 @@
 		"fightValue" : 1588,
 		"graphics" : {
 			"animation" : "creatures/stronghold/battle/CQouatl.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.0 },
 			"iconLarge" : "creatures/stronghold/iconsbig/qcouatl_big.png",
 			"iconSmall" : "creatures/stronghold/iconssmall/qcouatl_small.png",
 			"map" : "creatures/stronghold/map/mapQcouatl.def",

@@ -11,7 +11,7 @@
 		"fightValue" : 775,
 		"graphics" : {
 			"animation" : "creatures/dungeon/battle/CAlhoon.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "creatures/dungeon/iconsBig/alhoonBig.png",
 			"iconSmall" : "creatures/dungeon/iconsSmall/alhoonSmall.png",
 			"map" : "creatures/dungeon/map/mapAlhoon.def",

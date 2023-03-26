@@ -10,14 +10,10 @@
 			"effects" : {
 				"main" : {
 					"type" : "LUCK",
-					"valueType" : "ADDITIVE_VALUE",
-					"propagator":"BATTLE_WIDE",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
 					"val":-1
-				},
-				"mainExtra" : {
-					"type" : "LUCK",
-					"valueType" : "ADDITIVE_VALUE",
-					"val":1
 				}
 			}
 		},
@@ -29,8 +25,7 @@
 			},
 			"description" : "{Basic Hexes}\n\nReduces opponent's Luck by 1.",
 			"effects" : {
-				"main" : { "val" : -1 },
-				"mainExtra" : { "val" : 1 }
+				"main" : { "val" : -1 }
 			}
 		},
 		"advanced" : {
@@ -41,8 +36,7 @@
 			},
 			"description" : "{Advanced Hexes}\n\nReduces opponent's Luck by 2.",
 			"effects" : {
-				"main" : { "val" : -2 },
-				"mainExtra" : { "val" : 2 }
+				"main" : { "val" : -2 }
 			}
 		},
 		"expert" : {
@@ -53,8 +47,7 @@
 			},
 			"description" : "{Expert Hexes}\n\nReduces opponent's Luck by 3.",
 			"effects" : {
-				"main" : { "val" : -3 },
-				"mainExtra" : { "val" : 3 }
+				"main" : { "val" : -3 }
 			}
 		}
 	}

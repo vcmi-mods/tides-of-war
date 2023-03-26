@@ -10,7 +10,8 @@
 					"default" : 
                     {
 						"animation" : "dwellings/neutral/mermaiddw.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"allowedTerrains": [ "water" ]
 					}
 				},
 				"sounds": {

@@ -21,9 +21,15 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Tides of War",
-	"version" : "1.0.1",	
+	"version" : "1.0.3",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
 	"changelog" :
 	{
+		"1.0.3"   : [ "New bonus format system" ],
+		"1.0.2"   : [ "Fixes" ],
 		"1.0.1"   : [ "Fixes" ],
 		"1.0.0"   : [ "Initial release" ]
 	},	
@@ -162,5 +168,11 @@
 	"skills" : [
 		"config/skills/hexes",
 		"config/skills/intimidation"
-	]
+	],
+	
+	"settings" : {
+		"combat": {
+			"badLuckDice" : [ 12, 6, 4 ]
+		}
+	}
 }
