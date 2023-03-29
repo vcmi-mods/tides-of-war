@@ -37,6 +37,14 @@
 	[
 		"hota.hota balance"
 	],
+	"german" :
+	{
+		"name" : "Tides of War",
+		"description" : "In jeder der neun Standard-H3-Städte gibt es die Möglichkeit, eine Behausung für eine alternative Kreatur zu bauen.",	
+		"translations" : [
+			"translation/tow/german.json"
+		]
+	},
 	
 	"creatures" :
 	[
