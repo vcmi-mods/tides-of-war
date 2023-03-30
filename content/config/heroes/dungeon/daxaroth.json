@@ -60,7 +60,7 @@
 		"bonuses" : {
 			"wideBreath" : {
 				"type" : "WIDE_BREATH",
-				"limiters" : ["DRAGON_NATURE"],
+				"limiters" : ["DRAGON_NATURE"]
 			}
 		}
 	} 

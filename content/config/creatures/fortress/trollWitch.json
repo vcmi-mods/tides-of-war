@@ -20,7 +20,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.slow",
 				"val" : 100, //szansa na rzucenie - 100%
-				"addInfo" : [0,1] //tylko przy strzale.
+				"addInfo" : [1,1] //tylko przy strzale.
 			},
 			"slowStrength" :
 			{

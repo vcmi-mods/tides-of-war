@@ -16,7 +16,7 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.symbiosis",
-				"val" : 3,	
+				"val" : 3
 			},
 			"spellPower" : 
 			{

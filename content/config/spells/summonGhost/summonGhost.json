@@ -24,7 +24,7 @@
 	{
 		"necropolis" : 12,
 		"dungeon" : 6,
-		"inferno" : 6,	
+		"inferno" : 6
 	},
 	"flags" : {
 		"indifferent": true

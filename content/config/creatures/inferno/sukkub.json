@@ -3,7 +3,7 @@
 		"abilities" : {	
 			"shoter" : 
 			{
-				"type" : "SHOOTER",
+				"type" : "SHOOTER"
 			},
 			"canFly" :
 			{
