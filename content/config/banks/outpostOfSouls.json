@@ -9,7 +9,7 @@
 				"templates" : {
 					"base" : { 
 					"animation" : "banks/outpostOfSouls", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVV", "VVBV", "VBAB"],
 					"allowedTerrains": [ "rough", "dirt", "swamp" ] 
 					}

@@ -9,7 +9,7 @@
 				"templates" : {
 					"base" : { 
 					"animation" : "banks/bonePillar", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-++", "+++" ], 
 					"mask" : [ "VVV", "VVV", "VBA" ],
 					"allowedTerrains": [ "sand", "subterra", "rough", "lava" ] 
 					}
@@ -21,7 +21,7 @@
 					"value"		: 5000,
 					"rarity"	: 60,
 					"zoneLimit" : 1,
-					"mapLimit" : 4
+					"mapLimit" : 4,
 				},
 				"levels": [
 					{
