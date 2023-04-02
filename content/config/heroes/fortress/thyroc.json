@@ -57,7 +57,53 @@
     ],
     
 	"specialty" : {
-		"creature" : "hydra"
+		"base" : {
+			"duration" : [ "PERMANENT" ],
+			"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+		},
+		"bonuses" : {
+			"attack" : {
+				"limiters" : { "parameters" : [ "core:hydra", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 16, 7 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"attack2" : {
+				"limiters" : { "parameters" : [ "core:chaosHydra", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 18, 7 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence" : {
+				"limiters" : { "parameters" : [ "core:hydra", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 18, 7 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence2" : {
+				"limiters" : { "parameters" : [ "core:chaosHydra", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 20, 7 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"speed" : {
+				"limiters" : { "parameters" : [ "core:hydra", true ] },
+				"type" : "STACKS_SPEED",
+				"val" : 1
+			}
+		}
 	}
   }
 }

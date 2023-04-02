@@ -56,7 +56,53 @@
       }
     ],
     "specialty" : {
-			"creature" : "mdtCouatl"
+		"base" : {
+			"duration" : [ "PERMANENT" ],
+			"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+		},
+		"bonuses" : {
+			"attack" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtCouatl", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 16, 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"attack2" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtQuetzalcouatl", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 18, 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtCouatl", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 11, 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence2" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtQuetzalcouatl", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 11, 6 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"speed" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtCouatl", true ] },
+				"type" : "STACKS_SPEED",
+				"val" : 1
+			}
+		}
 	}
   }
 }

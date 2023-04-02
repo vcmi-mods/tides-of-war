@@ -24,10 +24,9 @@
 				"propagator" : "HERO"				
 			},
 			{
-				"type" : "SIGHT_RADIOUS",
+				"type" : "SIGHT_RADIUS",
 				"val" : 4,
-				"valueType" : "ADDITIVE_VALUE"
-//				"propagator" : "HERO"				
+				"valueType" : "ADDITIVE_VALUE"			
 			}			
 		],
 		"class" : "MAJOR",

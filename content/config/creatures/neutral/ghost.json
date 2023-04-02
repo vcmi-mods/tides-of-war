@@ -43,8 +43,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :

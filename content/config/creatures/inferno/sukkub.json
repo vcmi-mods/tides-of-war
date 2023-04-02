@@ -3,7 +3,7 @@
 		"abilities" : {	
 			"shoter" : 
 			{
-				"type" : "SHOOTER",
+				"type" : "SHOOTER"
 			},
 			"canFly" :
 			{
@@ -31,7 +31,7 @@
 		"fightValue" : 481,
 		"graphics" : {
 			"animation" : "creatures/inferno/battle/Csukub.def",
-			"animationTime" : { "attack" : 1, "flight" : 0.8, "idle" : 10, "walk" : 0.8 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
 			"iconLarge" : "creatures/inferno/iconsBig/sukkubBig.bmp",
 			"iconSmall" : "creatures/inferno/iconsSmall/sukkubSmall.bmp",
 			"map" : "creatures/inferno/map/sukkubMap.def",

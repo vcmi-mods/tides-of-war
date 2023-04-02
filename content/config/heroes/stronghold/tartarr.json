@@ -19,8 +19,8 @@
 
     "images" :
     {
-      "specialtySmall" : "heroes/stronghold/tartarr_spec-small.bmp", //placeholder
-      "specialtyLarge" : "heroes/stronghold/tartarr_spec-large.bmp", //placeholder
+      "specialtySmall" : "heroes/stronghold/tartarr_spec-small.bmp",
+      "specialtyLarge" : "heroes/stronghold/tartarr_spec-large.bmp",
       "large" : "heroes/stronghold/tartarr_portrait-large.bmp",
       "small" : "heroes/stronghold/tartarr_portrait-small.bmp"
     },

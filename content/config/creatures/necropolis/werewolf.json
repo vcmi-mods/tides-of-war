@@ -4,7 +4,7 @@
 		
 			"undead" : 
 			{ 
-				"type" : "UNDEAD",
+				"type" : "UNDEAD"
 			},
 			"generalDamageReduction" : 
 			{
@@ -23,7 +23,7 @@
 		"fightValue" : 503,
 		"graphics" : {
 			"animation" : "creatures/necropolis/battle/werewolf.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.0 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.0 },
 			"iconLarge" : "creatures/necropolis/iconsbig/werewolf_big.png",
 			"iconSmall" : "creatures/necropolis/iconssmall/werewolf_small.png",
 			"map" : "creatures/necropolis/map/mapWerewolf.def",

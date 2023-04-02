@@ -8,7 +8,7 @@
 				"name" : "Sorceress Castle",
 				"templates" : {
 					"base" : { "animation" : "banks/sorceressCastle.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVV", "VVBBV", "VBBBB", "VBBAB"], 
 					"allowedTerrains":[ "grass", "dirt" ] 
 					}
@@ -20,7 +20,8 @@
 				"rmg" : {
 					"value"		: 8000,
 					"rarity"	: 40,
-					"mapLimit" : 4,
+					"zoneLimit" : 1,
+					"mapLimit" : 4
 				},
 				"levels": [
 					{

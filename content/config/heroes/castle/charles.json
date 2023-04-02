@@ -59,7 +59,9 @@
     "specialty": {
         "bonuses": {
 			"selfMorale": {
-				"type": "SELF_MORALE",
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
 				"limiters":
 				[{
                 "type": "CREATURE_TYPE_LIMITER",

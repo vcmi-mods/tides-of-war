@@ -23,7 +23,7 @@
 		"fightValue" : 828,
 		"graphics" : {
 			"animation" : "creatures/fortress/battle/trollHag.def",
-			"animationTime" : { "attack" : 1.0, "flight" : 1.0, "idle" : 10, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 1.5 },
 			"iconLarge" : "creatures/fortress/iconsBig/trollHagBig.png",
 			"iconSmall" : "creatures/fortress/iconsSmall/trollHagSmall.png",
 			"map" : "creatures/fortress/map/mapTrollHag.def",

@@ -10,7 +10,7 @@
 		"fightValue" : 2946,
 		"graphics" : {
 			"animation" : "creatures/castle/battle/CTemplar.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 0.8 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
 			"iconLarge" : "creatures/castle/iconsBig/templarBig.bmp",
 			"iconSmall" : "creatures/castle/iconsSmall/templarSmall.bmp",
 			"map" : "creatures/castle/map/CTmplrmap.def",

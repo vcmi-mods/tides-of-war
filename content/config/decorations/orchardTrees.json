@@ -1,13 +1,8 @@
 {
 	"core:oakTrees" : {
-		"name" : "Orchard Trees",
 		"types" : {
 			"mdtOrchardTress" : {
-//				"rmg": {
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150
-//				},
+				"name" : "Orchard Trees",
 				"base": {
 					"mask" : [ "VB" ],
 					"allowedTerrains": [ "grass", "swamp", "dirt" ]

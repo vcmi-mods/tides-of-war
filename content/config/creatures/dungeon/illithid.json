@@ -11,7 +11,7 @@
 		"fightValue" : 748,
 		"graphics" : {
 			"animation" : "creatures/dungeon/battle/Clllithid.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "creatures/dungeon/iconsBig/illithidBig.png",
 			"iconSmall" : "creatures/dungeon/iconsSmall/illithidSmall.png",
 			"map" : "creatures/dungeon/map/mapillithid.def",

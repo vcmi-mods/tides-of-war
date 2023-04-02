@@ -57,7 +57,53 @@
     ],
     
 	"specialty" : {
-		"creature" : "mdtTriton"
+		"base" : {
+			"duration" : [ "PERMANENT" ],
+			"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+		},
+		"bonuses" : {
+			"attack" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtTriton", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 10, 3 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"attack2" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtAbyssalTriton", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 10, 3 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtTriton", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 6, 3 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence2" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtAbyssalTriton", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 7, 3 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"speed" : {
+				"limiters" : { "parameters" : [ "tides-of-war:mdtTriton", true ] },
+				"type" : "STACKS_SPEED",
+				"val" : 1
+			}
+		}
 	}
   }
 }
