@@ -8,7 +8,7 @@
 				"name" : "Sorceress Castle",
 				"templates" : {
 					"base" : { "animation" : "banks/sorceressCastle.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVVV", "VVBBV", "VBBBB", "VBBAB"], 
 					"allowedTerrains":[ "grass", "dirt" ] 
 					}
