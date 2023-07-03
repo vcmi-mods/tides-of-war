@@ -21,13 +21,14 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Tides of War",
-	"version" : "1.0.4",
+	"version" : "1.0.5",
 	"compatibility" :
 	{
 		"min" : "1.2.0"
 	},	
 	"changelog" :
 	{
+		"1.0.5"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.0.4"   : [ "Move ToW Menu into submod" ],
 		"1.0.3"   : [ "New bonus format system" ],
 		"1.0.2"   : [ "Fixes" ],
@@ -38,6 +39,12 @@
 	[
 		"hota.hota balance"
 	],
+	"chinese" :
+	{
+		"translations" : [
+			"translation/tow/chinese.json"
+		]
+	},
 	"german" :
 	{
 		"name" : "Tides of War",
