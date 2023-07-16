@@ -5,7 +5,7 @@
 				"name" : "Ziggurat",
 				"creatures" : [[ "mdtCouatl" ]],
 				"sounds": {
-					"ambient": ["dwellings/conflux/CouaLOOP"]
+					"ambient": ["dwellings/stronghold/CouaLOOP"]
 				},
 				"guards" : true,
 				"templates" : {

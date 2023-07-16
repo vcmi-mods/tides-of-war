@@ -5,7 +5,7 @@
 				"name" : "Lust Chambers",
 				"creatures" : [[ "mdtSukkub" ]],
 				"sounds": {
-					"ambient": ["dwellings/conflux/SuccLOOP"]
+					"ambient": ["dwellings/inferno/SuccLOOP"]
 				},
 				"templates" : {
 					"default" : {
