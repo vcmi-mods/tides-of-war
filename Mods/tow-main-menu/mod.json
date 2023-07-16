@@ -1,0 +1,38 @@
+{
+	"author" : "Mod Design Team",
+//				Witchking - Leader and 3d Artist,
+//				Hobbicus - 2d, 3d Artist and Musician,
+//				Trith - 3d Artist,
+//				Sower - 2d and 3d Artist,
+//				Drwal - 2d Artist,
+//				Khemiel - 2d Artist,
+//				avatar - json guy,
+//	People who help us:
+//	- fred79
+//	- Andruids
+//	- Undead Artist
+//	- Ragoon
+//	- MURArt
+//  - Kuririn
+
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
+	"description" : "Tides of War - Menu Replacement",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Graphical",
+	"name" : "Tides of War - Menu",
+	"version" : "1.0.4",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+	{
+		"1.0.4"   : [ "Move ToW Menu into submod" ]
+	},
+	"german" :
+	{
+		"name" : "Tides of War - Menü",
+		"description" : "Tides of War - Menü-Ersatz"
+	}
+}
