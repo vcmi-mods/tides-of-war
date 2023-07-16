@@ -1,4 +1,4 @@
-	{
+{
 	"author" : "Mod Design Team",
 //				Witchking - Leader and 3d Artist,
 //				Hobbicus - 2d, 3d Artist and Musician,
@@ -21,7 +21,6 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Tides of War",
-	"version" : "1.0.3",
 	"version" : "1.0.6",
 	"compatibility" :
 	{
@@ -37,10 +36,16 @@
 		"1.0.1"   : [ "Fixes" ],
 		"1.0.0"   : [ "Initial release" ]
 	},	
-//	"conflicts" :
-//	[
-//		"hota.hota balance"
-//	],
+	"conflicts" :
+	[
+		"hota.confluxVaultofAshes"
+	],
+	"chinese" :
+	{
+		"translations" : [
+			"translation/tow/chinese.json"
+		]
+	},
 	"german" :
 	{
 		"name" : "Tides of War",
@@ -139,31 +144,30 @@
 		"config/spells/hateSpike/hateSpike"
     ],
 	
-	"heroes" : 
-
-     [ 
-     "config/heroes/necropolis/yaverr",
-	 "config/heroes/necropolis/zam",
-	 "config/heroes/fortress/shroo",
-	 "config/heroes/fortress/thyroc",
-	 "config/heroes/rampart/eurydis",
-	 "config/heroes/rampart/ghuri",
-	 "config/heroes/inferno/eyzea",
-	 "config/heroes/inferno/kreevion",
-	 "config/heroes/castle/charles",
-	 "config/heroes/castle/gwenneth",
-	 "config/heroes/dungeon/galuum",
-	 "config/heroes/dungeon/collivea",
-	 "config/heroes/dungeon/daxaroth",
-	 "config/heroes/stronghold/ergon",
-	 "config/heroes/stronghold/tartarr",	 
-	 "config/heroes/tower/verstan",
-	 "config/heroes/tower/odetta",
-	 "config/heroes/conflux/irrigus",
-	 "config/heroes/conflux/hokori"
-	 ], 
+	"heroes" :
+    [ 
+		"config/heroes/necropolis/yaverr",
+		"config/heroes/necropolis/zam",
+		"config/heroes/fortress/shroo",
+		"config/heroes/fortress/thyroc",
+		"config/heroes/rampart/eurydis",
+		"config/heroes/rampart/ghuri",
+		"config/heroes/inferno/eyzea",
+		"config/heroes/inferno/kreevion",
+		"config/heroes/castle/charles",
+		"config/heroes/castle/gwenneth",
+		"config/heroes/dungeon/galuum",
+		"config/heroes/dungeon/collivea",
+		"config/heroes/dungeon/daxaroth",
+		"config/heroes/stronghold/ergon",
+		"config/heroes/stronghold/tartarr",	 
+		"config/heroes/tower/verstan",
+		"config/heroes/tower/odetta",
+		"config/heroes/conflux/irrigus",
+		"config/heroes/conflux/hokori"
+	], 
 	 
-	 "artifacts" :
+	"artifacts" :
 	[
 		"config/artifacts/wands/fireballWand",
 		"config/artifacts/wands/iceboltWand",
