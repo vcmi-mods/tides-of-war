@@ -11,7 +11,7 @@
 		},
 		"targetType": "NO_TARGET",
 		"level": 3,
-		"power": 10, //i think power is irrevelant in this case
+		"power": 10,
 		"defaultGainChance": 5, 
 		"gainChance" :
 		{
@@ -54,9 +54,33 @@
 						"cumulative": true,
 						"bonus":
 						{
-							"spellDamage" : {
+							"fireDamage" : {
 								"type" : "SPELL_DAMAGE",
-								"subtype" : 0,
+								"subtype" : "spellSchool.fire",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE"
+							},
+							"airDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.air",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE"
+							},
+							"earthDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.earth",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator": "HERO",
+								"duration" : "ONE_BATTLE"
+							},
+							"waterDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.water",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
 								"propagator": "HERO",
@@ -82,7 +106,16 @@
 					{
 						"bonus":
 						{
-							"spellDamage" : {
+							"fireDamage" : {
+								"val" : 20
+							},
+							"airDamage" : {
+								"val" : 20
+							},
+							"earthDamage" : {
+								"val" : 20
+							},
+							"waterDamage" : {
 								"val" : 20
 							}
 						}
@@ -91,13 +124,22 @@
 			},
 			"expert":
 			{	 
-				"description": "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 50% to the end of the battle.",
+				"description": "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 30% to the end of the battle.",
 				"battleEffects" : {
 					"spellsDamage" :
 					{
 						"bonus":
 						{
-							"spellDamage" : {
+							"fireDamage" : {
+								"val" : 30
+							},
+							"airDamage" : {
+								"val" : 30
+							},
+							"earthDamage" : {
+								"val" : 30
+							},
+							"waterDamage" : {
 								"val" : 50
 							}
 						}
