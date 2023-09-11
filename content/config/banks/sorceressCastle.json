@@ -126,7 +126,7 @@
 						"reward" : {
 							"value" : 15000,
 							"resources" : { "gold" : 12000, "mercury" : 12, "crystals" : 12 },
-							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "ringOfInfiniteGems", "everpouringVialOfMercury", "everflowingCrystalCloak", "statueOfLegion" ],
+							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "cornucopia", "statueOfLegion" ],
 							"spells" : [ { "level" : 5 } ]
 						}
 					}
