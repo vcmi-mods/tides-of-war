@@ -1,88 +1,88 @@
 {
-	"core:creatureBank" : 
+	"core:creatureBank" :
 	{
-		"types" : 
+		"types" :
 		{
-			"mdtSeminarium" : 
+			"mdtSeminarium" :
 			{
 				"name" : "Seminarium",
 				"templates" :
 				{
 					"base" :
 					{
-						"animation" : "banks/seminarium.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVV", "VBV", "BAB"] 							
+						"animation" : "banks/seminarium.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVV", "VBV", "BAB"]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/banks/SEMINARIUMLOOP"]
+				"sounds" : {
+					"ambient" : ["dwellings/banks/SEMINARIUMLOOP"]
 				},
 				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 80,
+					"value" : 3500,
+					"rarity" : 80,
 					"zoneLimit" : 1
 				},
-				"levels":
+				"levels" :
 				[
 					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 10, "type" : "swordsman" },
-							{ "amount": 10, "type" : "swordsman" },
-							{ "amount": 10, "type" : "swordsman", "upgradeChance": 50 },
-							{ "amount": 10, "type" : "swordsman" },
-							{ "amount": 10, "type" : "swordsman" }
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 10, "type" : "swordsman" },
+							{ "amount" : 10, "type" : "swordsman" },
+							{ "amount" : 10, "type" : "swordsman", "upgradeChance" : 50 },
+							{ "amount" : 10, "type" : "swordsman" },
+							{ "amount" : 10, "type" : "swordsman" }
 						],
-						"combat_value": 351,
+						"combat_value" : 351,
 						"reward" : {
-							"value": 3000,
-							"creatures": [ { "amount": 2, "type": "mdtTemplar" } ]
+							"value" : 3000,
+							"creatures" : [ { "amount" : 2, "type" : "mdtTemplar" } ]
 						}
 					},
 					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 20, "type" : "swordsman" },
-							{ "amount": 20, "type" : "swordsman" },
-							{ "amount": 20, "type" : "swordsman", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "swordsman" },
-							{ "amount": 20, "type" : "swordsman" }
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 20, "type" : "swordsman" },
+							{ "amount" : 20, "type" : "swordsman" },
+							{ "amount" : 20, "type" : "swordsman", "upgradeChance" : 50 },
+							{ "amount" : 20, "type" : "swordsman" },
+							{ "amount" : 20, "type" : "swordsman" }
 						],
-						"combat_value": 702,
+						"combat_value" : 702,
 						"reward" : {
-							"value": 6000,
-							"creatures": [ { "amount": 3, "type": "mdtTemplar" } ]
+							"value" : 6000,
+							"creatures" : [ { "amount" : 3, "type" : "mdtTemplar" } ]
 						}
 					},
 					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 30, "type" : "swordsman" },
-							{ "amount": 30, "type" : "swordsman" },
-							{ "amount": 30, "type" : "swordsman", "upgradeChance": 50 },
-							{ "amount": 30, "type" : "swordsman" },
-							{ "amount": 30, "type" : "swordsman" }
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 30, "type" : "swordsman" },
+							{ "amount" : 30, "type" : "swordsman" },
+							{ "amount" : 30, "type" : "swordsman", "upgradeChance" : 50 },
+							{ "amount" : 30, "type" : "swordsman" },
+							{ "amount" : 30, "type" : "swordsman" }
 						],
-						"combat_value": 1053,
+						"combat_value" : 1053,
 						"reward" : {
-							"value": 9000,
-							"creatures": [ { "amount": 4, "type": "mdtTemplar" } ]
+							"value" : 9000,
+							"creatures" : [ { "amount" : 4, "type" : "mdtTemplar" } ]
 						}
 					},
 					{
-						"chance": 10,
-						"guards": [
-							{ "amount": 40, "type" : "swordsman" },
-							{ "amount": 40, "type" : "swordsman" },
-							{ "amount": 40, "type" : "swordsman", "upgradeChance": 50 },
-							{ "amount": 40, "type" : "swordsman" },
-							{ "amount": 40, "type" : "swordsman" }
+						"chance" : 10,
+						"guards" : [
+							{ "amount" : 40, "type" : "swordsman" },
+							{ "amount" : 40, "type" : "swordsman" },
+							{ "amount" : 40, "type" : "swordsman", "upgradeChance" : 50 },
+							{ "amount" : 40, "type" : "swordsman" },
+							{ "amount" : 40, "type" : "swordsman" }
 						],
-						"combat_value": 1404,
+						"combat_value" : 1404,
 						"reward" : {
-							"value": 12000,
-							"creatures": [ { "amount": 6, "type": "mdtTemplar" } ]
+							"value" : 12000,
+							"creatures" : [ { "amount" : 6, "type" : "mdtTemplar" } ]
 						}
 					}
 				]

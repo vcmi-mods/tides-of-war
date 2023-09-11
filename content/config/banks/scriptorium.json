@@ -1,43 +1,43 @@
 {
-	"core:creatureBank" : 
+	"core:creatureBank" :
 	{
-		"types" : 
+		"types" :
 		{
-			"mdtScriptorium" : 
+			"mdtScriptorium" :
 			{
 				"name" : "Scriptorium",
 				"templates" :
 				{
 					"base" :
 					{
-						"animation" : "banks/scriptorium.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVV", "VVV", "BAB"]						
+						"animation" : "banks/scriptorium.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVV", "VVV", "BAB"]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/banks/SCRIPTORIUMLOOP"]
+				"sounds" : {
+					"ambient" : ["dwellings/banks/SCRIPTORIUMLOOP"]
 				},
 				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 100,
+					"value" : 2500,
+					"rarity" : 100,
 					"zoneLimit" : 1
 				},
-				"levels":
+				"levels" :
 				[
 					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 10, "type" : "monk" },
-							{ "amount": 10, "type" : "monk" },
-							{ "amount": 10, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 10, "type" : "monk" },
-							{ "amount": 10, "type" : "monk" }
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 10, "type" : "monk" },
+							{ "amount" : 10, "type" : "monk" },
+							{ "amount" : 10, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 10, "type" : "monk" },
+							{ "amount" : 10, "type" : "monk" }
 						],
-						"combat_value": 3000,
+						"combat_value" : 3000,
 						"reward" : {
-							"value": 4000,
-							"resources": 
+							"value" : 4000,
+							"resources" :
 							{
 								"gold" : 2500,
 								"gems" : 1
@@ -46,40 +46,40 @@
 						}
 					},
 					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 15, "type" : "monk" },
-							{ "amount": 15, "type" : "monk" },
-							{ "amount": 15, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 15, "type" : "monk" },
-							{ "amount": 15, "type" : "monk" }
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 15, "type" : "monk" },
+							{ "amount" : 15, "type" : "monk" },
+							{ "amount" : 15, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 15, "type" : "monk" },
+							{ "amount" : 15, "type" : "monk" }
 						],
-						"combat_value": 3000,
+						"combat_value" : 3000,
 						"reward" : {
-							"value": 4000,
-							"resources": 
+							"value" : 4000,
+							"resources" : 
 							{
 								"gold" : 3250,
 								"gems" : 2,
 								"crystal" : 2
 							},
 							"spells" : [ { "level" : 1 } ],
-							"artifacts": [ { "class" : "MINOR" } ]
+							"artifacts" : [ { "class" : "MINOR" } ]
 						}
 					},
 					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 20, "type" : "monk" },
-							{ "amount": 20, "type" : "monk" },
-							{ "amount": 20, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "monk" },
-							{ "amount": 20, "type" : "monk" }
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 20, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 20, "type" : "monk" }
 						],
-						"combat_value": 3000,
+						"combat_value" : 3000,
 						"reward" : {
-							"value": 4000,
-							"resources": 
+							"value" : 4000,
+							"resources" :
 							{
 								"gold" : 4000,
 								"gems" : 3,
@@ -87,22 +87,22 @@
 								"sulfur" : 3
 							},
 							"spells" : [ { "level" : 2 } ],
-							"artifacts": [ { "class" : "MINOR" } ]
+							"artifacts" : [ { "class" : "MINOR" } ]
 						}
 					},
 					{
-						"chance": 10,
-						"guards": [
-							{ "amount": 30, "type" : "monk" },
-							{ "amount": 30, "type" : "monk" },
-							{ "amount": 30, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 30, "type" : "monk" },
-							{ "amount": 30, "type" : "monk" }
+						"chance" : 10,
+						"guards" : [
+							{ "amount" : 30, "type" : "monk" },
+							{ "amount" : 30, "type" : "monk" },
+							{ "amount" : 30, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 30, "type" : "monk" },
+							{ "amount" : 30, "type" : "monk" }
 						],
-						"combat_value": 3000,
+						"combat_value" : 3000,
 						"reward" : {
-							"value": 4000,
-							"resources": 
+							"value" : 4000,
+							"resources" :
 							{
 								"gold" : 5500,
 								"gems" : 4,
@@ -111,7 +111,7 @@
 								"mercury" : 4
 							},
 							"spells" : [ { "level" : 2 } ],
-							"artifacts": [ { "class" : "TREASURE" }, { "class" : "MAJOR" } ]
+							"artifacts" : [ { "class" : "TREASURE" }, { "class" : "MAJOR" } ]
 						}
 					}
 				]
