@@ -1,6 +1,32 @@
 {
 	"mdtSukkub" : {
-		"abilities" : {	
+		"name" : {
+			"singular" : "Succubus",
+			"plural" : "Succubi"
+		},
+		"faction" : "inferno",
+		"level" : 4,
+		"upgrades" : ["mdtLilim"],
+		"cost" : {
+			"gold" : 275
+		},
+		"speed" : 7,
+		"hitPoints" : 25,
+		"shots" : 8,
+		"attack" : 12,
+		"defense" : 7,
+		"damage" : {
+			"max" : 8,
+			"min" : 5
+		},
+		"fightValue" : 481,
+		"aiValue" : 490,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"growth" : 4,
+		"abilities" : {
 			"shoter" : 
 			{
 				"type" : "SHOOTER"
@@ -19,22 +45,17 @@
 				"subtype" : "spell.mdtHateSpike",
 				"val" : 1
 			}
-		},	
-		"advMapAmount" : {"max" : 20, "min" : 10},
-		"aiValue" : 490,
-		"attack" : 12,
-		"cost" : { "gold" : 275 },
-		"damage" : {"max" : 8, "min" : 5},
-		"shots" : 8,
-		"defense" : 7,
-		"faction" : "inferno",
-		"fightValue" : 481,
+		},
 		"graphics" : {
-			"animation" : "creatures/inferno/battle/Csukub.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
 			"iconLarge" : "creatures/inferno/iconsBig/sukkubBig.bmp",
 			"iconSmall" : "creatures/inferno/iconsSmall/sukkubSmall.bmp",
 			"map" : "creatures/inferno/map/sukkubMap.def",
+			"animation" : "creatures/inferno/battle/Csukub.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{
@@ -51,13 +72,7 @@
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
-		},	
-		"growth" : 4,
-		"hitPoints" : 25,
-        "doubleWide" : false,
-		"level" : 4,
-		"name" : { "plural" : "Succubi", "singular" : "Succubus" },
-		"upgrades": ["mdtLilim"],
+		},
 		"sound" : {
 			"attack" : "creatures/inferno/sukkub/SUCCATTACK.wav",
 			"defend" : "creatures/inferno/sukkub/SUCCDFND.wav",
@@ -65,7 +80,6 @@
 			"move" : "creatures/inferno/sukkub/SUCCMOVE.wav",
 			"wince" : "creatures/inferno/sukkub/SUCCHIT.wav",
 			"shoot" : "creatures/inferno/sukkub/SUCCSHOT.wav"
-		},
-		"speed" : 7
+		}
 	}
 }

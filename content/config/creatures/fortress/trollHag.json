@@ -1,9 +1,35 @@
 {
 	"mdtTrollHag" : {
+		"name" : {
+			"singular" : "Troll Hag",
+			"plural" : "Troll Hag"
+		},
+		"faction" : "fortress",
+		"level" : 5,
+		"upgrades" : ["mdtTrollWitch"],
+		"cost" : {
+			"gold" : 550
+		},
+		"speed" : 6,
+		"hitPoints" : 45,
+		"shots" : 8,
+		"attack" : 12,
+		"defense" : 13,
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
+		"fightValue" : 828,
+		"aiValue" : 896,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"growth" : 3,
 		"abilities" : {
-			"canShoot" : 
+			"canShoot" :
 			{ 
-				"type" : "SHOOTER" 
+				"type" : "SHOOTER"
 			},
 			"regeneration" :
 			{
@@ -11,23 +37,20 @@
 				"val" : 15,
 				"subtype" : 1
 			}
-		},	
-		"advMapAmount" : {"max" : 16, "min" : 8},
-		"aiValue" : 896,
-		"shots" : 8,
-		"attack" : 12,
-		"cost" : { "gold" : 550 },
-		"damage" : {"max" : 14, "min" : 10},
-		"defense" : 13,
-		"faction" : "fortress",
-		"fightValue" : 828,
+		},
 		"graphics" : {
-			"animation" : "creatures/fortress/battle/trollHag.def",
-			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 1.5 },
 			"iconLarge" : "creatures/fortress/iconsBig/trollHagBig.png",
 			"iconSmall" : "creatures/fortress/iconsSmall/trollHagSmall.png",
 			"map" : "creatures/fortress/map/mapTrollHag.def",
+			"animation" : "creatures/fortress/battle/trollHag.def",
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 10,
+				"walk" : 1.5
+			},
+			"timeBetweenFidgets" : 1,
 			"missile" : {
+				"projectile" : "creatures/fortress/battle/projectile/tw_shot.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {
@@ -37,17 +60,9 @@
 					"middleY" : -53,
 					"upperX" : 60,
 					"upperY" : -56
-				},
-				"projectile" : "creatures/fortress/battle/projectile/tw_shot.def"
-			},
-			"timeBetweenFidgets" : 1
+				}
+			}
 		},
-		"growth" : 3,
-		"hitPoints" : 45,
-        "doubleWide" : false,
-		"level" : 5,
-		"name" : { "plural" : "Troll Hag", "singular" : "Troll Hag" },
-		"upgrades": ["mdtTrollWitch"],
 		"sound" : {
 			"attack" : "creatures/fortress/trollWitch/WTCHATTK.wav",
 			"defend" : "creatures/fortress/trollWitch/WTCHDFND.wav",
@@ -55,7 +70,6 @@
 			"shoot" : "creatures/fortress/trollWitch/WTCHSHOT.wav",
 			"move" : "creatures/fortress/trollWitch/WTCHMOVE.wav",
 			"wince" : "creatures/fortress/trollWitch/WTCHWNCE.wav"
-		},
-		"speed" : 6
+		}
 	}
 }

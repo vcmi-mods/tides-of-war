@@ -1,66 +1,66 @@
 {
-	"mdtMermaid":
+	"mdtMermaid" :
 	{
 		"name" :
 		{
-			"plural" : "Mermaids",
-			"singular" : "Mermaid"
+			"singular" : "Mermaid",
+			"plural" : "Mermaids"
 		},
-		"faction" : "neutral",		
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 16
-		},
+		"faction" : "neutral",
 		"level" : 4,
-		"attack" : 8,
-		"defense" : 12,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 9
-		},
-		"growth" : 5,
-		"hitPoints" : 30,
-		"speed" : 5,
-		"fightValue" : 442,
-		"aiValue" : 459,
 		"cost" :
 		{
 			"gold" : 350
 		},
-		"hasDoubleWeek": true,
+		"speed" : 5,
+		"hitPoints" : 30,
+		"attack" : 8,
+		"defense" : 12,
+		"damage" :
+		{
+			"min" : 6,
+			"max" : 9
+		},
+		"fightValue" : 442,
+		"aiValue" : 459,
 		"doubleWide" : true,
+		"advMapAmount" :
+		{
+			"min" : 10,
+			"max" : 16
+		},
+		"growth" : 5,
+		"hasDoubleWeek" : true,
+		"abilities" :
+		{
+			"whirlpoolProtection" :
+			{ 
+				"type" : "WHIRLPOOL_PROTECTION",
+				"propagator" : "HERO",
+				"description" : "Save travel through whirlpool"
+			}
+		},
 		"graphics" :
 		{
-			"animation" : "creatures/neutral/battle/mermaid.def",
-			"map" : "creatures/neutral/map/mermaidmap.def",
 			"iconSmall" : "creatures/neutral/iconsSmall/mermaidS.png",
 			"iconLarge" : "creatures/neutral/iconsBig/mermaidB.png",
-			"timeBetweenFidgets" : 1,
+			"map" : "creatures/neutral/map/mermaidmap.def",
+			"animation" : "creatures/neutral/battle/mermaid.def",
 			"animationTime" :
 			{
 				"walk" : 0.9,
 				"attack" : 1,
 				"idle" : 10
-			}
+			},
+			"timeBetweenFidgets" : 1
 		},
 		"sound" :
 		{
-			"attack": "creatures/neutral/mermaid/MERMATTACK.wav",
-			"defend": "creatures/neutral/mermaid/MERMDFND.wav",
-			"killed": "creatures/neutral/mermaid/MERMDEAD.wav",
-			"move": "creatures/neutral/mermaid/MERMMOVE.wav",
-			"wince": "creatures/neutral/mermaid/MERMHIT.wav"
-        },
-		"abilities" :
-		{
-			"whirlpoolProtection" : 
-			{ 
-				"type" : "WHIRLPOOL_PROTECTION", 
-				"propagator" : "HERO",
-				"description": "Save travel through whirlpool"
-			}
+			"attack" : "creatures/neutral/mermaid/MERMATTACK.wav",
+			"defend" : "creatures/neutral/mermaid/MERMDFND.wav",
+			"killed" : "creatures/neutral/mermaid/MERMDEAD.wav",
+			"move" : "creatures/neutral/mermaid/MERMMOVE.wav",
+			"wince" : "creatures/neutral/mermaid/MERMHIT.wav"
 		}
 	}
 }

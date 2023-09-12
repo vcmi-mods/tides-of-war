@@ -1,34 +1,29 @@
 {
 	"mdtAlhoon" : {
-
-		"advMapAmount" : {"max" : 12, "min" : 8},
-		"aiValue" : 818,
-		"attack" : 14,
-		"cost" : { "gold" : 550 },
-		"damage" : {"max" : 16, "min" : 13},
-		"defense" : 9,
-		"faction" : "dungeon",
-		"fightValue" : 775,
-		"graphics" : {
-			"animation" : "creatures/dungeon/battle/CAlhoon.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
-			"iconLarge" : "creatures/dungeon/iconsBig/alhoonBig.png",
-			"iconSmall" : "creatures/dungeon/iconsSmall/alhoonSmall.png",
-			"map" : "creatures/dungeon/map/mapAlhoon.def",
-			"timeBetweenFidgets" : 1
+		"name" : {
+			"singular" : "Alhoon",
+			"plural" : "Alhoons"
 		},
-		"growth" : 3,
-		"hitPoints" : 30,
+		"faction" : "dungeon",
 		"level" : 5,
-		"name" : { "plural" : "Alhoons", "singular" : "Alhoon" },
-		"sound" : {
-			"attack" : "creatures/dungeon/illithid/ILLIATTACK.wav",
-			"defend" : "creatures/dungeon/illithid/ILLIDFND.wav",
-			"killed" : "creatures/dungeon/illithid/ILLIDEAD.wav",
-			"move" : "creatures/dungeon/illithid/ILLIMOVE.wav",
-			"wince" : "creatures/dungeon/illithid/ILLIHIT.wav"
+		"cost" : {
+			"gold" : 550
 		},
 		"speed" : 6,
+		"hitPoints" : 30,
+		"attack" : 14,
+		"defense" : 9,
+		"damage" : {
+			"min" : 13,
+			"max" : 16
+		},
+		"fightValue" : 775,
+		"aiValue" : 818,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"growth" : 3,
 		"abilities" :
 		{
 			"castsHypnotize" :
@@ -46,10 +41,29 @@
 			},
 			"spellpower" : 
 			{ 
-				"type" : "CREATURE_SPELL_POWER", 
-				"val" : 160 
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 160
 			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsBig/alhoonBig.png",
+			"iconSmall" : "creatures/dungeon/iconsSmall/alhoonSmall.png",
+			"map" : "creatures/dungeon/map/mapAlhoon.def",
+			"animation" : "creatures/dungeon/battle/CAlhoon.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/dungeon/illithid/ILLIATTACK.wav",
+			"defend" : "creatures/dungeon/illithid/ILLIDFND.wav",
+			"killed" : "creatures/dungeon/illithid/ILLIDEAD.wav",
+			"move" : "creatures/dungeon/illithid/ILLIMOVE.wav",
+			"wince" : "creatures/dungeon/illithid/ILLIHIT.wav"
 		}
-	}	
+	}
 }
 

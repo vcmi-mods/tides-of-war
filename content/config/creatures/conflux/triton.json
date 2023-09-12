@@ -1,18 +1,20 @@
 {
-	"mdtTriton":
+	"mdtTriton" :
 	{
 		"name" :
 		{
-			"plural" : "Tritons",
-			"singular" : "Triton"
+			"singular" : "Triton",
+			"plural" : "Tritons"
 		},
-		"faction" : "conflux",		
-		"advMapAmount" :
+		"faction" : "conflux",
+		"level" : 3,
+		"upgrades" : [ "mdtAbyssalTriton" ],
+		"cost" :
 		{
-			 "min" : 12,
-			 "max" : 25
+			"gold" : 210
 		},
-		"level" : 3, 
+		"speed" : 6,
+		"hitPoints" : 25,
 		"attack" : 10,
 		"defense" : 6,
 		"damage" :
@@ -20,18 +22,23 @@
 			 "min" : 2,
 			 "max" : 5
 		},
-		"growth" : 6, 
-		"hitPoints" : 25,
-		"speed" : 6, 
 		"fightValue" : 292,
 		"aiValue" : 297,
-		"cost" :
+		"advMapAmount" :
 		{
-			"gold" : 210 
+			 "min" : 12,
+			 "max" : 25
 		},
-		"hasDoubleWeek": true,
-		"doubleWide" : false,
-		"upgrades"	: [ "mdtAbyssalTriton" ],
+		"growth" : 6,
+		"hasDoubleWeek" : true,
+		"abilities" :
+		{
+			"immuneToWater" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2 //immune to damage spells only
+			}
+		},
 		"graphics" :
 		{
 			"animation" : "creatures/conflux/battle/triton.def",
@@ -48,19 +55,11 @@
 		},
 		"sound" :
 		{
-			"attack": "creatures/conflux/triton/TRITATTACK.wav",
-			"defend": "creatures/conflux/triton/TRITDFND.wav", 
-			"killed": "creatures/conflux/triton/TRITDEAD.wav", 
-			"move": "creatures/conflux/triton/TRITMOVE.wav", 
-			"wince": "creatures/conflux/triton/TRITHIT.wav" 
-        },
-		"abilities" :
-		{
-			"immuneToWater" :
-			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2 //immune to damage spells only
-			}
+			"attack" : "creatures/conflux/triton/TRITATTACK.wav",
+			"defend" : "creatures/conflux/triton/TRITDFND.wav",
+			"killed" : "creatures/conflux/triton/TRITDEAD.wav",
+			"move" : "creatures/conflux/triton/TRITMOVE.wav",
+			"wince" : "creatures/conflux/triton/TRITHIT.wav"
 		}
 	}
 }

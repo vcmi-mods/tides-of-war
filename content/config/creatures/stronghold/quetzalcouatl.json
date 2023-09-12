@@ -1,113 +1,128 @@
 {
-	"mdtQuetzalcouatl" : 
-	{	
-		"advMapAmount" : {"max" : 10, "min" : 5},
-		"aiValue" : 1829,
-		"attack" : 18,
-		"cost" : { "gold" : 950 },
-		"damage" : {"max" : 24, "min" : 18},
-		"defense" : 11,
+	"mdtQuetzalcouatl" :
+	{
+		"name" : {
+			"singular" : "Quetzalcouatl",
+			"plural" : "Quetzalcouatls"
+		},
 		"faction" : "stronghold",
+		"level" : 6,
+		"doubleWide" : true,
+		"cost" : {
+			"gold" : 950
+		},
+		"speed" : 14,
+		"hitPoints" : 85,
+		"attack" : 18,
+		"defense" : 11,
+		"damage" : {
+			"min" : 18,
+			"max" : 24
+		},
 		"fightValue" : 1588,
+		"aiValue" : 1829,
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
+		},
+		"growth" : 2,
+		"abilities" :
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"stoneGazeImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.stoneGaze",
+				"addInfo" : 0
+			},
+			"poisonImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.poison",
+				"addInfo" : 0
+			},
+			"bindImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.bind",
+				"addInfo" : 0
+			},
+			"diseaseImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.disease",
+				"addInfo" : 0
+			},
+			"paralyzeImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.paralyze",
+				"addInfo" : 0
+			},
+			"ageImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.age",
+				"addInfo" : 0
+			},
+			"deathCloudImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud",
+				"addInfo" : 0
+			},
+			"thunderboltImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.thunderbolt",
+				"addInfo" : 0
+			},
+			"dispelHelpfulImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.dispelHelpful",
+				"addInfo" : 0
+			},
+			"deathStareImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathStare",
+				"addInfo" : 0
+			},
+			"acidBreathImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.acidBreath",
+				"addInfo" : 0
+			},
+			"acidBreathDamageImm" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.acidBreathDamage",
+				"addInfo" : 0
+			}
+		},
 		"graphics" : {
-			"animation" : "creatures/stronghold/battle/CQouatl.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.0 },
 			"iconLarge" : "creatures/stronghold/iconsbig/qcouatl_big.png",
 			"iconSmall" : "creatures/stronghold/iconssmall/qcouatl_small.png",
 			"map" : "creatures/stronghold/map/mapQcouatl.def",
+			"animation" : "creatures/stronghold/battle/CQouatl.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.0
+			},
 			"timeBetweenFidgets" : 1
 		},
-		"growth" : 2,
-		"hitPoints" : 85,
-        "doubleWide" : true,
-		"level" : 6,
-		"name" : { "plural" : "Quetzalcouatls", "singular" : "Quetzalcouatl" },
 		"sound" : {
 			"attack" : "creatures/stronghold/couatl/COATATTK.wav",
 			"defend" : "creatures/stronghold/couatl/COATDFND.wav",
 			"killed" : "creatures/stronghold/couatl/COATDEAD.wav",
 			"move" : "creatures/stronghold/couatl/COATMOVE.wav",
 			"wince" : "creatures/stronghold/couatl/COATWNCE.wav"
-		},
-		"speed" : 14,
-		"abilities" : 
-		{
-			"canFly" : 
-			{ 
-				"type" : "FLYING"
-			},
-			"stoneGazeImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze",
-				"addInfo" : 0
-			},
-			"poisonImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.poison",
-				"addInfo" : 0
-			},
-			"bindImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.bind",
-				"addInfo" : 0
-			},
-			"diseaseImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.disease",
-				"addInfo" : 0
-			},
-			"paralyzeImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.paralyze",
-				"addInfo" : 0
-			},
-			"ageImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.age",
-				"addInfo" : 0
-			},
-			"deathCloudImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathCloud",
-				"addInfo" : 0
-			},
-			"thunderboltImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.thunderbolt",
-				"addInfo" : 0
-			},
-			"dispelHelpfulImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.dispelHelpful",
-				"addInfo" : 0
-			},
-			"deathStareImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathStare",
-				"addInfo" : 0
-			},
-			"acidBreathImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreath",
-				"addInfo" : 0
-			},
-			"acidBreathDamageImm" : 
-			{ 
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreathDamage",
-				"addInfo" : 0
-			}			
-		}	
+		}
 	}
 }

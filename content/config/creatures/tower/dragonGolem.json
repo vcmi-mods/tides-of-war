@@ -1,5 +1,31 @@
 {
 	"mdtDragonGolem" : {
+		"name" : {
+			"singular" : "Dragon Golem",
+			"plural" : "Dragon Golems"
+		},
+		"faction" : "tower",
+		"level" : 7,
+		"doubleWide" : true,
+		"cost" : {
+			"gold" : 4000,
+			"ore" : 2
+		},
+		"speed" : 15,
+		"hitPoints" : 300,
+		"attack" : 18,
+		"defense" : 25,
+		"damage" : {
+			"min" : 40,
+			"max" : 50
+		},
+		"fightValue" : 3550,
+		"aiValue" : 2950,
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"growth" : 1,
 		"abilities" : {
 			"nonliving" :
 			{
@@ -15,35 +41,25 @@
 				"type" : "FIRST_STRIKE"
 			}
 		},
-		"advMapAmount" : { "max" : 8, "min" : 3 },
-		"aiValue" : 2950,
-		"attack" : 18,
-		"cost" : { "gold" : 4000, "ore" : 2 },
-		"damage" : { "max" : 50, "min" : 40 },
-		"defense" : 25,
-		"faction" : "tower",
-		"fightValue" : 3550,
 		"graphics" : {
-			"animation" : "creatures/tower/battle/CDraGolem.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.0 },
 			"iconLarge" : "creatures/tower/iconsBig/dragonGolemBig.png",
 			"iconSmall" : "creatures/tower/iconsSmall/dragonGolemSmall.png",
 			"map" : "creatures/tower/map/mapDragonGolem.def",
+			"animation" : "creatures/tower/battle/CDraGolem.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.0
+			},
 			"timeBetweenFidgets" : 1
 		},
-		"growth" : 1,
-		"hitPoints" : 300,
-        "doubleWide" : true,
-		"level" : 7,
-		"name" : { "plural" : "Dragon Golems", "singular" : "Dragon Golem" },
 		"sound" : {
 			"attack" : "creatures/tower/drakeGolem/DrGoATTK.wav",
 			"defend" : "creatures/tower/drakeGolem/DrGoDFND.wav",
 			"killed" : "creatures/tower/drakeGolem/DrGoDEAD.wav",
 			"move" : "creatures/tower/drakeGolem/DrGoMOVE.wav",
 			"wince" : "creatures/tower/drakeGolem/DrGoWNCE.wav"
-		},
-		"speed" : 15
+		}
 	}
 }
 

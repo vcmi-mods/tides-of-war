@@ -1,18 +1,19 @@
 {
-	"mdtAbyssalTriton":
+	"mdtAbyssalTriton" :
 	{
 		"name" :
 		{
-			"plural" : "Abyssal Tritons",
-			"singular" : "Abyssal Triton"
+			"singular" : "Abyssal Triton",
+			"plural" : "Abyssal Tritons"
 		},
-		"faction" : "conflux",		
-		"advMapAmount" :
+		"faction" : "conflux",
+		"level" : 3,
+		"cost" :
 		{
-			 "min" : 12,
-			 "max" : 20
+			"gold" : 230
 		},
-		"level" : 3, 
+		"speed" : 8,
+		"hitPoints" : 25,
 		"attack" : 10,
 		"defense" : 7,
 		"damage" :
@@ -20,39 +21,15 @@
 			 "min" : 4,
 			 "max" : 5
 		},
-		"growth" : 6, 
-		"hitPoints" : 25,
-		"speed" : 8, 
-		"fightValue" : 347,
 		"aiValue" : 354,
-		"cost" :
+		"fightValue" : 347,
+		"advMapAmount" :
 		{
-			"gold" : 230 
+			 "min" : 12,
+			 "max" : 20
 		},
-		"hasDoubleWeek": true,
-		"doubleWide" : false,
-		"graphics" :
-		{
-			"animation" : "creatures/conflux/battle/abyssalTriton.def",
-			"map" : "creatures/conflux/map/mapAbyssalTriton.def",
-			"iconSmall" : "creatures/conflux/iconssmall/abyssalTritonSmall.png",
-			"iconLarge" : "creatures/conflux/iconsbig/abyssalTritonBig.png",
-			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 0.9,
-				"attack" : 1,
-				"idle" : 10
-			}
-		},
-		"sound" :
-		{
-			"attack": "creatures/conflux/triton/TRITATTACK.wav",
-			"defend": "creatures/conflux/triton/TRITDFND.wav", 
-			"killed": "creatures/conflux/triton/TRITDEAD.wav", 
-			"move": "creatures/conflux/triton/TRITMOVE.wav", 
-			"wince": "creatures/conflux/triton/TRITHIT.wav" 
-        },
+		"growth" : 6,
+		"hasDoubleWeek" : true,
 		"abilities" :
 		{
 			"castsBloodlust" :
@@ -77,6 +54,28 @@
 				"subtype" : 2 //immune to damage spells only
 			}
 //jakies minusy na pustyni
+		},
+		"graphics" :
+		{
+			"iconSmall" : "creatures/conflux/iconssmall/abyssalTritonSmall.png",
+			"iconLarge" : "creatures/conflux/iconsbig/abyssalTritonBig.png",
+			"map" : "creatures/conflux/map/mapAbyssalTriton.def",
+			"animation" : "creatures/conflux/battle/abyssalTriton.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.9,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack" : "creatures/conflux/triton/TRITATTACK.wav",
+			"defend" : "creatures/conflux/triton/TRITDFND.wav",
+			"killed" : "creatures/conflux/triton/TRITDEAD.wav",
+			"move" : "creatures/conflux/triton/TRITMOVE.wav",
+			"wince" : "creatures/conflux/triton/TRITHIT.wav"
 		}
 	}
 }
