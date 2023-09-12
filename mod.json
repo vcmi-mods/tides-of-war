@@ -45,6 +45,8 @@
 	],
 	"chinese" :
 	{
+		"name" : "Tides of War",
+		"description" : "In every nine standard H3 town, you have oppurtunity to build one dwelling for altenative creature.",
 		"translations" : [
 			"translation/tow/chinese.json"
 		]
