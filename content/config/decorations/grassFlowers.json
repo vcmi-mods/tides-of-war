@@ -2,28 +2,79 @@
 	"core:flowers" : {
 		"types" : {
 			"object" : {
-				"templates" : {			
-					"FGRQ0001" : { "animation" : "decorations/FGRQ0001", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0002" : { "animation" : "decorations/FGRQ0002", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0003" : { "animation" : "decorations/FGRQ0003", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0004" : { "animation" : "decorations/FGRQ0004", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0005" : { "animation" : "decorations/FGRQ0005", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0006" : { "animation" : "decorations/FGRQ0006", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0007" : { "animation" : "decorations/FGRQ0007", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0008" : { "animation" : "decorations/FGRQ0008", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0009" : { "animation" : "decorations/FGRQ0009", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0010" : { "animation" : "decorations/FGRQ0010", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0011" : { "animation" : "decorations/FGRQ0011", "mask" : [ "VV", "VB" ], "allowedTerrains": [ "grass" ] },
-					"FGRQ0012" : { "animation" : "decorations/FGRQ0012", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0013" : { "animation" : "decorations/FGRQ0013", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	},
-					"FGRQ0014" : { "animation" : "decorations/FGRQ0014", "mask" : [ "VB" ], "allowedTerrains": [ "grass" ]	}
-				}	
-			}	
+				"templates" : {
+					"FGRQ0001" : {
+						"animation" : "decorations/FGRQ0001",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0002" : {
+						"animation" : "decorations/FGRQ0002",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0003" : {
+						"animation" : "decorations/FGRQ0003",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0004" : {
+						"animation" : "decorations/FGRQ0004",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0005" : {
+						"animation" : "decorations/FGRQ0005",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0006" : {
+						"animation" : "decorations/FGRQ0006",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0007" : {
+						"animation" : "decorations/FGRQ0007",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0008" : {
+						"animation" : "decorations/FGRQ0008",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0009" : {
+						"animation" : "decorations/FGRQ0009",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0010" : {
+						"animation" : "decorations/FGRQ0010",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0011" : {
+						"animation" : "decorations/FGRQ0011",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0012" : {
+						"animation" : "decorations/FGRQ0012",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0013" : {
+						"animation" : "decorations/FGRQ0013",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					},
+					"FGRQ0014" : {
+						"animation" : "decorations/FGRQ0014",
+						"mask" : [ "VB" ],
+						"allowedTerrains" : [ "grass" ]
+					}
+				}
+			}
 		}
 	}
-}	
-	
-	
-
-
-	
+}

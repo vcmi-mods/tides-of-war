@@ -1,21 +1,27 @@
 {
 "mdtDungeonHomes" : {
 	"name" : "Homes",
-	"handler":"static",
+	"handler" :"static",
 		"types" : {
 			"objects" : {
-				"templates" : {				
-					"dngnhom1" : { "animation" : "decorations/dngnhom1", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "subterra" ] },
-					"dngnhom2" : { "animation" : "decorations/dngnhom2", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "subterra" ] },
-					"dngnhom3" : { "animation" : "decorations/dngnhom3", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "subterra" ] }		
+				"templates" : {
+					"dngnhom1" : {
+						"animation" : "decorations/dngnhom1",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"dngnhom2" : {
+						"animation" : "decorations/dngnhom2",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					},
+					"dngnhom3" : {
+						"animation" : "decorations/dngnhom3",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains" : [ "subterra" ]
+					}
 				}
-			}	
+			}
 		}
 	}
 }
-	
-	
-	
-
-
-	
