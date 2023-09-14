@@ -5,8 +5,8 @@
 				"name" : "Cathedral",
 				"creatures" : [[ "mdtTemplar" ]],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["dwellings/castle/TEMPLARLOOP"]
+				"sounds" : {
+					"ambient" : ["dwellings/castle/TEMPLARLOOP"]
 				},
 				"templates" : {
 					"default" : {
@@ -16,5 +16,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

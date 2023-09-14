@@ -4,8 +4,8 @@
 			"mdtZiggurat" : {
 				"name" : "Ziggurat",
 				"creatures" : [[ "mdtCouatl" ]],
-				"sounds": {
-					"ambient": ["dwellings/stronghold/CouaLOOP"]
+				"sounds" : {
+					"ambient" : ["dwellings/stronghold/CouaLOOP"]
 				},
 				"guards" : true,
 				"templates" : {
@@ -16,5 +16,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

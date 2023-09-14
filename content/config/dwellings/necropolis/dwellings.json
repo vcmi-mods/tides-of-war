@@ -10,10 +10,10 @@
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/necropolis/LOOPWERE"]
-				}				
+				"sounds" : {
+					"ambient" : ["dwellings/necropolis/LOOPWERE"]
+				}
 			}
 		}
-	}	
+	}
 }

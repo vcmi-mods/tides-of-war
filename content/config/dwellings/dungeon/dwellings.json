@@ -11,10 +11,10 @@
 						"mask" : [ "VVV", "VAB" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/dungeon/LOOPILLI"]
+				"sounds" : {
+					"ambient" : ["dwellings/dungeon/LOOPILLI"]
 				}
 			}
 		}
-	}	
+	}
 }
