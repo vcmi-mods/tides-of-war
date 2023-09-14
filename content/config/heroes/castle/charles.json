@@ -1,74 +1,65 @@
 {
-  "mdtCharles" :
-  {
-    "class" : "knight",
-    "female" : false,
-    "special" : false,
-
-    "texts" :
-    {
-      "name" : "Charles",
-      "biography" : "For many years, Sir Charles had trained Paladins in Steadwick, but gave up being a tutor and started his career as a Dragon Hunter in Jadame. However, when the war had come, he came back to Erathia and began fighting for Morgan Kendal as a commander.",
-      "specialty" :
-      {
-        "description" : "{Templar and Paladins}\r\n\r\nAll Templars and Paladins always have positive morale.",
-        "tooltip" : "Creature bonus: Templars",
-        "name" : "Templars"
-      }
-    },
-
-    "images" :
-    {
-      "specialtySmall" : "heroes/castle/charles_spec-small.bmp",
-      "specialtyLarge" : "heroes/castle/charles_spec-big.bmp",
-      "large" : "heroes/castle/charles_portrait-big.bmp",
-      "small" : "heroes/castle/charles_portrait-small.bmp"
-    },
-
-    "army" :
-    [
-      {
-        "creature" : "pikeman",
-        "max" : 20,
-        "min" : 10
-      },
-      {
-        "creature" : "archer",
-        "max" : 7,
-        "min" : 4
-      },
-      {
-        "creature" : "griffin",
-        "max" : 3,
-        "min" : 2
-      }
-    ],
-
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "leadership"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "tactics"
-      }
-    ],
-    
-    "specialty": {
-        "bonuses": {
-			"selfMorale": {
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX",
-				"limiters":
-				[{
-                "type": "CREATURE_TYPE_LIMITER",
-                "parameters" : ["mdtTemplar", true]
-              }]
+	"mdtCharles" :
+	{
+		"class" : "knight",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/castle/charles_spec-small.bmp",
+			"specialtyLarge" : "heroes/castle/charles_spec-big.bmp",
+			"large" : "heroes/castle/charles_portrait-big.bmp",
+			"small" : "heroes/castle/charles_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"selfMorale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"valueType" : "INDEPENDENT_MAX",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : ["mdtTemplar", true]
+						}
+					]
+				}
+			}
+ 		},
+		"texts" :
+		{
+			"name" : "Charles",
+			"biography" : "For many years, Sir Charles had trained Paladins in Steadwick, but gave up being a tutor and started his career as a Dragon Hunter in Jadame. However, when the war had come, he came back to Erathia and began fighting for Morgan Kendal as a commander.",
+			"specialty" : {
+				"name" : "Templars",
+				"description" : "{Templar and Paladins}\r\n\r\nAll Templars and Paladins always have positive morale.",
+				"tooltip" : "Creature bonus: Templars"
 			}
 		}
-	 }
-  }	
+	}
 }
