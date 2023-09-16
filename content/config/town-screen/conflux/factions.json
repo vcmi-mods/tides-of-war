@@ -3,11 +3,6 @@
 	{
 		"town" :
 		{
-			"structures" :
-			{
-			"dwellingLvl3B": { "animation" : "town-screen/conflux/TBzTrtn.def", "x" : 700, "y" : 161, "z" : -1, "border" : "town-screen/conflux/buildings-border/ToBzT1.bmp", "area" : "town-screen/conflux/buildings-area/TBzT1.bmp" }, 
-			"dwellingUpLvl3B": { "animation" : "town-screen/conflux/TBzTrtUp.def", "x" : 700, "y" : 161, "z" : -1, "border" : "town-screen/conflux/buildings-border/ToBzT1Up.bmp", "area" : "town-screen/conflux/buildings-area/TBzT1Up.bmp" } 
-			},
 			"buildingsIcons": "town-screen/conflux/ALTHALLELEM.DEF",
 			"hallBackground": "town-screen/conflux/ConfluxHallBg.BMP",
 			"hallSlots":
@@ -28,49 +23,71 @@
 				["psychicElemental", "magicElemental"],
 				["firebird", "phoenix"]
 			],
-			
+			"structures" :
+			{
+				"dwellingLvl3B": {
+					"border" : "town-screen/conflux/buildings-border/ToBzT1.bmp",
+					"area" : "town-screen/conflux/buildings-area/TBzT1.bmp",
+					"animation" : "town-screen/conflux/TBzTrtn.def",
+					"x" : 700, "y" : 161, "z" : -1
+				},
+				"dwellingUpLvl3B": {
+					"border" : "town-screen/conflux/buildings-border/ToBzT1Up.bmp",
+					"area" : "town-screen/conflux/buildings-area/TBzT1Up.bmp",
+					"animation" : "town-screen/conflux/TBzTrtUp.def",
+					"x" : 700, "y" : 161, "z" : -1
+				}
+			},
 			"buildings" :
 			{
-			"dwellingLvl3":   
-				{ 
-				"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl3B" ] ] ]
+				"dwellingLvl3":
+				{
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl1" ],
+						[ "mageGuild1" ],
+						[ "noneOf", [ "dwellingLvl3B" ] ]
+					]
 				},
 			
-			"dwellingLvl3B" :
+				"dwellingLvl3B" :
 				{
 					"description" : "The Drowned Hall allows you to recruit Tritons.",
 					"name" : "Drowned Hall",
-					"cost" : 
+					"cost" :
 					{
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl3" ] ] ],
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl1" ],
+						[ "mageGuild1" ],
+						[ "noneOf", [ "dwellingLvl3" ] ]
+					],
 					"id" : 46
 				},
-			"dwellingUpLvl3B" :
+				"dwellingUpLvl3B" :
 				{
 					"description" : "The Drowned Hall allows you to recruit Abyssal Tritons.",
 					"name" : "Upg. Drowned Hall",
 					"id" : 53,
-					"cost" : 
-					{
-						"gems" : 3,
-						"gold" : 2000
+					"cost" : {
+						"gold" : 2000,
+						"gems" : 3
 					},
 					"upgrades" : "dwellingLvl3B"
 				},
-			"dwellingLvl5":   
-				{ 
-					"requires" : 
-					[ 
-						"anyOf", 
-							[ "dwellingLvl3" ], 
-							[ "dwellingLvl3B" ]	
-					]	
+				"dwellingLvl5":
+				{
+					"requires" : [
+						"anyOf",
+						[ "dwellingLvl3" ],
+						[ "dwellingLvl3B" ]
+					]
 				}
-			}	
+			}
 		}
-	}	
+	}
 }

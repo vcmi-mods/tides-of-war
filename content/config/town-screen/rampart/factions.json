@@ -3,11 +3,6 @@
 	{
 		"town" :
 		{
-			"structures" :
-			{
-			"dwellingLvl4B": { "animation" : "town-screen/rampart/DWRMT4ALT.def", "x" : 285, "y" : 52, "z" : 1, "border" : "town-screen/rampart/buildings-border/TONalt1.bmp", "area" : "town-screen/rampart/buildings-area/TZNalt1.bmp" }, 
-			"dwellingUpLvl4B": { "animation" : "town-screen/rampart/DWRMT4UPALT", "x" : 285, "y" : 52, "z" : 1, "border" : "town-screen/rampart/buildings-border/TONaup1.bmp", "area" : "town-screen/rampart/buildings-area/TZNaup1.bmp" } 
-			},
 			"buildingsIcons": "town-screen/rampart/ALTHALLRMT.DEF",
 			"hallBackground": "town-screen/rampart/rampartHallBg.BMP",
 			"hallSlots":
@@ -28,53 +23,69 @@
 				["unicorn", "warUnicorn"],
 				["greenDragon", "goldDragon"]
 			],
-			
+			"structures" :
+			{
+				"dwellingLvl4B": {
+					"border" : "town-screen/rampart/buildings-border/TONalt1.bmp",
+					"area" : "town-screen/rampart/buildings-area/TZNalt1.bmp",
+					"animation" : "town-screen/rampart/DWRMT4ALT.def",
+					"x" : 285, "y" : 52, "z" : 1
+				},
+				"dwellingUpLvl4B": {
+					"border" : "town-screen/rampart/buildings-border/TONaup1.bmp",
+					"area" : "town-screen/rampart/buildings-area/TZNaup1.bmp",
+					"animation" : "town-screen/rampart/DWRMT4UPALT",
+					"x" : 285, "y" : 52, "z" : 1
+				}
+			},
 			"buildings" :
 			{
-			"dwellingLvl4":   
-				{ 
-				"requires" : [ "allOf", [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl4B" ] ] ]
+				"dwellingLvl4" :
+				{
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl3" ],
+						[ "noneOf", [ "dwellingLvl4B" ] ]
+					]
 				},
-			
-			"dwellingLvl4B" :
+				
+				"dwellingLvl4B" :
 				{
 					"description" : "The Treehouse allows you to recruit Dryads.",
 					"name" : "Treehouse",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 2000,
 						"wood" : 10,
 						"crystal" : 5
 					},
-					"requires" : [ "allOf", ["dwellingLvl2"], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
+					"requires" : [
+						"allOf",
+						["dwellingLvl2"],
+						[ "mageGuild1" ],
+						[ "noneOf", [ "dwellingLvl4" ] ]
+					],
 					"id" : 47
 				},
-			"dwellingUpLvl4B" :
+				"dwellingUpLvl4B" :
 				{
 					"description" : "The Treehouse allows you to recruit Oak Dryads.",
 					"name" : "Upg. Treehouse",
 					"id" : 54,
-					"cost" : 
-					{
-						"wood" : 5,
-						"gold" : 2000
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5
 					},
 					"upgrades" : "dwellingLvl4B"
 				},
-			"dwellingLvl6":   
-				{ 
-					"requires" : 
-					[ 
+				"dwellingLvl6" :
+				{
+					"requires" : [
 						"allOf", 
-						[ "dwellingLvl3" ], 
-						[
-							"anyOf", 
-								[ "dwellingLvl4" ], 
-								[ "dwellingLvl4B" ]	
-						]
-					]	
+						[ "dwellingLvl3" ],
+						[ "anyOf", [ "dwellingLvl4" ], [ "dwellingLvl4B" ] ]
+					]
 				}
-			}	
+			}
 		}
-	}	
+	}
 }

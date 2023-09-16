@@ -24,43 +24,60 @@
 				["cavalier", "champion"],
 				["angel", "archangel", "mdtTemplar", "mdtPaladin"]
 			],
-
 			"structures" :
 			{
-				"dwellingLvl7B":   { "animation" : "town-screen/castle/TBCAlt7.def", "x" : 0, "y" : 0,   "z" : 1, "border" : "town-screen/castle/buildings-border/TBCAlt7border.bmp", "area" : "town-screen/castle/buildings-area/TBCAlt7area.bmp" },
-				"dwellingUpLvl7B": { "animation" : "town-screen/castle/TBCAlt7UP.def", "x" : 0, "y" : 0,   "z" : 1, "border" : "town-screen/castle/buildings-border/TBCAlt7UPborder.bmp", "area" : "town-screen/castle/buildings-area/TBCAlt7UParea.bmp" }
+				"dwellingLvl7B": {
+					"border" : "town-screen/castle/buildings-border/TBCAlt7border.bmp",
+					"area" : "town-screen/castle/buildings-area/TBCAlt7area.bmp",
+					"animation" : "town-screen/castle/TBCAlt7.def",
+					"x" : 0, "y" : 0, "z" : 1
+				},
+				"dwellingUpLvl7B": {
+					"border" : "town-screen/castle/buildings-border/TBCAlt7UPborder.bmp",
+					"area" : "town-screen/castle/buildings-area/TBCAlt7UParea.bmp",
+					"animation" : "town-screen/castle/TBCAlt7UP.def",
+					"x" : 0, "y" : 0, "z" : 1
+				}
 			},
-
 			"buildings" :
 			{
-				"dwellingLvl7":   
-				{ 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ], [ "noneOf", [ "dwellingLvl7B" ] ] ]
+				"dwellingLvl7":
+				{
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl5" ],
+						[ "dwellingLvl6" ],
+						[ "noneOf", [ "dwellingLvl7B" ] ]
+					]
 				},
 				"dwellingLvl7B" :
 				{
 					"name" : "Cathedral",
 					"description" : "The Cathedral allows you to recruit Templars.",
 					"cost" : {
+						"gold" : 5000,
 						"wood" : 5,
-						"gems" : 5,
 						"ore" : 5,
-						"gold" : 5000
+						"gems" : 5
 					},
-					"id" : 50, 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "noneOf", [ "dwellingLvl7" ] ] ]
+					"id" : 50,
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl5" ],
+						[ "noneOf", [ "dwellingLvl7" ] ]
+					]
 				},
 				"dwellingUpLvl7B" :
 				{
 					"name" : "Upg. Cathedral",
 					"description" : "The Cathedral allows you to recruit Paladins.",
 					"cost" : {
+						"gold" : 5000,
 						"wood" : 5,
-						"gems" : 5,
 						"ore" : 5,
-						"gold" : 5000
+						"gems" : 5
 					},
-					"id" : 57, 
+					"id" : 57,
 					"upgrades" : "dwellingLvl7B"
 				}
 			}
