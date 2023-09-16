@@ -1,65 +1,59 @@
 {
 	"mdtAuraOfPower" : {
-		"type": "combat",
-		"name": "Aura of Power",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": true,
-			"water": false
+		"type" : "combat",
+		"name" : "Aura of Power",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
 		},
-		"targetType": "NO_TARGET",
-		"level": 3,
-		"power": 10,
-		"defaultGainChance": 5, 
-		"gainChance" :
-		{
+		"targetType" : "NO_TARGET",
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 5,
+		"gainChance" : {
 			"inferno" : 12,
 			"dungeon" : 8,
 			"tower" : 8,
 			"rampart" :  8,
 			"castle" : 2,
-			"stronghold" : 2 		
+			"stronghold" : 2
 		},
-		"animation":{
-			"hit":[ "spells/auraOfPower/SP_AURA.def" ]
+		"animation" : {
+			"hit" :[ "spells/auraOfPower/SP_AURA.def" ]
 		},
-		"flags" :
-		{
-			"positive": true
+		"flags" : {
+			"positive" : true
 		},
-		"sounds": {
-			"cast": "spells/auraOfPower/spell-auraofpower.wav"
+		"sounds" : {
+			"cast" : "spells/auraOfPower/spell-auraofpower.wav"
 		},
-		"graphics":
-		{
-			"iconBook": "spells/auraOfPower/aop_iconBook.bmp",
-			"iconScroll": "spells/auraOfPower/aop_iconScroll.bmp",
-			"iconScenarioBonus": "spells/auraOfPower/aop_iconScenarioBonus.bmp",
-			"iconEffect": "spells/auraOfPower/aop_iconEffect.png"
+		"graphics" : {
+			"iconBook" : "spells/auraOfPower/aop_iconBook.bmp",
+			"iconScroll" : "spells/auraOfPower/aop_iconScroll.bmp",
+			"iconScenarioBonus" : "spells/auraOfPower/aop_iconScenarioBonus.bmp",
+			"iconEffect" : "spells/auraOfPower/aop_iconEffect.png"
 		},
 		"levels" : {
-			"base":{
-				"power": 10,
-				"aiValue": 20,
+			"base" : {
+				"power" : 10,
+				"aiValue" : 20,
 				"range" : "X",
-				"targetModifier":{"smart":false},
-				"cost": 12, 
-				"description": "{Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle.",
+				"targetModifier" : {"smart" :false},
+				"cost" : 12, 
+				"description" : "{Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle.",
 				"battleEffects" : {
-					"spellsDamage" :
-					{
-						"type": "core:timed",
-						"cumulative": true,
-						"bonus":
-						{
+					"spellsDamage" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
 							"fireDamage" : {
 								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.fire",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
-								"propagator": "HERO",
+								"propagator" : "HERO",
 								"duration" : "ONE_BATTLE"
 							},
 							"airDamage" : {
@@ -67,7 +61,7 @@
 								"subtype" : "spellSchool.air",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
-								"propagator": "HERO",
+								"propagator" : "HERO",
 								"duration" : "ONE_BATTLE"
 							},
 							"earthDamage" : {
@@ -75,7 +69,7 @@
 								"subtype" : "spellSchool.earth",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
-								"propagator": "HERO",
+								"propagator" : "HERO",
 								"duration" : "ONE_BATTLE"
 							},
 							"waterDamage" : {
@@ -83,29 +77,24 @@
 								"subtype" : "spellSchool.water",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
-								"propagator": "HERO",
+								"propagator" : "HERO",
 								"duration" : "ONE_BATTLE"
 							}
-						}	
-					}	
-				}				
+						}
+					}
+				}
 			},
-			"none":
-			{				
-				"cost": 12
+			"none" : {
+				"cost" : 12
 			},
-			"basic":
-			{ 
-				"description": "{Basic Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle."
+			"basic" : {
+				"description" : "{Basic Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle."
 			},
-			"advanced":
-			{	 
-				"description": "{Advanced Aura of Power}\r\n\r\nIncreases power of all damage spells by 20% to the end of the battle.",
+			"advanced" : {
+				"description" : "{Advanced Aura of Power}\r\n\r\nIncreases power of all damage spells by 20% to the end of the battle.",
 				"battleEffects" : {
-					"spellsDamage" :
-					{
-						"bonus":
-						{
+					"spellsDamage" : {
+						"bonus" : {
 							"fireDamage" : {
 								"val" : 20
 							},
@@ -122,14 +111,11 @@
 					}
 				}
 			},
-			"expert":
-			{	 
-				"description": "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 30% to the end of the battle.",
+			"expert" : {
+				"description" : "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 30% to the end of the battle.",
 				"battleEffects" : {
-					"spellsDamage" :
-					{
-						"bonus":
-						{
+					"spellsDamage" : {
+						"bonus" : {
 							"fireDamage" : {
 								"val" : 30
 							},
@@ -148,4 +134,4 @@
 			}
 		}
 	}
-}	
+}

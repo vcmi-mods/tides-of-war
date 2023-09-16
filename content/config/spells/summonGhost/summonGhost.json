@@ -1,84 +1,71 @@
 {
-	"summonGhost":
-	{
-		"type": "combat",
-		"name": "Ghost",
-		"school":
-			{
-				"air": false,
-				"earth": true,
-				"fire": false,
-				"water": false
-			},
-	"animation":{
-	
-		"cast":["spells/summonGhost/SP_summonGhost"]
-	},
-	"sounds": {
-//		"cast": "Magic/Summon"
-	},		
-	"level": 5,
-	"power": 10,
-	"defaultGainChance": 2, 
-	"gainChance" :
-	{
-		"necropolis" : 12,
-		"dungeon" : 6,
-		"inferno" : 6
-	},
-	"flags" : {
-		"indifferent": true
-	},
-	//graphics - OPTIONAL; object;
-	"graphics":
-	{
-		"iconBook": "spells/summonGhost/ghostIconBook",
-		"iconScroll": "spells/summonGhost/ghostIconScroll",
-		"iconScenarioBonus": "spells/summonGhost/ghostIconScenario",
-		"iconEffect": "spells/summonGhost/ghostIconEffect"
-	},
-
-	"targetType" : "NO_TARGET",
-
-	"levels":
-	{
-		"base":
-		{
-			"description": "{Summon Ghost}\r\n\r\nSummons Ghosts to fight on your side during the battle.",
-			"power": 2,
-			"cost": 20,
-			"range": "X",
-			"targetModifier":{"smart":true},
-			"battleEffects":{
-				"summon":{
-					"exclusive":true,
-					"id":"tides-of-war:mdtGhost",
-					"permanent":false,
-					"type":"core:summon"
+	"summonGhost" : {
+		"type" : "combat",
+		"name" : "Ghost",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"animation" : {
+			"cast" :[ "spells/summonGhost/SP_summonGhost" ]
+		},
+		"sounds" : {
+	//		"cast" : "Magic/Summon"
+		},
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 2,
+		"gainChance" : {
+			"necropolis" : 12,
+			"dungeon" : 6,
+			"inferno" : 6
+		},
+		"flags" : {
+			"indifferent" : true
+		},
+		//graphics - OPTIONAL; object;
+		"graphics" : {
+			"iconBook" : "spells/summonGhost/ghostIconBook",
+			"iconScroll" : "spells/summonGhost/ghostIconScroll",
+			"iconScenarioBonus" : "spells/summonGhost/ghostIconScenario",
+			"iconEffect" : "spells/summonGhost/ghostIconEffect"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Ghost}\r\n\r\nSummons Ghosts to fight on your side during the battle.",
+				"power" : 2,
+				"cost" : 20,
+				"range" : "X",
+				"targetModifier" : {"smart" :true},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" :true,
+						"id" :"tides-of-war:mdtGhost",
+						"permanent" :false,
+						"type" :"core:summon"
+					}
 				}
-			}				
-		},
-		"none":
-		{ 
-			"cost" : 25,
-			"power" : 1,
-			"aiValue": 10			
-		},
-		"basic":
-		{
-			"aiValue": 11,
-			"power" :2
-		},
-		"advanced":
-		{
-			"aiValue": 12,
-			"power" : 3
-		},
-		"expert":
-		{
-			"aiValue": 13,
-			"power" : 4
+			},
+			"none" : {
+				"cost" : 25,
+				"power" : 1,
+				"aiValue" : 10
+			},
+			"basic" : {
+				"aiValue" : 11,
+				"power" :2
+			},
+			"advanced" : {
+				"aiValue" : 12,
+				"power" : 3
+			},
+			"expert" : {
+				"aiValue" : 13,
+				"power" : 4
+			}
 		}
 	}
-  }
 }
