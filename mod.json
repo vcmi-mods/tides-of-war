@@ -1,20 +1,5 @@
 {
-	"author" : "Mod Design Team",
-//				Witchking - Leader and 3d Artist,
-//				Hobbicus - 2d, 3d Artist and Musician,
-//				Trith - 3d Artist,
-//				Sower - 2d and 3d Artist,
-//				Drwal - 2d Artist,
-//				Khemiel - 2d Artist,
-//				avatar - json guy,
-//	People who help us:
-//	- fred79
-//	- Andruids
-//	- Undead Artist
-//	- Ragoon
-//	- MURArt
-//  - Kuririn
-
+	"author" : "Mod Design Team (Witchking, Hobbicus, Trith, Sower, Drwal, Khemiel, avatar), fred79, Andruids, Undead Artist, Ragoon, MURArt, Kuririn",
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"description" : "In every nine standard H3 town, you have oppurtunity to build one dwelling for altenative creature.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
@@ -39,10 +24,6 @@
 		"1.0.1"   : [ "Fixes" ],
 		"1.0.0"   : [ "Initial release" ]
 	},	
-	"conflicts" :
-	[
-//		"hota.confluxVaultofAshes"
-	],
 	"chinese" :
 	{
 		"name" : "Tides of War",
