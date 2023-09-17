@@ -4,8 +4,8 @@
 			"mdtLustChambers" : {
 				"name" : "Lust Chambers",
 				"creatures" : [[ "mdtSukkub" ]],
-				"sounds": {
-					"ambient": ["dwellings/inferno/SuccLOOP"]
+				"sounds" : {
+					"ambient" : ["dwellings/inferno/SuccLOOP"]
 				},
 				"templates" : {
 					"default" : {
@@ -15,5 +15,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

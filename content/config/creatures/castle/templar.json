@@ -1,36 +1,32 @@
 {
 	"mdtTemplar" : {
-		"advMapAmount" : {"max" : 10, "min" : 4},
-		"aiValue" : 3698,
-		"attack" : 15,
-		"cost" : { "gold" :  1400, "ore" : 1},
-		"damage" : {"max" : 45, "min" : 25},
-		"defense" : 15,
-		"faction" : "castle",
-		"fightValue" : 2946,
-		"graphics" : {
-			"animation" : "creatures/castle/battle/CTemplar.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
-			"iconLarge" : "creatures/castle/iconsBig/templarBig.bmp",
-			"iconSmall" : "creatures/castle/iconsSmall/templarSmall.bmp",
-			"map" : "creatures/castle/map/CTmplrmap.def",
-			"timeBetweenFidgets" : 1
+		"name" : {
+			"singular" : "Templar",
+			"plural" : "Templars"
 		},
-		"growth" : 2,
-		"hitPoints" : 175,
-		"speed" : 5,
-        "doubleWide" : false,
+		"faction" : "castle",
 		"level" : 7,
 		"upgrades": ["mdtPaladin"],
-		"name" : { "plural" : "Templars", "singular" : "Templar" },
-		"sound" : {
-			"attack" : "creatures/castle/templar/TempATTK.wav",
-			"defend" : "creatures/castle/templar/TempDFND.wav",
-			"killed" : "creatures/castle/templar/TempDEAD.wav",
-			"move" : "creatures/castle/templar/TempMOVE.wav",
-			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		"cost" : {
+			"gold" :  1400,
+			"ore" : 1
 		},
-		"abilities":
+		"speed" : 5,
+		"hitPoints" : 175,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" : {
+			"min" : 25,
+			"max" : 45
+		},
+		"fightValue" : 2946,
+		"aiValue" : 3698,
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"growth" : 2,
+		"abilities" :
 		{
 			"casts" :
 			{
@@ -47,12 +43,31 @@
 				"subtype" : "spell.destroyUndead",
 				"val" : 3
 			},
-			"destroyPower" : 
+			"destroyPower" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.destroyUndead",
 				"val" : 30
-			}			
-		}	
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/castle/iconsBig/templarBig.bmp",
+			"iconSmall" : "creatures/castle/iconsSmall/templarSmall.bmp",
+			"map" : "creatures/castle/map/CTmplrmap.def",
+			"animation" : "creatures/castle/battle/CTemplar.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		}
 	}
 }

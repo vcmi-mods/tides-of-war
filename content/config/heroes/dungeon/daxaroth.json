@@ -1,68 +1,60 @@
 {
-  "mdtDaxaroth" :
-  {
-    "class" : "overlord",
-    "female" : false,
-    "special" : true,
-	"spellbook": [],
-    "texts" :
-    {
-      "name" : "Daxaroth",
-      "biography" : "Daxaroth was Dragon Queen Mutare's right paw. Some suspect that Mutare's death was really Daxaroth's plot to gain power. Nevertheless, Dragons listen to him as if he is their new King.",
-      "specialty" :
-      {
-        "description" : "{Dragon's Wide Breath}\r\n\r\nAll Dragons gain Wide Breath ability.",
-        "tooltip" : "Creature bonus: Dragons",
-        "name" : "Wide Breath"
-      }
-    },
-
-    "images" :
-    {
-      "specialtySmall" : "heroes/dungeon/daxaroth_spec-small",
-      "specialtyLarge" : "heroes/dungeon/daxaroth_spec-large",
-      "large" : "heroes/dungeon/daxaroth_portrait-large",
-      "small" : "heroes/dungeon/daxaroth_portrait-small"
-    },
-
-    "army" :
-    [
-      {
-        "creature" : "troglodyte",
-        "max" : 40,
-        "min" : 30
-      },
-      {
-        "creature" : "harpy",
-        "max" : 6,
-        "min" : 4
-      },
-      {
-        "creature" : "beholder",
-        "max" : 4,
-        "min" : 3
-      }
-    ],
-
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "offence"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "fireMagic"
-      }
-    ],
-    
-	"specialty" : {
-		"bonuses" : {
-			"wideBreath" : {
-				"type" : "WIDE_BREATH",
-				"limiters" : ["DRAGON_NATURE"]
+	"mdtDaxaroth" :
+	{
+		"class" : "overlord",
+		"female" : false,
+		"special" : true,
+		"images" : {
+			"specialtySmall" : "heroes/dungeon/daxaroth_spec-small",
+			"specialtyLarge" : "heroes/dungeon/daxaroth_spec-large",
+			"large" : "heroes/dungeon/daxaroth_portrait-large",
+			"small" : "heroes/dungeon/daxaroth_portrait-small"
+		},
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "harpy",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"wideBreath" : {
+					"type" : "WIDE_BREATH",
+					"limiters" : ["DRAGON_NATURE"]
+				}
+			}
+		},
+		"spellbook" : [],
+		"texts" :
+		{
+			"name" : "Daxaroth",
+			"biography" : "Daxaroth was Dragon Queen Mutare's right paw. Some suspect that Mutare's death was really Daxaroth's plot to gain power. Nevertheless, Dragons listen to him as if he is their new King.",
+			"specialty" : {
+				"name" : "Wide Breath",
+				"description" : "{Dragon's Wide Breath}\r\n\r\nAll Dragons gain Wide Breath ability.",
+				"tooltip" : "Creature bonus: Dragons"
 			}
 		}
-	} 
-  }
+	}
 }

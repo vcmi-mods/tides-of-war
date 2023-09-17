@@ -1,10 +1,20 @@
 {
 	"mdtThirdEye" : {
-		"bonuses" : 
+		"type" : [ "HERO" ],
+		"slot" : "MISC",
+		"class" : "MAJOR",
+		"value" : 6500,
+		"components" :
+		[
+			"birdOfPerception",
+			"stoicWatchman",
+			"emblemOfCognizance"
+		],
+		"bonuses" :
 		[
 			{
 				"type" : "CASTS",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ],
 				"val" : -1,
@@ -21,27 +31,16 @@
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		],
-		
-		"class" : "MAJOR",
-		"graphics" : 
+		"graphics" :
 		{ 
-			"image" : "artifacts/iconsSmall/thirdEyeS", 
-			"large" : "artifacts/iconsBig/thirdEyeL", 
-			"map" : "artifacts/map/thirdEye" 
+			"image" : "artifacts/iconsSmall/thirdEyeS",
+			"large" : "artifacts/iconsBig/thirdEyeL",
+			"map" : "artifacts/map/thirdEye"
 		},
-		"slot" : "MISC",
 		"text" : {
+			"name" : "Third Eye",
 			"description" : "{Third Eye}\r\n\r\nGives heroes a chance to learn 5th level spells cast by enemy spellcasters in battles and decreases amount of enemy's creatures available spells by 1.",
-			"event" : "An old woman, seemingly some hag living in hermitage, is screaming at you right after you meet her, possibly due to her lack of sight. After a while of her effing and blinding, she suddenly hands you some sort of a golden bust and disappears in thin air.",
-			"name" : "Third Eye"
-		},
-		"components":
-		[
-			"birdOfPerception",
-			"stoicWatchman",
-			"emblemOfCognizance"
-		],
-		"type" : [ "HERO" ],
-		"value" : 6500
+			"event" : "An old woman, seemingly some hag living in hermitage, is screaming at you right after you meet her, possibly due to her lack of sight. After a while of her effing and blinding, she suddenly hands you some sort of a golden bust and disappears in thin air."
+		}
 	}
 }

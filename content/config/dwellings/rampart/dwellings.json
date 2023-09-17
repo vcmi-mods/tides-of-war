@@ -10,10 +10,10 @@
 						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/rampart/LOOPDRYA"]
+				"sounds" : {
+					"ambient" : ["dwellings/rampart/LOOPDRYA"]
 				}
 			}
 		}
-	}	
+	}
 }

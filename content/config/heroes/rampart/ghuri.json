@@ -1,70 +1,62 @@
 {
-  "mdtGhuri" :
-  {
-    "class" : "druid",
-    "female" : false,
-    "special" : false,
-	"spellbook" : ["mdtBind"],
-
-    "texts" :
-    {
-      "name" : "Ghuri",
-      "biography" : "Ghuri spent majority of his life looking after trees in Tularean Forest. In return, the trees have taught him their powerful Forest Magic.",
-      "specialty" :
-      {
-        "description" : "{Bind}\r\n\r\nCan cast special spell Bind.",
-        "tooltip" : "{Bind}\r\n\r\nCan cast special spell Bind.",
-        "name" : "Bind"
-      }
-    },
-
-    "images" :
-    {
-      "specialtySmall" : "heroes/rampart/ghuri_spec-small.png",
-      "specialtyLarge" : "heroes/rampart/ghuri_spec-large.png",
-      "large" : "heroes/rampart/ghuri_portrait-large.png",
-      "small" : "heroes/rampart/ghuri_portrait-small.png"
-    },
-
-    "army" :
-    [
-      {
-        "creature" : "centaur",
-        "max" : 24,
-        "min" : 12
-      },
-      {
-        "creature" : "dwarf",
-        "max" : 5,
-        "min" : 3
-      },
-      {
-        "creature" : "woodElf",
-        "max" : 6,
-        "min" : 3
-      }
-    ],
-
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "earthMagic"
-      },
-      {
-        "level" : "basic",
-        "skill" : "wisdom"
-      }
-    ],
-	"specialty" : {
-		"bonuses" : {
-			"bind" : {
-				"subtype" : "spell.mdtBind",
-				"type" : "SPELL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
+	"mdtGhuri" :
+	{
+		"class" : "druid",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/rampart/ghuri_spec-small.png",
+			"specialtyLarge" : "heroes/rampart/ghuri_spec-large.png",
+			"large" : "heroes/rampart/ghuri_portrait-large.png",
+			"small" : "heroes/rampart/ghuri_portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"bind" : {
+					"type" : "SPELL",
+					"subtype" : "spell.mdtBind",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"spellbook" : ["mdtBind"],
+		"texts" :
+		{
+			"name" : "Ghuri",
+			"biography" : "Ghuri spent majority of his life looking after trees in Tularean Forest. In return, the trees have taught him their powerful Forest Magic.",
+			"specialty" :
+			{
+				"name" : "Bind",
+				"description" : "{Bind}\r\n\r\nCan cast special spell Bind.",
+				"tooltip" : "{Bind}\r\n\r\nCan cast special spell Bind."
 			}
 		}
 	}
-  }
 }

@@ -1,24 +1,36 @@
 {
 "mdtBarrels" : {
 	"name" : "Barrels",
-	"handler":"static",
+	"handler" :"static",
 		"types" : {
-			"object" : {			
-				"templates" : {				
-					"FALD0001" : { "animation" : "decorations/FALD0001", "mask" : [ "VB" ] },		
-					"FALD0004" : { "animation" : "decorations/FALD0004", "mask" : [ "VB" ] },
-					"FALD0006" : { "animation" : "decorations/FALD0006", "mask" : [ "VB" ] },
-					"FALD0014" : { "animation" : "decorations/FALD0014", "mask" : [ "VB" ] },
-					"FALD0016" : { "animation" : "decorations/FALD0016", "mask" : [ "VV","VB" ] },
-					"FALD0017" : { "animation" : "decorations/FALD0017", "mask" : [ "VV","VB" ] }		
+			"object" : {
+				"templates" : {
+					"FALD0001" : {
+						"animation" : "decorations/FALD0001",
+						"mask" : [ "VB" ]
+					},
+					"FALD0004" : {
+						"animation" : "decorations/FALD0004",
+						"mask" : [ "VB" ]
+					},
+					"FALD0006" : {
+						"animation" : "decorations/FALD0006",
+						"mask" : [ "VB" ]
+					},
+					"FALD0014" : {
+						"animation" : "decorations/FALD0014",
+						"mask" : [ "VB" ]
+					},
+					"FALD0016" : {
+						"animation" : "decorations/FALD0016",
+						"mask" : [ "VV", "VB" ]
+					},
+					"FALD0017" : {
+						"animation" : "decorations/FALD0017",
+						"mask" : [ "VV", "VB" ]
+					}
 				}
 			}
 		}
 	}
 }
-	
-	
-	
-
-
-	

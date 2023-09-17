@@ -4,8 +4,8 @@
 			"mdtDrownedHall" : {
 				"name" : "Drowned Hall",
 				"creatures" : [[ "mdtTriton" ]],
-				"sounds": {
-					"ambient": ["dwellings/conflux/TritLOOP"]
+				"sounds" : {
+					"ambient" : ["dwellings/conflux/TritLOOP"]
 				},
 				"templates" : {
 					"default" : {
@@ -15,5 +15,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

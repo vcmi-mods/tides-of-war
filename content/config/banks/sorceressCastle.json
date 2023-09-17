@@ -1,136 +1,132 @@
 {
-	"core:creatureBank" : 
+	"core:creatureBank" :
 	{
-		"types" : 
+		"types" :
 		{
-			"sorceressCastle" : 
+			"sorceressCastle" :
 			{
 				"name" : "Sorceress Castle",
 				"templates" : {
-					"base" : { "animation" : "banks/sorceressCastle.def", 
-					"visitableFrom" : [ "---", "-+-", "+++" ], 
-					"mask" : [ "VVVVV", "VVBBV", "VBBBB", "VBBAB"], 
-					"allowedTerrains":[ "grass", "dirt" ] 
+					"base" : { "animation" : "banks/sorceressCastle.def",
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"mask" : [ "VVVVV", "VVBBV", "VBBBB", "VBBAB"],
+					"allowedTerrains" :[ "grass", "dirt" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/banks/SORCERESSLOOP"],
-					"visit": ["dwellings/banks/SORCENTR"]
+				"sounds" : {
+					"ambient" : ["dwellings/banks/SORCERESSLOOP"],
+					"visit" : ["dwellings/banks/SORCENTR"]
 				},
 				"rmg" : {
-					"value"		: 8000,
-					"rarity"	: 40,
+					"value" : 8000,
+					"rarity" : 40,
 					"zoneLimit" : 1,
 					"mapLimit" : 4
 				},
-				"levels": [
+				"levels" : [
 					{
-						"chance": 20,
-						"guards": [
-							{ "amount": 32, "type" : "pixie", "upgradeChance": 50 },
-							{ "amount": 16, "type" : "dwarf", "upgradeChance": 50 },
-							{ "amount": 8, "type" : "woodElf", "upgradeChance": 50 },
-							{ "amount": 4, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 2, "type" : "unicorn", "upgradeChance": 50 },
-							{ "amount" : 1, "type" : "phoenix", "upgradeChance": 50 }
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 32, "type" : "pixie", "upgradeChance" : 50 },
+							{ "amount" : 16, "type" : "dwarf", "upgradeChance" : 50 },
+							{ "amount" : 8, "type" : "woodElf", "upgradeChance" : 50 },
+							{ "amount" : 4, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "phoenix", "upgradeChance" : 50 }
 						],
-						"combat_value": 500,
+						"combat_value" : 500,
 						"reward" : {
-							"value": 1000,
-							"resources": { "gold" : 3000, "wood" : 5 },
-							"artifacts": [ "inexhaustibleCartOfOre", "legsOfLegion" ]
+							"value" : 1000,
+							"resources" : { "gold" : 3000, "wood" : 5 },
+							"artifacts" : [ "inexhaustibleCartOfOre", "legsOfLegion" ]
 						}
 					},
 					{
-						"chance": 20,
-						"guards": [
-							{ "amount": 64, "type" : "pixie", "upgradeChance": 50 },
-							{ "amount": 32, "type" : "dwarf", "upgradeChance": 50 },
-							{ "amount": 16, "type" : "woodElf", "upgradeChance": 50 },
-							{ "amount": 8, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 4, "type" : "unicorn", "upgradeChance": 50 },
-							{ "amount" : 2, "type" : "phoenix", "upgradeChance": 50 }
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 64, "type" : "pixie", "upgradeChance" : 50 },
+							{ "amount" : 32, "type" : "dwarf", "upgradeChance" : 50 },
+							{ "amount" : 16, "type" : "woodElf", "upgradeChance" : 50 },
+							{ "amount" : 8, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 4, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "phoenix", "upgradeChance" : 50 }
 						],
-						"combat_value": 500,
+						"combat_value" : 500,
 						"reward" : {
-							"value": 2000,
-							"resources": { "gold" : 6000, "ore" : 5 },
-							"artifacts": [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "loinsOfLegion" ]
+							"value" : 2000,
+							"resources" : { "gold" : 6000, "ore" : 5 },
+							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "loinsOfLegion" ]
 						}
 					},
 					{
-						"chance": 20,
-						"guards": [
-							{ "amount": 128, "type" : "pixie", "upgradeChance": 60 },
-							{ "amount": 64, "type" : "dwarf", "upgradeChance": 60 },
-							{ "amount": 32, "type" : "woodElf", "upgradeChance": 60 },
-							{ "amount": 16, "type" : "monk", "upgradeChance": 50 },
-							{ "amount": 8, "type" : "unicorn", "upgradeChance": 50 },
-							{ "amount" : 4, "type" : "phoenix", "upgradeChance": 50 }
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 128, "type" : "pixie", "upgradeChance" : 60 },
+							{ "amount" : 64, "type" : "dwarf", "upgradeChance" : 60 },
+							{ "amount" : 32, "type" : "woodElf", "upgradeChance" : 60 },
+							{ "amount" : 16, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 8, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 4, "type" : "phoenix", "upgradeChance" : 50 }
 						],
-						"combat_value": 1000,
+						"combat_value" : 1000,
 						"reward" : {
-							"value": 4000,
-							"resources": { "gold" : 8000, "ore" : 5, "wood" : 5 },
-							"artifacts": [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "torsoOfLegion" ],
+							"value" : 4000,
+							"resources" : { "gold" : 8000, "ore" : 5, "wood" : 5 },
+							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "torsoOfLegion" ],
 							"spells" : [ { "level" : 2 } ]
 						}
 					},
-					
 					{
-						"chance": 20,
-						"guards": [
-							{ "amount": 192, "type" : "pixie", "upgradeChance": 70 },
-							{ "amount": 96, "type" : "dwarf", "upgradeChance": 70 },
-							{ "amount": 48, "type" : "woodElf", "upgradeChance": 70 },
-							{ "amount": 24, "type" : "monk", "upgradeChance": 60 },
-							{ "amount": 12, "type" : "unicorn", "upgradeChance": 60 },
-							{ "amount" : 6, "type" : "phoenix", "upgradeChance": 60 }
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 192, "type" : "pixie", "upgradeChance" : 70 },
+							{ "amount" : 96, "type" : "dwarf", "upgradeChance" : 70 },
+							{ "amount" : 48, "type" : "woodElf", "upgradeChance" : 70 },
+							{ "amount" : 24, "type" : "monk", "upgradeChance" : 60 },
+							{ "amount" : 12, "type" : "unicorn", "upgradeChance" : 60 },
+							{ "amount" : 6, "type" : "phoenix", "upgradeChance" : 60 }
 						],
-						"combat_value": 4000,
+						"combat_value" : 4000,
 						"reward" : {
-							"value": 8000,
-							"resources": { "gold" : 10000, "ore" : 10, "wood" : 10 },
-							"artifacts": [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "ringOfInfiniteGems", "armsOfLegion" ],
+							"value" : 8000,
+							"resources" : { "gold" : 10000, "ore" : 10, "wood" : 10 },
+							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "ringOfInfiniteGems", "armsOfLegion" ],
 							"spells" : [ { "level" : 3 } ]
 						}
 					},
-					
 					{
-						"chance": 15,
-						"guards": [
-							{ "amount": 256, "type" : "pixie", "upgradeChance": 70 },
-							{ "amount": 160, "type" : "dwarf", "upgradeChance": 70 },
-							{ "amount": 80, "type" : "woodElf", "upgradeChance": 70 },
-							{ "amount": 40, "type" : "monk", "upgradeChance": 70 },
-							{ "amount": 16, "type" : "unicorn", "upgradeChance": 70 },
-							{ "amount" : 8, "type" : "phoenix", "upgradeChance": 70 }
+						"chance" : 15,
+						"guards" : [
+							{ "amount" : 256, "type" : "pixie", "upgradeChance" : 70 },
+							{ "amount" : 160, "type" : "dwarf", "upgradeChance" : 70 },
+							{ "amount" : 80, "type" : "woodElf", "upgradeChance" : 70 },
+							{ "amount" : 40, "type" : "monk", "upgradeChance" : 70 },
+							{ "amount" : 16, "type" : "unicorn", "upgradeChance" : 70 },
+							{ "amount" : 8, "type" : "phoenix", "upgradeChance" : 70 }
 						],
-						"combat_value": 6000,
+						"combat_value" : 6000,
 						"reward" : {
-							"value": 10000,
-							"resources": { "gold" : 10000, "gems" : 10, "sulfur" : 10 },
-							"artifacts": [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "ringOfInfiniteGems", "everpouringVialOfMercury", "headOfLegion"  ],
+							"value" : 10000,
+							"resources" : { "gold" : 10000, "gems" : 10, "sulfur" : 10 },
+							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "ringOfInfiniteGems", "everpouringVialOfMercury", "headOfLegion" ],
 							"spells" : [ { "level" : 4 } ]
 						}
 					},
-
 					{
-
-						"chance": 5,
-						"guards": [
-							{ "amount": 384, "type" : "pixie", "upgradeChance": 80 },
-							{ "amount": 224, "type" : "dwarf", "upgradeChance": 80 },
-							{ "amount": 128, "type" : "woodElf", "upgradeChance": 80 },
-							{ "amount": 64, "type" : "monk", "upgradeChance": 80 },
-							{ "amount": 32, "type" : "unicorn", "upgradeChance": 80 },
-							{ "amount" : 10, "type" : "phoenix", "upgradeChance": 80 }
+						"chance" : 5,
+						"guards" : [
+							{ "amount" : 384, "type" : "pixie", "upgradeChance" : 80 },
+							{ "amount" : 224, "type" : "dwarf", "upgradeChance" : 80 },
+							{ "amount" : 128, "type" : "woodElf", "upgradeChance" : 80 },
+							{ "amount" : 64, "type" : "monk", "upgradeChance" : 80 },
+							{ "amount" : 32, "type" : "unicorn", "upgradeChance" : 80 },
+							{ "amount" : 10, "type" : "phoenix", "upgradeChance" : 80 }
 						],
-						"combat_value": 8000,
+						"combat_value" : 8000,
 						"reward" : {
-							"value": 15000,
-							"resources": { "gold" : 12000, "mercury" : 12, "crystals" : 12 },
-							"artifacts": [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "eversmokingRingOfSulfur", "ringOfInfiniteGems", "everpouringVialOfMercury", "everflowingCrystalCloak", "statueOfLegion"  ],
+							"value" : 15000,
+							"resources" : { "gold" : 12000, "mercury" : 12, "crystals" : 12 },
+							"artifacts" : [ "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber", "cornucopia", "statueOfLegion" ],
 							"spells" : [ { "level" : 5 } ]
 						}
 					}

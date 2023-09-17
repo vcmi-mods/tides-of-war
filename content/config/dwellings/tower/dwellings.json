@@ -11,10 +11,10 @@
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/tower/DrGoLOOP"]
-				}				
+				"sounds" : {
+					"ambient" : ["dwellings/tower/DrGoLOOP"]
+				}
 			}
 		}
-	}	
+	}
 }

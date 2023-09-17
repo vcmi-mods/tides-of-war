@@ -1,109 +1,109 @@
 {
-  "mdtThyroc" :
-  {
-    "class" : "beastmaster",
-    "female" : false,
-    "special" : false,
-
-    "texts" :
-    {
-      "name" : "Thyroc",
-      "biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
-      "specialty" :
-      {
-        "description" : "{Hydras and Chaos Hydras}\r\n\r\nAll Hydras and Chaos Hydras have 30% chance to cast Disease after attack.",
-        "tooltip" : "Creature bonus: Hydras",
-        "name" : "Hydras"
-      }
-    },
-
-    "images" :
-    {
-      "specialtySmall" : "heroes/fortress/thyroc_spec-small.png",
-      "specialtyLarge" : "heroes/fortress/thyroc_spec-large.png",
-      "large" : "heroes/fortress/thyroc_portrait-large.png",
-      "small" : "heroes/fortress/thyroc_portrait-small.png"
-    },
-
-    "army" :
-    [
-      {
-        "creature" : "gnoll",
-        "max" : 20,
-        "min" : 10
-      },
-      {
-        "creature" : "lizardman",
-        "max" : 7,
-        "min" : 4
-      },
-      {
-        "creature" : "serpentFly",
-        "max" : 4,
-        "min" : 2
-      }
-    ],
-
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "tactics"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "armorer"
-      }
-    ],
-    
-	"specialty" : {
-		"base" : {
-			"duration" : [ "PERMANENT" ],
-			"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+	"mdtThyroc" :
+	{
+		"class" : "beastmaster",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/fortress/thyroc_spec-small.png",
+			"specialtyLarge" : "heroes/fortress/thyroc_spec-large.png",
+			"large" : "heroes/fortress/thyroc_portrait-large.png",
+			"small" : "heroes/fortress/thyroc_portrait-small.png"
 		},
-		"bonuses" : {
-			"attack" : {
-				"limiters" : { "parameters" : [ "core:hydra", false ] },
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"updater" : {
-					"parameters" : [ 16, 7 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 10,
+				"max" : 20
 			},
-			"attack2" : {
-				"limiters" : { "parameters" : [ "core:chaosHydra", false ] },
-				"subtype" : "primSkill.attack",
-				"type" : "PRIMARY_SKILL",
-				"updater" : {
-					"parameters" : [ 18, 7 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
 			},
-			"defence" : {
-				"limiters" : { "parameters" : [ "core:hydra", false ] },
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"updater" : {
-					"parameters" : [ 18, 7 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
+			{
+				"creature" : "serpentFly",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
 			},
-			"defence2" : {
-				"limiters" : { "parameters" : [ "core:chaosHydra", false ] },
-				"subtype" : "primSkill.defence",
-				"type" : "PRIMARY_SKILL",
-				"updater" : {
-					"parameters" : [ 20, 7 ],
-					"type" : "GROWS_WITH_LEVEL"
-				}
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"duration" : [ "PERMANENT" ],
+				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
 			},
-			"speed" : {
-				"limiters" : { "parameters" : [ "core:hydra", true ] },
-				"type" : "STACKS_SPEED",
-				"val" : 1
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 16, 7 ]
+					},
+					"limiters" : {
+						"parameters" : [ "core:hydra", false ]
+					}
+				},
+				"attack2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 18, 7 ]
+					},
+					"limiters" : {
+						"parameters" : [ "core:chaosHydra", false ]
+					}
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 18, 7 ]
+					},
+					"limiters" : {
+						"parameters" : [ "core:hydra", false ]
+					}
+				},
+				"defence2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 20, 7 ]
+					},
+					"limiters" : {
+						"parameters" : [ "core:chaosHydra", false ]
+					}
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"parameters" : [ "core:hydra", true ]
+					}
+				}
+			}
+		},
+		"texts" :
+		{
+			"name" : "Thyroc",
+			"biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
+			"specialty" : {
+				"name" : "Hydras",
+				"description" : "{Hydras and Chaos Hydras}\r\n\r\nAll Hydras and Chaos Hydras have 30% chance to cast Disease after attack.",
+				"tooltip" : "Creature bonus: Hydras"
 			}
 		}
 	}
-  }
 }

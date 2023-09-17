@@ -11,10 +11,10 @@
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				},
-				"sounds": {
-					"ambient": ["dwellings/fortress/LOOPWTCH"]
+				"sounds" : {
+					"ambient" : ["dwellings/fortress/LOOPWTCH"]
 				}
 			}
 		}
-	}	
+	}
 }

@@ -1,35 +1,30 @@
 {
 	"mdtIllithid" : {
-
-		"advMapAmount" : {"max" : 16, "min" : 8},
-		"aiValue" : 789,
-		"attack" : 14,
-		"cost" : { "gold" : 450 },
-		"damage" : {"max" : 16, "min" : 11},
-		"defense" : 9,
-		"faction" : "dungeon",
-		"fightValue" : 748,
-		"graphics" : {
-			"animation" : "creatures/dungeon/battle/Clllithid.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
-			"iconLarge" : "creatures/dungeon/iconsBig/illithidBig.png",
-			"iconSmall" : "creatures/dungeon/iconsSmall/illithidSmall.png",
-			"map" : "creatures/dungeon/map/mapillithid.def",
-			"timeBetweenFidgets" : 1
+		"name" : {
+			"singular" : "Illithid",
+			"plural" : "Illithids"
 		},
-		"growth" : 3,
-		"hitPoints" : 30,
+		"faction" : "dungeon",
 		"level" : 5,
-		"name" : { "plural" : "Illithids", "singular" : "Illithid" },
-		"sound" : {
-			"attack" : "creatures/dungeon/illithid/ILLIATTACK.wav",
-			"defend" : "creatures/dungeon/illithid/ILLIDFND.wav",
-			"killed" : "creatures/dungeon/illithid/ILLIDEAD.wav",
-			"move" : "creatures/dungeon/illithid/ILLIMOVE.wav",
-			"wince" : "creatures/dungeon/illithid/ILLIHIT.wav"
+		"upgrades" : [ "mdtAlhoon" ],
+		"cost" : {
+			"gold" : 450
 		},
 		"speed" : 5,
-		"upgrades" : [ "mdtAlhoon" ],
+		"hitPoints" : 30,
+		"attack" : 14,
+		"defense" : 9,
+		"damage" : {
+			"min" : 11,
+			"max" : 16
+		},
+		"fightValue" : 748,
+		"aiValue" : 789,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"growth" : 3,
 		"abilities" :
 		{
 			"castsHypnotize" :
@@ -45,11 +40,30 @@
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"spellpower" : 
+			"spellpower" :
 			{ 
-				"type" : "CREATURE_SPELL_POWER", 
-				"val" : 80 
-			}		
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 80
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsBig/illithidBig.png",
+			"iconSmall" : "creatures/dungeon/iconsSmall/illithidSmall.png",
+			"map" : "creatures/dungeon/map/mapillithid.def",
+			"animation" : "creatures/dungeon/battle/Clllithid.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/dungeon/illithid/ILLIATTACK.wav",
+			"defend" : "creatures/dungeon/illithid/ILLIDFND.wav",
+			"killed" : "creatures/dungeon/illithid/ILLIDEAD.wav",
+			"move" : "creatures/dungeon/illithid/ILLIMOVE.wav",
+			"wince" : "creatures/dungeon/illithid/ILLIHIT.wav"
 		}
 	}
 }

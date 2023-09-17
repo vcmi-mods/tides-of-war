@@ -1,75 +1,73 @@
 {
-	"mdtGhost":
+	"mdtGhost" :
 	{
 		"name" :
 		{
-			"plural" : "Ghosts",
-			"singular" : "Ghost"
+			"singular" : "Ghost",
+			"plural" : "Ghosts"
 		},
 		"faction" : "neutral",
-		"special" : false,		
-		"advMapAmount" :
-		{
-			 "min" : 8,
-			 "max" : 16
-		},
 		"level" : 5,
-		"attack" : 12,
-		"defense" : 7,
-		"damage" :
-		{
-			 "min" : 8,
-			 "max" : 10
-		},
-		"growth" : 3,
-		"hitPoints" : 20,
-		"speed" : 7,
-		"fightValue" : 657,
-		"aiValue" : 1248,
 		"cost" :
 		{
 			"gold" : 600
 		},
-		"hasDoubleWeek": true,
-		"doubleWide" : false,
+		"speed" : 7,
+		"hitPoints" : 20,
+		"attack" : 12,
+		"defense" : 7,
+		"damage" :
+		{
+			"min" : 8,
+			"max" : 10
+		},
+		"fightValue" : 657,
+		"aiValue" : 1248,
+		"advMapAmount" :
+		{
+			"min" : 8,
+			"max" : 16
+		},
+		"growth" : 3,
+		"hasDoubleWeek" : true,
+		"abilities" :
+		{
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"soulEater" :
+			{
+				"type" : "SOUL_STEAL",
+				"subtype" : 0,
+				"val" : 1
+			}
+		},
 		"graphics" :
 		{
-			"animation" : "creatures/neutral/battle/CGhost.def",
-			"map" : "creatures/neutral/map/ghostmap.def",
 			"iconSmall" : "creatures/neutral/iconsSmall/ghostS.png",
 			"iconLarge" : "creatures/neutral/iconsBig/ghostB.png",
-			"timeBetweenFidgets" : 1,
+			"map" : "creatures/neutral/map/ghostmap.def",
+			"animation" : "creatures/neutral/battle/CGhost.def",
 			"animationTime" :
 			{
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
-			}
+			},
+			"timeBetweenFidgets" : 1
 		},
 		"sound" :
 		{
-			"attack": "creatures/neutral/ghost/GHSTATTK.wav",
-			"defend": "creatures/neutral/ghost/GHSTDFND.wav",
-			"killed": "creatures/neutral/ghost/GHSTDEAD.wav",
-			"move": "creatures/neutral/ghost/GHSTMOVE.wav",
-			"wince": "creatures/neutral/ghost/GHSTWNCE.wav"
-        },
-		"abilities" :
-		{
-			"undead" : 
-			{ 
-				"type" : "UNDEAD"
-			},
-			"canFly" : 
-			{ 
-				"type" : "FLYING"
-			},
-			"soulEater" : 
-			{ 
-				"type" : "SOUL_STEAL",
-				"subtype" : 0,
-				"val" : 1
-			}
+			"attack" : "creatures/neutral/ghost/GHSTATTK.wav",
+			"defend" : "creatures/neutral/ghost/GHSTDFND.wav",
+			"killed" : "creatures/neutral/ghost/GHSTDEAD.wav",
+			"move" : "creatures/neutral/ghost/GHSTMOVE.wav",
+			"wince" : "creatures/neutral/ghost/GHSTWNCE.wav"
 		}
 	}
 }
