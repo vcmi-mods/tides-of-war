@@ -1,17 +1,17 @@
 {
+	"name" : "Tides of War",
+	"description" : "In every nine standard H3 town, you have oppurtunity to build one dwelling for altenative creature.",
+	"modType" : "Expansion",
 	"author" : "Mod Design Team (Witchking, Hobbicus, Trith, Sower, Drwal, Khemiel, avatar), fred79, Andruids, Undead Artist, Ragoon, MURArt, Kuririn",
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
-	"description" : "In every nine standard H3 town, you have oppurtunity to build one dwelling for altenative creature.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Expansion",
-	"name" : "Tides of War",
 	"version" : "1.0.8",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
 		"min" : "1.3.0"
-	},	
+	},
 	"changelog" :
 	{
 		"1.0.8"   : [ "hota-balance-compatibility-patch added" ],
@@ -23,7 +23,7 @@
 		"1.0.2"   : [ "Fixes" ],
 		"1.0.1"   : [ "Fixes" ],
 		"1.0.0"   : [ "Initial release" ]
-	},	
+	},
 	"chinese" :
 	{
 		"name" : "Tides of War",
@@ -40,57 +40,54 @@
 			"translation/tow/german.json"
 		]
 	},
-	
+	"factions" :
+	[
+		"config/town-screen/castle/factions",
+		"config/town-screen/rampart/factions",
+		"config/town-screen/tower/factions",
+		"config/town-screen/inferno/factions",
+		"config/town-screen/necropolis/factions",
+		"config/town-screen/dungeon/factions",
+		"config/town-screen/stronghold/factions",
+		"config/town-screen/fortress/factions",
+		"config/town-screen/conflux/factions"
+	],
 	"creatures" :
 	[
-		"config/creatures/necropolis/werewolf",
-		"config/creatures/necropolis/direWerewolf",
-		"config/creatures/fortress/trollHag",
-		"config/creatures/fortress/trollWitch",
-		"config/creatures/rampart/dryad",
-		"config/creatures/rampart/oakDryad",
-		"config/creatures/inferno/sukkub",
-		"config/creatures/inferno/lilim",
-		"config/creatures/tower/drakeGolem",
-		"config/creatures/tower/dragonGolem",
-		"config/creatures/conflux/triton",
-		"config/creatures/conflux/abyssalTriton",
 		"config/creatures/castle/templar",
 		"config/creatures/castle/paladin",
+		"config/creatures/rampart/dryad",
+		"config/creatures/rampart/oakDryad",
+		"config/creatures/tower/drakeGolem",
+		"config/creatures/tower/dragonGolem",
+		"config/creatures/inferno/sukkub",
+		"config/creatures/inferno/lilim",
+		"config/creatures/necropolis/werewolf",
+		"config/creatures/necropolis/direWerewolf",
 		"config/creatures/dungeon/illithid",
 		"config/creatures/dungeon/alhoon",
 		"config/creatures/stronghold/couatl",
 		"config/creatures/stronghold/quetzalcouatl",
+		"config/creatures/fortress/trollHag",
+		"config/creatures/fortress/trollWitch",
+		"config/creatures/conflux/triton",
+		"config/creatures/conflux/abyssalTriton",
 		"config/creatures/neutral/mermaid",
 		"config/creatures/neutral/demilich",
 		"config/creatures/neutral/ghost",
 		"config/creatures/neutral/dreadSkipper"
 	],
-
-	"factions" :
-	[
-		"config/town-screen/necropolis/factions",
-		"config/town-screen/fortress/factions",
-		"config/town-screen/rampart/factions",
-		"config/town-screen/inferno/factions",
-		"config/town-screen/tower/factions",
-		"config/town-screen/conflux/factions",
-		"config/town-screen/castle/factions",
-		"config/town-screen/dungeon/factions",
-		"config/town-screen/stronghold/factions"
-	],
-	
 	"objects" :
-    [ 
-		"config/dwellings/necropolis/dwellings",
-		"config/dwellings/fortress/dwellings",
-		"config/dwellings/rampart/dwellings",
-		"config/dwellings/inferno/dwellings",
-		"config/dwellings/tower/dwellings",
-		"config/dwellings/conflux/dwellings",
+	[
 		"config/dwellings/castle/dwellings",
+		"config/dwellings/rampart/dwellings",
+		"config/dwellings/tower/dwellings",
+		"config/dwellings/inferno/dwellings",
+		"config/dwellings/necropolis/dwellings",
 		"config/dwellings/dungeon/dwellings",
 		"config/dwellings/stronghold/dwellings",
+		"config/dwellings/fortress/dwellings",
+		"config/dwellings/conflux/dwellings",
 		"config/dwellings/neutral/dwellings",
 		"config/banks/seminarium",
 		"config/banks/scriptorium",
@@ -105,54 +102,29 @@
 		"config/decorations/swampMountains",
 		"config/decorations/grassFlowers",
 		"config/decorations/orchardTrees"
-    ],
-	
-	"spells" :
-    [ 
-		"config/spells/rage/rage",
-		"config/spells/vampirism/vampirism",
-		"config/spells/symbiosis/symbiosis",
-		"config/spells/symbiosis/symbiosis2",
-		"config/spells/bind/bind",
-		"config/spells/divineArrows/divineArrows",
-		"config/spells/trawl/trawl",
-		"config/spells/intervention/intervention",
-		"config/spells/auraOfPower/auraOfPower",
-		"config/spells/wands/fireballWand",
-		"config/spells/wands/iceboltWand",
-		
-		"config/spells/wands/shieldWand",
-		"config/spells/summonGhost/summonGhost",
-		"config/spells/summonDemilich/summonDemilich1",
-		"config/spells/summonDemilich/summonDemilich2",
-		"config/spells/summonDemilich/summonDemilich3",
-		"config/spells/summonDemilich/summonDemilich4",
-		"config/spells/hateSpike/hateSpike"
-    ],
-	
+	],
 	"heroes" :
-    [ 
-		"config/heroes/necropolis/yaverr",
-		"config/heroes/necropolis/zam",
-		"config/heroes/fortress/shroo",
-		"config/heroes/fortress/thyroc",
-		"config/heroes/rampart/eurydis",
-		"config/heroes/rampart/ghuri",
-		"config/heroes/inferno/eyzea",
-		"config/heroes/inferno/kreevion",
+	[
 		"config/heroes/castle/charles",
 		"config/heroes/castle/gwenneth",
+		"config/heroes/rampart/eurydis",
+		"config/heroes/rampart/ghuri",
+		"config/heroes/tower/verstan",
+		"config/heroes/tower/odetta",
+		"config/heroes/inferno/eyzea",
+		"config/heroes/inferno/kreevion",
+		"config/heroes/necropolis/yaverr",
+		"config/heroes/necropolis/zam",
 		"config/heroes/dungeon/galuum",
 		"config/heroes/dungeon/collivea",
 		"config/heroes/dungeon/daxaroth",
 		"config/heroes/stronghold/ergon",
-		"config/heroes/stronghold/tartarr",	 
-		"config/heroes/tower/verstan",
-		"config/heroes/tower/odetta",
+		"config/heroes/stronghold/tartarr",
+		"config/heroes/fortress/shroo",
+		"config/heroes/fortress/thyroc",
 		"config/heroes/conflux/irrigus",
 		"config/heroes/conflux/hokori"
-	], 
-	 
+	],
 	"artifacts" :
 	[
 		"config/artifacts/wands/fireballWand",
@@ -166,12 +138,31 @@
 		"config/artifacts/binoculars/binoculars",
 		"config/artifacts/thirdEye/thirdEye"
 	],
-	
+	"spells" :
+	[
+		"config/spells/rage/rage",
+		"config/spells/vampirism/vampirism",
+		"config/spells/symbiosis/symbiosis",
+		"config/spells/symbiosis/symbiosis2",
+		"config/spells/bind/bind",
+		"config/spells/divineArrows/divineArrows",
+		"config/spells/trawl/trawl",
+		"config/spells/intervention/intervention",
+		"config/spells/auraOfPower/auraOfPower",
+		"config/spells/wands/fireballWand",
+		"config/spells/wands/iceboltWand",
+		"config/spells/wands/shieldWand",
+		"config/spells/summonGhost/summonGhost",
+		"config/spells/summonDemilich/summonDemilich1",
+		"config/spells/summonDemilich/summonDemilich2",
+		"config/spells/summonDemilich/summonDemilich3",
+		"config/spells/summonDemilich/summonDemilich4",
+		"config/spells/hateSpike/hateSpike"
+	],
 	"skills" : [
 		"config/skills/hexes",
 		"config/skills/intimidation"
 	],
-	
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
