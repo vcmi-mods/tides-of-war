@@ -40,38 +40,8 @@
 			"translation/tow/german.json"
 		]
 	},
-	"factions" :
-	[
-		"config/town-screen/castle/factions",
-		"config/town-screen/rampart/factions",
-		"config/town-screen/tower/factions",
-		"config/town-screen/inferno/factions",
-		"config/town-screen/necropolis/factions",
-		"config/town-screen/dungeon/factions",
-		"config/town-screen/stronghold/factions",
-		"config/town-screen/fortress/factions",
-		"config/town-screen/conflux/factions"
-	],
 	"creatures" :
 	[
-		"config/creatures/castle/templar",
-		"config/creatures/castle/paladin",
-		"config/creatures/rampart/dryad",
-		"config/creatures/rampart/oakDryad",
-		"config/creatures/tower/drakeGolem",
-		"config/creatures/tower/dragonGolem",
-		"config/creatures/inferno/sukkub",
-		"config/creatures/inferno/lilim",
-		"config/creatures/necropolis/werewolf",
-		"config/creatures/necropolis/direWerewolf",
-		"config/creatures/dungeon/illithid",
-		"config/creatures/dungeon/alhoon",
-		"config/creatures/stronghold/couatl",
-		"config/creatures/stronghold/quetzalcouatl",
-		"config/creatures/fortress/trollHag",
-		"config/creatures/fortress/trollWitch",
-		"config/creatures/conflux/triton",
-		"config/creatures/conflux/abyssalTriton",
 		"config/creatures/neutral/mermaid",
 		"config/creatures/neutral/demilich",
 		"config/creatures/neutral/ghost",
@@ -79,15 +49,6 @@
 	],
 	"objects" :
 	[
-		"config/dwellings/castle/dwellings",
-		"config/dwellings/rampart/dwellings",
-		"config/dwellings/tower/dwellings",
-		"config/dwellings/inferno/dwellings",
-		"config/dwellings/necropolis/dwellings",
-		"config/dwellings/dungeon/dwellings",
-		"config/dwellings/stronghold/dwellings",
-		"config/dwellings/fortress/dwellings",
-		"config/dwellings/conflux/dwellings",
 		"config/dwellings/neutral/dwellings",
 		"config/banks/seminarium",
 		"config/banks/scriptorium",
