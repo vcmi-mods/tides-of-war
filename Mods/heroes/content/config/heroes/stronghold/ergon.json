@@ -1,0 +1,110 @@
+{
+	"mdtErgon" :
+	{
+		"class" : "barbarian",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/stronghold/ergon_spec-small.bmp",
+			"specialtyLarge" : "heroes/stronghold/ergon_spec-large.bmp",
+			"large" : "heroes/stronghold/ergon_portrait-large.bmp",
+			"small" : "heroes/stronghold/ergon_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intimidation",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"duration" : [ "PERMANENT" ],
+				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+			},
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 16, 6 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtCouatl", false ]
+					}
+				},
+				"attack2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 18, 6 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtQuetzalcouatl", false ]
+					}
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 11, 6 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtCouatl", false ]
+					}
+				},
+				"defence2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"updater" : {
+						"parameters" : [ 11, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
+					"limiters" : {
+						"parameters" : [ "mdtQuetzalcouatl", false ]
+					}
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"parameters" : [ "mdtCouatl", true ]
+					}
+				}
+			}
+		},
+		"texts" :
+		{
+			"name" : "Ergon",
+			"biography" : "After taking the throne of Krewlod, Kilgor brought Ergon to quell the rebellion of the Ogres who were still loyal to Winston Boragus, even after his death. Needless to say, the veteran of Succession Wars did his job very effectively by raiding the unruly tribes with his exotic beasts.",
+			"specialty" :
+			{
+				"name" : "Couatls",
+				"description" : "{Couatls and Quetzalcouatls}\r\n\r\nIncreases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, Couatls and Quetzalcouatls get a permanent +1 Speed bonus.",
+				"tooltip" : "Creature bonus: Couatl"
+			}
+		}
+	}
+}

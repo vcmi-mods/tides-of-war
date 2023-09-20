@@ -7,7 +7,6 @@
 			"buildingsIcons": "town-screen/castle/ALTHALLCSTL",
 			"hallSlots":
 			[
-			
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern", "special3" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ], [ "shipyard", "special1" ] ],
 				[ [ "special2" ], [ "horde1", "horde1Upgr" ] ],

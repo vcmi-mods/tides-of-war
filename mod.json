@@ -49,13 +49,13 @@
 	],
 	"objects" :
 	[
-		"config/dwellings/neutral/dwellings",
-		"config/banks/seminarium",
-		"config/banks/scriptorium",
-		"config/banks/sorceressCastle",
-		"config/banks/outpostOfSouls",
-		"config/banks/bonePillar",
-		"config/banks/phantomShip",
+		// "config/dwellings/neutral/dwellings",
+		// "config/banks/seminarium",
+		// "config/banks/scriptorium",
+		// "config/banks/sorceressCastle",
+		// "config/banks/outpostOfSouls",
+		// "config/banks/bonePillar",
+		// "config/banks/phantomShip",
 		"config/decorations/fortressHomes",
 		"config/decorations/dungeonHomes",
 		"config/decorations/barrels",
@@ -63,28 +63,6 @@
 		"config/decorations/swampMountains",
 		"config/decorations/grassFlowers",
 		"config/decorations/orchardTrees"
-	],
-	"heroes" :
-	[
-		"config/heroes/castle/charles",
-		"config/heroes/castle/gwenneth",
-		"config/heroes/rampart/eurydis",
-		"config/heroes/rampart/ghuri",
-		"config/heroes/tower/verstan",
-		"config/heroes/tower/odetta",
-		"config/heroes/inferno/eyzea",
-		"config/heroes/inferno/kreevion",
-		"config/heroes/necropolis/yaverr",
-		"config/heroes/necropolis/zam",
-		"config/heroes/dungeon/galuum",
-		"config/heroes/dungeon/collivea",
-		"config/heroes/dungeon/daxaroth",
-		"config/heroes/stronghold/ergon",
-		"config/heroes/stronghold/tartarr",
-		"config/heroes/fortress/shroo",
-		"config/heroes/fortress/thyroc",
-		"config/heroes/conflux/irrigus",
-		"config/heroes/conflux/hokori"
 	],
 	"artifacts" :
 	[
@@ -119,10 +97,6 @@
 		"config/spells/summonDemilich/summonDemilich3",
 		"config/spells/summonDemilich/summonDemilich4",
 		"config/spells/hateSpike/hateSpike"
-	],
-	"skills" : [
-		"config/skills/hexes",
-		"config/skills/intimidation"
 	],
 	"settings" : {
 		"combat": {
