@@ -42,12 +42,6 @@
 	},
 	"objects" :
 	[
-		// "config/banks/seminarium",
-		// "config/banks/scriptorium",
-		// "config/banks/sorceressCastle",
-		// "config/banks/outpostOfSouls",
-		// "config/banks/bonePillar",
-		// "config/banks/phantomShip",
 		"config/decorations/fortressHomes",
 		"config/decorations/dungeonHomes",
 		"config/decorations/barrels",
