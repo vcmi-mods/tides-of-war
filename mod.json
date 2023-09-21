@@ -50,19 +50,6 @@
 		"config/decorations/grassFlowers",
 		"config/decorations/orchardTrees"
 	],
-	"artifacts" :
-	[
-		"config/artifacts/wands/fireballWand",
-		"config/artifacts/wands/iceboltWand",
-		"config/artifacts/wands/shieldWand",
-		"config/artifacts/phylacteries/minorPhylactery",
-		"config/artifacts/phylacteries/majorPhylactery",
-		"config/artifacts/phylacteries/supremePhylactery",
-		"config/artifacts/phylacteries/relicPhylactery",
-		"config/artifacts/shieldOfTheAncients/shieldOfTheAncients",
-		"config/artifacts/binoculars/binoculars",
-		"config/artifacts/thirdEye/thirdEye"
-	],
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
