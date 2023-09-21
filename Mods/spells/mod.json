@@ -1,0 +1,37 @@
+{
+	"name" : "ToW Spells and abilities",
+	"description" : "Added new spells and creature abilities.",
+	"modType" : "Mechanics",
+	"author" : "Mod Design Team (Witchking, Hobbicus, Trith, Sower, Drwal, Khemiel, avatar), fred79, Andruids, Undead Artist, Ragoon, MURArt, Kuririn",
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0.8",
+	"downloadSize" : 28.4,
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},
+	"spells" :
+	[
+		"config/spells/vampirism/vampirism",
+		"config/spells/bind/bind",
+		"config/spells/divineArrows/divineArrows",
+		"config/spells/intervention/intervention",
+		"config/spells/auraOfPower/auraOfPower",
+		"config/spells/wands/fireballWand",
+		"config/spells/wands/iceboltWand",
+		"config/spells/wands/shieldWand",
+		"config/spells/summonGhost/summonGhost",
+		"config/spells/summonDemilich/summonDemilich1",
+		"config/spells/summonDemilich/summonDemilich2",
+		"config/spells/summonDemilich/summonDemilich3",
+		"config/spells/summonDemilich/summonDemilich4",
+		"config/spells/hateSpike/hateSpike",
+		// abilities
+		"config/spells/trawl/trawl",
+		"config/spells/symbiosis/symbiosis",
+		"config/spells/symbiosis/symbiosis2",
+		"config/spells/rage/rage"
+	]
+}

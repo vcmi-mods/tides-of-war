@@ -63,27 +63,6 @@
 		"config/artifacts/binoculars/binoculars",
 		"config/artifacts/thirdEye/thirdEye"
 	],
-	"spells" :
-	[
-		"config/spells/rage/rage",
-		"config/spells/vampirism/vampirism",
-		"config/spells/symbiosis/symbiosis",
-		"config/spells/symbiosis/symbiosis2",
-		"config/spells/bind/bind",
-		"config/spells/divineArrows/divineArrows",
-		"config/spells/trawl/trawl",
-		"config/spells/intervention/intervention",
-		"config/spells/auraOfPower/auraOfPower",
-		"config/spells/wands/fireballWand",
-		"config/spells/wands/iceboltWand",
-		"config/spells/wands/shieldWand",
-		"config/spells/summonGhost/summonGhost",
-		"config/spells/summonDemilich/summonDemilich1",
-		"config/spells/summonDemilich/summonDemilich2",
-		"config/spells/summonDemilich/summonDemilich3",
-		"config/spells/summonDemilich/summonDemilich4",
-		"config/spells/hateSpike/hateSpike"
-	],
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
