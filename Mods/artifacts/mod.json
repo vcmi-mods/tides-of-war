@@ -12,6 +12,8 @@
 	{
 		"min" : "1.3.0"
 	},
+	"depends" : [ "tides-of-war.spells" ],
+
 	"artifacts" :
 	[
 		"config/artifacts/wands/fireballWand",

@@ -56,5 +56,14 @@
 		"config/dwellings/stronghold/dwellings",
 		"config/dwellings/fortress/dwellings",
 		"config/dwellings/conflux/dwellings"
+	],
+	"spells" :
+	[
+		// creature abilities
+		"config/spells/trawl/trawl",
+		"config/spells/symbiosis/symbiosis",
+		"config/spells/symbiosis/symbiosis2",
+		"config/spells/rage/rage",
+		"config/spells/hateSpike/hateSpike"
 	]
 }
