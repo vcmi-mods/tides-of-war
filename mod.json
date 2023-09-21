@@ -40,16 +40,6 @@
 			"translation/tow/german.json"
 		]
 	},
-	"objects" :
-	[
-		"config/decorations/fortressHomes",
-		"config/decorations/dungeonHomes",
-		"config/decorations/barrels",
-		"config/decorations/sandMountains",
-		"config/decorations/swampMountains",
-		"config/decorations/grassFlowers",
-		"config/decorations/orchardTrees"
-	],
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
