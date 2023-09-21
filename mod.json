@@ -40,16 +40,8 @@
 			"translation/tow/german.json"
 		]
 	},
-	"creatures" :
-	[
-		"config/creatures/neutral/mermaid",
-		"config/creatures/neutral/demilich",
-		"config/creatures/neutral/ghost",
-		"config/creatures/neutral/dreadSkipper"
-	],
 	"objects" :
 	[
-		// "config/dwellings/neutral/dwellings",
 		// "config/banks/seminarium",
 		// "config/banks/scriptorium",
 		// "config/banks/sorceressCastle",

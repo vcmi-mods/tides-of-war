@@ -37,7 +37,7 @@
 			{ 
 				"type" : "WHIRLPOOL_PROTECTION",
 				"propagator" : "HERO",
-				"description" : "Save travel through whirlpool"
+				"description" : "Safe travel through whirlpool"
 			}
 		},
 		"graphics" :
