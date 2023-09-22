@@ -1,5 +1,5 @@
 {
-    "basepath" : "town-screen/conflux/frames/",
+	"basepath" : "town-screen/conflux/frames/",
 	"images" :
 	[
 		{ "frame" : 24, "file" : "ThElPhHr"},
