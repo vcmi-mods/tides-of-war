@@ -35,8 +35,9 @@
 		{
 			"immuneToWater" :
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2 //immune to damage spells only
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.water",
+				"val" : 100
 			}
 		},
 		"graphics" :
