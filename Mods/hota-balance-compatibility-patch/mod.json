@@ -1,17 +1,17 @@
 {
+	"name" : "HotA balance compatibility patch",
+	"description" : "Horn of the Abyss compatibility patch",
+	"modType" : "Mechanics",
 	"author" : "avatar",
 	"contact" : "https://discord.com/invite/chBT42V",
-	"description" : "Horn of the Abyss compatibility patch",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Mechanics",
-	"name" : "HotA balance compatibility patch",
 	"version" : "1.0.0",
-	"keepDisabled" : true,
 	"compatibility" :
 	{
 		"min" : "1.3.0"
 	},
+	"keepDisabled" : true,
 	"depends" :
 	[
 		"hota.confluxvaultofashes"

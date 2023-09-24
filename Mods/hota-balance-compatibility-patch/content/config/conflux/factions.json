@@ -3,19 +3,14 @@
 	{
 		"town" :
 		{
-			"structures" :
-			{
-				"dwellingLvl3B": { "animation" : "town-screen/conflux/TBzTrtn.def", "x" : 700, "y" : 161, "z" : -1, "border" : "town-screen/conflux/buildings-border/ToBzT1.bmp", "area" : "town-screen/conflux/buildings-area/TBzT1.bmp" }, 
-				"dwellingUpLvl3B": { "animation" : "town-screen/conflux/TBzTrtUp.def", "x" : 700, "y" : 161, "z" : -1, "border" : "town-screen/conflux/buildings-border/ToBzT1Up.bmp", "area" : "town-screen/conflux/buildings-area/TBzT1Up.bmp" }
-			},
-			"buildingsIcons": "town-screen/conflux/ALTHALLELEM.DEF",
-			"hallBackground": "town-screen/conflux/ConfluxHallBg.BMP",
-//			"townBackground": "town-screen/conflux/TBELBACK.bmp",
-			"hallSlots":
+			"buildingsIcons" : "town-screen/conflux/ALTHALLELEM.DEF",
+			"hallBackground" : "town-screen/conflux/ConfluxHallBg.BMP",
+//			"townBackground" : "town-screen/conflux/TBELBACK.bmp",
+			"hallSlots" :
 			[
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
-				[ [ "special1" ], [ "hordePhoenix", "hordePhoenixUpgr" ], [ "horde1", "horde1Upgr" ] ], 
+				[ [ "special1" ], [ "hordePhoenix", "hordePhoenixUpgr" ], [ "horde1", "horde1Upgr" ] ],
 				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl3B", "dwellingUpLvl3B" ] ],
 				[ [ "dwellingLvl4", "dwellingUpLvl4" ], [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
 			],
@@ -29,49 +24,71 @@
 				["psychicElemental", "magicElemental"],
 				["firebird", "phoenix"]
 			],
-			
+			"structures" :
+			{
+				"dwellingLvl3B" : {
+					"border" : "town-screen/conflux/buildings-border/ToBzT1.bmp",
+					"area" : "town-screen/conflux/buildings-area/TBzT1.bmp",
+					"animation" : "town-screen/conflux/TBzTrtn.def",
+					"x" : 700, "y" : 161, "z" : -1
+				},
+				"dwellingUpLvl3B" : {
+					"border" : "town-screen/conflux/buildings-border/ToBzT1Up.bmp",
+					"area" : "town-screen/conflux/buildings-area/TBzT1Up.bmp",
+					"animation" : "town-screen/conflux/TBzTrtUp.def",
+					"x" : 700, "y" : 161, "z" : -1
+				}
+			},
 			"buildings" :
 			{
-				"dwellingLvl3":   
-				{ 
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl3B" ] ] ]
+				"dwellingLvl3" :
+				{
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl1" ],
+						[ "mageGuild1" ],
+						[ "noneOf", [ "dwellingLvl3B" ] ]
+					]
 				},
-			
 				"dwellingLvl3B" :
 				{
-					"description" : "The Drowned Hall allows you to recruit Tritons.",
 					"name" : "Drowned Hall",
+					"description" : "The Drowned Hall allows you to recruit Tritons.",
 					"cost" : 
 					{
 						"gold" : 2000,
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl3" ] ] ],
+					"requires" : [
+						"allOf",
+						[ "dwellingLvl1" ],
+						[ "mageGuild1" ],
+						[ "noneOf", [ "dwellingLvl3" ] ]
+					],
 					"id" : 46
 				},
 				"dwellingUpLvl3B" :
 				{
-					"description" : "The Drowned Hall allows you to recruit Abyssal Tritons.",
 					"name" : "Upg. Drowned Hall",
-					"id" : 53,
-					"cost" : 
+					"description" : "The Drowned Hall allows you to recruit Abyssal Tritons.",
+					"cost" :
 					{
-						"gems" : 3,
-						"gold" : 2000
+						"gold" : 2000,
+						"gems" : 3
 					},
-					"upgrades" : "dwellingLvl3B"
+					"upgrades" : "dwellingLvl3B",
+					"id" : 53
 				},
-				"dwellingLvl5":   
-				{ 
-					"requires" : 
-					[ 
-							"anyOf", 
-							[ "dwellingLvl3" ], 
-							[ "dwellingLvl3B" ]	
-					]	
+				"dwellingLvl5" :
+				{
+					"requires" : [
+						"anyOf",
+						[ "dwellingLvl3" ],
+						[ "dwellingLvl3B" ]
+					]
 				}
-			}	
+			}
 		}
-	}	
+	}
 }

@@ -1,0 +1,56 @@
+{
+	"mdtSummonDemilich4" : {
+		"type" : "combat",
+		"name" : "Summon Demilich",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"animation" : {
+	//		"cast" :["spells/summonGhost/SP_summonGhost"]
+		},
+		"sounds" : {
+	//		"cast" : "Magic/Summon"
+		},
+		"level" : 1,
+		"power" : 30,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"flags" : {
+			"indifferent" : true,
+			"special" : true
+		},
+		//graphics - OPTIONAL; object;
+		"graphics" : {
+			"iconBook" : "spells/summonDemilich/FrozenIcon",
+			"iconScroll" : "spells/summonDemilich/FrozScroll1",
+			"iconScenarioBonus" : "spells/summonDemilich/FrozScroll",
+			"iconEffect" : "spells/summonDemilich/INFroz"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Demilich}\r\n\r\nSummons Demiliches to fight on your side during the battle.",
+				"power" : 4,
+				"range" : "X",
+				"cost" : 0,
+				"aiValue" : 10,
+				"targetModifier" : {"smart" :true},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" :false,
+						"id" :"mdtDemilich",
+						"permanent" :false,
+						"type" :"core:summon"
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"mdtIrrigus" :
+	{
+		"class" : "planeswalker",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/conflux/irrigus_spec-small.bmp",
+			"specialtyLarge" : "heroes/conflux/irrigus_spec-large.bmp",
+			"large" : "heroes/conflux/irrigus_portrait-large.bmp",
+			"small" : "heroes/conflux/irrigus_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "mdtTriton",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "mdtTriton",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"duration" : [ "PERMANENT" ],
+				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+			},
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 10, 3 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtTriton", false ]
+					}
+				},
+				"attack2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 10, 3 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtAbyssalTriton", false ]
+					}
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 6, 3 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtTriton", false ]
+					}
+				},
+				"defence2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 7, 3 ]
+					},
+					"limiters" : {
+						"parameters" : [ "mdtAbyssalTriton", false ]
+					}
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"parameters" : [ "mdtTriton", true ]
+					}
+				}
+			}
+		},
+		"texts" :
+		{
+			"name" : "Irrigus",
+			"biography" : "Irrigus have never felt loyal to the Triton Empire, which occupies the whole Endless Ocean. Because of that, he gladly serves the Masters of the Elements after he felt called to the Conflux.",
+			"specialty" : {
+				"name" : "Tritons",
+				"description" : "{Tritons and Abyssal Tritons}\r\n\r\nIncreases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, Tritons and Abyssal Tritons get a permanent +1 Speed bonus.",
+				"tooltip" : "{Tritons and Abyssal Tritons}\r\n\r\nIncreases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, Tritons and Abyssal Tritons get a permanent +1 Speed bonus."
+			}
+		}
+	}
+}
