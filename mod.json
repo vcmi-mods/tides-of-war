@@ -6,7 +6,7 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.8",
+	"version" : "1.0.9",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.9"   : [ "Polish translation by Dru" ],
 		"1.0.8"   : [ "hota-balance-compatibility-patch added" ],
 		"1.0.7"   : [ "Fixed (?) Aura of Power" ],
 		"1.0.6"   : [ "Conversion to vcmi-1.3" ],
@@ -38,6 +39,14 @@
 		"description" : "In jeder der neun Standard-H3-Städte gibt es die Möglichkeit, eine Behausung für eine alternative Kreatur zu bauen.",	
 		"translations" : [
 			"translation/tow/german.json"
+		]
+	},
+	"polish" :
+	{
+		"name" : "Tides of War",
+		"description" : "W każdym z dziewięciu standardowych miast H3 istnieje możliwość zbudowania mieszkania dla alternatywnego stworzenia.",	
+		"translations" : [
+			"translation/tow/polish.json"
 		]
 	},
 	"settings" : {
