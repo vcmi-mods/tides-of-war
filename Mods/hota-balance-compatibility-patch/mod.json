@@ -14,6 +14,7 @@
 	"keepDisabled" : true,
 	"depends" :
 	[
+		"tides-of-war.alternative-creatures",
 		"hota.confluxvaultofashes"
 	],
 	"factions" :
