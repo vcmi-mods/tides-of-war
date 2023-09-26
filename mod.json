@@ -13,7 +13,7 @@
 	},	
 	"changelog" :
 	{
-		"1.0.8"   : [ "Polish translation by Dru" ],
+		"1.0.9"   : [ "Polish translation by Dru" ],
 		"1.0.8"   : [ "hota-balance-compatibility-patch added" ],
 		"1.0.7"   : [ "Fixed (?) Aura of Power" ],
 		"1.0.6"   : [ "Conversion to vcmi-1.3" ],
