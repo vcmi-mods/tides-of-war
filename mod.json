@@ -6,7 +6,7 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.9",
+	"version" : "1.0.10",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.10"   : [ "Restructured jsons and splitted into submods" ],
 		"1.0.9"   : [ "Polish translation by Dru" ],
 		"1.0.8"   : [ "hota-balance-compatibility-patch added" ],
 		"1.0.7"   : [ "Fixed (?) Aura of Power" ],
