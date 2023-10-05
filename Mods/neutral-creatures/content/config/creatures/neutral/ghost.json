@@ -43,7 +43,7 @@
 			"soulEater" :
 			{
 				"type" : "SOUL_STEAL",
-				"subtype" : 0,
+				"subtype" : 1,
 				"val" : 1
 			}
 		},
