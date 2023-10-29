@@ -34,8 +34,7 @@
 			"regeneration" :
 			{
 				"type" : "HP_REGENERATION",
-				"val" : 15,
-				"subtype" : 1
+				"val" : 15
 			}
 		},
 		"graphics" : {

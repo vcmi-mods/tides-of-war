@@ -26,21 +26,21 @@
 		"growth" : 5,
 		"abilities" : {
 			"undead" :
-			{ 
+			{
 				"type" : "UNDEAD"
 			},
 			"generalDamageReduction" :
 			{
-			"type" : "GENERAL_DAMAGE_REDUCTION", //UNTIL_BEING_ATTACKED wprowadzić
-			"subtype" : 0,
-			"val" : 20
+				"type" : "GENERAL_DAMAGE_REDUCTION", //UNTIL_BEING_ATTACKED wprowadzić
+				"subtype" : "damageTypeMelee",
+				"val" : 20
 			},
 			"attackBooster" :
 			{
-			"type" : "ENCHANTED",
-			"subtype" : "spell.mdtRage",
-			"val" : 3,
-			"addInfo" : 100
+				"type" : "ENCHANTED",
+				"subtype" : "spell.mdtRage",
+				"val" : 3,
+				"addInfo" : 100
 			}
 		},
 		"graphics" : {

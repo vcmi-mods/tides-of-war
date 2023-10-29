@@ -14,21 +14,21 @@
 		[
 			{
 				"type" : "VISIONS",
-				"subtype" : 0,
+				"subtype" : "visionsMonsters",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
 			{
 				"type" : "VISIONS",
-				"subtype" : 1,
+				"subtype" : "visionsHeroes",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
 			{
 				"type" : "VISIONS",
-				"subtype" : 2,
+				"subtype" : "visionsTowns",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
