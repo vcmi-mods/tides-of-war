@@ -44,9 +44,9 @@
 						"bonus" : {
 							"generalDamageReduction" : {
 								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeMelee",
 								"val" : 15,
 								"valueType" : "PERCENT_TO_BASE",
-								"subtype" : 0,
 								"duration" : "N_TURNS"
 							}
 						}

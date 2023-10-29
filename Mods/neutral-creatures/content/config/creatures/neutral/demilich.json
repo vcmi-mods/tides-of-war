@@ -44,7 +44,7 @@
 			"destruction" :
 			{
 				"type" : "DESTRUCTION",
-				"subtype" : 0,
+				"subtype" : "destructionKillPercentage",
 				"val" : 10,
 				"addInfo" : 50
 			}

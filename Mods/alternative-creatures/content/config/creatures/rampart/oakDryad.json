@@ -32,7 +32,7 @@
 			"blockAttack" :
 			{
 				"type" : "GENERAL_ATTACK_REDUCTION",
-				"subtype" : -1,
+				"subtype" : "damageTypeAll",
 				"val" : 20
 			},
 			"helpEnt2" :
