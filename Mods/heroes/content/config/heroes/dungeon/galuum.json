@@ -44,7 +44,7 @@
 			"bonuses" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.attack",
+					"subtype" : "primarySkill.attack",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"parameters" : [ 14, 5 ]
@@ -55,7 +55,7 @@
 				},
 				"attack2" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.attack",
+					"subtype" : "primarySkill.attack",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"parameters" : [ 14, 5 ]
@@ -66,7 +66,7 @@
 				},
 				"defence" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.defence",
+					"subtype" : "primarySkill.defence",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"parameters" : [ 9, 5 ]
@@ -77,7 +77,7 @@
 				},
 				"defence2" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.defence",
+					"subtype" : "primarySkill.defence",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"parameters" : [ 9, 5 ]

@@ -47,14 +47,14 @@
 								"type" : "PRIMARY_SKILL",
 								"duration" : "PERMANENT",
 								"val" : 2,
-								"subtype" : "primSkill.attack",
+								"subtype" : "primarySkill.attack",
 								"valueType" : "ADDITIVE_VALUE"
 							},
 							"plusDefence" : {
 								"type" : "PRIMARY_SKILL",
 								"duration" : "PERMANENT",
 								"val" : 2,
-								"subtype" : "primSkill.defence",
+								"subtype" : "primarySkill.defence",
 								"valueType" : "ADDITIVE_VALUE"
 							}
 						}
