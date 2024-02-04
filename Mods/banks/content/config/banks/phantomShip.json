@@ -3,7 +3,7 @@
 	{
 		"types" :
 		{
-			"mdtDreadSkipperBank" :
+			"mdtDreadSkipperBankWater" :
 			{
 				"name" : "Phantom Ship",
 				"templates" : {
@@ -12,18 +12,219 @@
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : [ "VVV", "VVV", "VVV", "VAB"],
 						"allowedTerrains" : [ "water" ]
-					},
-					"landShip" : {
-						"animation" : "banks/Shpair",
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VVVA" ]
-//						"allowedTerrains" : [ "rough", "dirt", "swamp" ]
 					}
 				},
 				"rmg" : {
 					"value" : 2500,
 					"rarity" : 100,
 					"mapLimit" : 8
+				},
+				"levels" : [
+					{
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 2, "type" : "mdtDreadSkipper" },
+							{ "amount" : 2, "type" : "mdtDreadSkipper" },
+							{ "amount" : 2, "type" : "mdtDreadSkipper" },
+							{ "amount" : 2, "type" : "mdtDreadSkipper" },
+							{ "amount" : 2, "type" : "mdtDreadSkipper" },
+							{ "amount" : 2, "type" : "mdtDreadSkipper" },
+							{ "amount" : 2, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 500,
+						"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 2500
+							},
+							"creatures" :
+							[
+								{ "amount" : 4, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					{
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 4, "type" : "mdtDreadSkipper" },
+							{ "amount" : 4, "type" : "mdtDreadSkipper" },
+							{ "amount" : 4, "type" : "mdtDreadSkipper" },
+							{ "amount" : 4, "type" : "mdtDreadSkipper" },
+							{ "amount" : 4, "type" : "mdtDreadSkipper" },
+							{ "amount" : 4, "type" : "mdtDreadSkipper" },
+							{ "amount" : 4, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 800,
+							"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 3500
+							},
+							"creatures" :
+							[
+								{ "amount" : 6, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					{
+						"chance" : 20,
+						"guards" : [
+							{ "amount" : 6, "type" : "mdtDreadSkipper" },
+							{ "amount" : 6, "type" : "mdtDreadSkipper" },
+							{ "amount" : 6, "type" : "mdtDreadSkipper" },
+							{ "amount" : 6, "type" : "mdtDreadSkipper" },
+							{ "amount" : 6, "type" : "mdtDreadSkipper" },
+							{ "amount" : 6, "type" : "mdtDreadSkipper" },
+							{ "amount" : 6, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 9000,
+						"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 4500
+							},
+							"creatures" :
+							[
+								{ "amount" : 8, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					
+					{
+						"chance" : 15,
+						"guards" : [
+							{ "amount" : 8, "type" : "mdtDreadSkipper" },
+							{ "amount" : 8, "type" : "mdtDreadSkipper" },
+							{ "amount" : 8, "type" : "mdtDreadSkipper" },
+							{ "amount" : 8, "type" : "mdtDreadSkipper" },
+							{ "amount" : 8, "type" : "mdtDreadSkipper" },
+							{ "amount" : 8, "type" : "mdtDreadSkipper" },
+							{ "amount" : 8, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 10000,
+						"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 5500
+							},
+							"creatures" :
+							[
+								{ "amount" : 10, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					{
+						"chance" : 10,
+						"guards" : [
+							{ "amount" : 10, "type" : "mdtDreadSkipper" },
+							{ "amount" : 10, "type" : "mdtDreadSkipper" },
+							{ "amount" : 10, "type" : "mdtDreadSkipper" },
+							{ "amount" : 10, "type" : "mdtDreadSkipper" },
+							{ "amount" : 10, "type" : "mdtDreadSkipper" },
+							{ "amount" : 10, "type" : "mdtDreadSkipper" },
+							{ "amount" : 10, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 10000,
+						"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 6500
+							},
+							"creatures" :
+							[
+								{ "amount" : 12, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					{
+						"chance" : 5,
+						"guards" : [
+							{ "amount" : 12, "type" : "mdtDreadSkipper" },
+							{ "amount" : 12, "type" : "mdtDreadSkipper" },
+							{ "amount" : 12, "type" : "mdtDreadSkipper" },
+							{ "amount" : 12, "type" : "mdtDreadSkipper" },
+							{ "amount" : 12, "type" : "mdtDreadSkipper" },
+							{ "amount" : 12, "type" : "mdtDreadSkipper" },
+							{ "amount" : 12, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 12000,
+						"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 7500
+							},
+							"creatures" :
+							[
+								{ "amount" : 14, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					{
+						"chance" : 5,
+						"guards" : [
+							{ "amount" : 14, "type" : "mdtDreadSkipper" },
+							{ "amount" : 14, "type" : "mdtDreadSkipper" },
+							{ "amount" : 14, "type" : "mdtDreadSkipper" },
+							{ "amount" : 14, "type" : "mdtDreadSkipper" },
+							{ "amount" : 14, "type" : "mdtDreadSkipper" },
+							{ "amount" : 14, "type" : "mdtDreadSkipper" },
+							{ "amount" : 14, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 15000,
+						"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 8500
+							},
+							"creatures" :
+							[
+								{ "amount" : 16, "type" : "mdtDreadSkipper" }
+							]
+						}
+					},
+					{
+						"chance" : 5,
+						"guards" : [
+							{ "amount" : 18, "type" : "mdtDreadSkipper" },
+							{ "amount" : 18, "type" : "mdtDreadSkipper" },
+							{ "amount" : 18, "type" : "mdtDreadSkipper" },
+							{ "amount" : 18, "type" : "mdtDreadSkipper" },
+							{ "amount" : 18, "type" : "mdtDreadSkipper" },
+							{ "amount" : 18, "type" : "mdtDreadSkipper" },
+							{ "amount" : 18, "type" : "mdtDreadSkipper" }
+						],
+						"combat_value" : 20000,
+							"reward" : {
+							"value" : 10000,
+							"resources" :
+							{
+								"gold" : 9500
+							},
+							"creatures" :
+							[
+								{ "amount" : 20, "type" : "mdtDreadSkipper" }
+							]
+						}
+					}
+				]
+			},
+			"mdtDreadSkipperBankLand" :
+			{
+				"name" : "Phantom Ship",
+				"templates" : {
+					"landShip" : {
+						"animation" : "banks/Shpair",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "VVVV", "VVVV", "VVVA" ]
+//						"allowedTerrains" : [ "rough", "dirt", "swamp" ]
+					}
 				},
 				"levels" : [
 					{
