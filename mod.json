@@ -54,6 +54,14 @@
 			"translation/tow/polish.json"
 		]
 	},
+	"spanish" :
+	{
+		"name" : "Tides of War",
+		"description" : "En cada una de las nueve ciudades H3 estándar, tienes la posibilidad de construir un habitáculo extra para criaturas alternativas.",	
+		"translations" : [
+			"translation/tow/spanish.json"
+		]
+	},
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
