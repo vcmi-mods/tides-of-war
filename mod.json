@@ -32,8 +32,8 @@
 	},
 	"chinese" :
 	{
-		"name" : "Tides of War",
-		"description" : "In every nine standard H3 town, you have oppurtunity to build one dwelling for altenative creature.",
+		"name" : "战争之潮（ToW）",
+		"description" : "战争之潮（Tides of War）是《英雄无敌 III》的非官方资料片。该模组为每座官方城镇都添加了新的生物，并对英雄特长等内容也进行了一些新的改动。",
 		"translations" : [
 			"translation/tow/chinese.json"
 		]
