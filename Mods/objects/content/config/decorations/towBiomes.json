@@ -1,0 +1,73 @@
+{
+	"barrels" : {
+		"biome": {
+			"terrain" : "subterra",
+			"objectType" : "structure"
+		},
+		"templates" : ["FALD0004", "FALD0006", "FALD0014", "FALD0016", "FALD0017"]
+	},
+	"dungeonHomes" : {
+		"biome": {
+			"terrain" : "subterra",
+			"objectType" : "structure"
+		},
+		"templates" : ["dngnhom1", "dngnhom2", "dngnhom3"]
+	},
+	"fortressnHomes" : {
+		"biome": {
+			"terrain" : "swamp",
+			"objectType" : "structure"
+		},
+		"templates" : ["FortH1", "FortH2", "FortH3", "FortH4", "FortH5", "FortH6"]
+	},
+	"mdtFlowers1" : {
+		"biome": {
+			"terrain" : "grass",
+			"objectType": "plant"
+		},
+		"templates" : ["FGRQ0001", "FGRQ0002"]
+	},
+	"mdtFlowers2" : {
+		"biome": {
+			"terrain" : "grass",
+			"objectType": "plant"
+		},
+		"templates" : ["FGRQ0003", "FGRQ0004", "FGRQ0005", "FGRQ0006", "FGRQ0008", "FGRQ0009"]
+	},
+	"mdtFlowers3" : {
+		"biome": {
+			"terrain" : "grass",
+			"objectType": "plant"
+		},
+		"templates" : ["FGRQ0007", "FGRQ0010", "FGRQ0011"]
+	},
+	"mdtFlowers4" : {
+		"biome": {
+			"terrain" : "grass",
+			"objectType": "plant"
+		},
+		"templates" : ["FGRQ0012", "FGRQ0013", "FGRQ0014"]
+	},
+	"orchardTrees" : {
+		"biome": {
+			"terrain" : [ "grass", "swamp", "dirt" ],
+			"alignment" : "good",
+			"objectType": "tree"
+		},
+		"templates" : ["FGRG0021", "FGRG0022", "FGRG0023", "FGRG0024", "FGRG0025", "FGRG0026", "FGRG0027", "FGRG0028", "FGRG0029", "FGRG0030", "FGRG0031", "FGRG0032", "FGRG0033" ]
+	},
+	"sandMountains": {
+		"biome": {
+			"terrain" : "sand",
+			"objectType": "rock"
+		},
+		"templates" : ["FROD0035", "FROD0036", "FROD0037", "FROD0038", "FROD0039", "FROD0040", "FROD0041", "FROD0042"]
+	},
+	"swampMountains": {
+		"biome": {
+			"terrain" : "swamp",
+			"objectType": "rock"
+		},
+		"templates" : ["FSAD0045", "FSAD0046", "FSAD0047", "FSAD0048", "FSAD0049", "FSAD0050", "FSAD0051", "FSAD0052"]
+	}
+}
