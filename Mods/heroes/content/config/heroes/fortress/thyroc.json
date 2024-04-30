@@ -101,7 +101,7 @@
 			"biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
 			"specialty" : {
 				"name" : "Hydras",
-				"description" : "{Hydras and Chaos Hydras}\r\n\r\nAll Hydras and Chaos Hydras have 30% chance to cast Disease after attack.",
+				"description" : "All Hydras and Chaos Hydras have 30% chance to cast Disease after attack.",
 				"tooltip" : "Creature bonus: Hydras"
 			}
 		}

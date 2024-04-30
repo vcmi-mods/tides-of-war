@@ -101,8 +101,8 @@
 			"biography" : "Irrigus have never felt loyal to the Triton Empire, which occupies the whole Endless Ocean. Because of that, he gladly serves the Masters of the Elements after he felt called to the Conflux.",
 			"specialty" : {
 				"name" : "Tritons",
-				"description" : "{Tritons and Abyssal Tritons}\r\n\r\nIncreases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, Tritons and Abyssal Tritons get a permanent +1 Speed bonus.",
-				"tooltip" : "{Tritons and Abyssal Tritons}\r\n\r\nIncreases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, Tritons and Abyssal Tritons get a permanent +1 Speed bonus."
+				"description" : "Increases the Attack and Defense skills of any Tritons and Abyssal Tritons for each level attained after 3rd level. Additionally, they get a permanent +1 Speed bonus.",
+				"tooltip" : "Creature bonus: Tritons"
 			}
 		}
 	}

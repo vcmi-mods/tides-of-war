@@ -102,8 +102,8 @@
 			"biography" : "No one really knows how long Trolls live. Rumor has it that Shroo remember the days of the Revolt of the Beastmasters. No one though has been brave enough to ask her about it.",
 			"specialty" : {
 				"name" : "Troll Hags",
-				"description" : "{Troll Hags and Troll Witches}\r\n\r\nIncreases the Attack and Defense skills of any Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
-				"tooltip" : "{Troll Hags and Troll Witches}\r\n\r\nIncreases the Attack and Defense skills of any Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus"
+				"description" : "Increases the Attack and Defense skills of any Troll Hags and Troll Witches for each level attained after 5th level. Additionally, they get a permanent +1 Speed bonus",
+				"tooltip" : "Creature bonus: Troll Hags"
 			}
 		}
 	}

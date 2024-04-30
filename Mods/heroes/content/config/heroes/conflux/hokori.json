@@ -52,7 +52,7 @@
 			"biography" : "As a Priestess of the Temple of Baa, Hokori left Enroth and settled down in Erathia in order to spread her faith. Here she had an epiphany caused by the Conflux and thus she abandoned her religion so that she could stay among the Elementals.",
 			"specialty" : {
 				"name" : "Aura of Power",
-				"description" : "{Aura of Power}\r\n\r\nCasts Aura of Power with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Aura of Power with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Bonus: Aura of Power"
 			}
 		}

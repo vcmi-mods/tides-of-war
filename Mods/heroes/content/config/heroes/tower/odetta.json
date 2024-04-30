@@ -54,7 +54,7 @@
 			"specialty" :
 			{
 				"name" : "Precision",
-				"description" : "{Precision}\r\n\r\nCasts Precision with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Precision with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Precision"
 			}
 		}

@@ -102,7 +102,7 @@
 			"biography" : "When young Collivea joined the forces of Nighon, Warlocks were amazed to find out that she's resistant to the look of a Medusa. That settled her career as an Overlord.",
 			"specialty" : {
 				"name" : "Medusas",
-				"description" : "{Medusas and Medusa Queens}\r\n\r\nIncreases the Attack and Defense skills of any Medusas and Medusa Queens for each level attained after 4th level. Additionally, Medusas and Medusa Queens get a permanent +1 Speed bonus.",
+				"description" : "Increases the Attack and Defense skills of any Medusas and Medusa Queens for each level attained after 4th level. Additionally, they get a permanent +1 Speed bonus.",
 				"tooltip" : "Creature bonus: Medusa"
 			}
 		}

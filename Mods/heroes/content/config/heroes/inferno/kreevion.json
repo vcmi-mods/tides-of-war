@@ -53,7 +53,7 @@
 			"biography" : "Rumor has it that Kreevion was born of pure wrath of Demons mourning the death of Lucifer Kreegan. Despite it most certainly being just a tale, this idea alone causes his subordinates to fear him.",
 			"specialty" : {
 				"name" : "Frenzy",
-				"description" : "{Frenzy}\r\n\r\nCasts Frenzy with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Frenzy with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "{Frenzy}\r\n\r\nCasts Frenzy with increased effect, based on hero level compared to the level of the target unit."
 			}
 		}

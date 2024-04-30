@@ -52,7 +52,7 @@
 			"biography" : "Daxaroth was Dragon Queen Mutare's right paw. Some suspect that Mutare's death was really Daxaroth's plot to gain power. Nevertheless, Dragons listen to him as if he is their new King.",
 			"specialty" : {
 				"name" : "Wide Breath",
-				"description" : "{Dragon's Wide Breath}\r\n\r\nAll Dragons gain Wide Breath ability.",
+				"description" : "All Dragons gain Wide Breath ability.",
 				"tooltip" : "Creature bonus: Dragons"
 			}
 		}

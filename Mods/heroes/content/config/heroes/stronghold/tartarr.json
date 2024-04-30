@@ -54,7 +54,7 @@
 			"specialty" :
 			{
 				"name" : "Shield",
-				"description" : "{Shield}\r\n\r\nCasts Shield with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Shield with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Shield"
 			}
 		}

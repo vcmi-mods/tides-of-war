@@ -102,8 +102,8 @@
 			"biography" : "Eyzea presents herself as the real mother of Xeron, commander of the Sons of Erebus. When Eeofol lost the War of Armageddon's Blade, she had to hide underground, fearing for her life. Now she awaits the moment to return to the surface and lead the Kreegan army to their final victory.",
 			"specialty" : {
 				"name" : "Succubi",
-				"description" : "{Succubi and Lilims}\r\n\r\nIncreases the Attack and Defense skills of any Succubi and Lilims for each level attained after 4th level. Additionally, Succubi and Lilims get a permanent +1 Speed bonus",
-				"tooltip" : "{Succubi and Lilims}\r\n\r\nIncreases the Attack and Defense skills of any Succubi and Lilims for each level attained after 4th level. Additionally, Succubi and Lilims get a permanent +1 Speed bonus"
+				"description" : "Increases the Attack and Defense skills of any Succubi and Lilims for each level attained after 4th level. Additionally, Succubi and Lilims get a permanent +1 Speed bonus",
+				"tooltip" : "Creature bonus: Succubi"
 			}
 		}
 	}
