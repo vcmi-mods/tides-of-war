@@ -54,7 +54,7 @@
 			"specialty" :
 			{
 				"name" : "Vampirism",
-				"description" : "{Vampirism}\r\n\r\nCasts Vampirism with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)",
+				"description" : "Casts Vampirism with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)",
 				"tooltip" : "Spell Bonus: Vampirism"
 			}
 		}

@@ -102,7 +102,7 @@
 			"biography" : "Many say that Galuum was once a slave trader, who, due to an ancient ritual, became a monster, but also a very powerful Warlock. No one, however, can prove these rumors. No matter if this legend is true, Galuum is a very talented leader, who frightens his enemies with not only his appearance, but also his skills.",
 			"specialty" : {
 				"name" : "Illithids",
-				"description" : "{Illithids and Alhoons}\r\n\r\nIncreases the Attack and Defense skills of any Illithids and Alhoons for each level attained after 5th level. Additionally, Illithids and Alhoons get a permanent +1 Speed bonus.",
+				"description" : "Increases the Attack and Defense skills of any Illithids and Alhoons for each level attained after 5th level. Additionally, Illithids and Alhoons get a permanent +1 Speed bonus.",
 				"tooltip" : "Creature bonus: Illithid"
 			}
 		}

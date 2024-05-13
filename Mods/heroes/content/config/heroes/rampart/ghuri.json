@@ -54,7 +54,7 @@
 			"specialty" :
 			{
 				"name" : "Bind",
-				"description" : "{Bind}\r\n\r\nCan cast special spell Bind.",
+				"description" : "Can cast special spell Bind.",
 				"tooltip" : "{Bind}\r\n\r\nCan cast special spell Bind."
 			}
 		}

@@ -102,8 +102,8 @@
 			"biography" : "When Kastore came to the throne of Deyja, many Undeads, as yet hiding in shadows, blatantly opposed the new authority. Yaverr, once hunting Harmondale's peasants alone, happened to be a very talented commander among the rebels.",
 			"specialty" : {
 				"name" : "Werewolves",
-				"description" : "{Werewolves and Dire Werewolves}\r\n\r\nIncreases the Attack and Defense skills of any Werewolves and Dire Werewolves for each level attained after 4th level. Additionally, Werewolves and Dire Werewolves get a permanent +1 Speed bonus",
-				"tooltip" : "{Werewolves and Dire Werewolves}\r\n\r\nIncreases the Attack and Defense skills of any Werewolves and Dire Werewolves for each level attained after 4th level. Additionally, Werewolves and Dire Werewolves get a permanent +1 Speed bonus"
+				"description" : "Increases the Attack and Defense skills of any Werewolves and Dire Werewolves for each level attained after 4th level. Additionally, they get a permanent +1 Speed bonus",
+				"tooltip" : "Creature bonus: Werevolves"
 			}
 		}
 	}

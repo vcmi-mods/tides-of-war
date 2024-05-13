@@ -102,7 +102,7 @@
 			"specialty" :
 			{
 				"name" : "Couatls",
-				"description" : "{Couatls and Quetzalcouatls}\r\n\r\nIncreases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, Couatls and Quetzalcouatls get a permanent +1 Speed bonus.",
+				"description" : "Increases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, they get a permanent +1 Speed bonus.",
 				"tooltip" : "Creature bonus: Couatl"
 			}
 		}
