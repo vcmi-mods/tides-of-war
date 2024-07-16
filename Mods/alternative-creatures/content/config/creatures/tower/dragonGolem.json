@@ -20,7 +20,7 @@
 			"max" : 50
 		},
 		"fightValue" : 3550,
-		"aiValue" : 2950,
+		"aiValue" : 7600,
 		"advMapAmount" : {
 			"min" : 3,
 			"max" : 8
@@ -34,7 +34,7 @@
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
-				"val" : 80
+				"val" : 40
 			},
 			"firstStrike" :
 			{

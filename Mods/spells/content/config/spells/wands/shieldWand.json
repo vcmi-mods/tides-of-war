@@ -32,49 +32,45 @@
 		"levels" : {
 			"base" : {
 				"description" : "{Shield}\r\n\r\nShields the selected unit, reducing the amount of damage received from hand-to-hand attacks.",	 
-				"cost" : 0,
+				"cost" : 2,
 				"power" : 10,
 				"aiValue" : 15,
 				"range" : "0",
 				"targetModifier" : {"smart" :true},
-				"battleEffects" : {
-					"shieldEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
-						"bonus" : {
-							"generalDamageReduction" : {
-								"type" : "GENERAL_DAMAGE_REDUCTION",
-								"subtype" : "damageTypeMelee",
-								"val" : 15,
-								"valueType" : "PERCENT_TO_BASE",
-								"duration" : "N_TURNS"
-							}
-						}
+				"effects" : {
+					"generalDamageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeMelee",
+						"duration" : "N_TURNS"
 					}
 				}
 			},
-			"none" : {},
-			"basic" : {},
+			"none" : {
+				"effects" : {
+					"generalDamageReduction" : {
+						"val" : 15
+					}
+				}
+			},
+			"basic" : {
+				"effects" : {
+					"generalDamageReduction" : {
+						"val" : 15
+					}
+				}
+			},
 			"advanced" : {
-				"battleEffects" : {
-					"shieldEffect" : {
-						"bonus" : {
-							"generalDamageReduction" : {
-								"val" : 30
-							}
-						}
+				"effects" : {
+					"generalDamageReduction" : {
+						"val" : 30
 					}
 				}
 			},
 			"expert" : {
 				"range" : "X",
-				"battleEffects" : {
-					"shieldEffect" : {
-						"bonus" : {
-							"generalDamageReduction" : {
-								"val" : 30
-							}
-						}
+				"effects" : {
+					"generalDamageReduction" : {
+						"val" : 30
 					}
 				}
 			}

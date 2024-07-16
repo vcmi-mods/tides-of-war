@@ -37,63 +37,7 @@
 			}
 		],
 		"specialty" : {
-			"base" : {
-				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
-			},
-			"bonuses" : {
-				"attack" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 16, 6 ]
-					},
-					"limiters" : {
-						"parameters" : [ "mdtCouatl", false ]
-					}
-				},
-				"attack2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 18, 6 ]
-					},
-					"limiters" : {
-						"parameters" : [ "mdtQuetzalcouatl", false ]
-					}
-				},
-				"defence" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 11, 6 ]
-					},
-					"limiters" : {
-						"parameters" : [ "mdtCouatl", false ]
-					}
-				},
-				"defence2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"updater" : {
-						"parameters" : [ 11, 6 ],
-						"type" : "GROWS_WITH_LEVEL"
-					},
-					"limiters" : {
-						"parameters" : [ "mdtQuetzalcouatl", false ]
-					}
-				},
-				"speed" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1,
-					"limiters" : {
-						"parameters" : [ "mdtCouatl", true ]
-					}
-				}
-			}
+			"creature" : "mdtCouatl"
 		},
 		"texts" :
 		{
@@ -102,7 +46,7 @@
 			"specialty" :
 			{
 				"name" : "Couatls",
-				"description" : "Increases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, they get a permanent +1 Speed bonus.",
+				"description" : "Increases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, Couatls and Quetzalcouatls get a permanent +1 Speed bonus.",
 				"tooltip" : "Creature bonus: Couatl"
 			}
 		}

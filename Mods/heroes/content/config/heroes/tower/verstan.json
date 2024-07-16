@@ -61,7 +61,7 @@
 			{
 				"name" : "Drake Golems",
 				"description" : "All Drake Golems and Dragon Golems gain additional 10% magic resistance.",
-				"tooltip" : "Creature bonus: Drake Golems"
+				"tooltip" : "Bonus: Drake Golems"
 			}
 		}
 	}

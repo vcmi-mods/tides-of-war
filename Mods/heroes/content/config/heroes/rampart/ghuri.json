@@ -55,7 +55,7 @@
 			{
 				"name" : "Bind",
 				"description" : "Can cast special spell Bind.",
-				"tooltip" : "{Bind}\r\n\r\nCan cast special spell Bind."
+				"tooltip" : "Spell bonus: Bind."
 			}
 		}
 	}

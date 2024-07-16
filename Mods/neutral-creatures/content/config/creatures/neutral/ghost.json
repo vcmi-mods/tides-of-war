@@ -22,7 +22,7 @@
 			"max" : 10
 		},
 		"fightValue" : 657,
-		"aiValue" : 1248,
+		"aiValue" : 1000,
 		"advMapAmount" :
 		{
 			"min" : 8,

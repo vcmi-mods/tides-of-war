@@ -45,7 +45,7 @@
 		"levels" : {
 			"base" : {
 				"description" : "{Ice Bolt}\r\n\r\nDrains the body heat from the selected enemy unit.",
-				"cost" : 0,
+				"cost" : 2,
 				"aiValue" : 15,
 				"range" : "0",
 				"targetModifier" : {"smart" :true},

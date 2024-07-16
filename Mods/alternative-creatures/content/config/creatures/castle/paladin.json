@@ -19,7 +19,7 @@
 			"max" : 45
 		},
 		"fightValue" : 5454,
-		"aiValue" : 6925,
+		"aiValue" : 5500,
 		"advMapAmount" : {
 			"min" : 3,
 			"max" : 8
@@ -36,7 +36,7 @@
 			{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.prayer",
-				"val" : 4,
+				"val" : 2,
 				"propagator" : "HERO"
 			},
 			"noCastByDefault" :

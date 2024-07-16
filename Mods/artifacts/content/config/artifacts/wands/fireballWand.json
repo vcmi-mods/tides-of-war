@@ -3,7 +3,7 @@
 	{
 		"type" : ["HERO"],
 		"slot" : "MISC",
-		"class" : "MINOR",
+		"class" : "MAJOR",
 		"value" : 4000,
 		"bonuses" :
 		[

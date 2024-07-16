@@ -45,7 +45,6 @@
 					"requires" : [
 						"allOf",
 						[ "dwellingLvl5" ],
-						[ "dwellingLvl6" ],
 						[ "noneOf", [ "dwellingLvl7B" ] ]
 					]
 				},

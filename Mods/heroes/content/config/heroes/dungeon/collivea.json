@@ -37,63 +37,7 @@
 			}
 		],
 		"specialty" : {
-			"base" : {
-				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
-			},
-			"bonuses" : {
-				"attack" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 9, 4 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:medusa", false ]
-					}
-				},
-				"attack2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 10, 4 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:medusaQueen", false ]
-					}
-				},
-				"defence" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 9, 4 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:medusa", false ]
-					}
-				},
-				"defence2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 10, 4 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:medusaQueen", false ]
-					}
-				},
-				"speed" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1,
-					"limiters" : {
-						"parameters" : [ "core:medusa", true ]
-					}
-				}
-			}
+			"creature" : "medusa"
 		},
 		"spellbook" : [],
 		"texts" :
@@ -102,7 +46,7 @@
 			"biography" : "When young Collivea joined the forces of Nighon, Warlocks were amazed to find out that she's resistant to the look of a Medusa. That settled her career as an Overlord.",
 			"specialty" : {
 				"name" : "Medusas",
-				"description" : "Increases the Attack and Defense skills of any Medusas and Medusa Queens for each level attained after 4th level. Additionally, they get a permanent +1 Speed bonus.",
+				"description" : "Increases the Attack and Defense skills of any Medusas and Medusa Queens for each level attained after 4th level. Additionally, Medusas and Medusa Queens get a permanent +1 Speed bonus.",
 				"tooltip" : "Creature bonus: Medusa"
 			}
 		}

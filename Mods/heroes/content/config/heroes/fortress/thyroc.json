@@ -37,63 +37,7 @@
 			}
 		],
 		"specialty" : {
-			"base" : {
-				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
-			},
-			"bonuses" : {
-				"attack" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 16, 7 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:hydra", false ]
-					}
-				},
-				"attack2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 18, 7 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:chaosHydra", false ]
-					}
-				},
-				"defence" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 18, 7 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:hydra", false ]
-					}
-				},
-				"defence2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 20, 7 ]
-					},
-					"limiters" : {
-						"parameters" : [ "core:chaosHydra", false ]
-					}
-				},
-				"speed" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1,
-					"limiters" : {
-						"parameters" : [ "core:hydra", true ]
-					}
-				}
-			}
+			"creature" : "hydra"
 		},
 		"texts" :
 		{
@@ -101,7 +45,7 @@
 			"biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
 			"specialty" : {
 				"name" : "Hydras",
-				"description" : "All Hydras and Chaos Hydras have 30% chance to cast Disease after attack.",
+				"description" : "Increases the speed of any Hydras or Chaos Hydras by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
 				"tooltip" : "Creature bonus: Hydras"
 			}
 		}

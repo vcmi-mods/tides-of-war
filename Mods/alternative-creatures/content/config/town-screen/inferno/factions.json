@@ -59,7 +59,7 @@
 					"requires" : [
 						"allOf",
 						[ "dwellingLvl3" ],
-						[ "special2" ],
+						[ "mageGuild1" ],
 						[ "noneOf", [ "dwellingLvl4" ] ]
 					],
 					"id" : 47

@@ -4,9 +4,9 @@
 		"name" : "Vampirism",
 		"school" : {
 			"air" : false,
-			"earth" : true,
+			"earth" : false,
 			"fire" : false,
-			"water" : false
+			"water" : true
 		},
 		"level" : 5,
 		"power" : 10,
@@ -66,7 +66,22 @@
 				"cost" : 20
 			},
 			"basic" : {
-				"description" : "{Basic Vampirism}\r\n\r\nFriendly unit becomes undead and drains 30% of damage dealt to the enemy.",
+				"description" : "{Basic Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",
+				"cost" : 18,
+				"battleEffects" : {
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeDrain" : {
+								"val" : 20
+							}
+						}
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Vampirism}\r\n\r\nFriendly unit becomes undead and drains 30% of damage dealt to the enemy.",
 				"cost" : 18,
 				"battleEffects" : {
 					"vampirismEffect" : {
@@ -80,8 +95,8 @@
 					}
 				}
 			},
-			"advanced" : {
-				"description" : "{Advanced Vampirism}\r\n\r\nFriendly unit becomes undead and drains 40% of damage dealt to the enemy.",
+			"expert" : {
+				"description" : "{Expert Vampirism}\r\n\r\nFriendly unit becomes undead and drains 40% of damage dealt to the enemy.",
 				"cost" : 18,
 				"battleEffects" : {
 					"vampirismEffect" : {
@@ -90,21 +105,6 @@
 						"bonus" : {
 							"lifeDrain" : {
 								"val" : 40
-							}
-						}
-					}
-				}
-			},
-			"expert" : {
-				"description" : "{Expert Vampirism}\r\n\r\nFriendly unit becomes undead and drains 50% of damage dealt to the enemy.",
-				"cost" : 18,
-				"battleEffects" : {
-					"vampirismEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
-						"bonus" : {
-							"lifeDrain" : {
-								"val" : 50
 							}
 						}
 					}

@@ -32,7 +32,7 @@
 							{ "amount" : 8, "type" : "woodElf", "upgradeChance" : 50 },
 							{ "amount" : 4, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 2, "type" : "unicorn", "upgradeChance" : 50 },
-							{ "amount" : 1, "type" : "phoenix", "upgradeChance" : 50 }
+							{ "amount" : 1, "type" : "firebird", "upgradeChance" : 50 }
 						],
 						"combat_value" : 500,
 						"reward" : {
@@ -49,7 +49,7 @@
 							{ "amount" : 16, "type" : "woodElf", "upgradeChance" : 50 },
 							{ "amount" : 8, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 4, "type" : "unicorn", "upgradeChance" : 50 },
-							{ "amount" : 2, "type" : "phoenix", "upgradeChance" : 50 }
+							{ "amount" : 2, "type" : "firebird", "upgradeChance" : 50 }
 						],
 						"combat_value" : 500,
 						"reward" : {
@@ -66,7 +66,7 @@
 							{ "amount" : 32, "type" : "woodElf", "upgradeChance" : 60 },
 							{ "amount" : 16, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 8, "type" : "unicorn", "upgradeChance" : 50 },
-							{ "amount" : 4, "type" : "phoenix", "upgradeChance" : 50 }
+							{ "amount" : 4, "type" : "firebird", "upgradeChance" : 50 }
 						],
 						"combat_value" : 1000,
 						"reward" : {
@@ -84,7 +84,7 @@
 							{ "amount" : 48, "type" : "woodElf", "upgradeChance" : 70 },
 							{ "amount" : 24, "type" : "monk", "upgradeChance" : 60 },
 							{ "amount" : 12, "type" : "unicorn", "upgradeChance" : 60 },
-							{ "amount" : 6, "type" : "phoenix", "upgradeChance" : 60 }
+							{ "amount" : 6, "type" : "firebird", "upgradeChance" : 60 }
 						],
 						"combat_value" : 4000,
 						"reward" : {
@@ -102,7 +102,7 @@
 							{ "amount" : 80, "type" : "woodElf", "upgradeChance" : 70 },
 							{ "amount" : 40, "type" : "monk", "upgradeChance" : 70 },
 							{ "amount" : 16, "type" : "unicorn", "upgradeChance" : 70 },
-							{ "amount" : 8, "type" : "phoenix", "upgradeChance" : 70 }
+							{ "amount" : 8, "type" : "firebird", "upgradeChance" : 70 }
 						],
 						"combat_value" : 6000,
 						"reward" : {
@@ -120,7 +120,7 @@
 							{ "amount" : 128, "type" : "woodElf", "upgradeChance" : 80 },
 							{ "amount" : 64, "type" : "monk", "upgradeChance" : 80 },
 							{ "amount" : 32, "type" : "unicorn", "upgradeChance" : 80 },
-							{ "amount" : 10, "type" : "phoenix", "upgradeChance" : 80 }
+							{ "amount" : 10, "type" : "firebird", "upgradeChance" : 80 }
 						],
 						"combat_value" : 8000,
 						"reward" : {

@@ -54,7 +54,7 @@
 			"specialty" : {
 				"name" : "Frenzy",
 				"description" : "Casts Frenzy with increased effect, based on hero level compared to the level of the target unit.",
-				"tooltip" : "{Frenzy}\r\n\r\nCasts Frenzy with increased effect, based on hero level compared to the level of the target unit."
+				"tooltip" : "Spell bonus: Frenzy."
 			}
 		}
 	}
