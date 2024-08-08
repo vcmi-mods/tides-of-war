@@ -6,7 +6,7 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.20",
+	"version" : "1.0.21",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.21"   : [ "Updated polish translation by Dru" ],
 		"1.0.20"   : [ "Balance changes suggested by pvp community" ],
 		"1.0.16"   : [ "Trim hero specialty descriptiuons so they fit in preview window" ],		
 		"1.0.15"   : [ "Add config for biomes" ],
