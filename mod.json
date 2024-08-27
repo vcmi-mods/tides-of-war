@@ -58,6 +58,14 @@
 			"translation/tow/polish.json"
 		]
 	},
+	"russian" :
+	{
+		"name" : "Tides of War",
+		"description" : "В каждом из девяти стандартных городов H3 у вас есть возможность построить одно жилище для альтернативного существа.",	
+		"translations" : [
+			"translation/tow/russian.json"
+		]
+	},
 	"spanish" :
 	{
 		"name" : "Tides of War",
