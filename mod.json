@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.24"   : [ "Unicorn Glade fix" ],
 		"1.0.23"   : [ "Updated chinese translation" ],
 		"1.0.22"   : [ "Russian translation by Anton Sergeew" ],
 		"1.0.21"   : [ "Updated polish translation by Dru" ],
