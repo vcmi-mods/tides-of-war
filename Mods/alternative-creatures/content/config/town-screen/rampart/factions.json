@@ -81,7 +81,7 @@
 				{
 					"requires" : [
 						"allOf", 
-						[ "dwellingLvl3" ],
+						[ "dwellingLvl5" ],
 						[ "anyOf", [ "dwellingLvl4" ], [ "dwellingLvl4B" ] ]
 					]
 				}
