@@ -2,7 +2,11 @@
 	//images used in game selection screen
 	"game-select" : ["ToW1", "ToW2"],
 
-	"loading" : ["loadScreen"],
+	"loading" :
+	{
+		"background" : ["loadScreen"],
+		"x": 395, "y": 548, "size": 18, "amount": 20, "name": "loadprog"
+	},
 
 	//Main menu window, consists of several sub-menus aka items
 	"window":
