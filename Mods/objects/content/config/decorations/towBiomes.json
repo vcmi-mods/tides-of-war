@@ -1,5 +1,5 @@
 {
-	"barrels" : {
+	"mdtBarrels" : {
 		"biome": {
 			"terrain" : "subterra",
 			"objectType" : "structure"
@@ -56,14 +56,14 @@
 		},
 		"templates" : ["FGRG0021", "FGRG0022", "FGRG0023", "FGRG0024", "FGRG0025", "FGRG0026", "FGRG0027", "FGRG0028", "FGRG0029", "FGRG0030", "FGRG0031", "FGRG0032", "FGRG0033" ]
 	},
-	"sandMountains": {
+	"mdtSandMountains": {
 		"biome": {
 			"terrain" : "sand",
 			"objectType": "rock"
 		},
 		"templates" : ["FROD0035", "FROD0036", "FROD0037", "FROD0038", "FROD0039", "FROD0040", "FROD0041", "FROD0042"]
 	},
-	"swampMountains": {
+	"mdtSwampMountains": {
 		"biome": {
 			"terrain" : "swamp",
 			"objectType": "rock"
