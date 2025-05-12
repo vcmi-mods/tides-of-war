@@ -16,6 +16,40 @@
 		"name" : "Alternativní jednotky",
 		"description" : "V každém z devíti standardních měst Heroes 3 máte možnost postavit obydlí pro alternativní jednotky."
 	},
+	"conflicts" :
+	[
+		"alternate-townscreens.castle.snow-castle",
+		"alternate-townscreens.castle.red-castle",
+		"alternate-townscreens.ghost-necropolis",
+		"alternate-townscreens.rampart.autumn-rampart",
+		"alternate-townscreens.rampart.another-rampart",
+		"alternate-townscreens.tower.sand-tower",
+		"alternate-townscreens.mirror-towns.castle",
+		"alternate-townscreens.mirror-towns.conflux",
+		"alternate-townscreens.mirror-towns.dungeon",
+		"alternate-townscreens.mirror-towns.fortress",
+		"alternate-townscreens.mirror-towns.inferno",
+		"alternate-townscreens.mirror-towns.necropolis",
+		"alternate-townscreens.mirror-towns.rampart",
+		"alternate-townscreens.mirror-towns.stronghold",
+		"alternate-townscreens.mirror-towns.tower",
+		"lotrd-townscreens.castle",
+		"lotrd-townscreens.conflux",
+		"lotrd-townscreens.inferno",
+		"lotrd-townscreens.rampart",
+		"lotrd-townscreens.stronghold"
+	],
+	"softDepends" : [
+		//"lotrd-townscreens.castle", needs adding snow to alternative bulding (as compatibility submod)
+		//"lotrd-townscreens.conflux", few visual glitches related to background, alternative bulding fits fine
+		"lotrd-townscreens.dungeon",
+		"lotrd-townscreens.fortress",
+		//"lotrd-townscreens.inferno", alternative building needs background removal to make it compatible
+		"lotrd-townscreens.necropolis",
+		//"lotrd-townscreens.rampart", alternative building needs some pixels background removal to make it compatible
+		//"lotrd-townscreens.stronghold", alternative building needs recolor
+		"lotrd-townscreens.tower"
+	],
 	"factions" :
 	[
 		"config/town-screen/castle/factions",

@@ -22,6 +22,9 @@
 		"config/decorations/grassFlowers",
 		"config/decorations/orchardTrees"
 	],
+	"biomes" : [
+		"config/decorations/towBiomes.json"
+	],
 	"czech" : {
 		"name" : "Dekorace",
 		"description" : "Nové dekorativní objekty pro mapu dobrodružství."
