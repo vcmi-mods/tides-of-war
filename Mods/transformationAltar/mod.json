@@ -2,11 +2,11 @@
 	"name" : "ToW Transformation Altar",
 	"description" : "Adds an object that allows to convert the alternatives into classic creatures and vice versa.",
 	"modType" : "Mechanics",
-	"author" : "Olegmods.INC, def author - Grossmaster, idea - avatar",
+	"author" : "Olegmods.INC, idea - avatar, placeholder def - scrapped HotA Crew materials",
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.0",
+	"version" : "1.1.0",
 	"compatibility" :
 	{
 		"min" : "1.5.0"
