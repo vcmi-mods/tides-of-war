@@ -532,8 +532,8 @@
                 {
                     "default" :
                     {
-                        "animation" : "object/altar", 
-                        "mask" : [ "VVV","VVV", "VBA" ], 
+                        "animation" : "objects/altar_upd", 
+                        "mask" : [ "VVVV","VBBV", "VBAB" ], 
                         "visitableFrom" : [ "---", "+++", "+++" ]
                     }
                 }
