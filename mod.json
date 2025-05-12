@@ -6,7 +6,7 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.36",
+	"version" : "1.0.37",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.37"   : [ "Update def for Transformation Altar" ],
 		"1.0.36"   : [ "Add missing biomes config" ],
 		"1.0.35"   : [ "Fixed polish translation" ],
 		"1.0.34"   : [ "Minor fixes", "Added Alternate / Improved townscreens depencies", "Fixes for Transformation altar submod" ],
