@@ -47,7 +47,7 @@
 			"specialty" : {
 				"name" : "Troll Hags",
 				"description" : "Increases the Attack and Defense skills of any Troll Hags and Troll Witches for each level attained after 5th level. Additionally, Troll Hags and Troll Witches get a permanent +1 Speed bonus",
-				"tooltip" : "Creature Bonus: Troll Witches and Troll Hags"
+				"tooltip" : "Creature Bonus: Troll Hags"
 			}
 		}
 	}
