@@ -6,13 +6,14 @@
 		"class" : "SPECIAL",
 		"value" : 10000,
 		"bonuses" :
-		[
+		{
+			"demilich4" :
 			{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.mdtSummonDemilich4"
 //				"val" : 3
 			}
-		],
+		},
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/relicPhylactery",

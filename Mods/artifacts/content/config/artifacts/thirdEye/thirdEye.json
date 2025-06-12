@@ -11,7 +11,8 @@
 			"emblemOfCognizance"
 		],
 		"bonuses" :
-		[
+		{
+			"casts" :
 			{
 				"type" : "CASTS",
 				"propagator" : "BATTLE_WIDE",
@@ -20,17 +21,19 @@
 				"val" : -1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"spellChance" :
 			{
 				"type" : "LEARN_BATTLE_SPELL_CHANCE",
 				"val" : 90,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"spellLimit" :
 			{
 				"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
 				"val" : 5,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		],
+		},
 		"graphics" :
 		{ 
 			"image" : "artifacts/iconsSmall/thirdEyeS",

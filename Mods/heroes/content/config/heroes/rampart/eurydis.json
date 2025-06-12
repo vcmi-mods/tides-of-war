@@ -47,7 +47,7 @@
 			{
 				"name" : "Dryads",
 				"description" : "Increases the Attack and Defense skills of any Dryads and Oak Dryads for each level attained after 4th level. Additionally, Dryads and Oak Dryads get a permanent +1 Speed bonus",
-				"tooltip" : "Creature Bonus: Dryads"
+				"tooltip" : "Creature Bonus: Dryad"
 			}
 		}
 	}

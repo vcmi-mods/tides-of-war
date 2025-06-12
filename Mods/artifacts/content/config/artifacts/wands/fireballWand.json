@@ -6,13 +6,14 @@
 		"class" : "MAJOR",
 		"value" : 4000,
 		"bonuses" :
-		[
+		{
+			"castFireball" :
 			{
 				"type" : "SPELL",
 				"subtype" : "spell.mdtFireballWand"
 //				"val" : 3
 			}
-		],
+		},
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/fireballWand",

@@ -6,13 +6,14 @@
 		"class" : "MAJOR",
 		"value" : 4000,
 		"bonuses" :
-		[
+		{
+			"castsIcebolt" :
 			{
 				"type" : "SPELL",
 				"subtype" : "spell.mdtIceboltWand"
 //				"val" : 3
 			}
-		],
+		},
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/iceboltWand",

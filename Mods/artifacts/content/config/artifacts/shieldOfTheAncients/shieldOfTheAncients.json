@@ -6,24 +6,27 @@
 		"class" : "SPECIAL",
 		"value" : 30000,
 		"bonuses" :
-		[
+		{
+			"+spellpower" :
 			{
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.spellpower",
 				"val" : 12,
 				"valueType" : "BASE_NUMBER"
 			},
+			"+casts" :
 			{
 				"type" : "CASTS",
 				"val" : 50
 			},
+			"castAura" :
 			{
 				"subtype" : "spell.mdtAuraOfPower",
 				"type" : "ENCHANTER",
 				"val" : 1,
 				"addInfo" : 1
 			}
-		],
+		},
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/sota",

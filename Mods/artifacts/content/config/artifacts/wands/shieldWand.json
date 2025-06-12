@@ -6,13 +6,14 @@
 		"class" : "MINOR",
 		"value" : 4000,
 		"bonuses" :
-		[
+		{
+			"castsShield" :
 			{
 				"type" : "SPELL",
 				"subtype" : "spell.mdtShieldWand"
 //				"val" : 3
 			}
-		],
+		},
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/shieldWand",

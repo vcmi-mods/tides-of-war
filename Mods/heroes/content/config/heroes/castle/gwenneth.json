@@ -42,7 +42,7 @@
 					"type" : "ENCHANTED",
 					"subtype" : "spell.airShield",
 					"val" : 3,
-					"addInfo" : 1,
+//					"addInfo" : 1,
 					"limiters" : [ "SHOOTER_ONLY" ]
 				}
 			}

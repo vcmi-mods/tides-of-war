@@ -1,6 +1,7 @@
 {
 	"hexes" : {
 		"name" : "Hexes",
+		"specialty" : [], // no generic specialty
 //		"defaultGainChance" : 4,
 		"gainChance" : {
 			"might" : 4,

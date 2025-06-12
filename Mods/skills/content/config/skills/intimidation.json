@@ -1,6 +1,7 @@
 {
 	"intimidation" : {
 		"name" : "Intimidation",
+		"specialty" : [], // no generic specialty
 //		"defaultGainChance" : 4,
 		"gainChance" : {
 			"might" : 6,

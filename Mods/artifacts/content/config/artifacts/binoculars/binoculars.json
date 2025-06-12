@@ -11,7 +11,8 @@
 			"pendantOfSecondSight"
 		],
 		"bonuses" :
-		[
+		{
+			"vision1" :
 			{
 				"type" : "VISIONS",
 				"subtype" : "visionsMonsters",
@@ -19,6 +20,7 @@
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
+			"vision2" :
 			{
 				"type" : "VISIONS",
 				"subtype" : "visionsHeroes",
@@ -26,6 +28,7 @@
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
+			"vision3" :
 			{
 				"type" : "VISIONS",
 				"subtype" : "visionsTowns",
@@ -33,12 +36,13 @@
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
+			"sightRadius" :
 			{
 				"type" : "SIGHT_RADIUS",
 				"val" : 4,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		],
+		},
 		"graphics" :
 		{ 
 			"image" : "artifacts/iconsSmall/binocularsS",
