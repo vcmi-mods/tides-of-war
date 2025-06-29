@@ -22,7 +22,8 @@
 			"images" : {
 				"small" : "skills/hexes/hexesSmallBasic",
 				"medium" : "skills/hexes/hexesMediumBasic",
-				"large" : "skills/hexes/hexesLargeBasic"
+				"large" : "skills/hexes/hexesLargeBasic",
+				"scenarioBonus" : "skills/hexes/bonusBlank.png"
 			},
 			"description" : "{Basic Hexes}\n\nReduces opponent's Luck by 1.",
 			"effects" : {
@@ -33,7 +34,8 @@
 			"images" : {
 				"small" : "skills/hexes/HexesSmallAdvanced",
 				"medium" : "skills/hexes/HexesMediumAdvanced",
-				"large" : "skills/hexes/HexesLargeAdvanced"
+				"large" : "skills/hexes/HexesLargeAdvanced",
+				"scenarioBonus" : "skills/hexes/bonusBlank.png"
 			},
 			"description" : "{Advanced Hexes}\n\nReduces opponent's Luck by 2.",
 			"effects" : {
@@ -44,7 +46,8 @@
 			"images" : {
 				"small" : "skills/hexes/HexesSmallExpert",
 				"medium" : "skills/hexes/HexesMediumExpert",
-				"large" : "skills/hexes/HexesLargeExpert"
+				"large" : "skills/hexes/HexesLargeExpert",
+				"scenarioBonus" : "skills/hexes/bonusBlank.png"
 			},
 			"description" : "{Expert Hexes}\n\nReduces opponent's Luck by 3.",
 			"effects" : {

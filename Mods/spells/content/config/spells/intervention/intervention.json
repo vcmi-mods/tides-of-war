@@ -45,7 +45,7 @@
 			"base" : {
 				"range" : "X",
 				"targetModifier" : {"smart" :false},
-				"aiValue" : 20, //don't know what it means
+//				"aiValue" : 20, //don't know what it means
 				"cost" : 25, 
 				"description" : "{Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
 				"power" : 25,

@@ -36,7 +36,7 @@
 				"power" : 2,
 				"range" : "X",
 				"cost" : 0,
-				"aiValue" : 10,
+//				"aiValue" : 10,
 				"targetModifier" : {"smart" :true},
 				"battleEffects" : {
 					"summon" : {

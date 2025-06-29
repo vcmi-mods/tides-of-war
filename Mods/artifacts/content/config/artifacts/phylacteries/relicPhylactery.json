@@ -17,7 +17,7 @@
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/relicPhylactery",
-			"large" : "artifacts/iconsBig/relicPh",
+			"scenarioBonus" : "artifacts/iconsBig/relicPh",
 			"map" : "artifacts/map/relicPh"
 		},
 		"text" :

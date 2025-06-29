@@ -30,7 +30,7 @@
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/sota",
-			"large" : "artifacts/iconsBig/sota",
+			"scenarioBonus" : "artifacts/iconsBig/sota",
 			"map" : "artifacts/map/sotamap"
 		},
 		"text" :

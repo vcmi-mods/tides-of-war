@@ -46,7 +46,7 @@
 		"graphics" :
 		{ 
 			"image" : "artifacts/iconsSmall/binocularsS",
-			"large" : "artifacts/iconsBig/binocularsL",
+			"scenarioBonus" : "artifacts/iconsBig/binocularsL",
 			"map" : "artifacts/map/binoculars"
 		},
 		"text" : {

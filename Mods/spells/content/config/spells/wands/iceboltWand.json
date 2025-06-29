@@ -33,7 +33,8 @@
 		},
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+				"bonus.SPELL_DAMAGE_REDUCTION" : "normal"
 			}
 		},
 		"graphics" : {
@@ -46,7 +47,7 @@
 			"base" : {
 				"description" : "{Ice Bolt}\r\n\r\nDrains the body heat from the selected enemy unit.",
 				"cost" : 2,
-				"aiValue" : 15,
+//				"aiValue" : 15,
 				"range" : "0",
 				"targetModifier" : {"smart" :true},
 				"power" : 10,

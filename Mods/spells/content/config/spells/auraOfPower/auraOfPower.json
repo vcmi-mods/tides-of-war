@@ -38,7 +38,7 @@
 		"levels" : {
 			"base" : {
 				"power" : 10,
-				"aiValue" : 20,
+//				"aiValue" : 20,
 				"range" : "X",
 				"targetModifier" : {"smart" :false},
 				"cost" : 12, 

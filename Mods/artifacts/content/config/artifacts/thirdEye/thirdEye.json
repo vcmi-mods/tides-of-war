@@ -37,7 +37,7 @@
 		"graphics" :
 		{ 
 			"image" : "artifacts/iconsSmall/thirdEyeS",
-			"large" : "artifacts/iconsBig/thirdEyeL",
+			"scenarioBonus" : "artifacts/iconsBig/thirdEyeL",
 			"map" : "artifacts/map/thirdEye"
 		},
 		"text" : {

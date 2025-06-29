@@ -100,9 +100,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MAX"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [ 100, 100, 100, 100, 0, 0, 0, 0, 0, 0 ]
 			},
 			{
 				"bonus" :

@@ -17,7 +17,7 @@
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/majorPhylactery",
-			"large" : "artifacts/iconsBig/majorPh",
+			"scenarioBonus" : "artifacts/iconsBig/majorPh",
 			"map" : "artifacts/map/majorPh"
 		},
 		"text" :

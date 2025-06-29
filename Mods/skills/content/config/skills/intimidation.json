@@ -22,7 +22,8 @@
 			"images" : {
 				"small" : "skills/intimidation/intimidationSmallBasic",
 				"medium" : "skills/intimidation/intimidationMediumBasic",
-				"large" : "skills/intimidation/intimidationLargeBasic"
+				"large" : "skills/intimidation/intimidationLargeBasic",
+				"scenarioBonus" : "skills/intimidation/bonusBlank.png"
 			},
 			"description" : "{Basic Intimidation}\n\nReduces opponent's Morale by 1.",
 			"effects" : {
@@ -33,7 +34,8 @@
 			"images" : {
 				"small" : "skills/intimidation/intimidationSmallAdvanced",
 				"medium" : "skills/intimidation/intimidationMediumAdvanced",
-				"large" : "skills/intimidation/intimidationLargeAdvanced"
+				"large" : "skills/intimidation/intimidationLargeAdvanced",
+				"scenarioBonus" : "skills/intimidation/bonusBlank.png"
 			},
 			"description" : "{Advanced intimidation}\n\nReduces opponent's Morale by 2.",
 			"effects" : {
@@ -44,7 +46,8 @@
 			"images" : {
 				"small" : "skills/intimidation/intimidationSmallExpert",
 				"medium" : "skills/intimidation/intimidationMediumExpert",
-				"large" : "skills/intimidation/intimidationLargeExpert"
+				"large" : "skills/intimidation/intimidationLargeExpert",
+				"scenarioBonus" : "skills/intimidation/bonusBlank.png"
 			},
 			"description" : "{Expert Intimidation}\n\nReduces opponent's Morale by 3.",
 			"effects" : {

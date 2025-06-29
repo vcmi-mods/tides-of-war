@@ -34,7 +34,7 @@
 				"description" : "{Shield}\r\n\r\nShields the selected unit, reducing the amount of damage received from hand-to-hand attacks.",	 
 				"cost" : 2,
 				"power" : 10,
-				"aiValue" : 15,
+//				"aiValue" : 15,
 				"range" : "0",
 				"targetModifier" : {"smart" :true},
 				"effects" : {

@@ -17,7 +17,7 @@
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/supremePhylactery",
-			"large" : "artifacts/iconsBig/supremePh",
+			"scenarioBonus" : "artifacts/iconsBig/supremePh",
 			"map" : "artifacts/map/supremePh"
 		},
 		"text" :

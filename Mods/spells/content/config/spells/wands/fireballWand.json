@@ -23,7 +23,8 @@
 		},
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+				"bonus.SPELL_DAMAGE_REDUCTION" : "normal"
 			}
 		},
 		"graphics" : {
@@ -39,7 +40,7 @@
 			"base" : {
 				"description" : "{Fireball}\r\n\r\nCauses the selected target to burst info flames, inflicting fire damage to the target and any adjacent units.",	 
 				"cost" : 2,
-				"aiValue" : 15,
+//				"aiValue" : 15,
 				"range" : "0,1",
 				"targetModifier" : {"smart" :false},
 				"power" : 15,

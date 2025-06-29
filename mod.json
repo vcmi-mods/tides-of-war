@@ -6,7 +6,7 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.38",
+	"version" : "1.0.39",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.39"   : [ "Yet another update to vcmi-1.7 format" ],
 		"1.0.38"   : [ "Update to vcmi-1.7 format" ],
 		"1.0.37"   : [ "Update def for Transformation Altar" ],
 		"1.0.36"   : [ "Add missing biomes config" ],

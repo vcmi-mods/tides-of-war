@@ -17,7 +17,7 @@
 		"graphics" :
 		{
 			"image" : "artifacts/iconsSmall/minorPhylactery",
-			"large" : "artifacts/iconsBig/minorPh",
+			"scenarioBonus" : "artifacts/iconsBig/minorPh",
 			"map" : "artifacts/map/minorPh"
 		},
 		"text" :

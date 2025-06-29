@@ -39,7 +39,7 @@
 			"base" : {
 				"range" : "0",
 				"cost" : 0,
-				"aiValue" : 20,
+//				"aiValue" : 20,
 				"power" : 10,
 				"description" : "{Symbiosis}\r\n\r\nAllows Dryads to ressurect Dendroids (for the end of the battle).",
 				"battleEffects" : {

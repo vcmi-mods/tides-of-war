@@ -45,7 +45,7 @@
 				"description" : "{Divine Arrows}\r\n\r\nChosen shooting stack will be granted 2 additional shoots and an ability to penetrate walls for three rounds.", 
 				"range" : "0",
 				"power" : 10,
-				"aiValue" : 20,
+//				"aiValue" : 20,
 				"targetModifier" : {
 					"smart" : true
 				},
