@@ -111,7 +111,7 @@
 				"bonus" :
 				{
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MAX",
+					"valueType" : "INDEPENDENT_MIN",
 					"val" : 0
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
