@@ -70,7 +70,7 @@
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
@@ -86,7 +86,7 @@
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [ 5, 10, 15, 20, 25, 35, 40, 45, 50, 55 ]
 			},
 			{
 				"bonus" :
@@ -101,16 +101,17 @@
 				"bonus" :
 				{
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MAX"
+					"valueType" : "INDEPENDENT_MAX",
+					"val" : 0
 				},
-				"values" : [ 100, 100, 100, 100, 0, 0, 0, 0, 0, 0 ]
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 3 ]
 			}
 		],
 		"graphics" : {
