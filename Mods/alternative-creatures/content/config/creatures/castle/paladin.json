@@ -35,9 +35,11 @@
 			"castsPrayer" :
 			{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"val" : 2,
-				"propagator" : "HERO"
+				"propagator" : "HERO",
+				"description" : "{Pray}\nPaladins cast Adv. Prayer spell at the beginning of the battle",
+				"icon" : "icons/e_prayer.png"				
 			},
 			"noCastByDefault" :
 			{
@@ -46,14 +48,14 @@
 			"castsDestroyUndead" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.destroyUndead",
+				"subtype" : "destroyUndead",
 				"val" : 3
 			},
 //sprobować rozszerzyć na demony
 			"destroyPower" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.destroyUndead",
+				"subtype" : "destroyUndead",
 				"val" : 50
 			}
 		},
@@ -95,7 +97,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.prayer"
+					"subtype" : "prayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
 			},
@@ -103,7 +105,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bless"
+					"subtype" : "bless"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
 			},

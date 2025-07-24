@@ -40,7 +40,7 @@
 			"bonuses" : {
 				"auraOfPower" : {
 					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.mdtAuraOfPower",
+					"subtype" : "mdtAuraOfPower",
 					"val" : 5,
 					"updater" : "TIMES_HERO_LEVEL"
 				}

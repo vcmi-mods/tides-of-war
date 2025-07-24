@@ -40,7 +40,7 @@
 			"bonuses" : {
 				"frenzy" : {
 					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.shield",
+					"subtype" : "shield",
 					"val" : 10,
 					"updater" : "TIMES_HERO_LEVEL"
 				}

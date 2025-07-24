@@ -30,7 +30,7 @@
 			"castsHypnotize" :
 			{
 					"type" : "SPELLCASTER",
-					"subtype" : "spell.hypnotize",
+					"subtype" : "hypnotize",
 					"val" : 1,
 					"addInfo" : 100,
 					"turns" : 3
@@ -52,7 +52,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -60,7 +60,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
@@ -92,7 +92,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.dispelHelpful",
+					"subtype" : "dispelHelpful",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				

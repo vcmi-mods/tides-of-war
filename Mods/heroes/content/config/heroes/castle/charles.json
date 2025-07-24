@@ -45,7 +45,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : ["mdtTemplar", true]
+							"creature" : "mdtTemplar"
 						}
 					]
 				}

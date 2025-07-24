@@ -35,74 +35,86 @@
 			"stoneGazeImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze",
-				"addInfo" : 0
+				"subtype" : "stoneGaze",
+				"addInfo" : 0,
+				"description" : "{Unbounded}\nImmunity for all creature spell-like abilities like Bind, Age, Poison or Death Stare",
 			},
 			"poisonImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.poison",
-				"addInfo" : 0
+				"subtype" : "poison",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"bindImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.bind",
-				"addInfo" : 0
+				"subtype" : "bind",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"diseaseImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.disease",
-				"addInfo" : 0
+				"subtype" : "disease",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"paralyzeImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.paralyze",
-				"addInfo" : 0
+				"subtype" : "paralyze",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"ageImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.age",
-				"addInfo" : 0
+				"subtype" : "age",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"deathCloudImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathCloud",
-				"addInfo" : 0
+				"subtype" : "deathCloud",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"thunderboltImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.thunderbolt",
-				"addInfo" : 0
+				"subtype" : "thunderbolt",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"dispelHelpfulImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.dispelHelpful",
-				"addInfo" : 0
+				"subtype" : "dispelHelpful",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"deathStareImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathStare",
-				"addInfo" : 0
+				"subtype" : "deathStare",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"acidBreathImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreath",
-				"addInfo" : 0
+				"subtype" : "acidBreath",
+				"addInfo" : 0,
+				"hidden" : true
 			},
 			"acidBreathDamageImm" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreathDamage",
-				"addInfo" : 0
+				"subtype" : "acidBreathDamage",
+				"addInfo" : 0,
+				"hidden" : true
 			}
 		},
 		"stackExperience" :
@@ -111,7 +123,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -119,7 +131,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},

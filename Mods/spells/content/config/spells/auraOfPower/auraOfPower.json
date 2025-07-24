@@ -50,7 +50,7 @@
 						"bonus" : {
 							"fireDamage" : {
 								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.fire",
+								"subtype" : "fire",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
 								"propagator" : "HERO",
@@ -58,7 +58,7 @@
 							},
 							"airDamage" : {
 								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.air",
+								"subtype" : "air",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
 								"propagator" : "HERO",
@@ -66,7 +66,7 @@
 							},
 							"earthDamage" : {
 								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.earth",
+								"subtype" : "earth",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
 								"propagator" : "HERO",
@@ -74,7 +74,7 @@
 							},
 							"waterDamage" : {
 								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.water",
+								"subtype" : "water",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
 								"propagator" : "HERO",

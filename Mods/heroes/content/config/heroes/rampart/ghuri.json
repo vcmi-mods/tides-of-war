@@ -40,7 +40,7 @@
 			"bonuses" : {
 				"bind" : {
 					"type" : "SPELL",
-					"subtype" : "spell.mdtBind",
+					"subtype" : "mdtBind",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				}

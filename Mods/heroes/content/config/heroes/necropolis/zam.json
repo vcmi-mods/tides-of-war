@@ -40,7 +40,7 @@
 			"bonuses" : {
 				"vampirism" : {
 					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.mdtVampirism",
+					"subtype" : "mdtVampirism",
 					"val" : 3,
 					"updater" : "TIMES_HERO_LEVEL"
 				}

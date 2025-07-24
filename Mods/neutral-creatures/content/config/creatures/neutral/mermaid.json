@@ -37,7 +37,8 @@
 			{ 
 				"type" : "WHIRLPOOL_PROTECTION",
 				"propagator" : "HERO",
-				"description" : "Safe travel through whirlpool"
+				"description" : "{Sea Protector}\nMermaids can help to safe travel through whirlpools",
+				"icon" : "icons/e_whirl.png"				
 			}
 		},
 		"stackExperience" :
@@ -47,7 +48,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -55,7 +56,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -110,7 +111,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fortune"
+					"subtype" : "fortune"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 2 ]			
 			},
@@ -118,7 +119,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.iceBolt",
+					"subtype" : "iceBolt",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				

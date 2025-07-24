@@ -32,9 +32,9 @@
 			},
 			"generalDamageReduction" :
 			{
-			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : "damageTypeMelee",
-			"val" : 20
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 20
 			}
 		},
 		"stackExperience" :
@@ -43,7 +43,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -51,7 +51,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},

@@ -10,7 +10,7 @@
 			"castsIcebolt" :
 			{
 				"type" : "SPELL",
-				"subtype" : "spell.mdtIceboltWand"
+				"subtype" : "mdtIceboltWand"
 //				"val" : 3
 			}
 		},

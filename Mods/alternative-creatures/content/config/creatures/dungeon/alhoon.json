@@ -29,7 +29,7 @@
 			"castsHypnotize" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.hypnotize",
+				"subtype" : "hypnotize",
 				"val" : 1,
 				"addInfo" : 100,
 				"turns" : 3
@@ -91,7 +91,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.dispelHelpful",
+					"subtype" : "dispelHelpful",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				

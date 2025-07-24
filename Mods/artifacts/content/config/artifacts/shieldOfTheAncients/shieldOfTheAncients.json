@@ -10,7 +10,7 @@
 			"+spellpower" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.spellpower",
+				"subtype" : "spellpower",
 				"val" : 12,
 				"valueType" : "BASE_NUMBER"
 			},
@@ -21,7 +21,7 @@
 			},
 			"castAura" :
 			{
-				"subtype" : "spell.mdtAuraOfPower",
+				"subtype" : "mdtAuraOfPower",
 				"type" : "ENCHANTER",
 				"val" : 1,
 				"addInfo" : 1

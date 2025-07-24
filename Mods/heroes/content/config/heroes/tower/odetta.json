@@ -41,7 +41,7 @@
 			"bonuses" : {
 				"stoneSkin" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
-					"subtype" : "spell.precision",
+					"subtype" : "precision",
 					"addInfo" : 0
 				}
 			}

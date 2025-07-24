@@ -35,7 +35,7 @@
 			"castsBloodlust" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.mdtTrawl",
+				"subtype" : "mdtTrawl",
 				"val" : 2
 			},
 			"castsCount" :
@@ -51,7 +51,7 @@
 			"immuneToWater" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.water",
+				"subtype" : "water",
 				"val" : 100
 			}
 //jakies minusy na pustyni
@@ -62,7 +62,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -70,7 +70,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -78,15 +78,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
@@ -116,7 +108,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectFire"
+					"subtype" : "protectFire"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]	
 			},
@@ -124,7 +116,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bless"
+					"subtype" : "bless"
 				},
 				"values" : [ 0, 0, 1, 1, 2, 2, 2, 3, 3, 3 ]	
 			},

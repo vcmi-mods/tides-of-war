@@ -10,7 +10,7 @@
 			"castFireball" :
 			{
 				"type" : "SPELL",
-				"subtype" : "spell.mdtFireballWand"
+				"subtype" : "mdtFireballWand"
 //				"val" : 3
 			}
 		},

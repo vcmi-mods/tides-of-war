@@ -40,7 +40,7 @@
 			"bonuses" : {
 				"airShield" : {
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield",
+					"subtype" : "airShield",
 					"val" : 3,
 //					"addInfo" : 1,
 					"limiters" : [ "SHOOTER_ONLY" ]

@@ -10,7 +10,7 @@
 			"castsShield" :
 			{
 				"type" : "SPELL",
-				"subtype" : "spell.mdtShieldWand"
+				"subtype" : "mdtShieldWand"
 //				"val" : 3
 			}
 		},

@@ -10,7 +10,7 @@
 			"demilich1" :
 			{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.mdtSummonDemilich1"
+				"subtype" : "mdtSummonDemilich1"
 //				"val" : 3
 			}
 		},

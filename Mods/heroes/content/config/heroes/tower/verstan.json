@@ -46,7 +46,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : ["mdtDrakeGolem", true]
+							"creature" : "mdtDrakeGolem"
 						}
 					]
 				}

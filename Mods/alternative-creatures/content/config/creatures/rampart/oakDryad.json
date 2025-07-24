@@ -37,14 +37,14 @@
 			"helpEnt2" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.symbiosis2",
+				"subtype" : "symbiosis2",
 				"val" : 3
 			},
 			"spellPower" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.symbiosis2",
-				"val" : 200
+				"subtype" : "symbiosis2",
+				"val" : 30
 			},
 			"spellpoints" :
 			{
@@ -58,7 +58,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -66,7 +66,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
