@@ -1,6 +1,5 @@
 {
-	"yaverrDeathknight" :
-	{
+	"yaverrDeathknight" : {
 		"class" : "deathknight",
 		"female" : false,
 		"images" : {
@@ -39,9 +38,10 @@
 		"specialty" : {
 			"creature" : "mdtWerewolf"
 		},
-		"spellbook" : ["haste"],
-		"texts" :
-		{
+		"spellbook" : [
+			"haste"
+		],
+		"texts" : {
 			"name" : "Yaverr",
 			"biography" : "When Kastore came to the throne of Deyja, many Undeads, as yet hiding in shadows, blatantly opposed the new authority. Yaverr, once hunting Harmondale's peasants alone, happened to be a very talented commander among the rebels.",
 			"specialty" : {

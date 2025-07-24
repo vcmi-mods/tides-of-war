@@ -1,6 +1,5 @@
 {
-	"mdtGhuri" :
-	{
+	"mdtGhuri" : {
 		"class" : "druid",
 		"female" : false,
 		"images" : {
@@ -46,13 +45,13 @@
 				}
 			}
 		},
-		"spellbook" : ["mdtBind"],
-		"texts" :
-		{
+		"spellbook" : [
+			"mdtBind"
+		],
+		"texts" : {
 			"name" : "Ghuri",
 			"biography" : "Ghuri spent majority of his life looking after trees in Tularean Forest. In return, the trees have taught him their powerful Forest Magic.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Bind",
 				"description" : "Can cast special spell Bind.",
 				"tooltip" : "Spell Bonus: Bind."

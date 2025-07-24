@@ -1,6 +1,5 @@
 {
-	"mdtEurydis" :
-	{
+	"mdtEurydis" : {
 		"class" : "ranger",
 		"female" : true,
 		"images" : {
@@ -39,12 +38,10 @@
 		"specialty" : {
 			"creature" : "mdtDryad"
 		},
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Eurydis",
 			"biography" : "By cutting down trees in the north of Steadwick, monsters of Deyja awakened the Forest's spirits. Eurydis miraculously avoided death and, with other Dryads, fled to AvLee. Here she gathered an army to avenge her murdered sisters.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Dryads",
 				"description" : "Increases the Attack and Defense skills of any Dryads and Oak Dryads for each level attained after 4th level. Additionally, Dryads and Oak Dryads get a permanent +1 Speed bonus",
 				"tooltip" : "Creature Bonus: Dryad"

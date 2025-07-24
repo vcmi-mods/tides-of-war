@@ -1,6 +1,5 @@
 {
-	"mdtThyroc" :
-	{
+	"mdtThyroc" : {
 		"class" : "beastmaster",
 		"female" : false,
 		"images" : {
@@ -39,8 +38,7 @@
 		"specialty" : {
 			"creature" : "hydra"
 		},
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Thyroc",
 			"biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
 			"specialty" : {

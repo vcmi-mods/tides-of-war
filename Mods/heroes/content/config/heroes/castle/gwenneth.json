@@ -1,6 +1,5 @@
 {
-	"mdtGwenneth" :
-	{
+	"mdtGwenneth" : {
 		"class" : "cleric",
 		"female" : true,
 		"images" : {
@@ -42,12 +41,16 @@
 					"type" : "ENCHANTED",
 					"subtype" : "airShield",
 					"val" : 3,
-//					"addInfo" : 1,
-					"limiters" : [ "SHOOTER_ONLY" ]
+					//					"addInfo" : 1,
+					"limiters" : [
+						"SHOOTER_ONLY"
+					]
 				}
 			}
 		},
-		"spellbook" : [ "airShield" ],
+		"spellbook" : [
+			"airShield"
+		],
 		"texts" : {
 			"name" : "Gwenneth",
 			"biography" : "Gwenneth served Roland Ironfist during the Succession Wars as a Knight. When she arrived at Erathia in search for adventures, she discovered her new vocation. Now everyone knows Gwenneth as a great Cleric.",

@@ -1,6 +1,5 @@
 {
-	"zamNecromancer" :
-	{
+	"zamNecromancer" : {
 		"class" : "necromancer",
 		"female" : false,
 		"images" : {
@@ -46,13 +45,13 @@
 				}
 			}
 		},
-		"spellbook" : [ "deathRipple" ],
-		"texts" :
-		{
+		"spellbook" : [
+			"deathRipple"
+		],
+		"texts" : {
 			"name" : "Zam",
 			"biography" : "After Archibald Ironfist lost the Succession Wars, Zam decided to leave Enroth and settle down for good in Erathia. Hiding for years in his laboratory, by coincidence he heard the news about dethroning the old ruler of Deyja. Disappointed by unconventional methods of the new King, Zam has quickly withdrawn allegiance to him.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Vampirism",
 				"description" : "Casts Vampirism with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)",
 				"tooltip" : "Spell Bonus: Vampirism"

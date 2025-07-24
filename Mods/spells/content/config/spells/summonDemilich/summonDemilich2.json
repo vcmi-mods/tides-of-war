@@ -9,10 +9,10 @@
 			"water" : false
 		},
 		"animation" : {
-	//		"cast" :["spells/summonGhost/SP_summonGhost"]
+			//		"cast" :["spells/summonGhost/SP_summonGhost"]
 		},
 		"sounds" : {
-	//		"cast" : "Magic/Summon"
+			//		"cast" : "Magic/Summon"
 		},
 		"level" : 1,
 		"power" : 30,
@@ -36,14 +36,16 @@
 				"power" : 2,
 				"range" : "X",
 				"cost" : 0,
-//				"aiValue" : 10,
-				"targetModifier" : {"smart" :true},
+				//				"aiValue" : 10,
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"summon" : {
-						"exclusive" :false,
-						"id" :"mdtDemilich",
-						"permanent" :false,
-						"type" :"core:summon"
+						"exclusive" : false,
+						"id" : "mdtDemilich",
+						"permanent" : false,
+						"type" : "core:summon"
 					}
 				}
 			},

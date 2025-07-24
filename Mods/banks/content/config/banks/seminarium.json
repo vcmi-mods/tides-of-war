@@ -1,22 +1,27 @@
 {
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"mdtSeminarium" :
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"mdtSeminarium" : {
 				"name" : "Seminarium",
-				"templates" :
-				{
-					"base" :
-					{
+				"templates" : {
+					"base" : {
 						"animation" : "banks/seminarium.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVV", "VBV", "BAB"]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBV",
+							"BAB"
+						]
 					}
 				},
 				"sounds" : {
-					"ambient" : ["dwellings/banks/SEMINARIUMLOOP"]
+					"ambient" : [
+						"dwellings/banks/SEMINARIUMLOOP"
+					]
 				},
 				"rmg" : {
 					"value" : 3500,
@@ -28,55 +33,150 @@
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-				"rewards" :
-				[
+				"rewards" : [
 					{
 						"message" : "With the Swordsmen defeated, Templars step forward, pledging their strength to your ranks.",
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
-							{ "amount" : 10, "type" : "swordsman" },
-							{ "amount" : 10, "type" : "swordsman" },
-							{ "amount" : 10, "type" : "swordsman", "upgradeChance" : 50 },
-							{ "amount" : 10, "type" : "swordsman" },
-							{ "amount" : 10, "type" : "swordsman" }
+							{
+								"amount" : 10,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 10,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 10,
+								"type" : "swordsman",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 10,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 10,
+								"type" : "swordsman"
+							}
 						],
-						"creatures" : [ { "amount" : 2, "type" : "mdtTemplar" } ]
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "mdtTemplar"
+							}
+						]
 					},
 					{
 						"message" : "With the Swordsmen defeated, Templars step forward, pledging their strength to your ranks.",
-						"appearChance" : { "min" : 30, "max" : 60 },
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"guards" : [
-							{ "amount" : 20, "type" : "swordsman" },
-							{ "amount" : 20, "type" : "swordsman" },
-							{ "amount" : 20, "type" : "swordsman", "upgradeChance" : 50 },
-							{ "amount" : 20, "type" : "swordsman" },
-							{ "amount" : 20, "type" : "swordsman" }
+							{
+								"amount" : 20,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 20,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 20,
+								"type" : "swordsman",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 20,
+								"type" : "swordsman"
+							}
 						],
-						"creatures" : [ { "amount" : 3, "type" : "mdtTemplar" } ]
+						"creatures" : [
+							{
+								"amount" : 3,
+								"type" : "mdtTemplar"
+							}
+						]
 					},
 					{
 						"message" : "With the Swordsmen defeated, Templars step forward, pledging their strength to your ranks.",
-						"appearChance" : { "min" : 60, "max" : 90 },
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
 						"guards" : [
-							{ "amount" : 30, "type" : "swordsman" },
-							{ "amount" : 30, "type" : "swordsman" },
-							{ "amount" : 30, "type" : "swordsman", "upgradeChance" : 50 },
-							{ "amount" : 30, "type" : "swordsman" },
-							{ "amount" : 30, "type" : "swordsman" }
+							{
+								"amount" : 30,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 30,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 30,
+								"type" : "swordsman",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 30,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 30,
+								"type" : "swordsman"
+							}
 						],
-						"creatures" : [ { "amount" : 4, "type" : "mdtTemplar" } ]
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "mdtTemplar"
+							}
+						]
 					},
 					{
 						"message" : "With the Swordsmen defeated, Templars step forward, pledging their strength to your ranks.",
-						"appearChance" : { "min" : 90, "max" : 100 },
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
 						"guards" : [
-							{ "amount" : 40, "type" : "swordsman" },
-							{ "amount" : 40, "type" : "swordsman" },
-							{ "amount" : 40, "type" : "swordsman", "upgradeChance" : 50 },
-							{ "amount" : 40, "type" : "swordsman" },
-							{ "amount" : 40, "type" : "swordsman" }
+							{
+								"amount" : 40,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 40,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 40,
+								"type" : "swordsman",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 40,
+								"type" : "swordsman"
+							},
+							{
+								"amount" : 40,
+								"type" : "swordsman"
+							}
 						],
-						"creatures" : [ { "amount" : 6, "type" : "mdtTemplar" } ]
+						"creatures" : [
+							{
+								"amount" : 6,
+								"type" : "mdtTemplar"
+							}
+						]
 					}
 				]
 			}

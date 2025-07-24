@@ -3,16 +3,26 @@
 		"types" : {
 			"mdtSwampHut" : {
 				"name" : "Swamp Hut",
-				"creatures" : [[ "mdtTrollHag" ]],
+				"creatures" : [
+					[
+						"mdtTrollHag"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/fortress/mapSwampHut.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
 				"sounds" : {
-					"ambient" : ["dwellings/fortress/LOOPWTCH"]
+					"ambient" : [
+						"dwellings/fortress/LOOPWTCH"
+					]
 				}
 			}
 		}

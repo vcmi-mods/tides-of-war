@@ -6,7 +6,9 @@
 		},
 		"faction" : "rampart",
 		"level" : 4,
-		"upgrades" : ["mdtOakDryad"],
+		"upgrades" : [
+			"mdtOakDryad"
+		],
 		"cost" : {
 			"gold" : 300
 		},
@@ -26,104 +28,188 @@
 		},
 		"growth" : 4,
 		"abilities" : {
-			"canFly" :
-			{ 
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"blockAttack" :
-			{
+			"blockAttack" : {
 				"type" : "GENERAL_ATTACK_REDUCTION",
 				"val" : 20
 			},
-			"helpEnt2" :
-			{
+			"helpEnt2" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "symbiosis",
 				"val" : 3
 			},
-			"spellPower" :
-			{
+			"spellPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "symbiosis",
 				"val" : 30
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 1
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION"
 				},
-				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]			
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "earth",
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"val" : 100
 				},
-				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type" : "MAGIC_RESISTANCE",				
+				"bonus" : {
+					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
 		"graphics" : {

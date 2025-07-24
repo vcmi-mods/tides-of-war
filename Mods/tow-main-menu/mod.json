@@ -7,12 +7,10 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0.4",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"conflicts" :
-	[
+	"conflicts" : [
 		"h3-themes.ab",
 		"h3-themes.beta",
 		"h3-themes.complete",
@@ -31,8 +29,8 @@
 		"h3-themes.roe",
 		"h3-themes.sod",
 		"h3-themes.tow",
-		"h3-themes.vcmi",		
-		"h3-themes.vcmi-ai",		
+		"h3-themes.vcmi",
+		"h3-themes.vcmi-ai",
 		"h3-themes.wog",
 		"h3-themes",
 		"wake-of-gods.mainmenu",
@@ -40,12 +38,12 @@
 		"hota.mainmenu.mainMenuLegacy",
 		"hi-rez-menu"
 	],
-	"changelog" :
-	{
-		"1.0.4" : [ "Move ToW Menu into submod" ]
+	"changelog" : {
+		"1.0.4" : [
+			"Move ToW Menu into submod"
+		]
 	},
-	"german" :
-	{
+	"german" : {
 		"name" : "Tides of War - Menü",
 		"description" : "Tides of War - Menü-Ersatz"
 	},

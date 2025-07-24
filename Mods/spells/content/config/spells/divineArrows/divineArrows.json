@@ -16,16 +16,20 @@
 			"tower" : 12,
 			"dungeon" : 12,
 			"fortress" : 12,
-			"rampart" :  8,
+			"rampart" : 8,
 			"castle" : 8,
 			"stronghold" : 8,
 			"conflux" : 0
 		},
 		"animation" : {
-			"affect" : ["spells/divineArrows/SP_ARROWS.def"]
+			"affect" : [
+				"spells/divineArrows/SP_ARROWS.def"
+			]
 		},
- 
-		"flags" : {"positive" : true},
+
+		"flags" : {
+			"positive" : true
+		},
 		"targetCondition" : {
 			"allOf" : {
 				"bonus.SHOOTER" : "absolute"
@@ -42,10 +46,10 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{Divine Arrows}\r\n\r\nChosen shooting stack will be granted 2 additional shoots and an ability to penetrate walls for three rounds.", 
+				"description" : "{Divine Arrows}\r\n\r\nChosen shooting stack will be granted 2 additional shoots and an ability to penetrate walls for three rounds.",
 				"range" : "0",
 				"power" : 10,
-//				"aiValue" : 20,
+				//				"aiValue" : 20,
 				"targetModifier" : {
 					"smart" : true
 				},
@@ -76,7 +80,7 @@
 				"cost" : 18
 			},
 			"basic" : {
-				"description" : "{Basic Divine Arrows}\r\n\r\nChosen shooting stack will be granted 4 additional shots and an ability to penetrate walls for four rounds.", 
+				"description" : "{Basic Divine Arrows}\r\n\r\nChosen shooting stack will be granted 4 additional shots and an ability to penetrate walls for four rounds.",
 				"battleEffects" : {
 					"divineArrowsEffect" : {
 						"bonus" : {
@@ -91,7 +95,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Divine Arrows}\r\n\r\nChosen shooting stack will be granted 6 additional shots and an ability to penetrate walls for five rounds.", 
+				"description" : "{Advanced Divine Arrows}\r\n\r\nChosen shooting stack will be granted 6 additional shots and an ability to penetrate walls for five rounds.",
 				"battleEffects" : {
 					"divineArrowsEffect" : {
 						"type" : "core:timed",
@@ -108,7 +112,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Divine Arrows}\r\n\r\nChosen shooting stack will be granted 8 additional shots and an ability to penetrate walls for six rounds.", 
+				"description" : "{Expert Divine Arrows}\r\n\r\nChosen shooting stack will be granted 8 additional shots and an ability to penetrate walls for six rounds.",
 				"battleEffects" : {
 					"divineArrowsEffect" : {
 						"type" : "core:timed",

@@ -1,21 +1,32 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"mdtOutpostOfSouls" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"mdtOutpostOfSouls" : {
 				"name" : "Outpost of Souls",
 				"templates" : {
-					"base" : { 
-					"animation" : "banks/outpostOfSouls",
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"mask" : [ "VVVV", "VVBV", "VBAB"],
-					"allowedTerrains" : [ "rough", "dirt", "swamp" ]
+					"base" : {
+						"animation" : "banks/outpostOfSouls",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"rough",
+							"dirt",
+							"swamp"
+						]
 					}
 				},
 				"sounds" : {
-					"ambient" : ["dwellings/banks/DEMILICHLOOP"]
+					"ambient" : [
+						"dwellings/banks/DEMILICHLOOP"
+					]
 				},
 				"rmg" : {
 					"value" : 6000,
@@ -30,75 +41,187 @@
 				"rewards" : [
 					{
 						"message" : "The Power Liches crumble to dust, and from the depths of the Outpost of Souls, Demiliches rise, pledging their dark power to your ranks.",
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
-							{ "amount" : 10, "type" : "powerLich" },
-							{ "amount" : 10, "type" : "powerLich" },
-							{ "amount" : 10, "type" : "powerLich" },
-							{ "amount" : 10, "type" : "powerLich" },
-							{ "amount" : 10, "type" : "powerLich" },
-							{ "amount" : 10, "type" : "powerLich" },
-							{ "amount" : 10, "type" : "powerLich" }
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							}
 						],
-						"creatures" :
-						[
-							{ "amount" : 2, "type" : "mdtDemilich" }
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "mdtDemilich"
+							}
 						],
-						"artifacts" : [ "mdtMinorPhylactery" ]
+						"artifacts" : [
+							"mdtMinorPhylactery"
+						]
 					},
 					{
 						"message" : "The Power Liches crumble to dust, and from the depths of the Outpost of Souls, Demiliches rise, pledging their dark power to your ranks.",
-						"appearChance" : { "min" : 30, "max" : 60 },
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"guards" : [
-							{ "amount" : 12, "type" : "powerLich" },
-							{ "amount" : 12, "type" : "powerLich" },
-							{ "amount" : 12, "type" : "powerLich" },
-							{ "amount" : 12, "type" : "powerLich" },
-							{ "amount" : 12, "type" : "powerLich" },
-							{ "amount" : 12, "type" : "powerLich" },
-							{ "amount" : 12, "type" : "powerLich" }
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 12,
+								"type" : "powerLich"
+							}
 						],
-						"creatures" :
-						[
-							{ "amount" : 4, "type" : "mdtDemilich" }
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "mdtDemilich"
+							}
 						],
-						"artifacts" : [ "mdtMajorPhylactery" ]
+						"artifacts" : [
+							"mdtMajorPhylactery"
+						]
 					},
 					{
 						"message" : "The Power Liches crumble to dust, and from the depths of the Outpost of Souls, Demiliches rise, pledging their dark power to your ranks.",
-						"appearChance" : { "min" : 60, "max" : 90 },
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
 						"guards" : [
-							{ "amount" : 14, "type" : "powerLich" },
-							{ "amount" : 14, "type" : "powerLich" },
-							{ "amount" : 14, "type" : "powerLich" },
-							{ "amount" : 14, "type" : "powerLich" },
-							{ "amount" : 14, "type" : "powerLich" },
-							{ "amount" : 14, "type" : "powerLich" },
-							{ "amount" : 14, "type" : "powerLich" }
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 14,
+								"type" : "powerLich"
+							}
 						],
-						"creatures" :
-						[
-							{ "amount" : 6, "type" : "mdtDemilich" }
+						"creatures" : [
+							{
+								"amount" : 6,
+								"type" : "mdtDemilich"
+							}
 						],
-						"artifacts" : [ "mdtSupremePhylactery" ]
+						"artifacts" : [
+							"mdtSupremePhylactery"
+						]
 					},
 					{
 						"message" : "The Power Liches crumble to dust, and from the depths of the Outpost of Souls, Demiliches rise, pledging their dark power to your ranks.",
-						"appearChance" : { "min" : 90, "max" : 100 },
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
 						"guards" : [
-							{ "amount" : 18, "type" : "powerLich" },
-							{ "amount" : 18, "type" : "powerLich" },
-							{ "amount" : 18, "type" : "powerLich" },
-							{ "amount" : 18, "type" : "powerLich" },
-							{ "amount" : 18, "type" : "powerLich" },
-							{ "amount" : 18, "type" : "powerLich" },
-							{ "amount" : 18, "type" : "powerLich" }
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 18,
+								"type" : "powerLich"
+							}
 						],
-						"creatures" :
-						[
-							{ "amount" : 8, "type" : "mdtDemilich" }
+						"creatures" : [
+							{
+								"amount" : 8,
+								"type" : "mdtDemilich"
+							}
 						],
-						"artifacts" : [ "mdtRelicPhylactery" ]
+						"artifacts" : [
+							"mdtRelicPhylactery"
+						]
 					}
 				]
 			}

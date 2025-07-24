@@ -1,6 +1,5 @@
 {
-	"mdtVerstan" :
-	{
+	"mdtVerstan" : {
 		"class" : "alchemist",
 		"female" : false,
 		"images" : {
@@ -26,8 +25,7 @@
 				"max" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"skill" : "mysticism",
 				"level" : "basic"
@@ -52,13 +50,13 @@
 				}
 			}
 		},
-		"spellbook" : ["haste"],
-		"texts" :
-		{
+		"spellbook" : [
+			"haste"
+		],
+		"texts" : {
 			"name" : "Verstan",
 			"biography" : "Verstan has been fascinated by constructing Golems since childhood. His inquisitiveness and challenging questions often perplexed even the best constructors. Not much time has past before Gavin Magnus himself noticed Verstan's potential and ordered him constructing new kinds of Golems, based on the accomplishments of the Red Dwarves.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Drake Golems",
 				"description" : "All Drake Golems and Dragon Golems gain additional 10% magic resistance.",
 				"tooltip" : "Creature Bonus: Drake Golems"

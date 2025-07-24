@@ -1,6 +1,5 @@
 {
-	"mdtTartarr" :
-	{
+	"mdtTartarr" : {
 		"class" : "battlemage",
 		"female" : true,
 		"images" : {
@@ -46,13 +45,13 @@
 				}
 			}
 		},
-		"spellbook" : [ "shield" ],
-		"texts" :
-		{
+		"spellbook" : [
+			"shield"
+		],
+		"texts" : {
 			"name" : "Tartarr",
 			"biography" : "Tartarr was born in poor Ogre family, but has always dreamed about conquests. She has become a soldier of fortune at the age of fourteen because of her adult look and stubbornness. This bullish Ogress often gets all that she wants due to her talents in defense magic.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Shield",
 				"description" : "Casts Shield with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell Bonus: Shield"

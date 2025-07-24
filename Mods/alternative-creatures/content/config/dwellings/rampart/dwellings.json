@@ -3,15 +3,26 @@
 		"types" : {
 			"mdtTreehouse" : {
 				"name" : "Treehouse",
-				"creatures" : [[ "mdtDryad" ]],
+				"creatures" : [
+					[
+						"mdtDryad"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/rampart/mapTreehouse.def",
-						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
 				"sounds" : {
-					"ambient" : ["dwellings/rampart/LOOPDRYA"]
+					"ambient" : [
+						"dwellings/rampart/LOOPDRYA"
+					]
 				}
 			}
 		}

@@ -3,15 +3,24 @@
 		"types" : {
 			"mdtZiggurat" : {
 				"name" : "Ziggurat",
-				"creatures" : [[ "mdtCouatl" ]],
+				"creatures" : [
+					[
+						"mdtCouatl"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["dwellings/stronghold/CouaLOOP"]
+					"ambient" : [
+						"dwellings/stronghold/CouaLOOP"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/stronghold/mapZiggurat.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			}

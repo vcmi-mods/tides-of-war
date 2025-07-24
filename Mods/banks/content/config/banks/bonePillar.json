@@ -1,21 +1,33 @@
 {
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"mdtBonePillar" :
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"mdtBonePillar" : {
 				"name" : "Bone Pillar",
 				"templates" : {
 					"base" : {
 						"animation" : "banks/bonePillar",
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"mask" : [ "VVV", "VVV", "VBA" ],
-						"allowedTerrains" : [ "sand", "subterra", "rough", "lava" ]
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"subterra",
+							"rough",
+							"lava"
+						]
 					}
 				},
 				"sounds" : {
-					"ambient" : ["dwellings/banks/BONEPILLARLOOP"]
+					"ambient" : [
+						"dwellings/banks/BONEPILLARLOOP"
+					]
 				},
 				"rmg" : {
 					"value" : 5000,
@@ -31,175 +43,375 @@
 				"rewards" : [
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 0, "max" : 20 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 20
+						},
 						"guards" : [
-							{ "amount" : 2, "type" : "mdtGhost" },
-							{ "amount" : 2, "type" : "mdtGhost" },
-							{ "amount" : 2, "type" : "mdtGhost" },
-							{ "amount" : 2, "type" : "mdtGhost" },
-							{ "amount" : 2, "type" : "mdtGhost" },
-							{ "amount" : 2, "type" : "mdtGhost" },
-							{ "amount" : 2, "type" : "mdtGhost" }
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 2,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 2500
 						},
-						"creatures" :
-						[
-							{ "amount" : 4, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							}
 						]
 					},
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 20, "max" : 40 },
+						"appearChance" : {
+							"min" : 20,
+							"max" : 40
+						},
 						"guards" : [
-							{ "amount" : 4, "type" : "mdtGhost" },
-							{ "amount" : 4, "type" : "mdtGhost" },
-							{ "amount" : 4, "type" : "mdtGhost" },
-							{ "amount" : 4, "type" : "mdtGhost" },
-							{ "amount" : 4, "type" : "mdtGhost" },
-							{ "amount" : 4, "type" : "mdtGhost" },
-							{ "amount" : 4, "type" : "mdtGhost" }
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 4,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 3500
 						},
-						"creatures" :
-						[
-							{ "amount" : 6, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							}
 						]
 					},
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 40, "max" : 60 },
+						"appearChance" : {
+							"min" : 40,
+							"max" : 60
+						},
 						"guards" : [
-							{ "amount" : 6, "type" : "mdtGhost" },
-							{ "amount" : 6, "type" : "mdtGhost" },
-							{ "amount" : 6, "type" : "mdtGhost" },
-							{ "amount" : 6, "type" : "mdtGhost" },
-							{ "amount" : 6, "type" : "mdtGhost" },
-							{ "amount" : 6, "type" : "mdtGhost" },
-							{ "amount" : 6, "type" : "mdtGhost" }
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 6,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 4500
 						},
-						"creatures" :
-						[
-							{ "amount" : 8, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							}
 						]
 					},
-	
+
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 60, "max" : 75 },
+						"appearChance" : {
+							"min" : 60,
+							"max" : 75
+						},
 						"guards" : [
-							{ "amount" : 8, "type" : "mdtGhost" },
-							{ "amount" : 8, "type" : "mdtGhost" },
-							{ "amount" : 8, "type" : "mdtGhost" },
-							{ "amount" : 8, "type" : "mdtGhost" },
-							{ "amount" : 8, "type" : "mdtGhost" },
-							{ "amount" : 8, "type" : "mdtGhost" },
-							{ "amount" : 8, "type" : "mdtGhost" }
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 8,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 5500
 						},
-						"creatures" :
-						[
-							{ "amount" : 10, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							}
 						]
 					},
-					
+
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 75, "max" : 85 },
+						"appearChance" : {
+							"min" : 75,
+							"max" : 85
+						},
 						"guards" : [
-							{ "amount" : 10, "type" : "mdtGhost" },
-							{ "amount" : 10, "type" : "mdtGhost" },
-							{ "amount" : 10, "type" : "mdtGhost" },
-							{ "amount" : 10, "type" : "mdtGhost" },
-							{ "amount" : 10, "type" : "mdtGhost" },
-							{ "amount" : 10, "type" : "mdtGhost" },
-							{ "amount" : 10, "type" : "mdtGhost" }
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 6500
 						},
-						"creatures" :
-						[
-							{ "amount" : 12, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							}
 						]
 					},
-					
+
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 85, "max" : 90 },
+						"appearChance" : {
+							"min" : 85,
+							"max" : 90
+						},
 						"guards" : [
-							{ "amount" : 12, "type" : "mdtGhost" },
-							{ "amount" : 12, "type" : "mdtGhost" },
-							{ "amount" : 12, "type" : "mdtGhost" },
-							{ "amount" : 12, "type" : "mdtGhost" },
-							{ "amount" : 12, "type" : "mdtGhost" },
-							{ "amount" : 12, "type" : "mdtGhost" },
-							{ "amount" : 12, "type" : "mdtGhost" }
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 12,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 7500
 						},
-						"creatures" :
-						[
-							{ "amount" : 14, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							}
 						]
 					},
-					
+
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 90, "max" : 95 },
+						"appearChance" : {
+							"min" : 90,
+							"max" : 95
+						},
 						"guards" : [
-							{ "amount" : 14, "type" : "mdtGhost" },
-							{ "amount" : 14, "type" : "mdtGhost" },
-							{ "amount" : 14, "type" : "mdtGhost" },
-							{ "amount" : 14, "type" : "mdtGhost" },
-							{ "amount" : 14, "type" : "mdtGhost" },
-							{ "amount" : 14, "type" : "mdtGhost" },
-							{ "amount" : 14, "type" : "mdtGhost" }
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 14,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 8500
 						},
-						"creatures" :
-						[
-							{ "amount" : 16, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 16,
+								"type" : "mdtGhost"
+							}
 						]
 					},
-					
+
 					{
 						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
-						"appearChance" : { "min" : 95, "max" : 100 },
+						"appearChance" : {
+							"min" : 95,
+							"max" : 100
+						},
 						"guards" : [
-							{ "amount" : 18, "type" : "mdtGhost" },
-							{ "amount" : 18, "type" : "mdtGhost" },
-							{ "amount" : 18, "type" : "mdtGhost" },
-							{ "amount" : 18, "type" : "mdtGhost" },
-							{ "amount" : 18, "type" : "mdtGhost" },
-							{ "amount" : 18, "type" : "mdtGhost" },
-							{ "amount" : 18, "type" : "mdtGhost" }
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							},
+							{
+								"amount" : 18,
+								"type" : "mdtGhost"
+							}
 						],
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 9500
 						},
-						"creatures" :
-						[
-							{ "amount" : 20, "type" : "mdtGhost" }
+						"creatures" : [
+							{
+								"amount" : 20,
+								"type" : "mdtGhost"
+							}
 						]
 					}
 				]

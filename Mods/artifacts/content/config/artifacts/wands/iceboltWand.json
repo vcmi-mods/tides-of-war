@@ -1,27 +1,24 @@
 {
-	"mdtIceboltWand" :
-	{
-		"type" : ["HERO"],
+	"mdtIceboltWand" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 4000,
-		"bonuses" :
-		{
-			"castsIcebolt" :
-			{
+		"bonuses" : {
+			"castsIcebolt" : {
 				"type" : "SPELL",
 				"subtype" : "mdtIceboltWand"
-//				"val" : 3
+				//				"val" : 3
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"image" : "artifacts/iconsSmall/iceboltWand",
 			"scenarioBonus" : "artifacts/iconsBig/iceWand",
 			"map" : "artifacts/map/iceboltWand"
 		},
-		"text" :
-		{
+		"text" : {
 			"name" : "Ice Bolt Wand",
 			"description" : "{Ice Bolt}\r\n\r\nAdds Ice Bolt Wand spell to spellbook. Use it to cast Ice Bolt spell for 2 spell points.",
 			"event" : "On your way you stumble upon a small patch of icebound terrain. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the ice and keep it for yourself."

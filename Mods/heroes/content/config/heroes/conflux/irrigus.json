@@ -1,6 +1,5 @@
 {
-	"mdtIrrigus" :
-	{
+	"mdtIrrigus" : {
 		"class" : "planeswalker",
 		"female" : false,
 		"images" : {
@@ -39,8 +38,7 @@
 		"specialty" : {
 			"creature" : "mdtTriton"
 		},
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Irrigus",
 			"biography" : "Irrigus have never felt loyal to the Triton Empire, which occupies the whole Endless Ocean. Because of that, he gladly serves the Masters of the Elements after he felt called to the Conflux.",
 			"specialty" : {

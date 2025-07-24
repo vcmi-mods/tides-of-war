@@ -1,6 +1,5 @@
 {
-	"mdtGaluum" :
-	{
+	"mdtGaluum" : {
 		"class" : "warlock",
 		"female" : false,
 		"images" : {
@@ -39,9 +38,10 @@
 		"specialty" : {
 			"creature" : "mdtIllithid"
 		},
-		"spellbook" : ["mdtAuraOfPower"],
-		"texts" :
-		{
+		"spellbook" : [
+			"mdtAuraOfPower"
+		],
+		"texts" : {
 			"name" : "Galuum",
 			"biography" : "Many say that Galuum was once a slave trader, who, due to an ancient ritual, became a monster, but also a very powerful Warlock. No one, however, can prove these rumors. No matter if this legend is true, Galuum is a very talented leader, who frightens his enemies with not only his appearance, but also his skills.",
 			"specialty" : {

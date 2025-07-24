@@ -1,6 +1,5 @@
 {
-	"mdtShroo" :
-	{
+	"mdtShroo" : {
 		"class" : "witch",
 		"female" : true,
 		"images" : {
@@ -39,9 +38,10 @@
 		"specialty" : {
 			"creature" : "mdtTrollHag"
 		},
-		"spellbook" : [ "iceBolt" ],
-		"texts" :
-		{
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
 			"name" : "Shroo",
 			"biography" : "No one really knows how long Trolls live. Rumor has it that Shroo remember the days of the Revolt of the Beastmasters. No one though has been brave enough to ask her about it.",
 			"specialty" : {

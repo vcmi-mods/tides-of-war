@@ -1,6 +1,5 @@
 {
-	"kreevionHeretic" :
-	{
+	"kreevionHeretic" : {
 		"class" : "heretic",
 		"female" : false,
 		"images" : {
@@ -32,7 +31,7 @@
 				"level" : "basic"
 			},
 			{
-			"skill" : "offence",
+				"skill" : "offence",
 				"level" : "basic"
 			}
 		],
@@ -46,9 +45,10 @@
 				}
 			}
 		},
-		"spellbook": [ "frenzy" ],
-		"texts" :
-		{
+		"spellbook" : [
+			"frenzy"
+		],
+		"texts" : {
 			"name" : "Kreevion",
 			"biography" : "Rumor has it that Kreevion was born of pure wrath of Demons mourning the death of Lucifer Kreegan. Despite it most certainly being just a tale, this idea alone causes his subordinates to fear him.",
 			"specialty" : {

@@ -16,9 +16,13 @@
 			"conflux" : 0
 		},
 		"animation" : {
-			"affect" : [ "spells/vampirism/SP_VAMPIRISM.def" ]
+			"affect" : [
+				"spells/vampirism/SP_VAMPIRISM.def"
+			]
 		},
-		"flags" : { "positive" : true },
+		"flags" : {
+			"positive" : true
+		},
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal"
@@ -31,18 +35,18 @@
 			"iconEffect" : "spells/vampirism/vampirism_iconEffect.bmp"
 		},
 		"sounds" : {
-			"cast" :"spells/vampirism/spell-vampirism.wav"
+			"cast" : "spells/vampirism/spell-vampirism.wav"
 		},
 		"targetType" : "CREATURE",
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 10,
-//				"aiValue" : 20,
+				//				"aiValue" : 20,
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "{Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",	 
+				"description" : "{Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",
 				"cost" : 15,
 				"battleEffects" : {
 					"vampirismEffect" : {

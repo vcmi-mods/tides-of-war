@@ -1,6 +1,5 @@
 {
-	"mdtCharles" :
-	{
+	"mdtCharles" : {
 		"class" : "knight",
 		"female" : false,
 		"images" : {
@@ -50,9 +49,8 @@
 					]
 				}
 			}
- 		},
-		"texts" :
-		{
+		},
+		"texts" : {
 			"name" : "Charles",
 			"biography" : "For many years, Sir Charles had trained Paladins in Steadwick, but gave up being a tutor and started his career as a Dragon Hunter in Jadame. However, when the war had come, he came back to Erathia and began fighting for Morgan Kendal as a commander.",
 			"specialty" : {

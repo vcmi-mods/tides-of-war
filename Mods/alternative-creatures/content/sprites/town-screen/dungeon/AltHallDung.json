@@ -1,8 +1,13 @@
 {
-    "basepath" : "town-screen/dungeon/frames/",
-	"images" :
-	[
-		{ "frame" : 48, "file" : "TPDItd1.png"},
-		{ "frame" : 55, "file" : "TPDItd2.png"}
+	"basepath" : "town-screen/dungeon/frames/",
+	"images" : [
+		{
+			"frame" : 48,
+			"file" : "TPDItd1.png"
+		},
+		{
+			"frame" : 55,
+			"file" : "TPDItd2.png"
+		}
 	]
 }

@@ -1,6 +1,5 @@
 {
-	"mdtOdetta" :
-	{
+	"mdtOdetta" : {
 		"class" : "wizard",
 		"female" : true,
 		"images" : {
@@ -26,8 +25,7 @@
 				"max" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"skill" : "wisdom",
 				"level" : "basic"
@@ -46,13 +44,13 @@
 				}
 			}
 		},
-		"spellbook" : [ "mdtDivineArrows" ],
-		"texts" :
-		{
+		"spellbook" : [
+			"mdtDivineArrows"
+		],
+		"texts" : {
 			"name" : "Odetta",
 			"biography" : "Even though Odetta's sight is good as new, she managed to improve it with a mixture of magic and technology. Now she is able to see even at the longest distances, which made her one of the best choices as a commander.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Precision",
 				"description" : "Casts Precision with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell Bonus: Precision"

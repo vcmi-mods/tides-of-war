@@ -9,10 +9,12 @@
 			"water" : false
 		},
 		"animation" : {
-			"cast" :[ "spells/summonGhost/SP_summonGhost" ]
+			"cast" : [
+				"spells/summonGhost/SP_summonGhost"
+			]
 		},
 		"sounds" : {
-	//		"cast" : "Magic/Summon"
+			//		"cast" : "Magic/Summon"
 		},
 		"level" : 5,
 		"power" : 10,
@@ -39,31 +41,33 @@
 				"power" : 2,
 				"cost" : 20,
 				"range" : "X",
-				"targetModifier" : {"smart" :true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"summon" : {
-						"exclusive" :true,
-						"id" :"mdtGhost",
-						"permanent" :false,
-						"type" :"core:summon"
+						"exclusive" : true,
+						"id" : "mdtGhost",
+						"permanent" : false,
+						"type" : "core:summon"
 					}
 				}
 			},
 			"none" : {
 				"cost" : 25,
-				"power" : 1,
-//				"aiValue" : 10
+				"power" : 1
+				//				"aiValue" : 10
 			},
 			"basic" : {
-//				"aiValue" : 11,
-				"power" :2
+				//				"aiValue" : 11,
+				"power" : 2
 			},
 			"advanced" : {
-//				"aiValue" : 12,
+				//				"aiValue" : 12,
 				"power" : 3
 			},
 			"expert" : {
-//				"aiValue" : 13,
+				//				"aiValue" : 13,
 				"power" : 4
 			}
 		}

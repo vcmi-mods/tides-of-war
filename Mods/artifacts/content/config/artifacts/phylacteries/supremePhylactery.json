@@ -1,27 +1,24 @@
 {
-	"mdtSupremePhylactery" :
-	{
-		"type" : ["HERO"],
+	"mdtSupremePhylactery" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "SPECIAL",
 		"value" : 8000,
-		"bonuses" :
-		{
-			"demilich3" :
-			{
+		"bonuses" : {
+			"demilich3" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "mdtSummonDemilich3"
-//				"val" : 3
+				//				"val" : 3
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"image" : "artifacts/iconsSmall/supremePhylactery",
 			"scenarioBonus" : "artifacts/iconsBig/supremePh",
 			"map" : "artifacts/map/supremePh"
 		},
-		"text" :
-		{
+		"text" : {
 			"name" : "Supreme Phylactery",
 			"description" : "{Supreme Phylactery}\r\n\r\nSummons scary Demiliches to help you in the battlefield.",
 			"event" : "A Necromancer comes across your way and wants to ask you some riddles. Though you say you have no time for such nonsense, he insists, causing you to annihilate him abruptly. As his dead corpse slumps to the ground, you discover a phylactery under his coat."

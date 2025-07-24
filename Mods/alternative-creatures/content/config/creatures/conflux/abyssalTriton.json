@@ -1,149 +1,225 @@
 {
-	"mdtAbyssalTriton" :
-	{
-		"name" :
-		{
+	"mdtAbyssalTriton" : {
+		"name" : {
 			"singular" : "Abyssal Triton",
 			"plural" : "Abyssal Tritons"
 		},
 		"faction" : "conflux",
 		"level" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 230
 		},
 		"speed" : 8,
 		"hitPoints" : 25,
 		"attack" : 10,
 		"defense" : 7,
-		"damage" :
-		{
-			 "min" : 4,
-			 "max" : 5
+		"damage" : {
+			"min" : 4,
+			"max" : 5
 		},
 		"aiValue" : 354,
 		"fightValue" : 347,
-		"advMapAmount" :
-		{
-			 "min" : 12,
-			 "max" : 20
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
 		},
 		"growth" : 6,
 		"hasDoubleWeek" : true,
-		"abilities" :
-		{
-			"castsBloodlust" :
-			{
+		"abilities" : {
+			"castsBloodlust" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "mdtTrawl",
 				"val" : 2
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
 			},
-			"immuneToWater" :
-			{
+			"immuneToWater" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "water",
 				"val" : 100
 			}
-//jakies minusy na pustyni
+			//jakies minusy na pustyni
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "protectFire"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "bless"
 				},
-				"values" : [ 0, 0, 1, 1, 2, 2, 2, 3, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "creatures/conflux/iconssmall/abyssalTritonSmall.png",
 			"iconLarge" : "creatures/conflux/iconsbig/abyssalTritonBig.png",
 			"map" : "creatures/conflux/map/mapAbyssalTriton.def",
 			"animation" : "creatures/conflux/battle/abyssalTriton.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.9,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "creatures/conflux/triton/TRITATTACK.wav",
 			"defend" : "creatures/conflux/triton/TRITDFND.wav",
 			"killed" : "creatures/conflux/triton/TRITDEAD.wav",

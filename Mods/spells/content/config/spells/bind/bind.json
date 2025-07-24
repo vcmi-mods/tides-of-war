@@ -14,7 +14,9 @@
 		"defaultGainChance" : 0,
 		"gainChance" : {},
 		"animation" : {
-			"affect" :["SP02_"]
+			"affect" : [
+				"SP02_"
+			]
 		},
 		"flags" : {
 			"negative" : true,
@@ -38,7 +40,7 @@
 			"base" : {
 				"range" : "0",
 				"power" : 10,
-//				"aiValue" : 20,
+				//				"aiValue" : 20,
 				"targetModifier" : {
 					"smart" : true
 				},
@@ -50,7 +52,9 @@
 							"bindEffect" : {
 								"val" : 0,
 								"type" : "BIND_EFFECT",
-								"duration" : ["N_TURNS"],
+								"duration" : [
+									"N_TURNS"
+								],
 								"turns" : 2,
 								"addInfo" : -1
 							},
@@ -66,20 +70,16 @@
 				},
 				"description" : "{Bind}\r\n\r\nTargeted creature (excluding flying units) will be binded by Dendroids' roots."
 			},
-			"none" :
-			{
+			"none" : {
 				"cost" : 20
 			},
-			"basic" :
-			{
+			"basic" : {
 				"cost" : 18
 			},
-			"advanced" :
-			{
+			"advanced" : {
 				"cost" : 15
 			},
-			"expert" :
-			{
+			"expert" : {
 				"cost" : 12
 			}
 		}

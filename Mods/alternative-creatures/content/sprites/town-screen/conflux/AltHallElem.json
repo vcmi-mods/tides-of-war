@@ -1,8 +1,13 @@
 {
-    "basepath" : "town-screen/conflux/frames/",
-	"images" :
-	[
-		{ "frame" : 46, "file" : "TBELDW3.png"},
-		{ "frame" : 53, "file" : "TBELDW3UP.png"}
+	"basepath" : "town-screen/conflux/frames/",
+	"images" : [
+		{
+			"frame" : 46,
+			"file" : "TBELDW3.png"
+		},
+		{
+			"frame" : 53,
+			"file" : "TBELDW3UP.png"
+		}
 	]
 }

@@ -11,15 +11,17 @@
 		"targetType" : "CREATURE",
 		"level" : 5,
 		"power" : 25, //duration spellpower=turns
-		"defaultGainChance" : 10, 
+		"defaultGainChance" : 10,
 		"gainChance" : {
 			"inferno" : 5,
 			"dungeon" : 5,
 			"conflux" : 5,
-			"necropolis" :  0
+			"necropolis" : 0
 		},
 		"animation" : {
-			"affect" :[ "spells/intervention/SP_INTERVENTION" ]
+			"affect" : [
+				"spells/intervention/SP_INTERVENTION"
+			]
 		},
 		"flags" : {
 			"indifferent" : true,
@@ -44,25 +46,27 @@
 		"levels" : {
 			"base" : {
 				"range" : "X",
-				"targetModifier" : {"smart" :false},
-//				"aiValue" : 20, //don't know what it means
-				"cost" : 25, 
+				"targetModifier" : {
+					"smart" : false
+				},
+				//				"aiValue" : 20, //don't know what it means
+				"cost" : 25,
 				"description" : "{Intervention}\r\n\r\nResurrects all living creatures on the battlefield. HP of resurrected units equals 25*spellpower +25.",
 				"power" : 25,
 				"battleEffects" : {
 					"heal" : {
-						"type" :"core:heal",
-						"healLevel" :"resurrect",
-						"healPower" :"oneBattle",
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "oneBattle",
 						"minFullUnits" : 1
 					},
 					"cure" : {
-						"type" :"core:dispel",
+						"type" : "core:dispel",
 						"indirect" : true,
-						"optional" :true,
-						"dispelNegative" :true,
-						"dispelNeutral" :false,
-						"dispelPositive" :false
+						"optional" : true,
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false
 					}
 				}
 			},

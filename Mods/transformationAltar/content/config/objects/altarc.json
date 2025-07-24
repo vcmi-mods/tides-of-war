@@ -1,543 +1,767 @@
 {
-    "mdtTransformAltar" : {
-        "name" : "Transformation Altar",
-        "handler": "configurable",
-        "types" : {
-            "default" :
-            {
-                "name" : "Transformation Altar",
-                "rmg" : {
-                    "value"        : 7000,
-                    "rarity"    : 75,
-                    "zoneLimit" : 1
-                },
-                "sounds" : {
-                    "ambient" : ["LOOPMAGI"],
-                    "visit" : ["MYSTERY"]
-                },
-                "rewards" :
-                [    
+	"mdtTransformAltar" : {
+		"name" : "Transformation Altar",
+		"handler" : "configurable",
+		"types" : {
+			"default" : {
+				"name" : "Transformation Altar",
+				"rmg" : {
+					"value" : 7000,
+					"rarity" : 75,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : [
+						"LOOPMAGI"
+					],
+					"visit" : [
+						"MYSTERY"
+					]
+				},
+				"rewards" : [
 					{
 						"changeCreatures" : {
-    							"mdtTemplar" : "angel"
+							"mdtTemplar" : "angel"
 						},
 						"resources" : {
 							"gold" : -10000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"mdtTemplar", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtTemplar",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"mdtPaladin" : "archangel"
-						},
-						"resources" : {
-							"gold" : -10000
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"mdtPaladin", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"angel" : "mdtTemplar"
-						},
-						"resources" : {
-							"gold" : -10000
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"angel", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"archangel" : "mdtPaladin"
-						},
-						"resources" : {
-							"gold" : -10000
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"archangel", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtDryad" : "pegasus"
+							"mdtPaladin" : "archangel"
+						},
+						"resources" : {
+							"gold" : -10000
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtPaladin",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"angel" : "mdtTemplar"
+						},
+						"resources" : {
+							"gold" : -10000
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "angel",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"archangel" : "mdtPaladin"
+						},
+						"resources" : {
+							"gold" : -10000
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "archangel",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"mdtDryad" : "pegasus"
 						},
 						"resources" : {
 							"gold" : -4000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4000},
-    							"creatures" : [{"type" :"mdtDryad", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 4000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtDryad",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtOakDryad" : "silverPegasus"
+							"mdtOakDryad" : "silverPegasus"
 						},
 						"resources" : {
 							"gold" : -4000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4000},
-    							"creatures" : [{"type" :"mdtOakDryad", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 4000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtOakDryad",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"pegasus" : "mdtDryad"
+							"pegasus" : "mdtDryad"
 						},
 						"resources" : {
 							"gold" : -4000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4000},
-    							"creatures" : [{"type" :"pegasus", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 4000
+							},
+							"creatures" : [
+								{
+									"type" : "pegasus",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"silverPegasus" : "mdtOakDryad"
+							"silverPegasus" : "mdtOakDryad"
 						},
 						"resources" : {
 							"gold" : -4000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4000},
-    							"creatures" : [{"type" :"silverPegasus", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 4000
+							},
+							"creatures" : [
+								{
+									"type" : "silverPegasus",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtDrakeGolem" : "giant"
+							"mdtDrakeGolem" : "giant"
 						},
 						"resources" : {
 							"gold" : -10000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"mdtDrakeGolem", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtDrakeGolem",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtDragonGolem" : "titan"
+							"mdtDragonGolem" : "titan"
 						},
 						"resources" : {
 							"gold" : -10000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"mdtDragonGolem", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtDragonGolem",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"giant" : "mdtDrakeGolem"
+							"giant" : "mdtDrakeGolem"
 						},
 						"resources" : {
 							"gold" : -10000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"giant", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "giant",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"titan" : "mdtDragonGolem"
+							"titan" : "mdtDragonGolem"
 						},
 						"resources" : {
 							"gold" : -10000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 10000},
-    							"creatures" : [{"type" :"titan", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							},
+							"creatures" : [
+								{
+									"type" : "titan",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtSukkub" : "demon"
+							"mdtSukkub" : "demon"
 						},
 						"resources" : {
 							"gold" : -5500
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5500},
-    							"creatures" : [{"type" :"mdtSukkub", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 5500
+							},
+							"creatures" : [
+								{
+									"type" : "mdtSukkub",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtLilim" : "hornedDemon"
+							"mdtLilim" : "hornedDemon"
 						},
 						"resources" : {
 							"gold" : -5500
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5500},
-    							"creatures" : [{"type" :"mdtLilim", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 5500
+							},
+							"creatures" : [
+								{
+									"type" : "mdtLilim",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"demon" : "mdtSukkub"
+							"demon" : "mdtSukkub"
 						},
 						"resources" : {
 							"gold" : -5500
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5500},
-    							"creatures" : [{"type" :"demon", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 5500
+							},
+							"creatures" : [
+								{
+									"type" : "demon",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"hornedDemon" : "mdtLilim"
+							"hornedDemon" : "mdtLilim"
 						},
 						"resources" : {
 							"gold" : -5500
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5500},
-    							"creatures" : [{"type" :"hornedDemon", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 5500
+							},
+							"creatures" : [
+								{
+									"type" : "hornedDemon",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtIllithid" : "minotaur"
+							"mdtIllithid" : "minotaur"
 						},
 						"resources" : {
 							"gold" : -6250
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 6250},
-    							"creatures" : [{"type" :"mdtIllithid", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 6250
+							},
+							"creatures" : [
+								{
+									"type" : "mdtIllithid",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtAlhoon" : "minotaurKing"
+							"mdtAlhoon" : "minotaurKing"
 						},
 						"resources" : {
 							"gold" : -6250
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 6250},
-    							"creatures" : [{"type" :"mdtAlhoon", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 6250
+							},
+							"creatures" : [
+								{
+									"type" : "mdtAlhoon",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"minotaur" : "mdtIllithid"
+							"minotaur" : "mdtIllithid"
 						},
 						"resources" : {
 							"gold" : -6250
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 6250},
-    							"creatures" : [{"type" :"minotaur", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 6250
+							},
+							"creatures" : [
+								{
+									"type" : "minotaur",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"minotaurKing" : "mdtAlhoon"
+							"minotaurKing" : "mdtAlhoon"
 						},
 						"resources" : {
 							"gold" : -6250
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 6250},
-    							"creatures" : [{"type" :"minotaurKing", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 6250
+							},
+							"creatures" : [
+								{
+									"type" : "minotaurKing",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtCouatl" : "cyclop"
+							"mdtCouatl" : "cyclop"
 						},
 						"resources" : {
 							"gold" : -7000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 7000},
-    							"creatures" : [{"type" :"mdtCouatl", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 7000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtCouatl",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"mdtQuetzalcouatl" : "cyclopKing"
-						},
-						"resources" : {
-							"gold" : -7000
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 7000},
-    							"creatures" : [{"type" :"mdtQuetzalcouatl", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"cyclop" : "mdtCouatl"
-						},
-						"resources" : {
-							"gold" : -7000
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 7000},
-    							"creatures" : [{"type" :"cyclop", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"cyclopKing" : "mdtQuetzalcouatl"
-						},
-						"resources" : {
-							"gold" : -7000
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 7000},
-    							"creatures" : [{"type" :"cyclopKing", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtWerewolf" : "vampire"
+							"mdtQuetzalcouatl" : "cyclopKing"
 						},
 						"resources" : {
-							"gold" : -4500
+							"gold" : -7000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4500},
-    							"creatures" : [{"type" :"mdtWerewolf", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"mdtDireWerewolf" : "vampireLord"
-						},
-						"resources" : {
-							"gold" : -4500
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4500},
-    							"creatures" : [{"type" :"mdtDireWerewolf", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 7000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtQuetzalcouatl",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"vampire" : "mdtWerewolf"
-						},
-						"resources" : {
-							"gold" : -4500
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4500},
-    							"creatures" : [{"type" :"vampire", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
-						"changeCreatures" : {
-    							"vampireLord" : "mdtDireWerewolf"
-						},
-						"resources" : {
-							"gold" : -4500
-						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 4500},
-    							"creatures" : [{"type" :"vampireLord", "amount" : 1 }]
-						},
-						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
+					},
 					{
 						"changeCreatures" : {
-    							"mdtTrollHag" : "gorgon"
+							"cyclop" : "mdtCouatl"
+						},
+						"resources" : {
+							"gold" : -7000
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 7000
+							},
+							"creatures" : [
+								{
+									"type" : "cyclop",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"cyclopKing" : "mdtQuetzalcouatl"
+						},
+						"resources" : {
+							"gold" : -7000
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 7000
+							},
+							"creatures" : [
+								{
+									"type" : "cyclopKing",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"mdtWerewolf" : "vampire"
+						},
+						"resources" : {
+							"gold" : -4500
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 4500
+							},
+							"creatures" : [
+								{
+									"type" : "mdtWerewolf",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"mdtDireWerewolf" : "vampireLord"
+						},
+						"resources" : {
+							"gold" : -4500
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 4500
+							},
+							"creatures" : [
+								{
+									"type" : "mdtDireWerewolf",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"vampire" : "mdtWerewolf"
+						},
+						"resources" : {
+							"gold" : -4500
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 4500
+							},
+							"creatures" : [
+								{
+									"type" : "vampire",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"vampireLord" : "mdtDireWerewolf"
+						},
+						"resources" : {
+							"gold" : -4500
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 4500
+							},
+							"creatures" : [
+								{
+									"type" : "vampireLord",
+									"amount" : 1
+								}
+							]
+						},
+						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
+					},
+					{
+						"changeCreatures" : {
+							"mdtTrollHag" : "gorgon"
 						},
 						"resources" : {
 							"gold" : -8000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 8000},
-    							"creatures" : [{"type" :"mdtTrollHag", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 8000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtTrollHag",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtTrollWitch" : "mightyGorgon"
+							"mdtTrollWitch" : "mightyGorgon"
 						},
 						"resources" : {
 							"gold" : -8000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 8000},
-    							"creatures" : [{"type" :"mdtTrollWitch", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 8000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtTrollWitch",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"gorgon" : "mdtTrollHag"
+							"gorgon" : "mdtTrollHag"
 						},
 						"resources" : {
 							"gold" : -8000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 8000},
-    							"creatures" : [{"type" :"gorgon", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 8000
+							},
+							"creatures" : [
+								{
+									"type" : "gorgon",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mightyGorgon" : "mdtTrollWitch"
+							"mightyGorgon" : "mdtTrollWitch"
 						},
 						"resources" : {
 							"gold" : -8000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 8000},
-    							"creatures" : [{"type" :"mightyGorgon", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 8000
+							},
+							"creatures" : [
+								{
+									"type" : "mightyGorgon",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtTriton" : "waterElemental"
+							"mdtTriton" : "waterElemental"
 						},
 						"resources" : {
 							"gold" : -3000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000},
-    							"creatures" : [{"type" :"mdtTriton", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtTriton",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"mdtAbyssalTriton" : "iceElemental"
+							"mdtAbyssalTriton" : "iceElemental"
 						},
 						"resources" : {
 							"gold" : -3000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000},
-    							"creatures" : [{"type" :"mdtAbyssalTriton", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							},
+							"creatures" : [
+								{
+									"type" : "mdtAbyssalTriton",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"waterElemental" : "mdtTriton"
+							"waterElemental" : "mdtTriton"
 						},
 						"resources" : {
 							"gold" : -3000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000},
-    							"creatures" : [{"type" :"waterElemental", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							},
+							"creatures" : [
+								{
+									"type" : "waterElemental",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    },
-                    {
+					},
+					{
 						"changeCreatures" : {
-    							"iceElemental" : "mdtAbyssalTriton"
+							"iceElemental" : "mdtAbyssalTriton"
 						},
 						"resources" : {
 							"gold" : -3000
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000},
-    							"creatures" : [{"type" :"iceElemental", "amount" : 1 }]
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							},
+							"creatures" : [
+								{
+									"type" : "iceElemental",
+									"amount" : 1
+								}
+							]
 						},
 						"message" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold."
-                    }
-                ],
+					}
+				],
 				"onSelectMessage" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it.\r\nSeemingly you can transform your creatures here.\r\nPrices:\r\n{Angels-Templars}: 10000 gold, {Pegasi-Dryads}: 4000 gold,\r\n{Giants-Drake Golems}: 10000 gold, {Demons-Succubi}: 5500 gold,\r\n{Vampires-Werewolves}: 4500 gold, {Minotaurs-Illithids}: 6250 gold,\r\n{Cyclopes-Couatls}: 7000 gold, {Gorgons-Troll Hags}: 8000 gold,\r\n{Water Elementals-Tritons}: 3000 gold.",
-				"onVisitedMessage": "{Transformation Altar}\r\n\r\nAn altar seems to have lost its magic power.",
-				"onEmptyMessage": "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it. Seemingly you have not enough money to use its magic.",
+				"onVisitedMessage" : "{Transformation Altar}\r\n\r\nAn altar seems to have lost its magic power.",
+				"onEmptyMessage" : "{Transformation Altar}\r\n\r\nAn altar of unknown origin lures you to it. Seemingly you have not enough money to use its magic.",
 				"selectMode" : "selectPlayer",
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
-                "templates" :
-                {
-                    "default" :
-                    {
-                        "animation" : "objects/altar_upd", 
-                        "mask" : [ "VVVV","VBBV", "VBAB" ], 
-                        "visitableFrom" : [ "---", "+++", "+++" ]
-                    }
-                }
-            }
-        }
-    }
+				"templates" : {
+					"default" : {
+						"animation" : "objects/altar_upd",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
 }

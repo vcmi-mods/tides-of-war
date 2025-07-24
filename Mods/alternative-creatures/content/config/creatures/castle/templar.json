@@ -6,9 +6,11 @@
 		},
 		"faction" : "castle",
 		"level" : 7,
-		"upgrades": ["mdtPaladin"],
+		"upgrades" : [
+			"mdtPaladin"
+		],
 		"cost" : {
-			"gold" :  1400,
+			"gold" : 1400,
 			"ore" : 1
 		},
 		"speed" : 5,
@@ -26,87 +28,151 @@
 			"max" : 10
 		},
 		"growth" : 2,
-		"abilities" :
-		{
-			"casts" :
-			{
+		"abilities" : {
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"noCastByDefault" :
-			{
+			"noCastByDefault" : {
 				"type" : "NO_SPELLCAST_BY_DEFAULT"
 			},
-			"castsDestroyUndead" :
-			{
+			"castsDestroyUndead" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "destroyUndead",
 				"val" : 3
 			},
-			"destroyPower" :
-			{
+			"destroyPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "destroyUndead",
 				"val" : 30
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "prayer"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 3, 3, 3, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					3,
+					3,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
 			}
 		],
 		"graphics" : {

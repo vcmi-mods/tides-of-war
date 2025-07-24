@@ -1,41 +1,39 @@
 {
 	"mdtThirdEye" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 6500,
-		"components" :
-		[
+		"components" : [
 			"birdOfPerception",
 			"stoicWatchman",
 			"emblemOfCognizance"
 		],
-		"bonuses" :
-		{
-			"casts" :
-			{
+		"bonuses" : {
+			"casts" : {
 				"type" : "CASTS",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
 				"val" : -1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"spellChance" :
-			{
+			"spellChance" : {
 				"type" : "LEARN_BATTLE_SPELL_CHANCE",
 				"val" : 90,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"spellLimit" :
-			{
+			"spellLimit" : {
 				"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
 				"val" : 5,
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
-		"graphics" :
-		{ 
+		"graphics" : {
 			"image" : "artifacts/iconsSmall/thirdEyeS",
 			"scenarioBonus" : "artifacts/iconsBig/thirdEyeL",
 			"map" : "artifacts/map/thirdEye"

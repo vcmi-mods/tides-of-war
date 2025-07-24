@@ -8,107 +8,172 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0.41",
 	"downloadSize" : 28.4,
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"changelog" :
-	{
-		"1.0.41"   : [ "Some custom ability icons added" ],
-		"1.0.40"   : [ "Fix for stack exp FEARFUL bonus" ],
-		"1.0.39"   : [ "Yet another update to vcmi-1.7 format" ],
-		"1.0.38"   : [ "Update to vcmi-1.7 format" ],
-		"1.0.37"   : [ "Update def for Transformation Altar" ],
-		"1.0.36"   : [ "Add missing biomes config" ],
-		"1.0.35"   : [ "Fixed polish translation" ],
-		"1.0.34"   : [ "Minor fixes", "Added Alternate / Improved townscreens depencies", "Fixes for Transformation altar submod" ],
-		"1.0.33"   : [ "Transformation Altar added as a submod" ],
-		"1.0.32"   : [ "Czech translation by George King" ],
-		"1.0.31"   : [ "Added Ukrainian translation" ],
-		"1.0.30"   : [ "Update banks code to vcmi-1.6 format" ],
-		"1.0.24"   : [ "Unicorn Glade fix" ],
-		"1.0.23"   : [ "Updated chinese translation" ],
-		"1.0.22"   : [ "Russian translation by Anton Sergeew" ],
-		"1.0.21"   : [ "Updated polish translation by Dru" ],
-		"1.0.20"   : [ "Balance changes suggested by pvp community" ],
-		"1.0.16"   : [ "Trim hero specialty descriptiuons so they fit in preview window" ],		
-		"1.0.15"   : [ "Add config for biomes" ],
-		"1.0.14"   : [ "Phantom Ship won't spawn on land in random maps" ],
-		"1.0.13"   : [ "Fixed possible crash on using creature banks in random maps" ],
-		"1.0.12"   : [ "Added the creatures' stackExp, fixed the translations and other bugs" ],
-		"1.0.11"   : [ "Updated chinese translation by Rindlit" ],
-		"1.0.10"   : [ "Restructured jsons and splitted into submods" ],
-		"1.0.9"    : [ "Polish translation by Dru" ],
-		"1.0.8"    : [ "hota-balance-compatibility-patch added" ],
-		"1.0.7"    : [ "Fixed (?) Aura of Power" ],
-		"1.0.6"    : [ "Conversion to vcmi-1.3" ],
-		"1.0.5"    : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.0.4"    : [ "Move ToW Menu into submod" ],
-		"1.0.3"    : [ "New bonus format system" ],
-		"1.0.2"    : [ "Fixes" ],
-		"1.0.1"    : [ "Fixes" ],
-		"1.0.0"    : [ "Initial release" ]
+	"changelog" : {
+		"1.0.41" : [
+			"Some custom ability icons added"
+		],
+		"1.0.40" : [
+			"Fix for stack exp FEARFUL bonus"
+		],
+		"1.0.39" : [
+			"Yet another update to vcmi-1.7 format"
+		],
+		"1.0.38" : [
+			"Update to vcmi-1.7 format"
+		],
+		"1.0.37" : [
+			"Update def for Transformation Altar"
+		],
+		"1.0.36" : [
+			"Add missing biomes config"
+		],
+		"1.0.35" : [
+			"Fixed polish translation"
+		],
+		"1.0.34" : [
+			"Minor fixes",
+			"Added Alternate / Improved townscreens depencies",
+			"Fixes for Transformation altar submod"
+		],
+		"1.0.33" : [
+			"Transformation Altar added as a submod"
+		],
+		"1.0.32" : [
+			"Czech translation by George King"
+		],
+		"1.0.31" : [
+			"Added Ukrainian translation"
+		],
+		"1.0.30" : [
+			"Update banks code to vcmi-1.6 format"
+		],
+		"1.0.24" : [
+			"Unicorn Glade fix"
+		],
+		"1.0.23" : [
+			"Updated chinese translation"
+		],
+		"1.0.22" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.0.21" : [
+			"Updated polish translation by Dru"
+		],
+		"1.0.20" : [
+			"Balance changes suggested by pvp community"
+		],
+		"1.0.16" : [
+			"Trim hero specialty descriptiuons so they fit in preview window"
+		],
+		"1.0.15" : [
+			"Add config for biomes"
+		],
+		"1.0.14" : [
+			"Phantom Ship won't spawn on land in random maps"
+		],
+		"1.0.13" : [
+			"Fixed possible crash on using creature banks in random maps"
+		],
+		"1.0.12" : [
+			"Added the creatures' stackExp, fixed the translations and other bugs"
+		],
+		"1.0.11" : [
+			"Updated chinese translation by Rindlit"
+		],
+		"1.0.10" : [
+			"Restructured jsons and splitted into submods"
+		],
+		"1.0.9" : [
+			"Polish translation by Dru"
+		],
+		"1.0.8" : [
+			"hota-balance-compatibility-patch added"
+		],
+		"1.0.7" : [
+			"Fixed (?) Aura of Power"
+		],
+		"1.0.6" : [
+			"Conversion to vcmi-1.3"
+		],
+		"1.0.5" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.0.4" : [
+			"Move ToW Menu into submod"
+		],
+		"1.0.3" : [
+			"New bonus format system"
+		],
+		"1.0.2" : [
+			"Fixes"
+		],
+		"1.0.1" : [
+			"Fixes"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
-	"czech" :
-	{
+	"czech" : {
 		"name" : "Tides of War",
 		"description" : "V každém z devíti standardních měst Heroes 3 máte možnost postavit obydlí pro alternativní jednotky.",
 		"translations" : [
 			"translation/tow/czech.json"
 		]
 	},
-	"chinese" :
-	{
+	"chinese" : {
 		"name" : "战争之潮（ToW）",
 		"description" : "战争之潮（Tides of War）是《英雄无敌 III》的非官方资料片。该模组为每座官方城镇都添加了新的生物，并对英雄特长等内容也进行了一些新的改动。",
 		"translations" : [
 			"translation/tow/chinese.json"
 		]
 	},
-	"german" :
-	{
+	"german" : {
 		"name" : "Tides of War",
-		"description" : "In jeder der neun Standard-H3-Städte gibt es die Möglichkeit, eine Behausung für eine alternative Kreatur zu bauen.",	
+		"description" : "In jeder der neun Standard-H3-Städte gibt es die Möglichkeit, eine Behausung für eine alternative Kreatur zu bauen.",
 		"translations" : [
 			"translation/tow/german.json"
 		]
 	},
-	"polish" :
-	{
+	"polish" : {
 		"name" : "Tides of War",
-		"description" : "W każdym z dziewięciu standardowych miast H3 istnieje możliwość zbudowania mieszkania dla alternatywnego stworzenia.",	
+		"description" : "W każdym z dziewięciu standardowych miast H3 istnieje możliwość zbudowania mieszkania dla alternatywnego stworzenia.",
 		"translations" : [
 			"translation/tow/polish.json"
 		]
 	},
-	"russian" :
-	{
+	"russian" : {
 		"name" : "Tides of War",
-		"description" : "В каждом из девяти стандартных городов H3 у вас есть возможность построить одно жилище для альтернативного существа.",	
+		"description" : "В каждом из девяти стандартных городов H3 у вас есть возможность построить одно жилище для альтернативного существа.",
 		"translations" : [
 			"translation/tow/russian.json"
 		]
 	},
-	"ukrainian" :
-	{
+	"ukrainian" : {
 		"name" : "Хвилі війни / Tides of War",
 		"description" : "У кожному з дев'яти стандартних міст Героїв 3 ви отримуєте можливість побудувати житло для однієї альтенативної істоти.",
 		"translations" : [
 			"translation/tow/ukrainian.json"
 		]
 	},
-	"spanish" :
-	{
+	"spanish" : {
 		"name" : "Tides of War",
-		"description" : "En cada una de las nueve ciudades H3 estándar, tienes la posibilidad de construir un habitáculo extra para criaturas alternativas.",	
+		"description" : "En cada una de las nueve ciudades H3 estándar, tienes la posibilidad de construir un habitáculo extra para criaturas alternativas.",
 		"translations" : [
 			"translation/tow/spanish.json"
 		]
 	},
 	"settings" : {
-		"combat": {
-//			"badLuckDice" : [ 12, 6, 4 ]
-			"badLuckChance" : [ 2, 4, 6 ]
+		"combat" : {
+			//			"badLuckDice" : [ 12, 6, 4 ]
+			"badLuckChance" : [
+				2,
+				4,
+				6
+			]
 		}
 	}
 }

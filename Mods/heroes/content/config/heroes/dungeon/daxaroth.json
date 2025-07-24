@@ -1,6 +1,5 @@
 {
-	"mdtDaxaroth" :
-	{
+	"mdtDaxaroth" : {
 		"class" : "overlord",
 		"female" : false,
 		"special" : false,
@@ -41,13 +40,14 @@
 			"bonuses" : {
 				"wideBreath" : {
 					"type" : "WIDE_BREATH",
-					"limiters" : ["DRAGON_NATURE"]
+					"limiters" : [
+						"DRAGON_NATURE"
+					]
 				}
 			}
 		},
 		"spellbook" : [],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Daxaroth",
 			"biography" : "Daxaroth was Dragon Queen Mutare's right paw. Some suspect that Mutare's death was really Daxaroth's plot to gain power. Nevertheless, Dragons listen to him as if he is their new King.",
 			"specialty" : {

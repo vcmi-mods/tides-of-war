@@ -2,19 +2,21 @@
 	"intimidation" : {
 		"name" : "Intimidation",
 		"specialty" : [], // no generic specialty
-//		"defaultGainChance" : 4,
+		//		"defaultGainChance" : 4,
 		"gainChance" : {
 			"might" : 6,
-			"magic" : 4 
+			"magic" : 4
 		},
 		"base" : {
 			"effects" : {
 				"main" : {
 					"type" : "MORALE",
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [ "OPPOSITE_SIDE" ],
-					"val":-1
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					],
+					"val" : -1
 				}
 			}
 		},
@@ -27,7 +29,9 @@
 			},
 			"description" : "{Basic Intimidation}\n\nReduces opponent's Morale by 1.",
 			"effects" : {
-				"main" : { "val" : -1 }
+				"main" : {
+					"val" : -1
+				}
 			}
 		},
 		"advanced" : {
@@ -39,7 +43,9 @@
 			},
 			"description" : "{Advanced intimidation}\n\nReduces opponent's Morale by 2.",
 			"effects" : {
-				"main" : { "val" : -2 }
+				"main" : {
+					"val" : -2
+				}
 			}
 		},
 		"expert" : {
@@ -51,7 +57,9 @@
 			},
 			"description" : "{Expert Intimidation}\n\nReduces opponent's Morale by 3.",
 			"effects" : {
-				"main" : { "val" : -3 }
+				"main" : {
+					"val" : -3
+				}
 			}
 		}
 	}

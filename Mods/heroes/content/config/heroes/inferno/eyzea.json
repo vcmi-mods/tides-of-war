@@ -1,10 +1,8 @@
 {
-	"eyzeaDemoniac" :
-	{
+	"eyzeaDemoniac" : {
 		"class" : "demoniac",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/inferno/eyzea_spec-small.bmp",
 			"specialtyLarge" : "heroes/inferno/eyzea_spec-large.bmp",
 			"large" : "heroes/inferno/eyzea_portrait-large.bmp",
@@ -40,8 +38,7 @@
 		"specialty" : {
 			"creature" : "mdtSukkub"
 		},
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Eyzea",
 			"biography" : "Eyzea presents herself as the real mother of Xeron, commander of the Sons of Erebus. When Eeofol lost the War of Armageddon's Blade, she had to hide underground, fearing for her life. Now she awaits the moment to return to the surface and lead the Kreegan army to their final victory.",
 			"specialty" : {

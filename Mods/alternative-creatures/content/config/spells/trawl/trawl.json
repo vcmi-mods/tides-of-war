@@ -15,15 +15,37 @@
 		"gainChance" : {},
 		"animation" : {
 			"projectile" : [
-				{ "minimumAngle" : 0 ,"defName" :"spells/trawl/SKTrawl4" },
-				{ "minimumAngle" : 0.60 ,"defName" :"spells/trawl/SKTrawl3" },
-				{ "minimumAngle" : 0.90 ,"defName" :"spells/trawl/SKTrawl2" },
-				{ "minimumAngle" : 1.20 ,"defName" :"spells/trawl/SKTrawl1" },
-				{ "minimumAngle" : 1.50 ,"defName" :"spells/trawl/SKTrawl0" }
+				{
+					"minimumAngle" : 0,
+					"defName" : "spells/trawl/SKTrawl4"
+				},
+				{
+					"minimumAngle" : 0.6,
+					"defName" : "spells/trawl/SKTrawl3"
+				},
+				{
+					"minimumAngle" : 0.9,
+					"defName" : "spells/trawl/SKTrawl2"
+				},
+				{
+					"minimumAngle" : 1.2,
+					"defName" : "spells/trawl/SKTrawl1"
+				},
+				{
+					"minimumAngle" : 1.5,
+					"defName" : "spells/trawl/SKTrawl0"
+				}
 			],
-			"hit" :[{ "defName" :"spells/trawl/SKTrawlHit", "verticalPosition" :"bottom" }]
+			"hit" : [
+				{
+					"defName" : "spells/trawl/SKTrawlHit",
+					"verticalPosition" : "bottom"
+				}
+			]
 		},
-		"flags" : {"negative" : true},
+		"flags" : {
+			"negative" : true
+		},
 		"sounds" : {
 			"cast" : "spells/trawl/tritonweb"
 		},
@@ -36,7 +58,7 @@
 		"levels" : {
 			"base" : {
 				"power" : 10,
-//				"aiValue" : 20,
+				//				"aiValue" : 20,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true

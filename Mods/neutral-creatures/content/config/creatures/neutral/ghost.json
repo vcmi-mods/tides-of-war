@@ -1,135 +1,201 @@
 {
-	"mdtGhost" :
-	{
-		"name" :
-		{
+	"mdtGhost" : {
+		"name" : {
 			"singular" : "Ghost",
 			"plural" : "Ghosts"
 		},
 		"faction" : "neutral",
 		"level" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
 		"speed" : 7,
 		"hitPoints" : 20,
 		"attack" : 12,
 		"defense" : 7,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 8,
 			"max" : 10
 		},
 		"fightValue" : 657,
 		"aiValue" : 1000,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 8,
 			"max" : 16
 		},
 		"growth" : 3,
 		"hasDoubleWeek" : true,
-		"abilities" :
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"soulEater" :
-			{
+			"soulEater" : {
 				"type" : "SOUL_STEAL",
 				"subtype" : "soulStealBattle",
 				"val" : 1
 			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "slow"
 				},
-				"values" : [ false, false, false, true, true, true, true, true, true, true ]			
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "sorrow"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "creatures/neutral/iconsSmall/ghostS.png",
 			"iconLarge" : "creatures/neutral/iconsBig/ghostB.png",
 			"map" : "creatures/neutral/map/ghostmap.def",
 			"animation" : "creatures/neutral/battle/CGhost.def",
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "creatures/neutral/ghost/GHSTATTK.wav",
 			"defend" : "creatures/neutral/ghost/GHSTDFND.wav",
 			"killed" : "creatures/neutral/ghost/GHSTDEAD.wav",

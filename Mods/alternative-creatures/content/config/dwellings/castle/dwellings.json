@@ -3,15 +3,26 @@
 		"types" : {
 			"mdtCathedral" : {
 				"name" : "Cathedral",
-				"creatures" : [[ "mdtTemplar" ]],
+				"creatures" : [
+					[
+						"mdtTemplar"
+					]
+				],
 				"guards" : true,
 				"sounds" : {
-					"ambient" : ["dwellings/castle/TEMPLARLOOP"]
+					"ambient" : [
+						"dwellings/castle/TEMPLARLOOP"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/castle/mapCathedral.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VVBA" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
 					}
 				}
 			}

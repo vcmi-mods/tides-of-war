@@ -7,14 +7,14 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.1.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.5.0"
 	},
-	"depends" : [ "tides-of-war.alternative-creatures" ],
+	"depends" : [
+		"tides-of-war.alternative-creatures"
+	],
 	"keepDisabled" : true,
-	"objects" :
-	[
+	"objects" : [
 		"config/objects/altarc"
 	]
 }

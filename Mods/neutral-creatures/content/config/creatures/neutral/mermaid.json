@@ -1,146 +1,227 @@
 {
-	"mdtMermaid" :
-	{
-		"name" :
-		{
+	"mdtMermaid" : {
+		"name" : {
 			"singular" : "Mermaid",
 			"plural" : "Mermaids"
 		},
 		"faction" : "neutral",
 		"level" : 4,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 350
 		},
 		"speed" : 5,
 		"hitPoints" : 30,
 		"attack" : 8,
 		"defense" : 12,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 6,
 			"max" : 9
 		},
 		"fightValue" : 442,
 		"aiValue" : 459,
 		"doubleWide" : true,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 10,
 			"max" : 16
 		},
 		"growth" : 5,
 		"hasDoubleWeek" : true,
-		"abilities" :
-		{
-			"whirlpoolProtection" :
-			{ 
+		"abilities" : {
+			"whirlpoolProtection" : {
 				"type" : "WHIRLPOOL_PROTECTION",
 				"propagator" : "HERO",
 				"description" : "{Sea Protector}\nMermaids can help to safe travel through whirlpools",
-				"icon" : "icons/e_whirl.png"				
+				"icon" : "icons/e_whirl.png"
 			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
-//			{
-//				"bonus" :
-//				{
-//					"type" : "SUMMON_GUARDIANS",
-//					"subtype" : 123 // "creature.iceElemental"
-//				},
-//				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
-//			},
+			//			{
+			//				"bonus" :
+			//				{
+			//					"type" : "SUMMON_GUARDIANS",
+			//					"subtype" : 123 // "creature.iceElemental"
+			//				},
+			//				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			//			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "water",
 					"type" : "SPELL_SCHOOL_IMMUNITY"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "fortune"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 2 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "iceBolt",
-					"addInfo" : [3, 1]
+					"addInfo" : [
+						3,
+						1
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "creatures/neutral/iconsSmall/mermaidS.png",
 			"iconLarge" : "creatures/neutral/iconsBig/mermaidB.png",
 			"map" : "creatures/neutral/map/mermaidmap.def",
 			"animation" : "creatures/neutral/battle/mermaid.def",
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.9,
 				"attack" : 1,
 				"idle" : 10
 			},
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "creatures/neutral/mermaid/MERMATTACK.wav",
 			"defend" : "creatures/neutral/mermaid/MERMDFND.wav",
 			"killed" : "creatures/neutral/mermaid/MERMDEAD.wav",

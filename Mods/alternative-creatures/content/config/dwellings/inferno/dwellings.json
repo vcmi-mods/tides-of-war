@@ -3,14 +3,24 @@
 		"types" : {
 			"mdtLustChambers" : {
 				"name" : "Lust Chambers",
-				"creatures" : [[ "mdtSukkub" ]],
+				"creatures" : [
+					[
+						"mdtSukkub"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["dwellings/inferno/SuccLOOP"]
+					"ambient" : [
+						"dwellings/inferno/SuccLOOP"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/inferno/mapLustChambers.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			}

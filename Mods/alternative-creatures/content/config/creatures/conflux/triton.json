@@ -1,120 +1,184 @@
 {
-	"mdtTriton" :
-	{
-		"name" :
-		{
+	"mdtTriton" : {
+		"name" : {
 			"singular" : "Triton",
 			"plural" : "Tritons"
 		},
 		"faction" : "conflux",
 		"level" : 3,
-		"upgrades" : [ "mdtAbyssalTriton" ],
-		"cost" :
-		{
+		"upgrades" : [
+			"mdtAbyssalTriton"
+		],
+		"cost" : {
 			"gold" : 210
 		},
 		"speed" : 6,
 		"hitPoints" : 25,
 		"attack" : 10,
 		"defense" : 6,
-		"damage" :
-		{
-			 "min" : 2,
-			 "max" : 5
+		"damage" : {
+			"min" : 2,
+			"max" : 5
 		},
 		"fightValue" : 292,
 		"aiValue" : 297,
-		"advMapAmount" :
-		{
-			 "min" : 12,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
 		},
 		"growth" : 6,
 		"hasDoubleWeek" : true,
-		"abilities" :
-		{
-			"immuneToWater" :
-			{
+		"abilities" : {
+			"immuneToWater" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "water",
 				"val" : 100
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "iceBolt",
-					"addInfo" : [3, 1]
+					"addInfo" : [
+						3,
+						1
+					]
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]				
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "protectFire"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creatures/conflux/battle/triton.def",
 			"map" : "creatures/conflux/map/mapTriton.def",
 			"iconSmall" : "creatures/conflux/iconssmall/tritonSmall.png",
 			"iconLarge" : "creatures/conflux/iconsbig/tritonBig.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.9,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "creatures/conflux/triton/TRITATTACK.wav",
 			"defend" : "creatures/conflux/triton/TRITDFND.wav",
 			"killed" : "creatures/conflux/triton/TRITDEAD.wav",

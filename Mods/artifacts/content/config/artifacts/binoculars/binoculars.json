@@ -1,50 +1,45 @@
 {
 	"mdtBinoculars" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 6500,
-		"components" :
-		[
+		"components" : [
 			"spyglass",
 			"speculum",
 			"pendantOfSecondSight"
 		],
-		"bonuses" :
-		{
-			"vision1" :
-			{
+		"bonuses" : {
+			"vision1" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsMonsters",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
-			"vision2" :
-			{
+			"vision2" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsHeroes",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
-			"vision3" :
-			{
+			"vision3" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsTowns",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO"
 			},
-			"sightRadius" :
-			{
+			"sightRadius" : {
 				"type" : "SIGHT_RADIUS",
 				"val" : 4,
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
-		"graphics" :
-		{ 
+		"graphics" : {
 			"image" : "artifacts/iconsSmall/binocularsS",
 			"scenarioBonus" : "artifacts/iconsBig/binocularsL",
 			"map" : "artifacts/map/binoculars"

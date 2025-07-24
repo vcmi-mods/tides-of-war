@@ -1,8 +1,13 @@
 {
-    "basepath" : "town-screen/inferno/frames/",
-	"images" :
-	[
-		{ "frame" : 47, "file" : "TINF4.png"},
-		{ "frame" : 54, "file" : "TINF4UP.png"}
+	"basepath" : "town-screen/inferno/frames/",
+	"images" : [
+		{
+			"frame" : 47,
+			"file" : "TINF4.png"
+		},
+		{
+			"frame" : 54,
+			"file" : "TINF4UP.png"
+		}
 	]
 }

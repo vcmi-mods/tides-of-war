@@ -16,12 +16,14 @@
 			"inferno" : 12,
 			"dungeon" : 8,
 			"tower" : 8,
-			"rampart" :  8,
+			"rampart" : 8,
 			"castle" : 2,
 			"stronghold" : 2
 		},
 		"animation" : {
-			"hit" :[ "spells/auraOfPower/SP_AURA.def" ]
+			"hit" : [
+				"spells/auraOfPower/SP_AURA.def"
+			]
 		},
 		"flags" : {
 			"positive" : true
@@ -38,10 +40,12 @@
 		"levels" : {
 			"base" : {
 				"power" : 10,
-//				"aiValue" : 20,
+				//				"aiValue" : 20,
 				"range" : "X",
-				"targetModifier" : {"smart" :false},
-				"cost" : 12, 
+				"targetModifier" : {
+					"smart" : false
+				},
+				"cost" : 12,
 				"description" : "{Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle.",
 				"battleEffects" : {
 					"spellsDamage" : {

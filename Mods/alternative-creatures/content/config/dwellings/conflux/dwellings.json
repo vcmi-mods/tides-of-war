@@ -3,14 +3,24 @@
 		"types" : {
 			"mdtDrownedHall" : {
 				"name" : "Drowned Hall",
-				"creatures" : [[ "mdtTriton" ]],
+				"creatures" : [
+					[
+						"mdtTriton"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["dwellings/conflux/TritLOOP"]
+					"ambient" : [
+						"dwellings/conflux/TritLOOP"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/conflux/mapDrownedHall.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}

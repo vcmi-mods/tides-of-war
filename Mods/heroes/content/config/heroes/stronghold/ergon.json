@@ -1,6 +1,5 @@
 {
-	"mdtErgon" :
-	{
+	"mdtErgon" : {
 		"class" : "barbarian",
 		"female" : false,
 		"images" : {
@@ -39,12 +38,10 @@
 		"specialty" : {
 			"creature" : "mdtCouatl"
 		},
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ergon",
 			"biography" : "After taking the throne of Krewlod, Kilgor brought Ergon to quell the rebellion of the Ogres who were still loyal to Winston Boragus, even after his death. Needless to say, the veteran of Succession Wars did his job very effectively by raiding the unruly tribes with his exotic beasts.",
-			"specialty" :
-			{
+			"specialty" : {
 				"name" : "Couatls",
 				"description" : "Increases the Attack and Defense skills of any Couatls and Quetzalcouatls for each level attained after 6th level. Additionally, Couatls and Quetzalcouatls get a permanent +1 Speed bonus.",
 				"tooltip" : "Creature Bonus: Couatls"

@@ -3,15 +3,25 @@
 		"types" : {
 			"mdtWolfCave" : {
 				"name" : "Wolf Cave",
-				"creatures" : [[ "mdtWerewolf" ]],
+				"creatures" : [
+					[
+						"mdtWerewolf"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "dwellings/necropolis/mapWolfCave.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
 				"sounds" : {
-					"ambient" : ["dwellings/necropolis/LOOPWERE"]
+					"ambient" : [
+						"dwellings/necropolis/LOOPWERE"
+					]
 				}
 			}
 		}
