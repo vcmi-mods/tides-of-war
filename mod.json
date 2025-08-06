@@ -6,12 +6,15 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.41",
+	"version" : "1.0.42",
 	"downloadSize" : 28.4,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.42" : [
+			"Hungarian translation by Gabriel Kazansky"
+		],
 		"1.0.41" : [
 			"Some custom ability icons added"
 		],
@@ -164,6 +167,14 @@
 		"description" : "En cada una de las nueve ciudades H3 estándar, tienes la posibilidad de construir un habitáculo extra para criaturas alternativas.",
 		"translations" : [
 			"translation/tow/spanish.json"
+		]
+	},
+	"hungarian" :
+	{
+		"name" : "Tides of War",
+		"description" : "Mind a kilenc standard heroes 3 várhoz hozzáad egy alternatív lény lakóhelyet(valamelyik standard helyett építed), a fordítás Gabrielkazansky munkája",
+		"translations" : [
+			"translation/tow/hungarian.json"
 		]
 	},
 	"settings" : {
