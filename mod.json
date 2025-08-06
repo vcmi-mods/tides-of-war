@@ -6,7 +6,7 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.37",
+	"version" : "1.0.38",
 	"downloadSize" : 28.4,
 	"compatibility" :
 	{
@@ -14,6 +14,7 @@
 	},
 	"changelog" :
 	{
+		"1.0.38"   : [ "Hungarian translation by Gabriel Kazansky" ],
 		"1.0.37"   : [ "Update def for Transformation Altar" ],
 		"1.0.36"   : [ "Add missing biomes config" ],
 		"1.0.35"   : [ "Fixed polish translation" ],
@@ -101,6 +102,28 @@
 			"translation/tow/spanish.json"
 		]
 	},
+
+
+
+
+	"hungarian" :
+	{
+		"name" : "Tides of War",
+		"description" : "Mind a kilenc standard heroes 3 várhoz hozzáad egy alternatív lény lakóhelyet(valamelyik standard helyett építed), a fordítás Gabrielkazansky munkája",
+		"translations" : [
+			"translation/tow/hungarian.json"
+		]
+	},
+
+
+
+
+
+
+
+
+
+
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
