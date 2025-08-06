@@ -169,8 +169,7 @@
 			"translation/tow/spanish.json"
 		]
 	},
-	"hungarian" :
-	{
+	"hungarian" : {
 		"name" : "Tides of War",
 		"description" : "Mind a kilenc standard heroes 3 várhoz hozzáad egy alternatív lény lakóhelyet(valamelyik standard helyett építed), a fordítás Gabrielkazansky munkája",
 		"translations" : [
