@@ -22,7 +22,8 @@
 					"ambient" : [
 						"dwellings/dungeon/LOOPILLI"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/dunaltdw.def"
 			}
 		}
 	}

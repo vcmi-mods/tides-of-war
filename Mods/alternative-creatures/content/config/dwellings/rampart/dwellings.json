@@ -23,7 +23,8 @@
 					"ambient" : [
 						"dwellings/rampart/LOOPDRYA"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/ramaltdw.def"
 			}
 		}
 	}

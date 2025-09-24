@@ -1,0 +1,10 @@
+{
+	"basepath" : "icons/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "infaltdw"
+		}
+	]
+}

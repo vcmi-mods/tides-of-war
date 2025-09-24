@@ -22,7 +22,8 @@
 					"ambient" : [
 						"dwellings/necropolis/LOOPWERE"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/necaltdw.def"
 			}
 		}
 	}
