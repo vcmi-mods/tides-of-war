@@ -6,12 +6,15 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.43",
+	"version" : "1.0.44",
 	"downloadSize" : 28.4,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.44" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"1.0.43" : [
 			"Town halls backgrounds palette fix"
 		],

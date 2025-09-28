@@ -23,7 +23,8 @@
 					"ambient" : [
 						"dwellings/fortress/LOOPWTCH"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/foraltdw.def"
 			}
 		}
 	}

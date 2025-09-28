@@ -25,7 +25,8 @@
 					"ambient" : [
 						"dwellings/neutral/LOOPMERM"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/mermdw.def"
 			}
 		}
 	}

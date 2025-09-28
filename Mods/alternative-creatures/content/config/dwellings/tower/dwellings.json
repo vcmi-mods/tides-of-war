@@ -23,7 +23,8 @@
 					"ambient" : [
 						"dwellings/tower/DrGoLOOP"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/towaltdw.def"
 			}
 		}
 	}
