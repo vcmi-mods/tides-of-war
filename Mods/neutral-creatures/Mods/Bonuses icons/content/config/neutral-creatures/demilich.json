@@ -1,0 +1,189 @@
+{
+	"tides-of-war.neutral-creatures:mdtDemilich" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly_levitate.png"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			//			{
+			//				"bonus" :
+			//				{
+			//					"type" : "SUMMON_GUARDIANS",
+			//					"subtype" : 60 // "creature.wight"
+			//				},
+			//				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			//			},
+			{
+				"bonus" : {
+					"type" : "LEVEL_SPELL_IMMUNITY"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "poison",
+					"addInfo" : [
+						3,
+						1
+					],
+					"icon" : "bonuses/poison.png"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : "deathRipple",
+					"addInfo" : [
+						3,
+						0
+					],
+					"icon" : "bonuses/deathrippleattack.png"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
+	}
+}

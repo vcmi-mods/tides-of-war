@@ -1,0 +1,12 @@
+{
+	"tides-of-war.alternative-creatures:mdtLilim" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"spellAfterAttack" : {
+				"icon" : "bonuses/lilimattack.png"
+			}
+		}
+	}
+}

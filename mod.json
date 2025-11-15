@@ -6,12 +6,15 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.45",
+	"version" : "1.0.46",
 	"downloadSize" : 28.4,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.46" : [
+			"Added additional creatures abilities icons by Kurek"
+		],
 		"1.0.45" : [
 			"Added Vampirism tweak for Old New Spells, to avoid duplicates"
 		],

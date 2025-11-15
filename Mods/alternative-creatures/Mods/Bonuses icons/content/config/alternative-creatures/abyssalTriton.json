@@ -1,0 +1,173 @@
+{
+	"tides-of-war.alternative-creatures:mdtAbyssalTriton" : {
+		"abilities" : {
+			"castsBloodlust" : {
+				"icon" : "bonuses/trawl.png"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail_abyssaltriton.png"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "protectFire",
+					"icon" : "bonuses/damage_reduction_fire.png"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "bless",
+					"icon" : "bonuses/enchantedbless.png"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			}
+		]
+	}
+}

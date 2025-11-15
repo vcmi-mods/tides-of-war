@@ -1,0 +1,26 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/alternative-creatures/templar",
+		"config/alternative-creatures/paladin",
+		"config/alternative-creatures/dryad",
+		"config/alternative-creatures/oakDryad",
+		"config/alternative-creatures/drakeGolem",
+		"config/alternative-creatures/dragonGolem",
+		"config/alternative-creatures/sukkub",
+		"config/alternative-creatures/lilim",
+		"config/alternative-creatures/direWerewolf",
+		"config/alternative-creatures/illithid",
+		"config/alternative-creatures/alhoon",
+		"config/alternative-creatures/quetzalcouatl",
+		"config/alternative-creatures/trollHag",
+		"config/alternative-creatures/trollWitch",
+		"config/alternative-creatures/triton",
+		"config/alternative-creatures/abyssalTriton"
+	]	
+}
