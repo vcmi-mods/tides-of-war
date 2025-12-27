@@ -1,17 +1,31 @@
 {
 	"name" : "Tides of War",
-	"description" : "In every nine standard H3 town, you have opportunity to build one dwelling for altenative creature.",
 	"modType" : "Expansion",
 	"author" : "Mod Design Team (Witchking, Hobbicus, Trith, Sower, Drwal, Khemiel, avatar, Nephretes), fred79, Andruids, Undead Artist, Ragoon, MURArt, Kuririn",
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.41",
+	"version" : "1.0.46",
 	"downloadSize" : 28.4,
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.0.46" : [
+			"Added additional creatures abilities icons by Kurek"
+		],
+		"1.0.45" : [
+			"Added Vampirism tweak for Old New Spells, to avoid duplicates"
+		],
+		"1.0.44" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
+		"1.0.43" : [
+			"Town halls backgrounds palette fix"
+		],
+		"1.0.42" : [
+			"Hungarian translation by Gabriel Kazansky"
+		],
 		"1.0.41" : [
 			"Some custom ability icons added"
 		],
@@ -166,6 +180,14 @@
 			"translation/tow/spanish.json"
 		]
 	},
+	"hungarian" : {
+		"name" : "Tides of War",
+		"description" : "Mind a kilenc standard heroes 3 várhoz hozzáad egy alternatív lény lakóhelyet(valamelyik standard helyett építed), a fordítás Gabrielkazansky munkája",
+		"translations" : [
+			"translation/tow/hungarian.json"
+		]
+	},
+	"description" : "<h2>VCMI: Tides of War Changes</h2><h3>1. Alternative Faction Creatures</h3><ul>    <li><strong>Castle: Templar/Paladin (T7)</strong> – High-defense tank; alternative to Angel/Archangel.</li>    <li><strong>Rampart: Dryad/Oak Dryad (T4)</strong> – Nature support with Symbiosis; alternative to Pegasus/Silver Pegasus.</li>    <li><strong>Tower: Drake Golem/Dragon Golem (T7)</strong> – Fast mechanical melee (Speed 15); alternative to Giant/Titan.</li>    <li><strong>Inferno: Succubus/Lilim (T4)</strong> – Ranged unit with Charm; alternative to Demon/Horned Demon.</li>    <li><strong>Necropolis: Werewolf/Dire Werewolf (T4)</strong> – Offensive unit with Rage; alternative to Vampire/Vampire Lord.</li>    <li><strong>Dungeon: Illithid/Alhoon (T5)</strong> – Ranged mind-flayer caster; alternative to Minotaur/Minotaur King.</li>    <li><strong>Stronghold: Couatl/Quetzalcouatl (T6)</strong> – Evasive flying striker; alternative to Roc/Thunderbird.</li>    <li><strong>Fortress: Troll Hag/Troll Witch (T5)</strong> – Regenerating hybrid caster; alternative to Gorgon/Mighty Gorgon.</li>    <li><strong>Conflux: Triron/Abyssal Triton (T3)</strong> – Melee control with Trawl; alternative to Ice/Water Elemental.</li></ul><h3>2. New Neutral Creatures</h3><ul>    <li><strong>Demilich:</strong> Elite undead caster capable of devastating area-of-effect spells.</li>    <li><strong>Ghost:</strong> Soul-stealer that increases its stack size by killing living enemies.</li>    <li><strong>Mermaid:</strong> A sea-based neutral unit with protection against whirlpool.</li>    <li><strong>Dread Skipper:</strong> A powerful undead mariner that utilizes the Sorrow ability on hit.</li></ul><h3>3. New Skills</h3><ul>    <li><strong>Hexes:</strong> Reduces opponent's Luck by 1,2 or 3.</li>    <li><strong>Intimidation:</strong> Reduces opponent's Morale by 1,2 or 3.</li></ul><h3>4. Tides of War Creature Banks</h3><ul>    <li><strong>Seminarium:</strong> Defeat the Swordsman Templar guards to have a group of Templars join your army.</li>    <li><strong>Phantom Ship:</strong> Conquer the Dread Skipper guards to receive Gold and Dread Skipper recruits.</li>    <li><strong>Scriptorium:</strong> Overcome Monks to earn Gold, Artifacts and learn random Spells.</li>    <li><strong>Sorceress Castle:</strong> Prevail against elite magical defenders to claim significant Gold and resource/creature producing Artifacts.</li>    <li><strong>Outpost of Souls:</strong> Destroy the Ghost and Wraith defenders to earn Demiliches and a Phylacteries Relic.</li>    <li><strong>Bone Pillar:</strong> Defeat the Liches and Demiliches to obtain Gold Ghosts.</li></ul><h3>5. New Spells & Artifacts</h3><ul>    <li><strong>Vampirism (Water):</strong> Target becomes undead and gains the ability to drain life from enemies.</li>    <li><strong>Divine Arrows (Air):</strong> Grants shooters the ability to penetrate walls and fire additional shots.</li>    <li><strong>Aura of Power (Fire):</strong> A global enchantment that boosts the damage of all offensive spells.</li>    <li><strong>Intervention (Water):</strong> A high-tier magic spell that provides mass resurrection for living units.</li>    <li><strong>The Phylacteries:</strong> Unique relics that empower a hero to summon Demiliches directly into battle.</li>    <li><strong>Magic Wands:</strong> Versatile portable artifacts that allow for low-cost casting of specific combat spells.</li></ul>",
 	"settings" : {
 		"combat" : {
 			//			"badLuckDice" : [ 12, 6, 4 ]
