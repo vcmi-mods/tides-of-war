@@ -1,0 +1,19 @@
+{
+	"core:dungeon" : {
+		"town" : {
+			"buildings" : {
+				"dwellingLvl7" : {
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
+				}
+			}
+		}
+	}
+}
