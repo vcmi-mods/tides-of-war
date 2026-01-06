@@ -327,5 +327,12 @@
 	"spell.tides-of-war.spells.summonGhost.description.none" : "{Przywołanie Ducha}\r\n\r\nWzywa duchy do walki po twojej stronie podczas bitwy.",
 	"spell.tides-of-war.spells.summonGhost.name" : "Przywołanie Ducha",
 	"spell.tides-of-war.spells.symbiosis.name" : "Symbioza z Drzewami",
-	"spell.tides-of-war.spells.symbiosis2.name" : "Symbioza z Drzewami"
+	"spell.tides-of-war.spells.symbiosis2.name" : "Symbioza z Drzewami",
+"skill.tides-of-war.skills.hexes.description.basic": "{Podstawowa Klątwa}\r\n\r\nZmniejsza szczęście przeciwnika o 1.",
+    "skill.tides-of-war.skills.hexes.description.expert": "{Mistrzowska Klątwa}\r\n\r\nZmniejsza szczęście przeciwnika o 3.",
+    "skill.tides-of-war.skills.hexes.name": "Klątwa",
+    "skill.tides-of-war.skills.intimidation.description.advanced": "{Zaawansowane Zastraszanie}\r\n\r\n{Zmniejsza morale przeciwnika o 2.",
+    "skill.tides-of-war.skills.intimidation.description.basic": "{Podstawowe Zastraszanie}\r\n\r\n{Zmniejsza morale przeciwnika o 1.",
+    "skill.tides-of-war.skills.intimidation.description.expert": "{Mistrzowskie Zastraszanie}\r\n\r\n{Zmniejsza morale przeciwnika o 1.",
+    "skill.tides-of-war.skills.intimidation.name": "Zastraszanie"
 }
