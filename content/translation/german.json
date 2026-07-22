@@ -407,5 +407,9 @@
 	"spell.tides-of-war.alternative-creatures.symbiosis2.description.expert": "",
 	"spell.tides-of-war.alternative-creatures.symbiosis2.description.none": "",
 	"spell.tides-of-war.alternative-creatures.symbiosis2.name": "",
-	"spell.tides-of-war.alternative-creatures.mdtHateSpike.name": ""
+	"spell.tides-of-war.alternative-creatures.mdtHateSpike.name": "",
+	"mod.name": "Tides of War",
+	"mod.description": "In jeder der neun Standard-H3-Städte gibt es die Möglichkeit, eine Behausung für eine alternative Kreatur zu bauen.",
+	"mod.tow-main-menu.name": "Tides of War - Menü",
+	"mod.tow-main-menu.description": "Tides of War - Menü-Ersatz"
 }

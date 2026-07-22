@@ -407,5 +407,7 @@
 	"spell.tides-of-war.alternative-creatures.symbiosis2.description.basic": "",
 	"spell.tides-of-war.alternative-creatures.symbiosis2.description.none": "",
 	"spell.tides-of-war.alternative-creatures.symbiosis2.name": "",
-	"mapObject.tides-of-war.banks.creatureBank.sorceressCastle.rewards.3": ""
+	"mapObject.tides-of-war.banks.creatureBank.sorceressCastle.rewards.3": "",
+	"mod.name": "Tides of War",
+	"mod.description": "En cada una de las nueve ciudades H3 estándar, tienes la posibilidad de construir un habitáculo extra para criaturas alternativas."
 }

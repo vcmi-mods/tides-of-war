@@ -407,5 +407,7 @@
 	"spell.tides-of-war.spells.mdtVampirism.description.advanced": "{Zaawansowany wampiryzm}\n\nJednostka sojusznicza staje się nieumarła i pochłania 30% obrażeń zadanych wrogowi.",
 	"spell.tides-of-war.spells.mdtVampirism.description.basic": "{Podstawowy wampiryzm}\n\nJednostka sojusznicza staje się nieumarła i pochłania 20% obrażeń zadanych wrogowi.",
 	"spell.tides-of-war.spells.mdtVampirism.description.expert": "{Mistrzowski Wampiryzm}\n\nJednostka sojusznicza staje się nieumarła i pochłania 40% obrażeń zadanych wrogowi.",
-	"spell.tides-of-war.spells.mdtVampirism.description.none": "{Wampiryzm}\n\nJednostka sojusznicza staje się nieumarła i pochłania 20% obrażeń zadanych wrogowi."
+	"spell.tides-of-war.spells.mdtVampirism.description.none": "{Wampiryzm}\n\nJednostka sojusznicza staje się nieumarła i pochłania 20% obrażeń zadanych wrogowi.",
+	"mod.name": "Tides of War",
+	"mod.description": "W każdym z dziewięciu standardowych miast H3 istnieje możliwość zbudowania mieszkania dla alternatywnego stworzenia."
 }

@@ -407,5 +407,7 @@
 	"hero.tides-of-war.heroes.yaverrDeathknight.name": "Yaverr",
 	"hero.tides-of-war.heroes.yaverrDeathknight.specialty.description": "4. seviyeden sonra kazanılan her seviye için tüm Kurtadamların ve Ulu Kurtadamların Saldırı ve Savunma becerilerini artırır. Ayrıca, Kurtadamlar ve Ulu Kurtadamlar kalıcı +1 Hız bonusu kazanır",
 	"hero.tides-of-war.heroes.yaverrDeathknight.specialty.name": "Kurtadamlar",
-	"hero.tides-of-war.heroes.yaverrDeathknight.specialty.tooltip": "Yaratık Bonusu: Kurtadamlar"
+	"hero.tides-of-war.heroes.yaverrDeathknight.specialty.tooltip": "Yaratık Bonusu: Kurtadamlar",
+	"mod.name": "Tides of War",
+	"mod.description": "Dokuz standart H3 şehrinin her birinde, alternatif bir yaratık için, barınak inşa etme imkanı verir."
 }

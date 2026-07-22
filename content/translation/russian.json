@@ -407,5 +407,7 @@
 	"spell.tides-of-war.alternative-creatures.symbiosis2.description.basic": "",
 	"spell.tides-of-war.alternative-creatures.symbiosis2.name": "",
 	"mapObject.tides-of-war.banks.creatureBank.sorceressCastle.rewards.3": "",
-	"spell.tides-of-war.alternative-creatures.mdtRage.name": ""
+	"spell.tides-of-war.alternative-creatures.mdtRage.name": "",
+	"mod.name": "Tides of War",
+	"mod.description": "В каждом из девяти стандартных городов H3 у вас есть возможность построить одно жилище для альтернативного существа."
 }
