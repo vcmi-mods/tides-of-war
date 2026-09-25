@@ -435,5 +435,9 @@
 	"mod.tow-main-menu.description": "Замінює головне меню оформленням Хвиль Війни.",
 	"mod.tow-main-menu.name": "Меню Хвиль Війни",
 	"mod.transformationaltar.description": "Додає об’єкт, що дає змогу перетворювати альтернативних істот на класичних і навпаки.",
-	"mod.transformationaltar.name": "Хвилі Війни: вівтар перетворення"
+	"mod.transformationaltar.name": "Хвилі Війни: вівтар перетворення",
+	"mod.hota-balance-compatibility-patch.name": "Патч сумісності HotA зі Склепінням попелу",
+	"mod.hota-balance-compatibility-patch.description": "Патч сумісності зі Склепінням попелу",
+	"mod.hota-building-patch.name": "Патч сумісності з Ігровим Балансом HotA",
+	"mod.hota-building-patch.description": "Патч сумісності з Ігровим Балансом HotA"
 }
