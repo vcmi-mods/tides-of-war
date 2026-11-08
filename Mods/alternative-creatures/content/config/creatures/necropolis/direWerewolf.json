@@ -34,10 +34,12 @@
 				"val" : 20
 			},
 			"attackBooster" : {
-				"type" : "ENCHANTED",
-				"subtype" : "mdtRage",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "mdtRage"
+				},
 				"val" : 3
-				//				"addInfo" : 100
 			}
 		},
 		"stackExperience" : [

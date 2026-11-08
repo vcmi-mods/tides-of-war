@@ -58,7 +58,8 @@
 								"duration" : "N_TURNS"
 							},
 							"lifeDrain" : {
-								"type" : "LIFE_DRAIN",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "lifeDrain",
 								"val" : 20,
 								"duration" : "N_TURNS"
 							}
@@ -74,8 +75,6 @@
 				"cost" : 18,
 				"battleEffects" : {
 					"vampirismEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
 						"bonus" : {
 							"lifeDrain" : {
 								"val" : 20
@@ -89,8 +88,6 @@
 				"cost" : 18,
 				"battleEffects" : {
 					"vampirismEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
 						"bonus" : {
 							"lifeDrain" : {
 								"val" : 30
@@ -104,8 +101,6 @@
 				"cost" : 18,
 				"battleEffects" : {
 					"vampirismEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
 						"bonus" : {
 							"lifeDrain" : {
 								"val" : 40

@@ -36,13 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"stoneSkin" : {
-					"type" : "SPECIAL_PECULIAR_ENCHANT",
-					"subtype" : "precision",
-					"addInfo" : 0
-				}
-			}
+			"spellFixedAdditive" : "precision"
 		},
 		"spellbook" : [
 			"mdtDivineArrows"

@@ -33,9 +33,10 @@
 				"type" : "FLYING"
 			},
 			"soulEater" : {
-				"type" : "SOUL_STEAL",
-				"subtype" : "soulStealBattle",
-				"val" : 1
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "soulSteal",
+				"val" : 1,
+				"addInfo" : { "permanent" : false }
 			}
 		},
 		"stackExperience" : [

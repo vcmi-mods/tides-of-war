@@ -136,8 +136,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fortune",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "fortune"
+					},
 					"icon" : "bonuses/enchantedfortune.png"
 				},
 				"values" : [
