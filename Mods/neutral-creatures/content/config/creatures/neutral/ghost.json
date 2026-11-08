@@ -36,7 +36,9 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "soulSteal",
 				"val" : 1,
-				"addInfo" : { "permanent" : false }
+				"addInfo" : {
+					"permanent" : false
+				}
 			}
 		},
 		"stackExperience" : [

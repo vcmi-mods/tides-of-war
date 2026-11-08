@@ -38,7 +38,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"airShield" : {
-				"type" : "COMBAT_EVENT_TRIGGER",
+					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
 					"addInfo" : {
 						"spell" : "airShield"

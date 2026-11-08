@@ -184,7 +184,7 @@
 	"hero.tides-of-war.heroes.mdtShroo.specialty.tooltip" : "Creature Bonus: Troll Witches and Troll Hags",
 	"hero.tides-of-war.heroes.mdtTartarr.biography" : "Tartarr was born in poor Ogre family, but has always dreamed about conquests. She has become a soldier of fortune at the age of fourteen because of her adult look and stubbornness. This bullish Ogress often gets all that she wants due to her talents in defense magic.",
 	"hero.tides-of-war.heroes.mdtTartarr.name" : "Tartarr",
-	"hero.tides-of-war.heroes.mdtTartarr.specialty.description" : "Casts Shield with increased effect, based on hero level compared to the level of the target unit.",
+	"hero.tides-of-war.heroes.mdtTartarr.specialty.description" : "Casts Shield with effect increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 	"hero.tides-of-war.heroes.mdtTartarr.specialty.name" : "Shield",
 	"hero.tides-of-war.heroes.mdtTartarr.specialty.tooltip" : "Spell Bonus: Shield",
 	"hero.tides-of-war.heroes.mdtThyroc.biography" : "Not everyone mourned King Tralossk after his death. Thyroc's old friend from war, Prince Wystan, contributed to his promotion in Tatalian Army after taking power.",
