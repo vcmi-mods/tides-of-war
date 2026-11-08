@@ -5,12 +5,15 @@
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.49",
+	"version" : "1.0.50",
 	"downloadSize" : 28.4,
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"1.0.50" : [
+			"Update to vmci-1.8 format"
+		],
 		"1.0.49" : [
 			"Added Turkish translation"
 		],

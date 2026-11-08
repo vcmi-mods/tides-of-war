@@ -34,10 +34,10 @@
 				"type" : "FLYING"
 			},
 			"destruction" : {
-				"type" : "DESTRUCTION",
-				"subtype" : "destructionKillPercentage",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "destruction",
 				"val" : 10,
-				"addInfo" : 50
+				"addInfo" : { "killBy" : "percentage", "amount" : 50 }
 			}
 		},
 		"stackExperience" : [

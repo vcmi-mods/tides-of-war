@@ -36,14 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"frenzy" : {
-					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "shield",
-					"val" : 10,
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"spellScalingPercentage" : "shield"
 		},
 		"spellbook" : [
 			"shield"
@@ -53,7 +46,7 @@
 			"biography" : "Tartarr was born in poor Ogre family, but has always dreamed about conquests. She has become a soldier of fortune at the age of fourteen because of her adult look and stubbornness. This bullish Ogress often gets all that she wants due to her talents in defense magic.",
 			"specialty" : {
 				"name" : "Shield",
-				"description" : "Casts Shield with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Shield with effect increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Shield"
 			}
 		}

@@ -41,40 +41,61 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"generalDamageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeMelee",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"shield" : {
+						"type" : "timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeMelee",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
 			"none" : {
-				"effects" : {
-					"generalDamageReduction" : {
-						"val" : 15
+				"battleEffects" : {
+					"shield" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"val" : 15
+							}
+						}
 					}
 				}
 			},
 			"basic" : {
-				"effects" : {
-					"generalDamageReduction" : {
-						"val" : 15
+				"battleEffects" : {
+					"shield" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"val" : 15
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
-				"effects" : {
-					"generalDamageReduction" : {
-						"val" : 30
+				"battleEffects" : {
+					"shield" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"val" : 30
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"range" : "X",
-				"effects" : {
-					"generalDamageReduction" : {
-						"val" : 30
+				"battleEffects" : {
+					"shield" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"val" : 15
+							}
+						}
 					}
 				}
 			}

@@ -80,8 +80,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "prayer",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "prayer"
+					},
 					"icon" : "bonuses/enchantedprayer.png"
 				},
 				"values" : [

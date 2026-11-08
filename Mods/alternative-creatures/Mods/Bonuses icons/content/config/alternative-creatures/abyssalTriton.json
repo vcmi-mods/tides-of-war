@@ -115,8 +115,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "protectFire",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "protectFire"
+					},
 					"icon" : "bonuses/damage_reduction_fire.png"
 				},
 				"values" : [
@@ -134,8 +137,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "bless",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "bless"
+					},
 					"icon" : "bonuses/enchantedbless.png"
 				},
 				"values" : [
