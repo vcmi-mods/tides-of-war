@@ -45,9 +45,7 @@
 				}
 			}
 		},
-		"spellbook" : [
-			"mdtBind"
-		],
+		"spellbook" : [],
 		"texts" : {
 			"name" : "Ghuri",
 			"biography" : "Ghuri spent majority of his life looking after trees in Tularean Forest. In return, the trees have taught him their powerful Forest Magic.",
